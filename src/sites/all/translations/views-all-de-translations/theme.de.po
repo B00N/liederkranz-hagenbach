@@ -1,0 +1,104 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  theme.inc,v 1.76 2009/06/02 20:28:52 merlinofchaos
+#  theme.inc,v 1.84.2.2 2009/10/23 21:37:49 merlinofchaos
+#  theme.inc,v 1.73.2.12 2009/10/23 21:38:27 merlinofchaos
+#  theme.inc,v 1.84.2.4 2009/11/30 19:05:47 merlinofchaos
+#  theme.inc,v 1.73.2.22 2010/01/19 22:11:28 merlinofchaos
+#  theme.inc,v 1.84.2.12 2010/04/06 20:08:48 merlinofchaos
+#  theme.inc,v 1.84.2.13 2010/04/08 17:33:38 merlinofchaos
+#  theme.inc,v 1.84.2.14 2010/06/16 19:18:24 merlinofchaos
+#  theme.inc,v 1.84.2.14.2.1 2010/12/15 05:24:41 merlinofchaos
+#  theme.inc,v 1.84.4.43 2011/01/04 00:00:20 dereine
+#  views-ui-edit-tab.tpl.php,v 1.11 2008/08/08 16:57:44 merlinofchaos
+#  views-ui-edit-tab.tpl.php,v 1.11.2.1 2010/01/19 22:11:28 merlinofchaos
+#  views-ui-edit-tab.tpl.php,v 1.11.6.4 2010/12/24 08:25:02 dereine
+#  views-ui-list-views.tpl.php,v 1.6 2008/10/28 18:11:43 merlinofchaos
+#  views-ui-list-views.tpl.php,v 1.6.6.1 2010/01/20 23:24:24 dereine
+#  views-ui-edit-item.tpl.php,v 1.9 2008/08/08 16:57:44 merlinofchaos
+#  views-ui-edit-view.tpl.php,v 1.10 2009/04/07 23:05:29 merlinofchaos
+#  views-ui-edit-view.tpl.php,v 1.10.6.2 2010/10/16 14:55:13 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-04-10 02:53+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: theme/theme.inc:93,73,106,86
+msgid "Edit this view"
+msgstr "Diese Ansicht bearbeiten"
+
+#: theme/theme.inc:325,321,301,345,424
+msgid "sort by @s"
+msgstr "Nach @s sortieren"
+
+#: theme/views-ui-edit-tab.tpl.php:31,34
+msgid "View settings"
+msgstr "Einstellungen der Ansicht"
+
+#: theme/views-ui-list-views.tpl.php:30
+msgid "Path: !path"
+msgstr "Pfad: !path"
+
+#: theme/views-ui-edit-item.tpl.php:32
+msgid "The style selected does not utilize fields."
+msgstr "Das ausgewählte Design verwendet keine Felder."
+
+#: theme/views-ui-edit-item.tpl.php:34
+msgid "None defined"
+msgstr "Nicht definiert"
+
+#: theme/views-ui-edit-view.tpl.php:11
+msgid ""
+"This view is being edited by user !user, and is therefore locked from "
+"editing by others. This lock is !age old. Click here to <a "
+"href=\"!break\">break this lock</a>."
+msgstr ""
+"Diese Ansicht wird gerade vom Benutzer !user bearbeitet und ist "
+"deshalb für die Bearbeitung durch andere gesperrt. Diese Sperre ist "
+"!age alt. Hier klicken um <a href=\"!break\">die Sperre "
+"aufzuheben</a>."
+
+#: theme/views-ui-edit-view.tpl.php:16
+msgid "New view"
+msgstr "Neue Ansicht"
+
+#: theme/views-ui-edit-view.tpl.php:18
+msgid "Changed view"
+msgstr "Ansicht wurde geändert"
+
+#: theme/views-ui-edit-view.tpl.php:23
+msgid "View %name, displaying items of type <strong>@base</strong>."
+msgstr "Die Ansicht %name zeigt Einträge vom Typ <strong>@base</strong> an."
+
+#: theme/views-ui-edit-view.tpl.php:42
+msgid "Live preview"
+msgstr "Live-Vorschau"
+
+#: theme/views-ui-list-views.tpl.php:17
+msgid "<em>@type</em> @base view: <strong>@view</strong>"
+msgstr "<em>@type</em> @base-Ansicht: <strong>@view</strong>"
+
+#: theme/views-ui-list-views.tpl.php:27
+msgid "Title: @title"
+msgstr "Titel: @title"
+
+#: theme/theme.inc:603,616,615,617,614,649,646,845
+msgid "‹‹"
+msgstr "‹‹"
+
+#: theme/theme.inc:608,621,620,622,619,654,651,857
+msgid "››"
+msgstr "››"
+
+#: theme/theme.inc:621,634,633,635,632,667,664,875
+msgid "@current of @max"
+msgstr "@current von @max"
+

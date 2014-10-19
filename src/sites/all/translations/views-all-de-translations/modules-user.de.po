@@ -1,0 +1,135 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_handler_field_user_mail.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_handler_field_user_mail.inc,v 1.1.6.1 2010/11/18 07:29:03 dereine
+#  views_handler_field_user.inc,v 1.3 2009/01/30 00:01:42 merlinofchaos
+#  views_handler_field_user_name.inc,v 1.2 2009/02/05 04:31:15 merlinofchaos
+#  views_handler_field_user_name.inc,v 1.2.6.3 2010/11/05 07:20:54 dereine
+#  views_handler_filter_user_current.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_handler_filter_user_current.inc,v 1.2 2009/09/15 16:18:38 merlinofchaos
+#  views_handler_filter_user_current.inc,v 1.1.2.1 2009/09/15 16:18:35 merlinofchaos
+#  views_handler_filter_user_current.inc,v 1.2.4.2 2010/09/24 05:34:15 dereine
+#  views_handler_filter_user_name.inc,v 1.2 2008/09/22 23:41:14 merlinofchaos
+#  views_handler_filter_user_name.inc,v 1.2.2.1 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_filter_user_name.inc,v 1.2.6.2 2010/08/26 09:41:55 dereine
+#  views_plugin_argument_default_user.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_argument_default_user.inc,v 1.1.6.2 2010/12/14 00:00:52 merlinofchaos
+#  views_plugin_argument_validate_user.inc,v 1.2 2009/02/17 23:32:33 merlinofchaos
+#  views_plugin_argument_validate_user.inc,v 1.2.2.3 2010/01/25 19:02:38 merlinofchaos
+#  views_plugin_argument_validate_user.inc,v 1.2.4.1 2010/03/11 01:23:39 merlinofchaos
+#  views_plugin_argument_validate_user.inc,v 1.2.4.2 2010/06/16 20:17:47 merlinofchaos
+#  views_plugin_argument_validate_user.inc,v 1.2.6.10 2010/11/05 07:20:54 dereine
+#  views_handler_field_user_roles.inc,v 1.2 2009/07/01 23:07:14 merlinofchaos
+#  views_handler_field_user_roles.inc,v 1.1.2.1 2009/07/01 23:06:44 merlinofchaos
+#  views_handler_field_user_roles.inc,v 1.2.4.2 2010/12/03 20:46:32 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-06-30 17:14+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/user/views_handler_field_user_mail.inc:19
+msgid "No link"
+msgstr "Keine Verlinkung"
+
+#: modules/user/views_handler_field_user.inc:30
+msgid "Link this field to its user"
+msgstr "Dieses Feld mit seinem Benutzer verlinken"
+
+#: modules/user/views_handler_field_user_name.inc:30
+msgid "Overwrite the value to display for anonymous users"
+msgstr "Überschreiben des anzuzeigenden Werts für anonyme Benutzer."
+
+#: modules/user/views_handler_field_user_name.inc:33
+msgid ""
+"If selected, you will see a field to enter the text to use for "
+"anonymous users."
+msgstr ""
+"Ein Feld anzeigen, in das Text eingegeben wird, der für anonyme "
+"Benutzer verwendet wird."
+
+#: modules/user/views_handler_field_user_name.inc:36
+msgid "Text to display for anonymous users"
+msgstr "Der Text der für anonyme Benutzer angezeigt wird"
+
+#: modules/user/views_handler_field_user_mail.inc:16
+msgid "Link this field"
+msgstr "Dieses Feld verlinken"
+
+#: modules/user/views_handler_field_user_mail.inc:20
+msgid "To the user"
+msgstr "Zu dem Benutzer"
+
+#: modules/user/views_handler_field_user_mail.inc:21
+msgid "With a mailto:"
+msgstr "Mit einem mailto:"
+
+#: modules/user/views_handler_filter_user_current.inc:10
+msgid "Is the logged in user"
+msgstr "Ist der angemeldete Benutzer"
+
+#: modules/user/views_handler_filter_user_name.inc:28
+msgid "Usernames"
+msgstr "Benutzernamen"
+
+#: modules/user/views_handler_filter_user_name.inc:29
+msgid "Enter a comma separated list of user names."
+msgstr "Eine kommagetrennte Liste von Benutzernamen."
+
+#: modules/user/views_handler_filter_user_name.inc:112
+msgid "Unable to find user: @users"
+msgid_plural "Unable to find users: @users"
+msgstr[0] "Benutzer konnte nicht gefunden werden: @users"
+msgstr[1] "Benutzer konnten nicht gefunden werden: @users"
+
+#: modules/user/views_plugin_argument_default_user.inc:17,22
+msgid "Also look for a node and use the node author"
+msgstr "Zusätzlich nach ein Beitrag schauen und den Beitragautor verwenden."
+
+#: modules/user/views_plugin_argument_validate_user.inc:22,24
+msgid "Type of user argument to allow"
+msgstr "Zulässige Typ des Benutzerarguments"
+
+#: modules/user/views_plugin_argument_validate_user.inc:24,26
+msgid "Only allow numeric UIDs"
+msgstr "Nur die numerische Benutzer-ID erlauben"
+
+#: modules/user/views_plugin_argument_validate_user.inc:25,27
+msgid "Only allow string usernames"
+msgstr "Nur Benutzernamen als Zeichenketten erlauben"
+
+#: modules/user/views_plugin_argument_validate_user.inc:26,28
+msgid "Allow both numeric UIDs and string usernames"
+msgstr ""
+"Sowohl die numerischen Benutzer-IDs als auch die Benutzernamen als "
+"Zeichenkette erlauben"
+
+#: modules/user/views_plugin_argument_validate_user.inc:37,35
+msgid "Restrict user based on role"
+msgstr "Benutzer begrenzen, basierend auf der Rolle"
+
+#: modules/user/views_plugin_argument_validate_user.inc:47,43
+msgid "Restrict to the selected roles"
+msgstr "Auf die ausgewählten Rollen begrenzen"
+
+#: modules/user/views_plugin_argument_validate_user.inc:50,46
+msgid "If no roles are selected, users from any role will be allowed."
+msgstr ""
+"Wenn keine Rollen ausgewählt sind, wird es für Benutzer jeder Rolle "
+"erlaubt sein."
+
+#: modules/user/views_handler_field_user_roles.inc:39,40
+msgid "The name of the role."
+msgstr "Der Name der Rolle."
+
+#: modules/user/views_handler_field_user_roles.inc:40,41
+msgid "The role ID of the role."
+msgstr "Die ID der Rolle."
+

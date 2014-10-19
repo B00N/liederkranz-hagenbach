@@ -1,0 +1,49 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from file: views_handler_field_field.inc,v 1.1.2.20 2011/01/06 00:37:05 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-03-06 22:13+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/field/views_handler_field_field.inc:186
+msgid "Formatter"
+msgstr "Formatierer"
+
+#: modules/field/views_handler_field_field.inc:177
+msgid "Click sort column"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:180
+msgid ""
+"Used by Style: Table to determine the actual column to click sort the "
+"field on. The default is usually fine."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:233
+msgid "Group column"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:235
+msgid ""
+"Select the column of this field to apply the grouping function "
+"selected above."
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:242
+msgid "Group columns (additional)"
+msgstr ""
+
+#: modules/field/views_handler_field_field.inc:244
+msgid ""
+"Select any additional columns of this field to include in the query "
+"and to group on."
+msgstr ""
+

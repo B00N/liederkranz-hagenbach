@@ -1,0 +1,114 @@
+# German translation of Date (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  date_timezone.module,v 1.18 2008/04/03 10:33:30 karens
+#  date_timezone.module,v 1.8.2.18 2009/03/26 10:25:09 karens
+#  date_timezone.module,v 1.18.2.3.2.12 2009/03/26 10:25:50 karens
+#  date_timezone.module,v 1.18.2.3.2.13 2010/08/12 21:59:07 karens
+#  date_timezone.install,v 1.7 2008/04/03 10:33:30 karens
+#  date_timezone.install,v 1.1.2.15 2009/01/13 13:49:24 karens
+#  date_timezone.install,v 1.7.2.2.2.6 2008/09/06 14:20:10 karens
+#  date_timezone.install,v 1.7.2.2.2.7 2010/02/28 14:23:04 karens
+#  date_timezone.info,v 1.3 2008/02/18 19:32:29 karens
+#  date_timezone.info,v 1.2.2.1 2008/06/26 21:46:56 karens
+#  date_timezone.info,v 1.3.4.1 2008/06/27 14:14:01 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Date (all releases)\n"
+"POT-Creation-Date: 2011-01-06 13:01+0000\n"
+"PO-Revision-Date: 2010-12-18 14:15+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: date_timezone/date_timezone.module:45,70,58,96,63,118,69,124
+msgid "Default time zone"
+msgstr "Standard-Zeitzone"
+
+#: date_timezone/date_timezone.module:48,61,66,72
+msgid ""
+"Select the default site time zone. If in doubt, choose the timezone "
+"that is closest to your location which has the same rules for daylight "
+"saving time."
+msgstr "Standardwert für Zeitzone"
+
+#: date_timezone/date_timezone.module:73,99
+msgid ""
+"Select your current local time.  If in doubt, choose the timezone that "
+"is closest to your location which has the same rules for daylight "
+"saving time. Dates and times throughout this site will be displayed "
+"using this time zone."
+msgstr "Aktuelle lokale Zeit"
+
+#: date_timezone/date_timezone.install:39,51,52
+msgid "The !link may not be correct."
+msgstr "Möglicherweise ist !link nicht zutreffend."
+
+#: date_timezone/date_timezone.install:39,51,52
+msgid "site timezone name"
+msgstr "Name der Zeitzone der Site"
+
+#: date_timezone/date_timezone.install:46,58,59
+msgid "Date Timezone requirements"
+msgstr "Anforderungen für Zeitzone"
+
+#: date_timezone/date_timezone.info:0
+msgid ""
+"Overrides site and user timezone handling to set timezone names "
+"instead of offsets."
+msgstr ""
+"Zeitzonen werden damit über Namen verwaltet, die Einstellungen für "
+"die Site und für Zeitzonen von Benutzern."
+
+#: date_timezone/date_timezone.install:601,602
+msgid "UTC"
+msgstr "UTC"
+
+#: date_timezone/date_timezone.module:232,267,273
+msgid ""
+"Detected time zone: %timezone; client date: %date; abbreviation: "
+"%abbreviation; offset: %offset; daylight saving time: "
+"%is_daylight_saving_time."
+msgstr ""
+"Ermitteln·der·Zeitzone %timezone; Benutzerdatum: %date; Abkürzung: "
+"%abbreviation; Differenz: %offset; Sommerzeit: "
+"%is_daylight_saving_time."
+
+#: date_timezone/date_timezone.install:600,601
+msgid "Pacific/French_Polynesia-Marquesas_Islands"
+msgstr "Pazifik/Französisch-Polynesien-Marquesasinseln"
+
+#: date_timezone/date_timezone.info:0
+msgid ""
+"Needed when using Date API. Overrides site and user timezone handling "
+"to set timezone names instead of offsets."
+msgstr ""
+"Erforderlich für die Date API, Zeitzonen werden damit über Namen "
+"verwaltet."
+
+#: date_timezone/date_timezone.module:28
+msgid "User timezone"
+msgstr "Die Zeitzone des Benutzers."
+
+#: date_timezone/date_timezone.module:18
+msgid ""
+"The Date Timezone module requires you to <a href=\"@link\">set the "
+"site timezone name</a>."
+msgstr "Setzen Sie die  <a href=\"@link\">Zeitzone für die Website</a>."
+
+#: date_timezone/date_timezone.module:121,127
+msgid ""
+"Select your current local time. If in doubt, choose the timezone that "
+"is closest to your location which has the same rules for daylight "
+"saving time. Dates and times throughout this site will be displayed "
+"using this time zone."
+msgstr ""
+"Wählen Sie Ihre aktuelle Ortszeit. Im Zweifelsfall wählen Sie Ihre "
+"Zeitzone, die am nächsten zu Ihrem Standort, die die gleichen Regeln "
+"für die Sommerzeit hat. Termine und Zeiten während dieser Website "
+"wird angezeigt mit dieser Zeitzone werden. Datums- und Zeitangaben "
+"dieser Website werden in Bezug auf diese Zeitzone angezeigt."
+

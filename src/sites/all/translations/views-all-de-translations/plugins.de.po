@@ -1,0 +1,1907 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_plugin_display_block.inc,v 1.4 2009/06/01 21:38:44 merlinofchaos
+#  views_plugin_display_block.inc,v 1.5 2009/06/26 00:23:42 merlinofchaos
+#  views_plugin_display_block.inc,v 1.2.2.3 2009/06/26 00:23:37 merlinofchaos
+#  views_plugin_display_block.inc,v 1.2.2.4 2010/01/19 21:59:04 merlinofchaos
+#  views_plugin_display_block.inc,v 1.5.4.3 2010/08/04 05:54:08 dereine
+#  views_plugin_style_table.inc,v 1.5.2.5 2009/12/23 21:30:32 merlinofchaos
+#  views_plugin_style_table.inc,v 1.7.2.3 2010/03/11 00:06:18 merlinofchaos
+#  views_plugin_style_table.inc,v 1.7.4.12 2010/12/10 08:19:15 dereine
+#  views_plugin_display.inc,v 1.24 2009/06/10 22:01:31 merlinofchaos
+#  views_plugin_display.inc,v 1.27.2.1 2009/10/28 02:11:17 merlinofchaos
+#  views_plugin_display.inc,v 1.20.2.11 2009/11/02 23:58:04 merlinofchaos
+#  views_plugin_display.inc,v 1.27.2.6 2009/11/30 19:05:47 merlinofchaos
+#  views_plugin_display.inc,v 1.20.2.31 2010/01/25 22:37:48 merlinofchaos
+#  views_plugin_display.inc,v 1.27.2.11 2010/04/07 21:50:58 merlinofchaos
+#  views_plugin_display.inc,v 1.27.2.12 2010/04/08 22:18:12 merlinofchaos
+#  views_plugin_display.inc,v 1.27.2.13 2010/06/17 02:46:53 merlinofchaos
+#  views_plugin_display.inc,v 1.27.4.49 2011/01/05 20:36:27 dereine
+#  views_plugin_display_attachment.inc,v 1.4 2009/05/20 02:53:30 merlinofchaos
+#  views_plugin_display_attachment.inc,v 1.6 2009/06/26 00:23:42 merlinofchaos
+#  views_plugin_display_attachment.inc,v 1.3.2.3 2009/06/26 00:23:37 merlinofchaos
+#  views_plugin_display_attachment.inc,v 1.6.2.1 2009/11/30 19:05:47 merlinofchaos
+#  views_plugin_display_attachment.inc,v 1.3.2.5 2010/01/19 21:59:04 merlinofchaos
+#  views_plugin_display_attachment.inc,v 1.6.4.3 2010/11/18 23:15:37 merlinofchaos
+#  views_plugin_style_grid.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_style_grid.inc,v 1.1.4.1 2010/06/16 19:18:24 merlinofchaos
+#  views_plugin_style_grid.inc,v 1.1.6.2 2010/12/10 08:19:15 dereine
+#  views_plugin_pager_full.inc,v 1.1.2.3 2010/01/19 21:50:01 merlinofchaos
+#  views_plugin_pager_full.inc,v 1.1.2.6 2010/03/22 20:05:05 merlinofchaos
+#  views_plugin_pager_full.inc,v 1.1.4.14 2010/12/16 20:32:17 dereine
+#  views_plugin_query_default.inc,v 1.1.2.19 2010/01/25 22:33:42 merlinofchaos
+#  views_plugin_query_default.inc,v 1.1.2.21 2010/03/12 01:02:45 merlinofchaos
+#  views_plugin_query_default.inc,v 1.1.4.39 2011/01/06 00:37:05 dereine
+#  views_plugin_style_list.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_style_list.inc,v 1.1.6.1 2010/12/04 07:39:35 dereine
+#  views_plugin_display_feed.inc,v 1.4 2009/05/20 02:53:30 merlinofchaos
+#  views_plugin_display_feed.inc,v 1.7 2009/09/15 22:20:01 merlinofchaos
+#  views_plugin_display_feed.inc,v 1.3.2.4 2009/09/15 22:19:57 merlinofchaos
+#  views_plugin_display_feed.inc,v 1.3.2.5 2010/01/19 21:59:04 merlinofchaos
+#  views_plugin_display_feed.inc,v 1.7.4.5 2010/12/18 08:02:38 dereine
+#  views_plugin_display_page.inc,v 1.7 2009/06/02 20:37:15 merlinofchaos
+#  views_plugin_display_page.inc,v 1.8 2009/06/26 00:23:42 merlinofchaos
+#  views_plugin_display_page.inc,v 1.5.2.3 2009/06/26 00:23:37 merlinofchaos
+#  views_plugin_display_page.inc,v 1.5.2.8 2010/01/19 21:59:04 merlinofchaos
+#  views_plugin_display_page.inc,v 1.8.2.4 2010/03/11 00:01:34 merlinofchaos
+#  views_plugin_display_page.inc,v 1.8.4.14 2011/01/04 21:26:47 dereine
+#  views_plugin_style_table.inc,v 1.5 2008/10/15 22:25:36 merlinofchaos
+#  views_plugin_style_table.inc,v 1.7 2009/06/30 22:07:42 merlinofchaos
+#  views_plugin_style_table.inc,v 1.5.2.3 2009/11/10 19:30:44 merlinofchaos
+#  views_plugin_style_table.inc,v 1.7.2.1 2009/11/10 19:30:48 merlinofchaos
+#  views_plugin_exposed_form.inc,v 1.1.2.9 2010/01/19 21:53:07 merlinofchaos
+#  views_plugin_exposed_form.inc,v 1.2.2.18 2010/12/01 20:05:06 dereine
+#  views_plugin_access_none.inc,v 1.1 2008/09/08 22:50:17 merlinofchaos
+#  views_plugin_access_perm.inc,v 1.3 2009/01/07 23:31:13 merlinofchaos
+#  views_plugin_access_perm.inc,v 1.3.2.1 2009/11/13 22:07:54 merlinofchaos
+#  views_plugin_access_perm.inc,v 1.3.4.1 2010/03/10 21:03:25 merlinofchaos
+#  views_plugin_access_perm.inc,v 1.3.6.3 2010/03/10 21:03:19 merlinofchaos
+#  views_plugin_access_role.inc,v 1.2 2009/01/07 23:31:13 merlinofchaos
+#  views_plugin_access_role.inc,v 1.2.2.1 2009/11/13 22:07:54 merlinofchaos
+#  views_plugin_access_role.inc,v 1.2.4.1 2010/03/10 21:03:25 merlinofchaos
+#  views_plugin_access_role.inc,v 1.2.6.3 2010/03/10 21:03:19 merlinofchaos
+#  views_plugin_argument_default_php.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_argument_default_php.inc,v 1.1.2.1 2009/11/26 00:35:16 merlinofchaos
+#  views_plugin_argument_default_php.inc,v 1.1.6.4 2010/11/05 07:20:54 dereine
+#  views_plugin_argument_validate.inc,v 1.2 2009/06/01 23:34:55 merlinofchaos
+#  views_plugin_argument_validate.inc,v 1.1.2.1 2009/06/01 23:34:59 merlinofchaos
+#  views_plugin_argument_validate_php.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_argument_validate_php.inc,v 1.1.2.1 2009/11/26 00:35:16 merlinofchaos
+#  views_plugin_argument_validate_php.inc,v 1.1.6.2 2010/01/28 22:44:37 dereine
+#  views_plugin_cache_time.inc,v 1.2 2009/06/03 23:39:52 merlinofchaos
+#  views_plugin_cache_time.inc,v 1.3 2009/06/30 21:57:22 merlinofchaos
+#  views_plugin_cache_time.inc,v 1.1.2.4 2009/06/30 21:57:24 merlinofchaos
+#  views_plugin_cache_time.inc,v 1.1.2.5 2009/11/13 22:07:54 merlinofchaos
+#  views_plugin_cache_time.inc,v 1.3.4.4 2010/11/18 00:56:20 merlinofchaos
+#  views_plugin_row_fields.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_row_fields.inc,v 1.2 2009/07/01 22:52:41 merlinofchaos
+#  views_plugin_row_fields.inc,v 1.1.2.1 2009/07/01 21:59:11 merlinofchaos
+#  views_plugin_row_fields.inc,v 1.2.2.1 2010/03/11 00:06:18 merlinofchaos
+#  views_plugin_row_fields.inc,v 1.2.4.4 2010/12/04 07:39:35 dereine
+#  views_plugin_style.inc,v 1.6 2009/06/01 23:34:55 merlinofchaos
+#  views_plugin_style.inc,v 1.8.2.5 2009/11/02 20:48:26 merlinofchaos
+#  views_plugin_style.inc,v 1.5.2.6 2009/11/02 20:48:22 merlinofchaos
+#  views_plugin_style.inc,v 1.8.2.6 2009/11/30 19:21:48 merlinofchaos
+#  views_plugin_style.inc,v 1.5.2.7 2009/11/30 19:21:44 merlinofchaos
+#  views_plugin_style.inc,v 1.8.2.7 2010/03/11 00:06:18 merlinofchaos
+#  views_plugin_style.inc,v 1.8.2.8 2010/04/29 18:21:52 merlinofchaos
+#  views_plugin_style.inc,v 1.8.4.10 2010/12/10 08:12:31 dereine
+#  views_plugin_style_rss.inc,v 1.2 2008/12/02 00:02:06 merlinofchaos
+#  views_plugin_style_rss.inc,v 1.2.6.7 2010/12/18 08:02:38 dereine
+#  views_plugin_style_summary.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_style_summary.inc,v 1.1.2.3 2009/11/26 00:35:16 merlinofchaos
+#  views_plugin_style_summary.inc,v 1.1.6.6 2010/11/05 07:20:54 dereine
+#  views_plugin_style_summary_unformatted.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_style_jump_menu.inc,v 1.1.2.2 2009/10/28 23:07:48 merlinofchaos
+#  views_plugin_style_jump_menu.inc,v 1.1.2.3 2010/03/13 00:06:20 merlinofchaos
+#  views_plugin_style_jump_menu.inc,v 1.1.6.7 2010/12/14 00:47:26 merlinofchaos
+#  views_plugin_exposed_form_input_required.inc,v 1.1.2.3 2010/01/19 22:11:28 merlinofchaos
+#  views_plugin_exposed_form_input_required.inc,v 1.2.2.8 2010/11/16 01:09:28 merlinofchaos
+#  views_plugin_pager_mini.inc,v 1.1.2.1 2009/12/03 01:47:31 merlinofchaos
+#  views_plugin_pager_mini.inc,v 1.1.4.5 2011/01/04 00:00:20 dereine
+#  views_plugin_pager_none.inc,v 1.1.2.1 2009/12/03 01:47:31 merlinofchaos
+#  views_plugin_pager_none.inc,v 1.1.4.3 2010/11/06 17:56:10 dereine
+#  views_plugin_pager_some.inc,v 1.1.2.1 2009/12/03 01:47:31 merlinofchaos
+#  views_plugin_pager_some.inc,v 1.1.4.3 2010/11/18 23:15:37 merlinofchaos
+#  views_plugin_style_summary_jump_menu.inc,v 1.1.6.6 2010/12/14 00:47:26 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-12-19 19:12+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: plugins/views_plugin_display_block.inc:68,66
+msgid "Block settings"
+msgstr "Blockeinstellungen"
+
+#: plugins/views_plugin_style_table.inc:231,224,238
+msgid "Center"
+msgstr "Zentriert"
+
+#: plugins/views_plugin_display.inc:938,980,1059,1104,969,1011,1090,1135,965,1008,1088,1134,1105,1148,1185,1231,1502,1538,1020,1063,1143,1189,1166,1209,1246,1292,1563,1599,1024,1067,1147,1193,1239,1283,1347,1391,1703,1739
+msgid "settings"
+msgstr "Einstellungen"
+
+#: plugins/views_plugin_display.inc:631,758,799,843
+msgid "Advanced settings"
+msgstr "Erweiterte Einstellungen"
+
+#: plugins/views_plugin_display.inc:808,833,829,979,876,1032,880,1093
+msgid "Theme"
+msgstr "Theme"
+
+#: plugins/views_plugin_display_attachment.inc:35,37
+msgid "Before"
+msgstr "vorher"
+
+#: plugins/views_plugin_display_attachment.inc:36,38
+msgid "After"
+msgstr "nachher"
+
+#: plugins/views_plugin_style_grid.inc:33,34,35
+msgid "Number of columns"
+msgstr "Anzahl der Spalten"
+
+#: plugins/views_plugin_style_grid.inc:39,40,41
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: plugins/views_plugin_style_grid.inc:39,40,41
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: plugins/views_plugin_display.inc:869,920,1025,1086,873,924,1171
+msgid "CSS class"
+msgstr "CSS-Klasse"
+
+#: plugins/views_plugin_pager_full.inc:56,58
+msgid "Pager ID"
+msgstr "Pager ID"
+
+#: plugins/views_plugin_query_default.inc:1150,1354
+msgid "Average"
+msgstr "Durchschnitt"
+
+#: plugins/views_plugin_query_default.inc:1130,1334
+msgid "Count"
+msgstr "Anzahl"
+
+#: plugins/views_plugin_query_default.inc:1170,1374
+msgid "Maximum"
+msgstr "Maximum"
+
+#: plugins/views_plugin_display.inc:689,714,710,745,749
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: plugins/views_plugin_style_list.inc:32,34
+msgid "List type"
+msgstr "Listentyp"
+
+#: plugins/views_plugin_display_attachment.inc:37,39
+msgid "Both"
+msgstr "Beide"
+
+#: plugins/views_plugin_display_attachment.inc:74,127,88,159
+msgid "Position"
+msgstr "Position"
+
+#: plugins/views_plugin_display.inc:613,628,634,755,669,796,673,840
+msgid "Basic settings"
+msgstr "Grundeinstellungen"
+
+#: plugins/views_plugin_display_feed.inc:86,89
+msgid "Feed settings"
+msgstr "Newsfeed-Einstellungen"
+
+#: plugins/views_plugin_style_grid.inc:38,39,40
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: plugins/views_plugin_style_table.inc:230,223,237
+msgid "Left"
+msgstr "Links"
+
+#: plugins/views_plugin_style_table.inc:232,225,239
+msgid "Right"
+msgstr "Rechts"
+
+#: plugins/views_plugin_display.inc:642,667,663,803,698,844,702,903
+msgid "Style"
+msgstr "Darstellung"
+
+#: plugins/views_plugin_display_page.inc:370,372,374,397
+msgid "Parent menu item"
+msgstr "Übergeordneter Menüpunkt"
+
+#: plugins/views_plugin_display.inc:809,834,830,980,877,1033,881,1094
+msgid "Information"
+msgstr "Information"
+
+#: plugins/views_plugin_query_default.inc:1160,1364
+msgid "Minimum"
+msgstr "Minimum"
+
+#: plugins/views_plugin_display_page.inc:194,196,198,232
+msgid "Page settings"
+msgstr "Seiteneinstellungen"
+
+#: plugins/views_plugin_display.inc:679,704,700,849,735,890,739,947
+msgid "Use pager"
+msgstr "Seitennavigation verwenden"
+
+#: plugins/views_plugin_display.inc:696,721,717,862,752,903,756,964
+msgid "More link"
+msgstr "‚Weiter‘-Link"
+
+#: plugins/views_plugin_display.inc:904,935,931,1062,986,1123,990,1206
+msgid "More link text"
+msgstr "„Mehr“-Link anzeigen"
+
+#: plugins/views_plugin_display_attachment.inc:112,121,126,135,144
+msgid "Inherit"
+msgstr "Vererben"
+
+#: plugins/views_plugin_display.inc:1584,1616,1615,1855,1677,1923,1681,2075
+msgid "Use default"
+msgstr "Standard verwenden"
+
+#: plugins/views_plugin_style_table.inc:148,162,161
+msgid "Default sort order"
+msgstr "Standardsortierung"
+
+#: plugins/views_plugin_display_block.inc:82,80
+msgid "Admin"
+msgstr "Administrator"
+
+#: plugins/views_plugin_display.inc:1124,1155,1154,1251,1209,1312,1213,1411
+msgid "Theming information"
+msgstr "Theming-Information"
+
+#: plugins/views_plugin_display_block.inc:104,102
+msgid "Do not cache"
+msgstr "Nicht cachen"
+
+#: plugins/views_plugin_display_block.inc:138
+msgid ""
+"This will appear as the name of this block in administer >> site "
+"building >> blocks."
+msgstr ""
+"Dies wird als der Name dieses Blocks in Verwalten >> Strukturierung >> "
+"Blöcke erscheinen."
+
+#: plugins/views_plugin_display_page.inc:394,396,419,442
+msgid "Tab weight"
+msgstr "Reiterreihenfolge"
+
+#: plugins/views_plugin_display_block.inc:105,103
+msgid "Cache once for everything (global)"
+msgstr "Einmalig für alles (global) cachen."
+
+#: plugins/views_plugin_display_block.inc:106,104
+msgid "Per page"
+msgstr "Nach Seite"
+
+#: plugins/views_plugin_display_block.inc:107,105
+msgid "Per role"
+msgstr "Nach Rolle"
+
+#: plugins/views_plugin_display_block.inc:108,106
+msgid "Per role per page"
+msgstr "Nach Rolle und Seite"
+
+#: plugins/views_plugin_display_block.inc:109,107
+msgid "Per user"
+msgstr "Nach Benutzer"
+
+#: plugins/views_plugin_display_block.inc:110,108
+msgid "Per user per page"
+msgstr "Nach Benutzer und Seite"
+
+#: plugins/views_plugin_query_default.inc:1140,1344
+msgid "Sum"
+msgstr "Summe"
+
+#: plugins/views_plugin_exposed_form.inc:46
+msgid "Submit button text"
+msgstr "Text des „Speichern“-Schaltknopfes"
+
+#: plugins/views_plugin_access_none.inc:9
+msgid "Unrestricted"
+msgstr "Unbeschränkt"
+
+#: plugins/views_plugin_access_perm.inc:37,41,42
+msgid ""
+"Only users with the selected permission flag will be able to access "
+"this display. Note that users with \"access all views\" can see any "
+"view, regardless of other permissions."
+msgstr ""
+"Nur Benutzer mit der ausgewählten Berechtigung werden auf die Anzeige "
+"zugreifen können. Hinweis: Benutzer mit der „Zugriff auf alle "
+"Ansichten“-Berechtigung können alle aktivierten Ansichten sehen, "
+"unabhängig von anderen Berechtigungen."
+
+#: plugins/views_plugin_access_role.inc:21,19
+msgid "No role(s) selected"
+msgstr "Keine Rolle(n) ausgewählt"
+
+#: plugins/views_plugin_access_role.inc:24,22
+msgid "Multiple roles"
+msgstr "Mehrere Rollen"
+
+#: plugins/views_plugin_access_role.inc:43,47,41,45
+msgid ""
+"Only the checked roles will be able to access this display. Note that "
+"users with \"access all views\" can see any view, regardless of role."
+msgstr ""
+"Nur die aktivierten Rollen werden auf diese Anzeige zugreifen können. "
+"Beachten, dass Benutzer mit dem „Zugriff auf alle Ansichten“ alle "
+"Ansichten unabhängig von ihrer Rolle sehen können."
+
+#: plugins/views_plugin_access_role.inc:49,53,47,51
+msgid "You must select at least one role if type is \"by role\""
+msgstr "Beim Typ „nach Rolle“ muss mindestens eine Rolle ausgewählt sein."
+
+#: plugins/views_plugin_argument_default_php.inc:17,22
+msgid "PHP argument code"
+msgstr "PHP-Argumentcode"
+
+#: plugins/views_plugin_argument_default_php.inc:20,25
+msgid ""
+"Enter PHP code that returns a value to use for this argument. Do not "
+"use &lt;?php ?&gt;. You must return only a single value for just this "
+"argument."
+msgstr ""
+"PHP Code eingeben, der einen Wert zurückgibt, der für diesen "
+"Argument verwendet wird. Verwenden Sie kein &lt;?php ?&gt;. Es darf "
+"nur ein einzelner Wert zurückgegeben werden für dieses Argument."
+
+#: plugins/views_plugin_argument_validate.inc:52
+msgid ""
+"Note: you do not have permission to modify this. If you change the "
+"validator, this setting will be lost and you will NOT be able to get "
+"it back."
+msgstr ""
+"Hinweis: Sie haben keine Berechtigung dies zu bearbeiten. Wenn Sie den "
+"Validator ändern, gehen diese Einstellung verloren und können NICHT "
+"wiederhergestellt werden."
+
+#: plugins/views_plugin_argument_validate_php.inc:19,24
+msgid "PHP validate code"
+msgstr "PHP Validierungscode"
+
+#: plugins/views_plugin_argument_validate_php.inc:21
+msgid ""
+"Enter PHP code that returns TRUE or FALSE. No return is the same as "
+"FALSE, so be SURE to return something if you do not want to declare "
+"the argument invalid. Do not use &lt;?php ?&gt;. The argument to "
+"validate will be \"$argument\" and the view will be \"$view\". You may "
+"change the argument by setting \"$handler->argument\"."
+msgstr ""
+"PHP Code eingeben, der den Wahrheitswert TRUE oder FALSE zurückgibt. "
+"Kein Rückgabewert entspricht FALSE. Daher sollte drauf geachtet "
+"werden, dass etwas zurückgeben wird, wenn das Argument nicht als "
+"ungültig deklariert werden soll. Kein &lt;?php ?&gt; verwenden. Das "
+"Argument zum Validieren ist „$argument“ und der Ansicht ist "
+"\"$view\". Das Argument ist durch Setzen des „$handler->argument“ "
+"änderbar."
+
+#: plugins/views_plugin_cache_time.inc:16,19
+msgid "Never cache"
+msgstr "Niemals zwischenspeichern"
+
+#: plugins/views_plugin_cache_time.inc:20,23
+msgid "Query results"
+msgstr "Anfrageergebnisse"
+
+#: plugins/views_plugin_cache_time.inc:21,24
+msgid "The length of time raw query results should be cached."
+msgstr ""
+"Die Zeitdauer für die (rohe) Abfrageergebnisse zwischengespeichert "
+"werden."
+
+#: plugins/views_plugin_cache_time.inc:27,30
+msgid "Rendered output"
+msgstr "Ausgabeformat"
+
+#: plugins/views_plugin_cache_time.inc:28,31
+msgid "The length of time rendered HTML output should be cached."
+msgstr "Die Zeitdauer für erzeugter HTML-Code zwischengespeichert werden."
+
+#: plugins/views_plugin_display.inc:596,610,617,737,652,778,656,822
+msgid "Broken field"
+msgstr "Beschädigtes Feld"
+
+#: plugins/views_plugin_display.inc:620,645,641,781,676,822,680,866
+msgid "Change the name of this display."
+msgstr "Den Namen dieser Anzeige ändern."
+
+#: plugins/views_plugin_display.inc:632,657,653,793,688,834,692,886
+msgid "Change the title that this display will use."
+msgstr "Den von dieser Anzeige verwendeten Titel ändern."
+
+#: plugins/views_plugin_display.inc:644,669,665,805,700,846,704,905
+msgid "Change the style plugin."
+msgstr "Das Design-Plugin ändern."
+
+#: plugins/views_plugin_display.inc:658,683,679,819,714,860,718,919
+msgid "Row style"
+msgstr "Zeilendesign"
+
+#: plugins/views_plugin_display.inc:660,685,681,821,716,862,720,921
+msgid "Change the row plugin."
+msgstr "Das Zeilen-Plugin ändern."
+
+#: plugins/views_plugin_display.inc:670,695,691,831,726,872,730,931
+msgid "Use AJAX"
+msgstr "AJAX verwenden"
+
+#: plugins/views_plugin_display.inc:672,697,693,833,728,874,732,933
+msgid "Change whether or not this display will use AJAX."
+msgstr "Ändern, ob diese Anzeige AJAX verwenden soll oder nicht."
+
+#: plugins/views_plugin_display.inc:680,705,701,736,740
+msgid "Mini"
+msgstr "Mini"
+
+#: plugins/views_plugin_display.inc:681,706,702,851,737,892,741,949
+msgid "Change this display's pager setting."
+msgstr "Die Seitennavigations-Einstellung dieser Anzeige ändern."
+
+#: plugins/views_plugin_display.inc:690,715,711,746,750
+msgid "Change how many items to display."
+msgstr "Die Anzahl der anzuzeigenden Beiträge ändern."
+
+#: plugins/views_plugin_display.inc:698,723,719,864,754,905,758,966
+msgid "Specify whether this display will provide a \"more\" link."
+msgstr "Festlegen, ob diese Anzeige einen „Weiter“-Link bereitstellt."
+
+#: plugins/views_plugin_display.inc:706,910,731,941,727,937,872,1068,762,992,913,1129,766,996
+msgid "Display only distinct items, without duplicates."
+msgstr "Nur unterschiedliche Einträge ohne Duplikate anzeigen."
+
+#: plugins/views_plugin_display.inc:721,746,742,897,777,938,781,999
+msgid "Specify access control type for this display."
+msgstr "Den Zugriffskontrolltyp für diese Anzeige festlegen."
+
+#: plugins/views_plugin_display.inc:725,750,746,901,924,781,942,965,785,1003,1026
+msgid "Change settings for this access type."
+msgstr "Einstellungen für diesen Zugriffstyp ändern."
+
+#: plugins/views_plugin_display.inc:740,765,761,916,796,957,800,1018
+msgid "Specify caching type for this display."
+msgstr "Den Zugriffskontrolltyp für diese Anzeige festlegen."
+
+#: plugins/views_plugin_display.inc:744,769,765,920,800,961,804,1022
+msgid "Change settings for this caching type."
+msgstr "Einstellungen für diesen Zugriffstyp ändern."
+
+#: plugins/views_plugin_display.inc:764,789,785,944,820,985,824,1046
+msgid "Link display"
+msgstr "Anzeige verlinken"
+
+#: plugins/views_plugin_display.inc:766,791,787,946,822,987,826,1048
+msgid "Specify which display this display will link to."
+msgstr "Angeben, zu welcher Anzeige diese Anzeige verlinken soll."
+
+#: plugins/views_plugin_display.inc:773,798,794,953,829,994,833,1055
+msgid "Exposed form in block"
+msgstr "Hervorgehobenes Formular in Block"
+
+#: plugins/views_plugin_display.inc:775,800,796,955,831,996,835,1057
+msgid "Allow the exposed form to appear in a block instead of the view."
+msgstr ""
+"Ermöglicht das Erscheinen des hervorgehobenen Formulars in einem "
+"Block anstatt der Ansicht."
+
+#: plugins/views_plugin_display.inc:794,819,815,850,854
+msgid "Unknown/missing format"
+msgstr "Unbekannt/fehlendes Format"
+
+#: plugins/views_plugin_display.inc:802,827,823,858,862
+msgid "Change this display's !name."
+msgstr "Den !name dieser Anzeige ändern."
+
+#: plugins/views_plugin_display.inc:810,835,831,981,878,1034,882,1095
+msgid "Get information on how to theme this display"
+msgstr "Information abrufen, wie diese Anzeige dargestellt werden soll."
+
+#: plugins/views_plugin_display.inc:836,861,857,1017,904,1070,908
+msgid "The name of this display"
+msgstr "Der Name dieser Anzeige"
+
+#: plugins/views_plugin_display.inc:839,864,860,1020,907,1073,911
+msgid ""
+"This title will appear only in the administrative interface for the "
+"View."
+msgstr ""
+"Dieser Titel wird nur in die Verwaltungsoberfläche für die Ansicht "
+"angezeigt."
+
+#: plugins/views_plugin_display.inc:844,869,865,1025,912,1078,916,1154
+msgid "The title of this view"
+msgstr "Der Titel dieser Ansicht."
+
+#: plugins/views_plugin_display.inc:847,872,868,1028,915,1081,919,1157
+msgid ""
+"This title will be displayed with the view, wherever titles are "
+"normally displayed; i.e, as the page title, block title, etc."
+msgstr ""
+"Dieser Titel wird mit der Ansicht angezeigt, wo in der Regel die Titel "
+"angezeigt werden. Beispielsweise als Seitentitel, Blocktitel, etc."
+
+#: plugins/views_plugin_display.inc:852,877,873,1033,928,1094,932,1179
+msgid "Use AJAX when available to load this view"
+msgstr "Soweit möglich, soll diese Ansicht mit AJAX geladen werden."
+
+#: plugins/views_plugin_display.inc:856,881,877,1037,932,1098,936,1181
+msgid ""
+"If set, this view will use an AJAX mechanism for paging, table sorting "
+"and exposed filters. This means the entire page will not refresh. It "
+"is not recommended that you use this if this view is the main content "
+"of the page as it will prevent deep linking to specific pages, but it "
+"is very useful for side content."
+msgstr ""
+"Wenn gesetzt, wird diese Ansicht eine AJAX Mechanismus für die "
+"Seitennavigation, Tabellensortierung und den hervorgehobenen Filter "
+"verwenden. Das bedeutet, dass nicht die ganze Seite erneut geladen "
+"werden muss. Es ist nicht empfehlenswert, dies zu verwenden, wenn "
+"diese Ansicht den Hauptinhalt der Seite darstellt, da es tiefes "
+"Verlinken auf spezifische Seiten verhindert, aber es ist sehr "
+"nützlich für seitlichen Inhalt."
+
+#: plugins/views_plugin_display.inc:865,890,886,941,945
+msgid "Use a pager for this view"
+msgstr "Eine Seitennavigation für diese Ansicht verwenden"
+
+#: plugins/views_plugin_display.inc:868,893,889,944,948
+msgid "Full pager"
+msgstr "Vollständige Seitennavigation"
+
+#: plugins/views_plugin_display.inc:868,893,889,944,948
+msgid "Mini pager"
+msgstr "Kleine Seitennavigation"
+
+#: plugins/views_plugin_display.inc:873,898,894,949,953
+msgid "Pager element"
+msgstr "Seitennavigationselement"
+
+#: plugins/views_plugin_display.inc:889,914,910,965,969
+msgid ""
+"The number of items to skip. For example, if this field is 3, the "
+"first 3 items will be skipped and not displayed. Offset can not be "
+"used if items to display is 0; instead use a very large number there."
+msgstr ""
+"Die Anzahl der zu überspringenden Einträge. Sollte das Feld "
+"beispielsweise den Wert 3 enthalten, werden die ersten 3 Einträge "
+"übersprungen und nicht angezeigt. Der Offset kann nicht verwendet, "
+"wenn die anzuzeigenden Einträge 0 betragen. Stattdessen muss eine "
+"sehr großen Zahl verwendet werden."
+
+#: plugins/views_plugin_display.inc:894,919,915,1046,970,1107,974,1190
+msgid "Add a more link to the bottom of the display."
+msgstr "Am unteren Rand der Anzeige einen ‚mehr‘-Link einfügen."
+
+#: plugins/views_plugin_display.inc:897,922,918,1049,973,1110,977,1193
+msgid "Create more link"
+msgstr "‚Weiter‘-Link erstellen"
+
+#: plugins/views_plugin_display.inc:898,923,919,1050,974,1111,978,1194
+msgid ""
+"This will add a more link to the bottom of this view, which will link "
+"to the page view. If you have more than one page view, the link will "
+"point to the display specified in 'Link display' above."
+msgstr ""
+"Dies wird am unteren Rand dieser Ansicht einen ‚mehr‘-Link "
+"einfügen, der auf die Seitenansicht verlinkt. Sollte mehr wie eine "
+"Seitenansicht vorhanden sein, wird der Link auf die unter "
+"‚Link-Anzeige‘ angegebene Anzeige zeigen."
+
+#: plugins/views_plugin_display.inc:901,932,928,1059,983,1120,987,1203
+msgid "Text to use for the more link."
+msgstr "Text für den Link ‚Mehr‘."
+
+#: plugins/views_plugin_display.inc:905,936,932,1063,987,1124,991,1207
+msgid "The text to display for the more link."
+msgstr "Am unteren Rand der Anzeige einen ‚mehr‘-Link einfügen."
+
+#: plugins/views_plugin_display.inc:919,950,946,1086,1001,1147,1005,1221
+msgid "Access restrictions"
+msgstr "Zugriffsberechtigungen"
+
+#: plugins/views_plugin_display.inc:938,980,1059,1090,1088,1185,1502,1143,1246,1563,1147,1347,1703
+msgid ""
+"You may also adjust the !settings for the currently selected style by "
+"clicking on the icon."
+msgstr ""
+"Wählen Sie die !settings für das aktuelle Design mit einem Klick auf "
+"das Symbol."
+
+#: plugins/views_plugin_display.inc:946,977,973,1113,1028,1174,1032,1248
+msgid "Access options"
+msgstr "Zugriffsoptionen"
+
+#: plugins/views_plugin_display.inc:987,1018,1015,1155,1070,1216,1074,1290
+msgid "Caching options"
+msgstr "Optionen für das Zwischenspeichern (cache)"
+
+#: plugins/views_plugin_display.inc:1028,1059,1057,1112,1116
+msgid ""
+"Text to display beneath the view. May contain an explanation or links "
+"or whatever you like. Optional."
+msgstr ""
+"Unterhalb der Ansicht anzuzeigender Text. Dieser kann eine Erklärung, "
+"Links oder beliebige andere Inhalte enthalten. (Optional)"
+
+#: plugins/views_plugin_display.inc:1039,1070,1068,1123,1127
+msgid "Text to display if the view has no results. Optional."
+msgstr ""
+"Der anzuzeigende Text, wenn die Ansicht keine Ergebnisse "
+"zurückliefert. (Optional)"
+
+#: plugins/views_plugin_display.inc:1045,1076,1074,1171,1129,1232,1133,1335
+msgid "How should this view be styled"
+msgstr "Wie soll diese Ansicht designed werden"
+
+#: plugins/views_plugin_display.inc:1051,1082,1080,1177,1135,1238,1139,1341
+msgid ""
+"If the style you choose has settings, be sure to click the settings "
+"button that will appear next to it in the View summary."
+msgstr ""
+"Wenn das ausgewählte Design Einstellungen enthält, dann klicke auf "
+"die „Einstellungen“-Schaltfläche, welches sich neben der "
+"Zusammenfassung der Ansicht befindet."
+
+#: plugins/views_plugin_display.inc:1065,1096,1094,1191,1149,1252,1153,1353
+msgid "Style options"
+msgstr "Darstellungsoptionen"
+
+#: plugins/views_plugin_display.inc:1076,1107,1105,1202,1160,1263,1164,1364
+msgid "Row style options"
+msgstr "Darstellungsoptionen für Zeilen"
+
+#: plugins/views_plugin_display.inc:1091,1122,1121,1218,1176,1279,1180,1380
+msgid "How should each row in this view be styled"
+msgstr "Wie soll jede Zeile in dieser Ansicht designed werden"
+
+#: plugins/views_plugin_display.inc:1104,1135,1134,1231,1189,1292,1193,1391
+msgid ""
+"You may also adjust the !settings for the currently selected row style "
+"by clicking on the icon."
+msgstr ""
+"Wählen Sie die !settings für das aktuelle Zeilendesign mit einem "
+"Klick auf das Symbol."
+
+#: plugins/views_plugin_display.inc:1110,1141,1140,1237,1195,1298,1199,1397
+msgid "Which display to use for path"
+msgstr "Welche Anzeige für den Pfad verwendet werden soll"
+
+#: plugins/views_plugin_display.inc:1119,1150,1149,1246,1204,1307,1208,1406
+msgid ""
+"Which display to use to get this display's path for things like "
+"summary links, rss feed links, more links, etc."
+msgstr ""
+"Die hier angebene Anzeige wird als Pfad beim Abrufen von z.B. der "
+"Zusammfassung-Links, RSS-Feed-Links, Weiter-Links etc. verwendet."
+
+#: plugins/views_plugin_display.inc:1143,1174,1173,1270,1228,1331,1232,1487
+msgid "Display output"
+msgstr "Anzeigeausgabe"
+
+#: plugins/views_plugin_display.inc:1147,1178,1177,1274,1232,1335,1236,1491
+msgid "Alternative display output"
+msgstr "Alternative Anzeigeausgabe"
+
+#: plugins/views_plugin_display.inc:1154,1185,1184,1281,1239,1342,1243,1498
+msgid "Style output"
+msgstr "Designausgabe"
+
+#: plugins/views_plugin_display.inc:1158,1189,1188,1285,1243,1346,1247,1502
+msgid "Alternative style"
+msgstr "Alternatives Design"
+
+#: plugins/views_plugin_display.inc:1165,1196,1195,1292,1250,1353,1254,1509
+msgid "Row style output"
+msgstr "Ausgabe des Zeilendesign"
+
+#: plugins/views_plugin_display.inc:1169,1200,1199,1296,1254,1357,1258,1513
+msgid "Alternative row style"
+msgstr "Alternatives Zeilendesign"
+
+#: plugins/views_plugin_display.inc:1177,1208,1207,1304,1262,1365,1266,1521
+msgid "Field @field (ID: @id)"
+msgstr "Feld @field (ID: @id)"
+
+#: plugins/views_plugin_display.inc:1185,1216,1215,1312,1270,1373,1274,1527
+msgid ""
+"This section lists all possible templates for the display plugin and "
+"for the style plugins, ordered roughly from the least specific to the "
+"most specific. The active template for each plugin -- which is the "
+"most specific template found on the system -- is highlighted in bold."
+msgstr ""
+"Dieser Bereich listet alle Templates für das Anzeige-Plugin und für "
+"das Design-Plugin, sortiert von weniger nach spezifischeren. Das "
+"aktive Template für ein Plugin -- das spezifischste Template, das "
+"gefunden wurde -- wird hervorgehoben."
+
+#: plugins/views_plugin_display.inc:1204,1235,1234,1339,1289,1400,1293,1554
+msgid "Change theme"
+msgstr "Theme ändern"
+
+#: plugins/views_plugin_display.inc:1220,1251,1250,1355,1305,1416,1309,1568
+msgid "Rescan template files"
+msgstr "Vorlagendateien erneut einlesen"
+
+#: plugins/views_plugin_display.inc:1226,1257,1256,1361,1311,1422,1315,1572
+msgid ""
+"<strong>Important!</strong> When adding, removing, or renaming "
+"template files, it is necessary to make Drupal aware of the changes by "
+"making it rescan the files on your system. By clicking this button you "
+"clear Drupal's theme registry and thereby trigger this rescanning "
+"process. The highlighted templates above will then reflect the new "
+"state of your system."
+msgstr ""
+"<strong>Wichtig!</strong> Wenn Templatedateien hinzugefügt, entfernt "
+"oder umbenannt werden, ist es notwendig Drupal von den Änderungen in "
+"Kenntnis zu setzen durch neu-einlesen der Dateien auf dem System. "
+"Durch klicken auf der Schaltfläche wird Drupals Themeregistrierung "
+"gelöscht und der Scanvorgang wird ausgelöst. Die oben "
+"hervorgehobenen Templates werden dann den neuen Zustand ihres Systems "
+"widerspiegeln."
+
+#: plugins/views_plugin_display.inc:1232,1263,1262,1367,1317,1428,1321,1578
+msgid "Theming information (display)"
+msgstr "Theming-Information (Anzeige)"
+
+#: plugins/views_plugin_display.inc:1233,1260,1289,1318,1264,1291,1320,1349,1263,1290,1319,1348,1368,1395,1424,1453,1345,1374,1403,1429,1456,1485,1514,1322,1378,1407,1579,1604,1631,1658
+msgid "Back to !info."
+msgstr "Zurück zu !info."
+
+#: plugins/views_plugin_display.inc:1233,1260,1289,1318,1264,1291,1320,1349,1263,1290,1319,1348,1368,1395,1424,1453,1345,1374,1403,1429,1456,1485,1514,1322,1378,1407,1579,1604,1631,1658
+msgid "theming information"
+msgstr "Theming-Information"
+
+#: plugins/views_plugin_display.inc:1236,1267,1266,1371,1321,1432,1325,1582
+msgid "This display has no theming information"
+msgstr "Für diese Anzeige gibt es keine Theming-Information"
+
+#: plugins/views_plugin_display.inc:1239,1270,1269,1374,1324,1435,1328,1585
+msgid "This is the default theme template used for this display."
+msgstr ""
+"Dies ist das standardmäßig verwendete Theme-Template für diese "
+"Anzeige."
+
+#: plugins/views_plugin_display.inc:1245,1276,1275,1380,1330,1441,1334,1591
+msgid "This is an alternative template for this display."
+msgstr "Dies ist eine alternative Vorlage für diese Anzeige."
+
+#: plugins/views_plugin_display.inc:1259,1290,1289,1394,1344,1455,1348,1603
+msgid "Theming information (style)"
+msgstr "Theming-Information (Design)"
+
+#: plugins/views_plugin_display.inc:1265,1296,1295,1400,1350,1461,1354,1609
+msgid "This display has no style theming information"
+msgstr "Diese Anzeige enthält keine Theming-Information für das Design"
+
+#: plugins/views_plugin_display.inc:1268,1299,1298,1403,1353,1464,1357,1612
+msgid "This is the default theme template used for this style."
+msgstr ""
+"Dies ist das standardmäßig verwendete Theme-Template für dieses "
+"Design."
+
+#: plugins/views_plugin_display.inc:1274,1305,1304,1409,1359,1470,1363,1618
+msgid "This is an alternative template for this style."
+msgstr "Dies ist ein alternatives Template für dieses Design."
+
+#: plugins/views_plugin_display.inc:1288,1317,1319,1348,1318,1347,1423,1452,1373,1402,1484,1513,1377,1406,1630,1657
+msgid "Theming information (row style)"
+msgstr "Theming-Information (Zeilendesign)"
+
+#: plugins/views_plugin_display.inc:1294,1325,1324,1429,1379,1490,1383,1636
+msgid "This display has no row style theming information"
+msgstr "Diese Anzeige enthält keine Theming-Information für das Zeilendesign"
+
+#: plugins/views_plugin_display.inc:1297,1320,1328,1351,1327,1350,1432,1455,1382,1405,1493,1516,1386,1409,1639,1660
+msgid "This is the default theme template used for this row style."
+msgstr ""
+"Dies ist das standardmäßig verwendete Theme-Template für dieses "
+"Zeilendesign."
+
+#: plugins/views_plugin_display.inc:1303,1334,1333,1438,1388,1499,1392,1645
+msgid "This is an alternative template for this row style."
+msgstr "Dies ist ein alternatives Template für dieses Zeilendesign."
+
+#: plugins/views_plugin_display.inc:1335,1366,1365,1470,1420,1531,1424,1673
+msgid "Put the exposed form in a block"
+msgstr "Das hervorgehobene Formular in einen Block legen"
+
+#: plugins/views_plugin_display.inc:1339,1370,1369,1474,1424,1535,1428,1675
+msgid ""
+"If set, any exposed widgets will not appear with this view. Instead, a "
+"block will be made available to the Drupal block administration "
+"system, and the exposed form will appear there. Note that this block "
+"must be enabled manually, Views will not enable it for you."
+msgstr ""
+"Wenn aktiviert, werden hervorgehobene Filter nicht mit der Ansicht "
+"angezeigt. Stattdessen wird ein Block zur Verfügung gestellt, der das "
+"hervorgehobene Formular enthält. Hierbei ist zu beachten, dass dieser "
+"Block manuell in der Blöckeverwaltung aktiviert werden muss und dies "
+"nicht automatisch geschieht."
+
+#: plugins/views_plugin_display.inc:1373,1404,1403,1582,1458,1643,1462,1774
+msgid "File found in folder @template-path"
+msgstr "Datei wurde im Verzeichnis @template-path gefunden"
+
+#: plugins/views_plugin_display.inc:1377,1408,1407,1586,1462,1647,1466,1778
+msgid "(File not found, in folder @template-path)"
+msgstr "(Datei wurde im Verzeichnis @template-path nicht gefunden)"
+
+#: plugins/views_plugin_display.inc:1575,1607,1606,1846,1668,1914,1672,2067
+msgid "Status: using default values."
+msgstr "Status: Standardwerte werden verwendet."
+
+#: plugins/views_plugin_display.inc:1589,1621,1620,1860,1682,1928,1686,2083
+msgid "Status: using overridden values."
+msgstr "Status: Übersteuerte Werte werden verwendet."
+
+#: plugins/views_plugin_display.inc:1809,1841,1840,2059,1902,2127,1906,2286
+msgid ""
+"Display \"@display\" uses fields but there are none defined for it or "
+"all are excluded."
+msgstr ""
+"Die Anzeige „@display“ verwendet Felder, aber es sind keine dafür "
+"angegeben oder alle ausgeschlossen."
+
+#: plugins/views_plugin_display.inc:1814,1846,1845,2064,1907,2132,1911,2291
+msgid "Display \"@display\" uses a path but the path is undefined."
+msgstr ""
+"Die Anzeige „@display“ verwendet einen Pfad, aber der Pfad ist "
+"nicht angegeben."
+
+#: plugins/views_plugin_display.inc:1820,1852,1851,2070,1913,2138,1917,2297
+msgid "Display \"@display\" has an invalid style plugin."
+msgstr "Die Anzeige „@display“ verwendet ein ungültiges Design-Plugin."
+
+#: plugins/views_plugin_display.inc:1852,1847,1895,1894,2113,1956,2181,1960,2340
+msgid "Exposed form: @view-@display_id"
+msgstr "Hervorgehobenes Formular: @view-@display_id"
+
+#: plugins/views_plugin_display_attachment.inc:57,59
+msgid "Attachment settings"
+msgstr "Einstellungen für Anhänge"
+
+#: plugins/views_plugin_display_attachment.inc:62,109,64,123
+msgid "Inherit arguments"
+msgstr "Vererbte Argumente"
+
+#: plugins/views_plugin_display_attachment.inc:68,118,70,132
+msgid "Inherit exposed filters"
+msgstr "Hervorgehobene Filter übernehmen"
+
+#: plugins/views_plugin_display_attachment.inc:113,127
+msgid ""
+"Should this display inherit its arguments from the parent display to "
+"which it is attached?"
+msgstr ""
+"Soll diese Anzeige ihre Argumente aus der übergeordnete Anzeige "
+"übernehmen, die sie angehängt ist ?"
+
+#: plugins/views_plugin_display_attachment.inc:122,136
+msgid ""
+"Should this display inherit its exposed filter values from the parent "
+"display to which it is attached?"
+msgstr ""
+"Soll diese Anzeige die Werte des hervorgehobenen Filter aus der "
+"übergeordneten Anzeige, das angehangen wurde, übernehmen?"
+
+#: plugins/views_plugin_display_attachment.inc:130,162
+msgid "Attach before or after the parent display?"
+msgstr "Bevor oder nach der übergeordneten Anzeige anhängen?"
+
+#: plugins/views_plugin_display_attachment.inc:145,177
+msgid "Select which display or displays this should attach to."
+msgstr "Wählen Sie, welche Anzeige oder Anzeigen angehangen werden soll."
+
+#: plugins/views_plugin_display_block.inc:34,33
+msgid "@view: @display"
+msgstr "@view: @display"
+
+#: plugins/views_plugin_display_block.inc:135,133
+msgid "Block admin description"
+msgstr "Blockbeschreibung für die Verwaltung"
+
+#: plugins/views_plugin_display_block.inc:143,141
+msgid "Block caching type"
+msgstr "Cachetyp für Blöcke"
+
+#: plugins/views_plugin_display_block.inc:147,145
+msgid ""
+"This sets the default status for Drupal's built-in block caching "
+"method; this requires that caching be turned on in block "
+"administration, and be careful because you have little control over "
+"when this cache is flushed."
+msgstr ""
+"Dies setzt den Standardstatus für Drupal's integrierte "
+"Blockcaching-Methode. Dies erfordert, dass das Caching in der "
+"Blockverwaltung eingeschaltet ist. Seien Sie vorsichtig, weil Sie nur "
+"wenig Kontrolle darüber haben, wann dieser Cache geleert wird."
+
+#: plugins/views_plugin_display_feed.inc:90,93
+msgid "Using the site name"
+msgstr "Der Name der Website wird verwendet"
+
+#: plugins/views_plugin_display_feed.inc:132,135
+msgid "Use the site name for the title"
+msgstr "Den Namen der Website für den Titel verwenden."
+
+#: plugins/views_plugin_display_feed.inc:149,152
+msgid "The feed icon will be available only to the selected displays."
+msgstr ""
+"Das Feed-Symbol wird nur in den ausgewählten Anzeigen zur Verfügung "
+"stehen."
+
+#: plugins/views_plugin_display_feed.inc:155,158
+msgid ""
+"This view will be displayed by visiting this path on your site. It is "
+"recommended that the path be something like \"path/%/%/feed\" or "
+"\"path/%/%/rss.xml\", putting one % in the path for each argument you "
+"have defined in the view."
+msgstr ""
+"Diese Ansicht wird durch den Besuch des Pfades auf der Website "
+"angezeigt. Es werden Pfade wie „pfad/%/%/feed“ oder "
+"„pfad/%/%/rss.xml“ empfohlen, bei dem für jedes in der Ansicht "
+"festgelegte Argument ein % in den Pfad eingefügt wird."
+
+#: plugins/views_plugin_display_page.inc:219,221,223,257
+msgid "No menu"
+msgstr "Kein Menü"
+
+#: plugins/views_plugin_display_page.inc:222,224,226,260
+msgid "Normal: @title"
+msgstr "Normal: @title"
+
+#: plugins/views_plugin_display_page.inc:226,228,230,264
+msgid "Tab: @title"
+msgstr "Reiter: @title"
+
+#: plugins/views_plugin_display_page.inc:242,244,246,280
+msgid "Change settings for the parent menu"
+msgstr "Einstellungen für das übergeordnete Menü ändern"
+
+#: plugins/views_plugin_display_page.inc:255,257,259,293
+msgid "The menu path or URL of this view"
+msgstr "Der Menüpfad oder URL von dieser Ansicht"
+
+#: plugins/views_plugin_display_page.inc:259,261,263,297
+msgid ""
+"This view will be displayed by visiting this path on your site. You "
+"may use \"%\" in your URL to represent values that will be used for "
+"arguments: For example, \"node/%/feed\"."
+msgstr ""
+"Diese Ansicht wird durch den Besuch dieses Pfades auf der Website "
+"angezeigt. Sie können für Argumente „%“ in der URL verwenden: "
+"Zum Beispiel „node/%/feed“."
+
+#: plugins/views_plugin_display_page.inc:267,269,271,305
+msgid "Menu item entry"
+msgstr "Menüpunkt"
+
+#: plugins/views_plugin_display_page.inc:284,286,288,322
+msgid "No menu entry"
+msgstr "Kein Menüeintrag"
+
+#: plugins/views_plugin_display_page.inc:285,287,289,323
+msgid "Normal menu entry"
+msgstr "Normaler Menüeintrag"
+
+#: plugins/views_plugin_display_page.inc:286,372,288,374,290,376,324,399
+msgid "Menu tab"
+msgstr "Menü-Reiter"
+
+#: plugins/views_plugin_display_page.inc:287,289,291,325
+msgid "Default menu tab"
+msgstr "Standardmäßiger Reiter im Menü"
+
+#: plugins/views_plugin_display_page.inc:296,298,300,334
+msgid "If set to normal or tab, enter the text to use for the menu item."
+msgstr ""
+"Den zu verwendenden Text für den Menüpunkt eingeben, wenn dieser auf "
+"Normal oder Reiter eingestellt wird."
+
+#: plugins/views_plugin_display_page.inc:304,306,308,342
+msgid ""
+"If set to normal or tab, enter the text to use for the menu item's "
+"description."
+msgstr ""
+"Wenn auf Normal oder Reiter eingestellt wird, kann der Text für die "
+"Beschreibung des Menüpunkt angegeben werden."
+
+#: plugins/views_plugin_display_page.inc:311,313,315
+msgid ""
+"Warning: Changing this item's menu will not work reliably in Drupal "
+"6.4 or earlier. Please upgrade your copy of Drupal at !url."
+msgstr ""
+"Warnung: für dieses Menüelement ist mindestens die Version 6.5 von "
+"Drupal erforderlich, neue Versionen erhalten Sie auf !url."
+
+#: plugins/views_plugin_display_page.inc:325,327,329,403,354,426
+msgid "Insert item into an available menu."
+msgstr "Fügen Sie ein Element zu einem Menü hinzu."
+
+#: plugins/views_plugin_display_page.inc:336,338,340,414,365,437
+msgid "Menu selection requires the activation of menu module."
+msgstr "Die Menüauswahl erfordert die Aktivierung eines Menü-Moduls."
+
+#: plugins/views_plugin_display_page.inc:344,346,348,373
+msgid "The lower the weight the higher/further left it will appear."
+msgstr ""
+"Je geringer das Gewicht desto höher / weiter links wird es "
+"erscheinen."
+
+#: plugins/views_plugin_display_page.inc:350,352,354,379
+msgid "Default tab options"
+msgstr "Standardmäßige Reiteroptionen"
+
+#: plugins/views_plugin_display_page.inc:359,361,363,386
+msgid ""
+"When providing a menu item as a tab, Drupal needs to know what the "
+"parent menu item of that tab will be. Sometimes the parent will "
+"already exist, but other times you will need to have one created. The "
+"path of a parent item will always be the same path with the last part "
+"left off. i.e, if the path to this view is <em>foo/bar/baz</em>, the "
+"parent path would be <em>foo/bar</em>."
+msgstr ""
+"Wenn ein Menüpunkt als ein Reiter bereitgestellt wird, muss Drupal "
+"wissen, welcher der Reitern der übergeordnete Menüpunkt ist. "
+"Manchmal ist schon einer vorhanden, aber manchmal ist es notwendig "
+"einen zu erstellen. Der Pfad von ein übergeordneten Menüpunkt ist "
+"immer der gleiche Pfad mit dem letzten Teil, das weg gelassen wird. "
+"Z.B., wenn der Pfad von dieser Ansicht "
+"<em>sport/fussball/bundesliga</em> ist, sollte der Pfad des "
+"übergeordneten Menüpunkt <em>sport/fussball</em> sein."
+
+#: plugins/views_plugin_display_page.inc:372,374,376,399
+msgid "Already exists"
+msgstr "Schon vorhanden"
+
+#: plugins/views_plugin_display_page.inc:380,382,384,407
+msgid "If creating a parent menu item, enter the title of the item."
+msgstr ""
+"Einen Titel für den Menüpunkt eingeben, wenn ein übergeordneter "
+"Menüpunkt erstellt wird."
+
+#: plugins/views_plugin_display_page.inc:388,390,392,415
+msgid "If creating a parent menu item, enter the description of the item."
+msgstr ""
+"Wenn Sie einen übergeordneten Menüpunkt erstellen, so vergeben Sie "
+"für einen Titel."
+
+#: plugins/views_plugin_display_page.inc:398,400,423,446
+msgid ""
+"If the parent menu item is a tab, enter the weight of the tab. The "
+"lower the number, the more to the left it will be."
+msgstr ""
+"Die Reihenfolge des Reiters eingeben, wenn der übergeordnete "
+"Menüpunkt ein Reiter ist. Umso niedriger die Zahl ist, desto weiter "
+"links wird er angezeigt."
+
+#: plugins/views_plugin_display_page.inc:412,414,437,460
+msgid "\"$arg\" is no longer supported. Use % instead."
+msgstr ""
+"„$arg“ wird nicht mehr unterstützt. Stattdessen kann % verwendet "
+"werden."
+
+#: plugins/views_plugin_display_page.inc:416,418,441,464
+msgid "\"%\" may not be used for the first segment of a path."
+msgstr "„%“ darf nicht als erstes Segment eines Pfades verwendet werden."
+
+#: plugins/views_plugin_display_page.inc:426,428,451,474
+msgid "Views cannot create normal menu items for paths with a % in them."
+msgstr ""
+"Ansichten können keine normalen Menüpunkt für Pfade mit einem % "
+"erstellen."
+
+#: plugins/views_plugin_display_page.inc:433,435,458,481
+msgid "A display whose path ends with a % cannot be a tab."
+msgstr "Eine Anzeige deren Pfad mit einem % abschließt kann kein Reiter sein."
+
+#: plugins/views_plugin_display_page.inc:438,440,463,486
+msgid "Title is required for this menu type."
+msgstr "Ein Titel ist für diesen Menütyp erforderlich."
+
+#: plugins/views_plugin_display_page.inc:469,471,494,517
+msgid "Display @display is set to use a menu but the menu title is not set."
+msgstr ""
+"Die Anzeige @display ist konfiguriert ein Menü zu verwenden, aber der "
+"Menütitel ist nicht vorhanden."
+
+#: plugins/views_plugin_display_page.inc:475,477,500,523
+msgid ""
+"Display @display is set to use a parent menu but the parent menu title "
+"is not set."
+msgstr ""
+"Die Anzeige @display ist konfiguriert ein übergeordnetes Menü zu "
+"verwenden, aber der übergeordnete Menütitel ist nicht vorhanden."
+
+#: plugins/views_plugin_row_fields.inc:40,41,38,39
+msgid "Inline fields"
+msgstr "Inline-Felder"
+
+#: plugins/views_plugin_row_fields.inc:43,44,41,42
+msgid ""
+"Inline fields will be displayed next to each other rather than one "
+"after another."
+msgstr "Inline-Felder werden nebeneinander anstatt untereinander angezeigt."
+
+#: plugins/views_plugin_row_fields.inc:51,52,49,50
+msgid ""
+"The separator may be placed between inline fields to keep them from "
+"squishing up next to each other. You can use HTML in this field."
+msgstr ""
+"Der Separator kann zwischen Inline-Felder gesetzt werden, um sie "
+"voneinander getrennt zu halten. HTML kann in diesem Feld auch benutzt "
+"werden."
+
+#: plugins/views_plugin_style.inc:106,98,154
+msgid "Grouping field"
+msgstr "Gruppierungsfeld"
+
+#: plugins/views_plugin_style.inc:109,101,157
+msgid ""
+"You may optionally specify a field by which to group the records. "
+"Leave blank to not group."
+msgstr ""
+"Es kann optional ein Feld angegeben werden, womit die Einträge "
+"gruppiert werden. Freilassen, um nicht zu gruppieren."
+
+#: plugins/views_plugin_style.inc:206,262,261,253,331
+msgid "Style @style requires a row style but the row plugin is invalid."
+msgstr ""
+"Das Design @style erfordert ein Zeilendesign, aber das Zeilen-Plugin "
+"ist ungültig."
+
+#: plugins/views_plugin_style_grid.inc:41,42,43
+msgid ""
+"Horizontal alignment will place items starting in the upper left and "
+"moving right. Vertical alignment will place items starting in the "
+"upper left and moving down."
+msgstr ""
+"Horizontale Ausrichtung platziert die Einträge beginnend von oben "
+"links nach rechts. Vertikale Ausrichtung platziert die Einträge "
+"beginnend von oben links nach unten."
+
+#: plugins/views_plugin_style_rss.inc:56
+msgid "Use the site mission for the description"
+msgstr "Die Websitebeschreibung für die Beschreibung verwenden."
+
+#: plugins/views_plugin_style_rss.inc:60,57
+msgid "RSS description"
+msgstr "RSS-Beschreibung"
+
+#: plugins/views_plugin_style_rss.inc:62,59
+msgid "This will appear in the RSS feed itself."
+msgstr "Dies wird in dem RSS-Newsfeed erscheinen."
+
+#: plugins/views_plugin_style_summary.inc:39,50
+msgid "Override number of items to display"
+msgstr "Die Anzahl der anzuzeigenden Einträge übersteuern"
+
+#: plugins/views_plugin_style_summary_unformatted.inc:26
+msgid "Display items inline"
+msgstr "Einträge inline anzeigen"
+
+#: plugins/views_plugin_style_table.inc:126,140,141
+msgid ""
+"You need at least one field before you can configure your table "
+"settings"
+msgstr ""
+"Mindestens ein Feld ist erforderlich, bevor die Tabelleneinstellungen "
+"konfiguriert werden können"
+
+#: plugins/views_plugin_style_table.inc:135,149,148
+msgid "Override normal sorting if click sorting is used"
+msgstr ""
+"Normale Sortierung übersteuern, wenn die Klick-Sortierung verwendet "
+"wird."
+
+#: plugins/views_plugin_style_table.inc:141,155,154
+msgid "Enable Drupal style \"sticky\" table headers (Javascript)"
+msgstr "Drupals \"selbstklebenden\" Tabellenkopf aktivieren (Javascript)"
+
+#: plugins/views_plugin_style_table.inc:143,157,156
+msgid ""
+"(Sticky header effects will not be active for preview below, only on "
+"live output.)"
+msgstr ""
+"(Der Klebeeffekt des Tabellenkopf wird in der unteren Vorschau nicht "
+"angezeigt, nur bei der Live-Ausgabe.)"
+
+#: plugins/views_plugin_style_table.inc:151,165,164
+msgid ""
+"If a default sort order is selected, what order should it use by "
+"default."
+msgstr ""
+"Welche standardmäßige Sortierung bei der standardmäßigen "
+"Sortierreihenfolge verwendet werden soll."
+
+#: plugins/views_plugin_style_table.inc:237,251,263,244,256,268
+msgid ""
+"Place fields into columns; you may combine multiple fields into the "
+"same column. If you do, the separator in the column specified will be "
+"used to separate the fields. Check the sortable box to make that "
+"column click sortable, and check the default sort radio to determine "
+"which column will be sorted by default, if any. You may control column "
+"order and field labels in the fields section."
+msgstr ""
+"Platziert Felder in Spalten; es können mehrere Felder in die gleiche "
+"Spalte kombiniert werden. Wenn Sie das tun, wird der Separator in der "
+"angegebenen Spalte benutzt, um die Felder zu trennen. Das "
+"„Sortierbar”-Kontrollkästchen anhaken, um Spalten sortierbar zu "
+"machen. Die Standardsortierung (Radiobutton) festlegen, die "
+"Spaltenreihenfolge sowie Feldbeschriftung kann im Bereich der Felder "
+"konfiguriert werden."
+
+#: plugins/views_plugin_display.inc:1080,1141,1215
+msgid "Group by"
+msgstr "Gruppieren nach"
+
+#: plugins/views_plugin_pager_full.inc:63,65
+msgid "Number of pages"
+msgstr "Anzahl der Seiten"
+
+#: plugins/views_plugin_display.inc:938,969,965,1105,1020,1166,1024,1239
+msgid ""
+"You may also adjust the !settings for the currently selected access "
+"restriction by clicking on the icon."
+msgstr ""
+"Wählen Sie die !settings für die aktuellen Zugriffsberechtigungen "
+"mit einem Klick auf das Symbol."
+
+#: plugins/views_plugin_display.inc:980,1011,1008,1148,1063,1209,1067,1283
+msgid ""
+"You may also adjust the !settings for the currently selected cache "
+"mechanism by clicking on the icon."
+msgstr ""
+"Wählen Sie die !settings für den aktuell ausgewählten "
+"Cache-Mechanismus mit einem Klick auf das Symbol."
+
+#: plugins/views_plugin_row_fields.inc:57,54,55
+msgid "Hide empty fields"
+msgstr "﻿Leere Felder ausblenden"
+
+#: plugins/views_plugin_row_fields.inc:59,56,57
+msgid "Do not display fields, labels or markup for fields that are empty."
+msgstr ""
+"Keine Felder, Bezeichnungen oder Feldermarkups anzeigen, die leer "
+"sind."
+
+#: plugins/views_plugin_style_jump_menu.inc:32,33,34
+msgid ""
+"You need at least one field before you can configure your jump menu "
+"settings"
+msgstr ""
+"Mindestens ein Feld ist erforderlich, bevor das Sprungmenü "
+"konfiguriert werden kann"
+
+#: plugins/views_plugin_style_jump_menu.inc:40,41,42
+msgid ""
+"To properly configure a jump menu, you must select one field that will "
+"represent the path to utilize. You should then set that field to "
+"exclude. All other displayed fields will be part of the menu. Please "
+"note that all HTML will be stripped from this output as select boxes "
+"cannot show HTML."
+msgstr ""
+"Um ein Sprungmenü zu konfigurieren, wählen Sie ein Feld aus, das den "
+"verwendeten Pfad enthält. Sie sollten dann das Feld als "
+"auszuschließend von der Ausgabe festlegen. Alle anderen angezeigten "
+"Felder werden Teil des Menüs. Hinweis: HTML wird bei Ausgabe dieser "
+"Felder entfernt."
+
+#: plugins/views_plugin_style_jump_menu.inc:51,52,53
+msgid "Path field"
+msgstr "﻿Pfad-Feld"
+
+#: plugins/views_plugin_display.inc:637,764,805,849
+msgid "Exposed form"
+msgstr "Hervorgehobenes Formular"
+
+#: plugins/views_plugin_display.inc:928,924,1055,979,1116,983,1199
+msgid "Always display more link"
+msgstr "﻿Immer den ‚mehr‘-Link angezeigen"
+
+#: plugins/views_plugin_display.inc:929,925,1056,980,1117,984,1200
+msgid ""
+"This will display the more link even if there are no more items to "
+"display."
+msgstr ""
+"﻿Dadurch wird den weitere Link angezeigt, auch wenn es keine weitere "
+"Elemente zum Anzeigen mehr gibt."
+
+#: plugins/views_plugin_display_attachment.inc:76,141
+msgid "Inherit pager"
+msgstr "Vererbte Seitennavigation"
+
+#: plugins/views_plugin_display_attachment.inc:82,150
+msgid "Render pager"
+msgstr "Seitennavigation ausgeben"
+
+#: plugins/views_plugin_display_attachment.inc:145
+msgid ""
+"Should this display inherit its paging values from the parent display "
+"to which it is attached? Note that this will provide unexpected "
+"results if the number of items to display do not match."
+msgstr ""
+"Soll diese Anzeige die Werte für die Seitennavigation von der Seite "
+"erben, auf der sie erscheint? Hinweis: Falls die Zahl der Elemente "
+"(Seiten) nicht übereinstimmt, werden Sie unerwartete Resultate "
+"erhalten."
+
+#: plugins/views_plugin_display_attachment.inc:153
+msgid "Render"
+msgstr "Formatieren"
+
+#: plugins/views_plugin_display_attachment.inc:154
+msgid ""
+"Should this display render the pager values? If not it can inherit "
+"from the parent..."
+msgstr ""
+"Soll diese Anzeige mit Werten für die Seitennavigation ausgegeben "
+"werden oder diese von der übergeordneten Seite übernehmen?"
+
+#: plugins/views_plugin_argument_validate_php.inc:26
+msgid ""
+"Enter PHP code that returns TRUE or FALSE. No return is the same as "
+"FALSE, so be SURE to return something if you do not want to declare "
+"the argument invalid. Do not use &lt;?php ?&gt;. The argument to "
+"validate will be \"$argument\" and the view will be \"$view\". You may "
+"change the argument by setting \"$handler->argument\". You may change "
+"the title used for substitutions for this argument by setting "
+"\"$argument->validated_title\"."
+msgstr ""
+"PHP Code eingeben, der den Wahrheitswert TRUE oder FALSE zurückgibt. "
+"Kein Rückgabewert entspricht FALSE. Daher sollte drauf geachtet "
+"werden, dass etwas zurückgeben wird, wenn das Argument nicht als "
+"ungültig deklariert werden soll. Kein &lt;?php ?&gt; verwenden. Das "
+"Argument zum Validieren ist „$argument“ und der Ansicht ist "
+"\"$view\". Das Argument ist durch Setzen des „$handler->argument“ "
+"änderbar."
+
+#: plugins/views_plugin_display.inc:771,812,856
+msgid "Machine Name"
+msgstr "Maschinenlesbarer Name"
+
+#: plugins/views_plugin_display.inc:773,814,858
+msgid "Change the machine name of this display."
+msgstr "Den Maschinennamen dieser Anzeige ändern."
+
+#: plugins/views_plugin_display.inc:856,897,958
+msgid "Change settings for this pager type."
+msgstr "Einstellungen für diese Seitennavigation ändern."
+
+#: plugins/views_plugin_display.inc:879,920,974
+msgid "Use grouping"
+msgstr "Verwenden von Gruppierung"
+
+#: plugins/views_plugin_display.inc:881,1077,922,1138,976,1212
+msgid "Allow grouping and aggregation (calculation) of fields."
+msgstr "Gruppierung und Aggregation (Berechnung) der Felder ermöglichen."
+
+#: plugins/views_plugin_display.inc:968,1009,1070
+msgid "Exposed form style"
+msgstr "Stil des hervorgehobenen Formulars"
+
+#: plugins/views_plugin_display.inc:970,1011,1072
+msgid "Select the kind of exposed filter to use."
+msgstr "Wählen Sie die Art der exponierten Filter."
+
+#: plugins/views_plugin_display.inc:974,1015,1076
+msgid "Exposed form settings for this exposed form style."
+msgstr "Einstellungen für dieses Design dem Benutzer zum Ändern päsentieren"
+
+#: plugins/views_plugin_display.inc:1007,1060,1121
+msgid "The machine name of this display"
+msgstr "Der Maschinenname dieser Anzeige"
+
+#: plugins/views_plugin_display.inc:1010,1063,1124
+msgid "This is machine name of the display."
+msgstr "Der Maschinenname dieser Anzeige"
+
+#: plugins/views_plugin_display.inc:1081,1142,1216
+msgid ""
+"If enabled, some fields may become unavailable. All fields that are "
+"selected for grouping will be collapsed to one record per distinct "
+"value. Other fields which are selected for aggregation will have the "
+"function run on them. For example, you can group nodes on title and "
+"count the number of nids in order to get a list of duplicate titles."
+msgstr ""
+"Wenn aktiviert, sind möglicherweise einige Felder nicht mehr "
+"verfügbar. Alle Felder, die für die Gruppierung ausgewählt sind, "
+"werden um einen Datensatz pro eindeutigen Wert reduziert. Andere "
+"Felder, die für die Aggregation ausgewählt sind, werden mit der "
+"ausgewählten Funktion aggregiert. Beispielsweise können Sie "
+"Beiträge nach dem Titel gruppieren und zählen die Anzahl der "
+"Beiträge, um eine Liste der doppelten Titeln zu erhalten."
+
+#: plugins/views_plugin_display.inc:1319,1380,1534
+msgid ""
+"<strong>Important!</strong> You have changed the display's machine "
+"name. Anything that attached to this display specifically, such as "
+"theming, may stop working until it is updated. To see theme "
+"suggestions for it, you need to save the view."
+msgstr ""
+"<strong>Wichtige!</strong> Sie haben den maschinenlesbaren Namen der "
+"Anzeige geändert. Alle Funktionen, die auf diesen Namen angewiesen "
+"sind, werden möglicherweise nicht mehr arbeiten, bis diese "
+"aktualisiert werden. Speichern Sie die Ansicht, um Vorschläge zum "
+"Theming zu erhalten."
+
+#: plugins/views_plugin_display.inc:1483,1544,1684
+msgid "Exposed Form"
+msgstr "Hervorgehobenes Formular"
+
+#: plugins/views_plugin_display.inc:1508,1569,1709
+msgid "Exposed form options"
+msgstr "Optionen für hervorgehobenes Formular"
+
+#: plugins/views_plugin_display.inc:1519,1580,1720
+msgid "Select which pager, if any, to use for this view"
+msgstr "Wählen Sie eine Seitennavigation für diese Ansicht aus"
+
+#: plugins/views_plugin_display.inc:1538,1599,1739
+msgid ""
+"You may also adjust the !settings for the currently selected pager by "
+"clicking on the icon."
+msgstr ""
+"Wählen Sie die !settings für die aktuelle Seitennavigation mit einem "
+"Klick auf das Symbol."
+
+#: plugins/views_plugin_display.inc:1545,1606,1746
+msgid "Pager options"
+msgstr "Optionen der Seitennavigation"
+
+#: plugins/views_plugin_display.inc:1605,1672,1807
+msgid "Display id should be unique."
+msgstr "Die Anzeige-ID muss eindeutig sein."
+
+#: plugins/views_plugin_exposed_form.inc:47
+msgid "Text to display in the submit button of the exposed form."
+msgstr "Text der Schaltfläche zum Absenden eines hervorgehobenen Formulars."
+
+#: plugins/views_plugin_exposed_form.inc:54
+msgid "Include reset button"
+msgstr "Eine Reset-Schaltfläche einschließen"
+
+#: plugins/views_plugin_exposed_form.inc:55
+msgid ""
+"If checked the exposed form will provide a button to reset all the "
+"applied exposed filters"
+msgstr ""
+"Eine Schaltfläche, um alle Eingaben eines hervorgehobenen Formulars "
+"zurückzusetzen."
+
+#: plugins/views_plugin_exposed_form.inc:61
+msgid "Reset button label"
+msgstr "Bezeichnung der Reset-Schaltfläche"
+
+#: plugins/views_plugin_exposed_form.inc:62
+msgid "Text to display in the reset button of the exposed form."
+msgstr ""
+"Text der Schaltfläche zum Zurücksetzen eines hervorgehobenen "
+"Formulars."
+
+#: plugins/views_plugin_exposed_form.inc:73
+msgid "Exposed sorts label"
+msgstr "Bezeichner für die Sortierung"
+
+#: plugins/views_plugin_exposed_form.inc:74
+msgid "Text to display as the label of the exposed sort select box."
+msgstr "Geben Sie den Text zur Beschriftung der Auswahl zum Sortieren ein."
+
+#: plugins/views_plugin_exposed_form.inc:82
+msgid "Text to use when exposed sort is ordered ascending."
+msgstr "Text für Aufsteigende Sortierung"
+
+#: plugins/views_plugin_exposed_form.inc:90
+msgid "Text to use when exposed sort is ordered descending."
+msgstr "Text für Absteigende Sortierung"
+
+#: plugins/views_plugin_exposed_form_input_required.inc:16
+msgid "Select any filter and click on Apply to see results"
+msgstr ""
+"Wählen Sie eine beliebige Filter und klicken Sie auf Anwenden, um "
+"Ergebnisse zu sehen"
+
+#: plugins/views_plugin_exposed_form_input_required.inc:26
+msgid "Text on demand"
+msgstr "Text für ‚auf Anfrage‘"
+
+#: plugins/views_plugin_exposed_form_input_required.inc:27
+msgid ""
+"Text to display instead results until user select and apply an expose "
+"filter."
+msgstr ""
+"Text, der anstelle von Ergebnissen angezeigt wird, bis der Benutzer "
+"eine Wahl getroffen hat oder einen Filter angewandt hat."
+
+#: plugins/views_plugin_pager_full.inc:64,66
+msgid "The total number of pages. Leave empty to show all pages."
+msgstr "Die Anzahl der Seiten, leer lassen für alle Seiten."
+
+#: plugins/views_plugin_pager_full.inc:73,75
+msgid "Exposed options"
+msgstr "Verfügbare Optionen"
+
+#: plugins/views_plugin_pager_full.inc:75,77
+msgid ""
+"Exposing this options allows users to define their values in a exposed "
+"form when view is displayed"
+msgstr ""
+"Anbieten von Optionen für Benutzern, damit diese Werte eingeben "
+"können und so die Ausgabe einer Ansicht steuern können."
+
+#: plugins/views_plugin_pager_full.inc:80,82
+msgid "Expose items per page"
+msgstr "Verfügbar machen von Elementen pro Seite"
+
+#: plugins/views_plugin_pager_full.inc:81,112,83
+msgid ""
+"When checked, users can determine how many items per page show in a "
+"view"
+msgstr ""
+"Wenn aktiviert, können Benutzer bestimmen, wie viele Elemente pro "
+"Seite in einer Ansicht angezeigt werden"
+
+#: plugins/views_plugin_pager_full.inc:87,89
+msgid "Items per page label"
+msgstr "Bezeichner für Einträge pro Seite"
+
+#: plugins/views_plugin_pager_full.inc:89,91
+msgid "Label to use in the exposed items per page form element."
+msgstr "Label in der exponierten Elementen pro Seite-Form-Element verwenden."
+
+#: plugins/views_plugin_pager_full.inc:99,101
+msgid "Exposed items per page options"
+msgstr "Exponierten Elemente pro Seitenoptionen"
+
+#: plugins/views_plugin_pager_full.inc:101
+msgid ""
+"Set between which values the user can choose when determining the "
+"items per page. Separated by colon."
+msgstr ""
+"Zwischen welchen Werten kann der Nutzer wählen bei der Bestimmung der "
+"Begriffe pro Seite. Getrennt durch Doppelpunkt."
+
+#: plugins/views_plugin_pager_full.inc:111,132
+msgid "Expose Offset"
+msgstr "Expose Offset"
+
+#: plugins/views_plugin_pager_full.inc:118,139
+msgid "Offset label"
+msgstr "Offset-Label"
+
+#: plugins/views_plugin_pager_full.inc:120,141
+msgid "Label to use in the exposed offset form element."
+msgstr "Label für exponierte Offset Seite-Form-Element verwenden."
+
+#: plugins/views_plugin_pager_full.inc:148
+msgid ""
+"Please insert a list of integer numeric values separated by colons: "
+"e.g: 10, 20, 50, 100"
+msgstr ""
+"Legen Sie eine Liste von ganzzahligen Werte durch Doppelpunkte "
+"getrennt an, z. B.: 10, 20, 50, 100"
+
+#: plugins/views_plugin_pager_full.inc:287,290,327
+msgid "Offset must be an number greather or equal than 0."
+msgstr "Der Offset muss eine Zahl größer oder gleich als 0 sein."
+
+#: plugins/views_plugin_pager_full.inc:12
+msgid "Paged, @count item, skip @skip"
+msgid_plural "Paged, @count items, skip @skip"
+msgstr[0] "Seitennavigation, @count Element, übersprungen @skip"
+msgstr[1] "Seitennavigation, @count Elemente, übersprungen @skip"
+
+#: plugins/views_plugin_pager_full.inc:14
+msgid "Paged, @count item"
+msgid_plural "Paged, @count items"
+msgstr[0] "Seitennavigation, @count Element"
+msgstr[1] "Seitennavigation, @count Elemente"
+
+#: plugins/views_plugin_pager_mini.inc:12
+msgid "Mini pager, @count item, skip @skip"
+msgid_plural "Mini pager, @count items, skip @skip"
+msgstr[0] "Mini-Seitennavigation, @count Element, übersprungen @skip"
+msgstr[1] "Mini-Seitennavigation, @count Elemente, übersprungen @skip"
+
+#: plugins/views_plugin_pager_mini.inc:14
+msgid "Mini pager, @count item"
+msgid_plural "Mini pager, @count items"
+msgstr[0] "Mini-Seitennavigation, @count Element"
+msgstr[1] "Mini-Seitennavigation, @count Elemente"
+
+#: plugins/views_plugin_pager_none.inc:12
+msgid "All items, skip @skip"
+msgstr "Alle Elemente, überspringen @skip"
+
+#: plugins/views_plugin_pager_none.inc:14
+msgid "All items"
+msgstr "Alle Elemente"
+
+#: plugins/views_plugin_pager_some.inc:12
+msgid "@count item, skip @skip"
+msgid_plural "@count items, skip @skip"
+msgstr[0] "@count Element, übersprungen @skip"
+msgstr[1] "@count Elemente, übersprungen @skip"
+
+#: plugins/views_plugin_pager_some.inc:14
+msgid "@count item"
+msgid_plural "@count items"
+msgstr[0] "@count Element"
+msgstr[1] "@count Elemente"
+
+#: plugins/views_plugin_query_default.inc:1126,1330
+msgid "Group results together"
+msgstr "Gruppieren von Ergebnissen"
+
+#: plugins/views_plugin_display.inc:871,1027,875,1088
+msgid "Change the CSS class name(s) that will be added to this display."
+msgstr ""
+"﻿Ändern Sie die CSS-Klasse-Namen, die dieser Anzeige hinzugefügt "
+"werden."
+
+#: plugins/views_plugin_display.inc:923,1089,927,1174
+msgid ""
+"The CSS class names will be added to the view. This enables you to use "
+"specific CSS code for each view. You may define multiples classes "
+"separated by spaces."
+msgstr ""
+"Die CSS-Klassennamen werden der Ansicht hinzugefügt. Damit können "
+"Sie spezifischen CSS-Code für jede Ansicht verwenden. Sie können ein "
+"Vielfaches-Klassen, die durch Leerzeichen getrennt sind definieren."
+
+#: plugins/views_plugin_display.inc:1480,1665,1484,1796
+msgid "CSS classes must be alphanumeric or dashes only."
+msgstr ""
+"Eine CSS-Klasse darf nur aus Buchstaben, Zahlen und Unterstrichen "
+"bestehen."
+
+#: plugins/views_plugin_pager_full.inc:101,103
+msgid ""
+"Set between which values the user can choose when determining the "
+"items per page. Separated by comma."
+msgstr ""
+"Zwischen welchen Werten kann der Nutzer wählen bei der Bestimmung der "
+"Begriffe pro Seite. Getrennt durch Komma."
+
+#: plugins/views_plugin_pager_full.inc:112,133
+msgid ""
+"When checked, users can determine how many items should be skipped at "
+"the beginning."
+msgstr ""
+"Benutzer können bestimmen, wie viele Elemente am Anfang übersprungen "
+"werden."
+
+#: plugins/views_plugin_pager_full.inc:148,169
+msgid ""
+"Please insert a list of integer numeric values separated by commas: "
+"e.g: 10, 20, 50, 100"
+msgstr ""
+"Legen Sie eine Liste von ganzzahligen Werte durch Komma getrennt an, "
+"z. B.: 10, 20, 50, 100"
+
+#: plugins/views_plugin_style_grid.inc:47,48
+msgid "Fill up single line"
+msgstr "Eine einzelne Zeile füllen"
+
+#: plugins/views_plugin_style_grid.inc:48,49
+msgid ""
+"If you disable this option a grid with only one row will have the "
+"amount of items as tds. If you disable it this can cause problems with "
+"your css."
+msgstr ""
+"Wenn Sie diese Option deaktivieren, erhalten Sie eine Reihe mit nur "
+"einer Zeile von Elementen als Tds. Wenn Sie es deaktivieren, Sie "
+"können dadurch Probleme mit Ihrem Css erhalten."
+
+#: plugins/views_plugin_style.inc:164
+msgid "Row class"
+msgstr "Zeile-Klasse"
+
+#: plugins/views_plugin_display.inc:873
+msgid "No comment"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:874
+msgid "Comment or document this display."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:891
+msgid "Display status"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:893
+msgid "Define if this display is or is not enabled."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:982
+msgid "Query settings"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:984
+msgid "Allow to set some advanced settings for the query plugin"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1131
+msgid "The name and the description of this display"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1135
+msgid ""
+"This name will appear only in the administrative interface for the "
+"View."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1141
+msgid ""
+"This description will appear only in the administrative interface for "
+"the View."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1146
+msgid "This display's comments"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1149
+msgid ""
+"This value will be seen and used only within the Views UI and can be "
+"used to document this display. You can use this to provide notes for "
+"other or future maintainers of your site about how or why this display "
+"is configured."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1162
+msgid "Status of this display"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1165
+msgid "Enable display"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1166
+msgid "If unchecked, this display will not be available in the site."
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1309
+msgid "Query options"
+msgstr ""
+
+#: plugins/views_plugin_display.inc:1802
+msgid "Display name must be letters, numbers, or underscores only."
+msgstr ""
+
+#: plugins/views_plugin_display_attachment.inc:145
+msgid ""
+"Should this display inherit its paging values from the parent display "
+"to which it is attached?"
+msgstr ""
+
+#: plugins/views_plugin_display_attachment.inc:154
+msgid ""
+"Should this display render the pager values? This is only meaningful "
+"if inheriting a pager."
+msgstr ""
+
+#: plugins/views_plugin_display_block.inc:136
+msgid ""
+"This will appear as the name of this block in administer >> structure "
+">> blocks."
+msgstr ""
+
+#: plugins/views_plugin_exposed_form_input_required.inc:27
+msgid ""
+"Text to display instead of results until the user selects and applies "
+"an exposed filter."
+msgstr ""
+
+#: plugins/views_plugin_pager_full.inc:114
+msgid "Include all items option"
+msgstr ""
+
+#: plugins/views_plugin_pager_full.inc:115
+msgid ""
+"If checked, an extra item will be included to items per page to "
+"display all items"
+msgstr ""
+
+#: plugins/views_plugin_pager_full.inc:121
+msgid "All items label"
+msgstr ""
+
+#: plugins/views_plugin_pager_full.inc:122
+msgid "Which label will be used to display all items"
+msgstr ""
+
+#: plugins/views_plugin_pager_some.inc:32
+msgid "The number of items to display per page."
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:185
+msgid "Disable SQL rewriting"
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:186
+msgid ""
+"Disabling SQL rewriting will disable node_access checks as well as "
+"other modules that implement hook_db_rewrite_sql()."
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:189
+msgid ""
+"WARNING: Disabling SQL rewriting means that node access security is "
+"disabled. This may allow users to see data they should not be able to "
+"see if your view is misconfigured. Please use this option only if you "
+"understand and accept this security risk."
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:199
+msgid "Use Slave Server"
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:200
+msgid ""
+"This will make the query attempt to connect to a slave server if "
+"available.  If no slave server is defined or available, it will fall "
+"back to the default server."
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:228
+msgid "Field Language"
+msgstr ""
+
+#: plugins/views_plugin_query_default.inc:229
+msgid ""
+"All fields which support translations will be displayed in the "
+"selected language."
+msgstr ""
+
+#: plugins/views_plugin_style.inc:165
+msgid "The class to provide on each row."
+msgstr ""
+
+#: plugins/views_plugin_style.inc:171
+msgid ""
+"You may use field tokens from as per the \"Replacement patterns\" used "
+"in \"Rewrite the output of this field\" for all fields."
+msgstr ""
+
+#: plugins/views_plugin_style_jump_menu.inc:82
+msgid ""
+"If checked, the current path will be displayed as the default option "
+"in the jump menu, if applicable."
+msgstr ""
+
+#: plugins/views_plugin_style_list.inc:40
+msgid "The class to provide on the wrapper, outside the list."
+msgstr ""
+
+#: plugins/views_plugin_style_list.inc:46
+msgid "List class"
+msgstr ""
+
+#: plugins/views_plugin_style_list.inc:47
+msgid "The class to provide on the list element itself."
+msgstr ""
+
+#: plugins/views_plugin_style_summary_jump_menu.inc:77
+msgid ""
+"If checked, the current argument setting will be displayed as the "
+"default option in the jump menu, if applicable."
+msgstr ""
+

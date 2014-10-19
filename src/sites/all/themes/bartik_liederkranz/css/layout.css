@@ -1,0 +1,346 @@
+/* $Id: layout.css,v 1.8 2011/01/04 05:24:13 webchick Exp $ */
+
+/* ---------- Basic Layout Styles ----------- */
+
+html,
+body,
+#page  {
+  height: 100%;
+}
+
+#page-wrapper {
+  min-height: 100%;
+  min-width: 960px;
+}
+
+#header div.section,
+#featured div.section,
+#messages div.section,
+#main-menu-inner,
+#main,
+#triptych,
+#footer-columns,
+#footer,
+#final {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header div.section {
+  position: relative;
+}
+
+#header, #final-wrapper {
+  background: url("../images/header-bg.jpg") repeat-x scroll center top transparent;
+  margin-bottom: 0;
+}
+
+.region-header {
+  float: right; /* LTR */
+  margin: 0 5px 10px;
+}
+
+.with-secondary-menu .region-header {
+  margin-top: 3em;
+}
+
+.without-secondary-menu .region-header {
+  margin-top: 15px;
+}
+
+#secondary-menu {
+  position: absolute;
+  right: 0; /* LTR */
+  top: 0;
+  width: 480px;
+}
+
+#content,
+#sidebar-first,
+#sidebar-second,
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last,
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
+}
+
+.one-sidebar #content {
+  /* width: 720px; */
+  width: 70%
+}
+
+.two-sidebars #content {
+  width: 480px;
+}
+
+.no-sidebars #content {
+  width: 960px;
+  float: none;
+}
+
+#sidebar-first,
+#sidebar-second {
+  /* width: 240px; */
+  width: 30%;
+}
+
+#content .section,
+.sidebar .section {
+  padding: 0 20px;
+}
+
+#breadcrumb {
+  margin: 0 15px;
+}
+
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+  margin: 20px 20px 30px;
+  width: 280px;
+}
+
+#footer-wrapper {
+  padding: 35px 5px 30px;
+}
+
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn{
+  padding: 0 10px;
+  width: 300px;
+}
+
+.region-footer-firstcolumn .content,
+.region-footer-secondcolumn .content,
+.region-footer-thirdcolumn .content{
+  margin-top: 15px !important;
+}
+
+.region-footer-thirdcolumn{
+  padding: 0;
+}
+
+#footer {
+  width: 940px;
+  min-width: 920px;
+}
+
+#branding {
+    text-align: center;
+    background: url("../images/header-light.png") no-repeat scroll center top transparent;
+}
+
+#logo img {
+    padding: 20px 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#site-subheader {
+    background-color: black;
+}
+
+/* front banner */
+#site-subheader {
+   background-color: #000;
+}
+
+/* ------------------- Main ------------------- */
+#main-wrapper {
+  min-height: 300px;
+  background: url("../images/shadow-line2.png") repeat-x scroll left 20px transparent;
+  margin-top: -25px;
+  position: relative;
+  z-index: 50;  
+}
+
+#main {
+  background: url("../images/shadow-line2.png") repeat-x scroll left top transparent;
+  padding: 5px 0 20px;
+} 
+
+#main-inner1 {
+    background: url("../images/line-shadow-topleft.png") no-repeat scroll left top transparent;
+    margin: 0 -5px;
+    padding: 0 0 0 10px;
+}
+
+#main-inner2 {
+    background: url("../images/line-shadow-topright.png") no-repeat scroll right top transparent;
+    padding-right: 10px;
+}
+
+#main-inner3 {
+    background: url("../images/inner-bg.gif") repeat-x scroll left top transparent;
+    /* padding: 20px 20px 0; */
+}
+
+#banner-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    min-width: 990px;
+    position: relative;   
+}
+
+#banner {
+    background: url("../images/banner_front.jpg") repeat scroll 0 0 transparent;    
+    display: block;
+    overflow: hidden;
+    position: relative; 
+    height: 265px;      
+}
+
+div.shadow, div.shadow2 {
+	background:url("../images/shadow-left.png") no-repeat scroll left top transparent;
+	display:block;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+div.shadow2 {
+	background:url("../images/shadow-right.png") no-repeat scroll right bottom transparent;
+	position:absolute;
+	z-index:2;
+}
+
+/* Blocks */
+div.block h2 {
+    background: url("../images/block_head_bg.png") no-repeat scroll center bottom transparent;
+    font-size: 90%;
+    font-weight: normal;
+    padding-bottom: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Overlay Excludes */
+#overlay-content #page-wrapper {
+  background: transparent;
+}
+ 
+#overlay-content #main-wrapper
+ {
+  min-height: 300px;
+  background: transparent;
+  margin-top: 0;
+}
+
+#overlay-content #main {
+  background: transparent;
+  padding: 5px 0 20px;
+} 
+
+#overlay-content #main-inner1,
+#overlay-content #closure-inner1 {
+    background: transparent;
+    margin: 0 -5px;
+    padding: 0 0 0 10px;
+}
+
+#overlay-content #main-inner2,
+#overlay-content  #closure-inner2 {
+    background: transparent;
+    padding-right: 10px;
+}
+
+#overlay-content #main-inner3,
+#overlay-content #closure-inner3 {
+    background: transparent;
+}
+
+#overlay-content #footer-wrapper {
+    background: transparent;
+}
+
+#overlay-content #final-wrapper {
+    display: none;
+}
+
+#closure-wrapper {
+    margin-bottom: -25px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 5;    
+}
+
+#closure {
+    background: url("../images/shadow-line2.png") repeat-x scroll left bottom transparent;
+    padding: 0 0 5px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#closure-inner1 {
+    background: url("../images/line-shadow-bottomleft.png") no-repeat scroll left bottom transparent;
+    margin: 0 -5px;
+    padding: 0 0 0 10px;
+}
+
+#closure-inner2 {
+    background: url("../images/line-shadow-bottomright.png") no-repeat scroll right bottom transparent;
+    padding-right: 10px;
+}
+
+#closure-inner3 {
+    background: url("../images/closure-bg.gif") repeat-x scroll left bottom transparent;
+    padding: 20px 20px 40px;
+}
+
+#footer-wrapper {
+    background: url("../images/shadow-line2.png") repeat-x scroll left top #430807;
+    color: #FFFFFF;
+}
+
+#final-inner1 {
+    background: url("../images/grad-final.png") repeat-x scroll left top transparent;
+    border-top: 1px solid #9F1511;
+}
+
+#final {
+    padding-top: 1em;
+    color: #D47472;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* Footer Blocks */
+#footer-wrapper div.block h2 {
+    background: none repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #6A0D0C;
+    color: #D47472;
+    margin: 0 0 5px;
+    padding: 0 0 10px;
+    text-shadow: 0 1px #430807;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    text-transform: uppercase;
+}
+
+#block-views-events-block-1 li {
+    margin-bottom: 12px !important;    
+}
+
+#footer-wrapper span.date-display-single {
+    font-size: 0.9em;
+}
+
+#footer-wrapper a {
+    color: #D47472;    
+}
+
+#final-wrapper a {
+    color: #fff;    
+}

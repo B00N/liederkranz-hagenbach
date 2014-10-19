@@ -1,0 +1,1419 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_handler_field_numeric.inc,v 1.5 2009/04/07 22:59:14 merlinofchaos
+#  views_handler_field_numeric.inc,v 1.6 2009/07/02 00:13:12 merlinofchaos
+#  views_handler_field_numeric.inc,v 1.5.2.1 2009/07/02 00:13:06 merlinofchaos
+#  views_handler_field_numeric.inc,v 1.6.4.4 2010/11/05 07:20:54 dereine
+#  views_handler_field.inc,v 1.19 2009/06/03 19:55:52 merlinofchaos
+#  views_handler_field.inc,v 1.33 2009/09/24 23:28:30 merlinofchaos
+#  views_handler_field.inc,v 1.14.2.20 2009/11/02 23:31:14 merlinofchaos
+#  views_handler_field.inc,v 1.33.2.1 2009/11/02 23:31:17 merlinofchaos
+#  views_handler_field.inc,v 1.14.2.23 2010/01/04 23:03:51 merlinofchaos
+#  views_handler_field.inc,v 1.33.2.11 2010/03/25 18:32:55 merlinofchaos
+#  views_handler_field.inc,v 1.33.2.13 2010/04/08 21:38:46 merlinofchaos
+#  views_handler_field.inc,v 1.33.2.14 2010/06/16 19:15:53 merlinofchaos
+#  views_handler_field.inc,v 1.33.4.44 2010/12/23 22:38:54 dereine
+#  views_handler_filter_in_operator.inc,v 1.10 2009/06/10 22:04:57 merlinofchaos
+#  views_handler_filter_in_operator.inc,v 1.12 2009/09/25 00:29:43 merlinofchaos
+#  views_handler_filter_in_operator.inc,v 1.6.2.9 2009/09/25 14:33:06 merlinofchaos
+#  views_handler_filter_in_operator.inc,v 1.12.2.2 2010/04/07 19:14:57 merlinofchaos
+#  views_handler_filter_in_operator.inc,v 1.12.4.11 2010/12/16 01:06:06 merlinofchaos
+#  views_handler_sort_date.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_field_date.inc,v 1.3 2009/06/02 18:20:18 merlinofchaos
+#  views_handler_field_date.inc,v 1.2.2.1 2009/06/02 18:20:12 merlinofchaos
+#  views_handler_field_date.inc,v 1.3.4.6 2010/12/23 22:34:37 dereine
+#  views_handler_argument.inc,v 1.8 2009/06/02 19:38:33 merlinofchaos
+#  views_handler_argument.inc,v 1.9 2009/06/26 00:23:42 merlinofchaos
+#  views_handler_argument.inc,v 1.7.2.2 2009/06/26 00:23:37 merlinofchaos
+#  views_handler_argument.inc,v 1.9.2.1 2009/11/30 20:47:03 merlinofchaos
+#  views_handler_argument.inc,v 1.7.2.11 2010/01/25 19:02:37 merlinofchaos
+#  views_handler_argument.inc,v 1.9.2.2 2010/03/12 21:25:33 merlinofchaos
+#  views_handler_argument.inc,v 1.9.4.12 2010/12/17 21:42:19 merlinofchaos
+#  views_handler_filter_string.inc,v 1.7 2009/01/27 20:40:29 merlinofchaos
+#  views_handler_filter_string.inc,v 1.8 2009/09/15 16:25:55 merlinofchaos
+#  views_handler_filter_string.inc,v 1.7.2.2 2009/09/15 16:25:52 merlinofchaos
+#  views_handler_filter_string.inc,v 1.7.2.3 2009/11/10 23:20:05 merlinofchaos
+#  views_handler_filter_string.inc,v 1.8.2.1 2010/03/08 19:53:49 merlinofchaos
+#  views_handler_filter_string.inc,v 1.8.2.2 2010/04/29 19:29:17 merlinofchaos
+#  views_handler_filter_string.inc,v 1.8.4.6 2011/01/05 18:18:40 dereine
+#  views_handler_filter_numeric.inc,v 1.7 2009/03/25 17:29:33 merlinofchaos
+#  views_handler_filter_numeric.inc,v 1.7.4.1 2010/03/08 19:53:49 merlinofchaos
+#  views_handler_filter_numeric.inc,v 1.7.6.7 2011/01/01 10:59:37 dereine
+#  views_handler_sort.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_sort.inc,v 1.2 2009/06/26 00:23:42 merlinofchaos
+#  views_handler_sort.inc,v 1.1.2.1 2009/06/26 00:23:37 merlinofchaos
+#  views_handler_argument_string.inc,v 1.4 2009/01/07 21:30:31 merlinofchaos
+#  views_handler_argument_string.inc,v 1.5 2009/06/25 21:58:17 merlinofchaos
+#  views_handler_argument_string.inc,v 1.4.2.1 2009/06/25 21:58:21 merlinofchaos
+#  views_handler_argument_string.inc,v 1.4.2.2 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_argument_string.inc,v 1.5.4.7 2011/01/05 22:40:08 dereine
+#  views_handler_filter_many_to_one.inc,v 1.2 2009/06/01 21:29:11 merlinofchaos
+#  views_handler_filter_many_to_one.inc,v 1.1.2.1 2009/06/01 21:30:00 merlinofchaos
+#  views_handler_filter_many_to_one.inc,v 1.1.2.2 2009/12/07 19:03:05 merlinofchaos
+#  views_handler_filter_many_to_one.inc,v 1.2.2.2 2010/03/08 19:53:49 merlinofchaos
+#  views_handler_filter_many_to_one.inc,v 1.2.4.5 2010/10/12 22:14:55 merlinofchaos
+#  views_handler_field_boolean.inc,v 1.2 2009/01/30 00:01:41 merlinofchaos
+#  views_handler_field_boolean.inc,v 1.3 2009/06/25 21:49:17 merlinofchaos
+#  views_handler_field_boolean.inc,v 1.2.2.1 2009/06/25 21:49:25 merlinofchaos
+#  views_handler_field_boolean.inc,v 1.3.2.1 2010/03/25 01:14:22 merlinofchaos
+#  views_handler_field_boolean.inc,v 1.3.4.3 2010/08/26 09:41:55 dereine
+#  views_handler_filter.inc,v 1.9 2009/06/03 00:05:05 merlinofchaos
+#  views_handler_filter.inc,v 1.10 2009/06/26 00:23:42 merlinofchaos
+#  views_handler_filter.inc,v 1.6.2.6 2009/11/02 23:17:12 merlinofchaos
+#  views_handler_filter.inc,v 1.10.2.2 2009/11/30 20:07:28 merlinofchaos
+#  views_handler_filter.inc,v 1.6.2.14 2010/01/22 01:41:24 merlinofchaos
+#  views_handler_filter.inc,v 1.10.2.4 2009/12/23 19:21:34 merlinofchaos
+#  views_handler_filter.inc,v 1.10.4.15 2010/12/24 13:42:00 dereine
+#  views_handler_field_math.inc,v 1.1.2.3 2010/11/05 07:20:54 dereine
+#  views_handler_argument_date.inc,v 1.3 2009/03/24 22:28:26 merlinofchaos
+#  views_handler_argument_date.inc,v 1.3.4.1 2009/11/18 20:40:54 merlinofchaos
+#  views_handler_argument_date.inc,v 1.3.2.1 2009/11/18 20:40:23 merlinofchaos
+#  views_handler_argument_date.inc,v 1.3.4.2 2010/03/11 00:49:52 merlinofchaos
+#  views_handler_argument_date.inc,v 1.3.6.3 2010/03/11 08:30:24 dereine
+#  views_handler_argument_many_to_one.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_argument_many_to_one.inc,v 1.1.2.1 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_argument_many_to_one.inc,v 1.1.4.2 2010/03/22 20:40:41 merlinofchaos
+#  views_handler_argument_many_to_one.inc,v 1.1.6.3 2010/03/22 20:40:31 merlinofchaos
+#  views_handler_argument_null.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_argument_numeric.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_argument_numeric.inc,v 1.1.6.1 2009/11/02 22:01:25 merlinofchaos
+#  views_handler_field_prerender_list.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_field_prerender_list.inc,v 1.3 2009/07/02 00:13:12 merlinofchaos
+#  views_handler_field_prerender_list.inc,v 1.1.2.2 2009/07/02 00:13:06 merlinofchaos
+#  views_handler_field_prerender_list.inc,v 1.3.4.4 2010/11/05 07:20:54 dereine
+#  views_handler_filter_boolean_operator.inc,v 1.4 2009/06/01 21:41:31 merlinofchaos
+#  views_handler_filter_boolean_operator.inc,v 1.6 2009/09/15 16:18:38 merlinofchaos
+#  views_handler_filter_boolean_operator.inc,v 1.3.2.4 2009/09/15 16:18:35 merlinofchaos
+#  views_handler_filter_boolean_operator.inc,v 1.3.2.6 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_filter_boolean_operator.inc,v 1.6.2.2 2010/03/13 00:51:00 merlinofchaos
+#  views_handler_filter_boolean_operator.inc,v 1.6.4.8 2010/12/09 23:52:48 merlinofchaos
+#  views_handler_filter_date.inc,v 1.3 2008/11/26 19:01:44 merlinofchaos
+#  views_handler_filter_date.inc,v 1.3.4.1 2010/03/10 20:28:26 merlinofchaos
+#  views_handler_filter_date.inc,v 1.3.6.7 2011/01/03 17:46:33 dereine
+#  views_handler_relationship.inc,v 1.3 2009/06/04 20:09:26 merlinofchaos
+#  views_handler_relationship.inc,v 1.4 2009/06/26 00:23:42 merlinofchaos
+#  views_handler_relationship.inc,v 1.1.2.2 2009/11/02 23:25:10 merlinofchaos
+#  views_handler_relationship.inc,v 1.4.2.1 2009/11/02 23:25:14 merlinofchaos
+#  views_handler_relationship.inc,v 1.4.4.4 2010/12/17 21:42:19 merlinofchaos
+#  views_handler_sort.inc,v 1.1.2.2 2009/12/23 20:29:00 merlinofchaos
+#  views_handler_sort.inc,v 1.2.4.4 2010/12/17 21:42:19 merlinofchaos
+#  views_handler_sort_formula.inc,v 1.1 2008/09/03 19:21:28 merlinofchaos
+#  views_handler_field_counter.inc,v 1.3.2.1 2009/11/02 20:48:26 merlinofchaos
+#  views_handler_field_counter.inc,v 1.1.2.6 2009/11/09 21:30:22 merlinofchaos
+#  views_handler_field_counter.inc,v 1.3.2.2 2009/11/06 18:19:40 merlinofchaos
+#  views_handler_field_counter.inc,v 1.1.2.7 2009/12/03 01:47:31 merlinofchaos
+#  views_handler_field_counter.inc,v 1.3.4.4 2010/11/05 07:20:54 dereine
+#  views_handler_area.inc,v 1.1.2.1 2010/01/19 22:11:27 merlinofchaos
+#  views_handler_area.inc,v 1.1.4.3 2010/12/17 21:42:19 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-12-19 19:12+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: handlers/views_handler_field_numeric.inc:62,87
+msgid "Prefix"
+msgstr "Präfix"
+
+#: handlers/views_handler_field_numeric.inc:68,93
+msgid "Suffix"
+msgstr "Suffix"
+
+#: handlers/views_handler_field.inc:195,199,207,204,435
+msgid "Text"
+msgstr "Text"
+
+#: handlers/views_handler_filter_in_operator.inc:15,17
+msgid "Options"
+msgstr "Optionen"
+
+#: handlers/views_handler_sort_date.inc:33
+msgid "Year"
+msgstr "Jahr"
+
+#: handlers/views_handler_field_date.inc:24,23
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: handlers/views_handler_argument.inc:129,130,131
+msgid "Breadcrumb"
+msgstr "Pfadnavigation"
+
+#: handlers/views_handler_field_date.inc:29,28
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: handlers/views_handler_filter_string.inc:70,82,74
+msgid "Does not contain"
+msgstr "Enthält nicht"
+
+#: handlers/views_handler_filter_numeric.inc:26
+msgid "Is less than"
+msgstr "Ist weniger als"
+
+#: handlers/views_handler_filter_numeric.inc:32
+msgid "Is less than or equal to"
+msgstr "Ist weniger als oder gleich"
+
+#: handlers/views_handler_filter_numeric.inc:50
+msgid "Is greater than or equal to"
+msgstr "Ist größer als oder gleich"
+
+#: handlers/views_handler_filter_numeric.inc:56
+msgid "Is greater than"
+msgstr "Ist größer als"
+
+#: handlers/views_handler_sort.inc:54
+msgid "Sort order"
+msgstr "Sortierreihenfolge"
+
+#: handlers/views_handler_sort_date.inc:32
+msgid "Month"
+msgstr "Monat"
+
+#: handlers/views_handler_sort_date.inc:31
+msgid "Day"
+msgstr "Tag"
+
+#: handlers/views_handler_argument_string.inc:60
+msgid "Case"
+msgstr "Groß-/Kleinschreibung"
+
+#: handlers/views_handler_field.inc:315,332,340,333,341,338,594
+msgid "Maximum length"
+msgstr "Maximallänge"
+
+#: handlers/views_handler_filter_in_operator.inc:73,74,81
+msgid "in"
+msgstr "In Moderation"
+
+#: handlers/views_handler_field.inc:299,316,324,317,325,322,578
+msgid "Replacement patterns"
+msgstr "Ersetzungsmuster"
+
+#: handlers/views_handler_sort_date.inc:30
+msgid "Hour"
+msgstr "Stunde"
+
+#: handlers/views_handler_sort_date.inc:29
+msgid "Minute"
+msgstr "Minute"
+
+#: handlers/views_handler_sort_date.inc:28
+msgid "Second"
+msgstr "Sekunde"
+
+#: handlers/views_handler_sort_date.inc:26
+msgid "Granularity"
+msgstr "Granularität"
+
+#: handlers/views_handler_filter_many_to_one.inc:31,33
+msgid "or"
+msgstr "oder"
+
+#: handlers/views_handler_field_boolean.inc:35,55
+msgid "Reverse"
+msgstr "Umgekehrt"
+
+#: handlers/views_handler_field_numeric.inc:55,58
+msgid "Thousands separator"
+msgstr "Tausender-Trennzeichen"
+
+#: handlers/views_handler_field_boolean.inc:25,49
+msgid "Output format"
+msgstr "Ausgabeformat"
+
+#: handlers/views_handler_filter_numeric.inc:253,252
+msgid "@min and @max"
+msgstr "@min und @max"
+
+#: handlers/views_handler_field_numeric.inc:38,41
+msgid "Precision"
+msgstr "Genauigkeit"
+
+#: handlers/views_handler_filter_string.inc:41,33
+msgid "contains"
+msgstr "enthält"
+
+#: handlers/views_handler_filter_string.inc:126,138,150
+msgid "Case sensitive"
+msgstr "Groß- und Kleinschreibung berücksichtigen"
+
+#: handlers/views_handler_field.inc:222,226,234,227,235,232,473
+msgid "Link class"
+msgstr "Klasse für Links"
+
+#: handlers/views_handler_filter_many_to_one.inc:39,41
+msgid "and"
+msgstr "und"
+
+#: handlers/views_handler_field.inc:229
+msgid "P"
+msgstr ""
+
+#: handlers/views_handler_field.inc:266,274,267,275,272,523
+msgid "Target"
+msgstr "Ziel"
+
+#: handlers/views_handler_field_date.inc:30,29
+msgid "Time ago"
+msgstr "Zeit vergangen"
+
+#: handlers/views_handler_filter.inc:340,248,254,255
+msgid "Force single"
+msgstr "Eine Option erzwingen"
+
+#: handlers/views_handler_argument.inc:196,197,198
+msgid "Validator"
+msgstr "Validator"
+
+#: handlers/views_handler_filter_in_operator.inc:79,80,87
+msgid "Is not one of"
+msgstr "Ist keines von"
+
+#: handlers/views_handler_filter_string.inc:58,50
+msgid "Starts with"
+msgstr "Beginnt mit"
+
+#: handlers/views_handler_field_numeric.inc:47,50
+msgid "Decimal point"
+msgstr "Dezimalpunkt"
+
+#: handlers/views_handler_field_date.inc:39,38
+msgid "Custom date format"
+msgstr "Benutzerdefiniertes Datumsformat"
+
+#: handlers/views_handler_field_math.inc:23
+msgid "Expression"
+msgstr ""
+
+#: handlers/views_handler_filter_string.inc:64,70,62
+msgid "Ends with"
+msgstr "Endet mit"
+
+#: handlers/views_handler_argument.inc:144,145,146
+msgid "Action to take if argument is not present"
+msgstr "Die auszuführende Aktion, wenn das Argument nicht vorhanden ist"
+
+#: handlers/views_handler_argument.inc:159,160,161
+msgid ""
+"If this value is received as an argument, the argument will be "
+"ignored; i.e, \"all values\""
+msgstr ""
+"Sollte dieser Wert als Argument übergeben werden, wird das Argument "
+"ignoriert z.B. „alle Werte“"
+
+#: handlers/views_handler_argument.inc:165,166,167
+msgid "Wildcard title"
+msgstr "Platzhaltertitel"
+
+#: handlers/views_handler_argument.inc:168,169,170
+msgid "The title to use for the wildcard in substitutions elsewhere."
+msgstr ""
+"Der Titel für die Wildcard, der an anderer Stelle in Ersetzungen zu "
+"verwenden ist."
+
+#: handlers/views_handler_argument.inc:200,201
+msgid "<Basic validation>"
+msgstr "<Basisvalidierung>"
+
+#: handlers/views_handler_argument.inc:239,247,251
+msgid "Action to take if argument does not validate"
+msgstr "Die auszuführende Aktion, wenn das Argument nicht valide ist"
+
+#: handlers/views_handler_argument_string.inc:66,80
+msgid "Capitalize first letter"
+msgstr "Ersten Buchstaben groß schreiben"
+
+#: handlers/views_handler_field_boolean.inc:27
+msgid "Yes/No"
+msgstr "Ja/Nein"
+
+#: handlers/views_handler_field.inc:232,236,244,237,245,242,483
+msgid "Alt text"
+msgstr "Alt Text"
+
+#: handlers/views_handler_argument.inc:122,123,124
+msgid ""
+"The title to use when this argument is present. It will override the "
+"title of the view and titles from previous arguments. You can use "
+"percent substitution here to replace with argument titles. Use \"%1\" "
+"for the first argument, \"%2\" for the second, etc."
+msgstr ""
+"Der bei diesem vorhandenen Argument zu verwendende Titel. Dies wird "
+"den Titel der Ansicht und die Titel von vorhergehenden Argumenten "
+"übersteuern. Um Titel mit Argumenten zu ersetzen, kann die "
+"prozentuale Ersetzung verwendet werden. Dabei kann für das erste "
+"Argument „%1“, für das zweite „%2“, etc. verwendet werden."
+
+#: handlers/views_handler_argument.inc:131
+msgid ""
+"The Breadcrumb title to use when this argument is present. If no "
+"breadcrumb is setted here, default Title values will be used, see "
+"\"Title\" for percent substitutions."
+msgstr ""
+"Der Breadcrumb-Titel, wenn dieses Argument vorhanden ist, anderenfalls "
+"wird der Standard-Titel verwendet."
+
+#: handlers/views_handler_argument.inc:191,192,193
+msgid "Validator options"
+msgstr "Validatoroptionen"
+
+#: handlers/views_handler_argument.inc:258,311,315
+msgid "Display all values"
+msgstr "Alle Werte anzeigen"
+
+#: handlers/views_handler_argument.inc:263,316,320
+msgid "Hide view / Page not found (404)"
+msgstr "Ansicht ausblenden / Seite wurde nicht gefunden (404)"
+
+#: handlers/views_handler_argument.inc:268,321,325
+msgid "Display empty text"
+msgstr "Leerer Text anzeigen"
+
+#: handlers/views_handler_argument.inc:287,354,358
+msgid "Provide default argument"
+msgstr "Standardargument zu Verfügung stellen"
+
+#: handlers/views_handler_argument.inc:320,387,391
+msgid "Provide default argument options"
+msgstr "Standardmäßige Argumentoptionen zur Verfügung stellen"
+
+#: handlers/views_handler_argument.inc:330,397,401
+msgid "Default argument type"
+msgstr "Standardtyp für Argumente"
+
+#: handlers/views_handler_argument_date.inc:29
+msgid "Current date"
+msgstr "Aktuelles Datum"
+
+#: handlers/views_handler_argument_date.inc:30
+msgid "Current node's creation time"
+msgstr "Aktuelles Beitragserstellungsdatum"
+
+#: handlers/views_handler_argument_date.inc:31
+msgid "Current node's update time"
+msgstr "Aktuelles Beitragsaktualisierungsdatum"
+
+#: handlers/views_handler_argument_many_to_one.inc:46,48
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3 "
+"(for OR) or 1,2,3 (for AND)."
+msgstr ""
+"Sobald ausgewählt, können Benutzer mehrere Argumente in Form von "
+"1+2+3 (für ODER-Verknüpfungen) oder 1,2,3 (für UND-Verknüpfungen) "
+"angeben."
+
+#: handlers/views_handler_argument_null.inc:21
+msgid "Fail basic validation if any argument is given"
+msgstr ""
+"Die Basisvalidierung soll fehlschlagen, wenn irgendein Argument "
+"übergeben wird"
+
+#: handlers/views_handler_argument_null.inc:23
+msgid ""
+"By checking this field, you can use this to make sure views with more "
+"arguments than necessary fail validation."
+msgstr ""
+"Durch Aktivieren dieses Feldes können Sie sicherstellen, dass "
+"Ansichten mit mehr als erforderlichen Argumenten bei der Validierung "
+"fehlschlagen."
+
+#: handlers/views_handler_argument_numeric.inc:31
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3 "
+"or 1,2,3."
+msgstr ""
+"Wenn ausgewählt, können Benutzer mehrere Argumente in der Form von "
+"1+2+3 oder 1,2,3 angeben."
+
+#: handlers/views_handler_argument_numeric.inc:37
+msgid "Exclude the argument"
+msgstr "Argument ausschließen"
+
+#: handlers/views_handler_argument_numeric.inc:38
+msgid ""
+"If selected, the numbers entered in the argument will be excluded "
+"rather than limiting the view."
+msgstr ""
+"Sobald ausgewählt, werden die im Argument angegebenen Zahlen "
+"ausgeschlossen und nicht zur Begrenzung der Ansicht verwendet."
+
+#: handlers/views_handler_argument_string.inc:44
+msgid "Glossary mode"
+msgstr "Glossar-Modus"
+
+#: handlers/views_handler_argument_string.inc:45
+msgid ""
+"Glossary mode applies a limit to the number of characters used in the "
+"argument, which allows the summary view to act as a glossary."
+msgstr ""
+"Der Glossarmodus begrenzt die Zeichenanzahl, die im Argument benutzt "
+"wird, wodurch die Zusammenfassungs-Ansicht als Glossar verwendet "
+"werden kann."
+
+#: handlers/views_handler_argument_string.inc:51
+msgid "Character limit"
+msgstr "Zeichenbegrenzung"
+
+#: handlers/views_handler_argument_string.inc:52
+msgid ""
+"How many characters of the argument to filter against. If set to 1, "
+"all fields starting with the letter in the argument would be matched."
+msgstr ""
+"Wie viele Zeichen von dem Argument soll heraus gefiltert werden. Wenn "
+"auf 1 gesetzt, sind alle Felder beginnend mit dem Buchstaben in dem "
+"Argument betroffen."
+
+#: handlers/views_handler_argument_string.inc:61
+msgid "When printing the argument result, how to transform the case."
+msgstr ""
+"Wenn das Ergebnis des Argument ausgegeben wird, wie soll die "
+"Groß-/Kleinschreibung gebildet werden."
+
+#: handlers/views_handler_argument_string.inc:63,77
+msgid "No transform"
+msgstr "Keine Umwandlung"
+
+#: handlers/views_handler_argument_string.inc:64,78
+msgid "Upper case"
+msgstr "Großschreibung"
+
+#: handlers/views_handler_argument_string.inc:65,79
+msgid "Lower case"
+msgstr "Kleinschreibung"
+
+#: handlers/views_handler_argument_string.inc:67,81
+msgid "Capitalize each word"
+msgstr "Jedes Wort groß schreiben"
+
+#: handlers/views_handler_argument_string.inc:74
+msgid "Case in path"
+msgstr "Groß-/Kleinschreibung im Pfad"
+
+#: handlers/views_handler_argument_string.inc:75
+msgid ""
+"When printing url paths, how to transform the of the argument. Do not "
+"use this unless with Postgres as it uses case sensitive comparisons."
+msgstr ""
+"Die Behandlung des Arguments beim Drucken von URLs. Verwenden Sie dies "
+"für Postgresql, weil hier Groß-/Kleinschreibung unterschieden wird."
+
+#: handlers/views_handler_argument_string.inc:88
+msgid "Transform spaces to dashes in URL"
+msgstr "Leerzeichen in der URL in Striche umwandeln"
+
+#: handlers/views_handler_field.inc:176,180,188,185,369
+msgid ""
+"The label for this field that will be displayed to end users if the "
+"style requires it."
+msgstr ""
+"Die Beschreibung für dieses Feld wird dem Endbenutzer angezeigt, wenn "
+"das Design es erfordert."
+
+#: handlers/views_handler_field.inc:180,184,192,189,345
+msgid "Exclude from display"
+msgstr "Von der Anzeige ausschließen"
+
+#: handlers/views_handler_field.inc:182,186,194,191
+msgid ""
+"Check this box to not display this field, but still load it in the "
+"view.  Use this option to not show a grouping field in each record, or "
+"when doing advanced theming."
+msgstr ""
+"Die Box anklicken, um dieses Feld nicht anzuzeigen, aber es wird noch "
+"in der Ansicht geladen. Anwendungsbeispiel dieser Option wäre die "
+"Gruppierung nach diesem Feld oder bei fortgeschrittenen Theming."
+
+#: handlers/views_handler_field.inc:189,193,201,198,429
+msgid "Rewrite the output of this field"
+msgstr "Die Ausgabe des Feldes neu-definieren"
+
+#: handlers/views_handler_field.inc:190,194,202,199,430
+msgid ""
+"If checked, you can alter the output of this field by specifying a "
+"string of text with replacement tokens that can use any existing field "
+"output."
+msgstr ""
+"Wenn aktiviert, kann die Ausgabe des Feldes durch die Angabe einer "
+"bestimmten Zeichenkette der Ersetzungsmuster verändert werden, "
+"welches jede vorhandene Feldausgabe verwenden kann."
+
+#: handlers/views_handler_field.inc:198,202,210,207,438
+msgid ""
+"The text to display for this field. You may include HTML. You may "
+"enter data from this view as per the \"Replacement patterns\" below."
+msgstr ""
+"Der Text, der für dieses Feld angezeigt wird. Er kann HTML enthalten. "
+"Es können auch Daten dieser Ansicht durch die unteren "
+"„Ersetzungsmuster“ eingegeben werden."
+
+#: handlers/views_handler_field.inc:207,211,219,216,447
+msgid "Output this field as a link"
+msgstr "Dieses Feld als Link ausgeben"
+
+#: handlers/views_handler_field.inc:208,212,220,217,448
+msgid ""
+"If checked, this field will be made into a link. The destination must "
+"be given below."
+msgstr ""
+"Wenn aktiviert, wird dieses Feld zu einem Link. Das Ziel muss unten "
+"eingegeben werden."
+
+#: handlers/views_handler_field.inc:212,216,224,221,452
+msgid "Link path"
+msgstr "Linkpfad"
+
+#: handlers/views_handler_field.inc:215,219,227,224,455
+msgid ""
+"The Drupal path or absolute URL for this link. You may enter data from "
+"this view as per the \"Replacement patterns\" below."
+msgstr ""
+"Der Drupal-Pfad oder die absolute URL für diesen Link. Es können "
+"auch Daten dieser Ansicht durch die unteren „Ersetzungsmuster“ "
+"eingegeben werden."
+
+#: handlers/views_handler_field.inc:225,229,237,230,238,235,476
+msgid "The CSS class to apply to the link."
+msgstr "﻿Die CSS-Klasse auf den Link anwenden."
+
+#: handlers/views_handler_field.inc:235,239,247,240,248,245,486
+msgid ""
+"Text to place as \"alt\" text which most browsers display as a tooltip "
+"when hovering over the link."
+msgstr ""
+"Der Text, der als „alt“ Text plaziert wird, welchen die meisten "
+"Browser als Tooltip beim Drüberfahren des Links mit der Maus "
+"anzeigen."
+
+#: handlers/views_handler_field.inc:242,246,254,247,255,252,503
+msgid "Prefix text"
+msgstr "Präfix"
+
+#: handlers/views_handler_field.inc:245,249,257,250,258,255,506
+msgid "Any text to display before this link. You may include HTML."
+msgstr ""
+"Beliebiger Text, der vor dem Link angezeigt wird. Dieser kann auch "
+"HTML enthalten."
+
+#: handlers/views_handler_field.inc:252,256,264,257,265,262,513
+msgid "Suffix text"
+msgstr "Suffix"
+
+#: handlers/views_handler_field.inc:255,259,267,260,268,265,516
+msgid "Any text to display after this link. You may include HTML."
+msgstr ""
+"Beliebiger Text, der nach dem Link angezeigt wird. Dieser kann auch "
+"HTML enthalten."
+
+#: handlers/views_handler_field.inc:277,295,303,296,304,301,552
+msgid ""
+"<p>You must add some additional fields to this display before using "
+"this field. These fields may be marked as <em>Exclude from "
+"display</em> if you prefer. Note that due to rendering order, you "
+"cannot use fields that come after this field; if you need a field not "
+"listed here, rearrange your fields.</p>"
+msgstr ""
+"<p> Fügen Sie einige Felder zu dieser Anzeige hinzu, bevor Sie dieses "
+"Feld benutzen. Diese Felder können mit <em>von der Anzeige "
+"ausschließen</em> gekennzeichnet werden. Beachten Sie, die Rendering "
+"Reihenfolge, Sie können keine Felder verwenden, die nach diesem Feld "
+"kommen. Wenn Sie ein Feld hier nicht aufgeführt finden, dann ordnen "
+"Sie die Felder neu an.</p>"
+
+#: handlers/views_handler_field.inc:280,298,306,299,307,304
+msgid ""
+"<p>The following substitution patterns are available for this display. "
+"Use the pattern shown on the left to display the value indicated on "
+"the right. Note that due to rendering order, you cannot use fields "
+"that come after this field; if you need a field not listed here, "
+"rearrange your fields.</p>"
+msgstr ""
+"<p> Die folgenden Substitutionsmuster stehen für diese Ansicht zur "
+"Verfügung. Benutzen Sie das Muster auf der linken Seite, um den "
+"bezeichneten Wert auf der rechten Seite anzuzeigen. Beachten Sie, die "
+"Rendering Reihenfolge, Sie können keine Felder verwenden, die nach "
+"diesem Feld kommen. Wenn Sie ein Feld hier nicht aufgeführt finden, "
+"dann ordnen Sie die Felder neu an.</p>"
+
+#: handlers/views_handler_field.inc:309,326,334,327,335,332,588
+msgid "Trim this field to a maximum length"
+msgstr "Dieses Feld ab einer maximalen Zeichenlänge abschneiden"
+
+#: handlers/views_handler_field.inc:310,327,335,328,336,333,589
+msgid "If checked, this field be trimmed to a maximum length in characters."
+msgstr ""
+"Wenn aktiviert, wird dieses Feld ab einer maximalen Zeichenlänge "
+"abgeschnitten."
+
+#: handlers/views_handler_field.inc:318
+msgid "The maximum number of characters his field can be."
+msgstr "﻿Die maximale Anzahl der Zeichen für dieses Feld."
+
+#: handlers/views_handler_field.inc:327,344,352,345,353,350,606
+msgid "Trim only on a word boundary"
+msgstr "Nur am Wortende abschneiden."
+
+#: handlers/views_handler_field.inc:328,345,353,346,354,351,607
+msgid ""
+"If checked, this field be trimmed only on a word boundary. This is "
+"guaranteed to be the maximum characters stated or less. If there are "
+"no word boundaries this could trim a field to nothing."
+msgstr ""
+"Wenn aktiviert, wird dieses Feld nur am Wortende abgeschnitten. Dies "
+"garantiert die maximale angegebene Zeichenlänge oder weniger. Wenn es "
+"kein Wortende gibt, könnte dies zu einem leeren abgeschnittenes Feld "
+"führen."
+
+#: handlers/views_handler_field.inc:338,355,363,356,364,361,617
+msgid "Add an ellipsis"
+msgstr "Auslassungspunkte hinzufügen"
+
+#: handlers/views_handler_field.inc:339,356,364,357,365,362,618
+msgid "If checked, a \"...\" will be added if a field was trimmed."
+msgstr ""
+"Wenn aktiviert, wird ein „...“ hinzugefügt, falls ein Feld "
+"abgeschnitten wurde."
+
+#: handlers/views_handler_field.inc:349,366,374,378,386,383,639
+msgid "Strip HTML tags"
+msgstr "HTML-Tags entfernen."
+
+#: handlers/views_handler_field.inc:350,367,375,379,387,384,640
+msgid "If checked, all HTML tags will be stripped."
+msgstr "Wenn aktiviert, werden alle HTML-Tags entfernt."
+
+#: handlers/views_handler_field.inc:360,377,385,367,375,372,628
+msgid "Field can contain HTML"
+msgstr "Feld kann HTML enthalten"
+
+#: handlers/views_handler_field.inc:361,378,386,368,376,373,629
+msgid ""
+"If checked, HTML corrector will be run to ensure tags are properly "
+"closed after trimming."
+msgstr ""
+"Wenn aktiviert, wird die HTML-Korrektur ausgeführt, um "
+"sicherzustellen das abgeschnittene Tags ordnungsgemäß geschlossen "
+"werden."
+
+#: handlers/views_handler_field.inc:658,769,777,758,766,761,1075
+msgid "File size display"
+msgstr "Anzeige der Dateigröße"
+
+#: handlers/views_handler_field.inc:661,772,780,761,769,764,1078
+msgid "Formatted (in KB or MB)"
+msgstr "﻿Formatiert (in KB oder MB)"
+
+#: handlers/views_handler_field.inc:662,773,781,762,770,765,1079
+msgid "Raw bytes"
+msgstr "Unbearbeiteter Wert"
+
+#: handlers/views_handler_field_boolean.inc:28
+msgid "True/False"
+msgstr "Wahr/Unwahr"
+
+#: handlers/views_handler_field_boolean.inc:29
+msgid "On/Off"
+msgstr "An/Aus"
+
+#: handlers/views_handler_field_boolean.inc:36,56
+msgid "If checked, true will be displayed as false."
+msgstr "Sobald aktiviert, wird „wahr“ als „unwahr“ angezeigt."
+
+#: handlers/views_handler_field_date.inc:31,30
+msgid "Time ago (with \"ago\" appended)"
+msgstr "Zeit vergangen (mit angehängten „vergangen“)"
+
+#: handlers/views_handler_field_date.inc:32,31
+msgid "Time span (future dates start with - )"
+msgstr "Zeitspanne (zukünftige Termine beginnen mit -)"
+
+#: handlers/views_handler_field_date.inc:33,32
+msgid "Time span (with \"ago/hence\" appended)"
+msgstr "﻿Zeitspanne (mit „vor/seit“ angehängt)"
+
+#: handlers/views_handler_field_date.inc:40,39
+msgid ""
+"If \"Custom\", see <a "
+"href=\"http://us.php.net/manual/en/function.date.php\" "
+"target=\"_blank\">the PHP docs</a> for date formats. If \"Time ago\" "
+"this is the the number of different units to display, which defaults "
+"to two."
+msgstr ""
+"Für „Benutzerdefiniert“ gibt es nähere Information über "
+"Datumsformate in der <a "
+"href=\"http://www.php.net/manual/de/function.date.php\" "
+"target=\"_blank\">PHP-Dokumentation</a>. Bei „Zeit vergangen“ ist "
+"dies die Anzahl der unterschiedlichen Einheiten die angezeigt werden "
+"sollen, welche standardmäßig 2-stellig sind."
+
+#: handlers/views_handler_field_numeric.inc:32,35
+msgid "Round"
+msgstr "Runden"
+
+#: handlers/views_handler_field_numeric.inc:33,36
+msgid "If checked, the number will be rounded."
+msgstr "Sobald aktiviert, wird die Zahl gerundet."
+
+#: handlers/views_handler_field_numeric.inc:40,43
+msgid "Specify how many digits to print after the decimal point."
+msgstr "Festlegen, wie viele Stellen nach dem Dezimalpunkt erscheinen sollen."
+
+#: handlers/views_handler_field_numeric.inc:49,52
+msgid "What single character to use as a decimal point."
+msgstr "Welches Zeichen soll als Dezimalpunkt verwendet werden."
+
+#: handlers/views_handler_field_numeric.inc:57,60
+msgid "What single character to use as the thousands separator."
+msgstr "Welches Zeichen als tausender Trennzeichen verwendet werden soll."
+
+#: handlers/views_handler_field_numeric.inc:64,89
+msgid "Text to put before the number, such as currency symbol."
+msgstr ""
+"Text der vor die Zahl gestellt werden soll, wie etwa ein "
+"Währungszeichen."
+
+#: handlers/views_handler_field_numeric.inc:70,95
+msgid "Text to put after the number, such as currency symbol."
+msgstr ""
+"Text der an die Zahl angehängt werden soll, wie etwa ein "
+"Währungszeichen."
+
+#: handlers/views_handler_field_prerender_list.inc:33,32
+msgid "Simple separator"
+msgstr "Einfacher Separator"
+
+#: handlers/views_handler_field_prerender_list.inc:48
+msgid "Empty list text"
+msgstr "Leerer Listentext"
+
+#: handlers/views_handler_field_prerender_list.inc:50
+msgid "If the list is empty, you may enter text here that will be displayed."
+msgstr ""
+"Hier kann ein Text eingegeben werden, der bei einer leeren Liste "
+"angezeigt wird."
+
+#: handlers/views_handler_filter.inc:289,197,203,204
+msgid "Unlock operator"
+msgstr "Operator entsperren"
+
+#: handlers/views_handler_filter.inc:290,198,204,205
+msgid "When checked, the operator will be exposed to the user"
+msgstr "Sobald aktiviert, wird der Operator für den Benutzer hervorgehoben"
+
+#: handlers/views_handler_filter.inc:296,204,210,211
+msgid "Operator identifier"
+msgstr "Bezeichner für Operator"
+
+#: handlers/views_handler_filter.inc:298,206,212,213
+msgid "This will appear in the URL after the ? to identify this operator."
+msgstr ""
+"Dies wird in der URL nach dem ? erscheinen, um diesen Operator zu "
+"identifizieren."
+
+#: handlers/views_handler_filter.inc:315,223,229,230
+msgid "Filter identifier"
+msgstr "Bezeichner für Filter"
+
+#: handlers/views_handler_filter.inc:317,225,231,232
+msgid ""
+"This will appear in the URL after the ? to identify this filter. "
+"Cannot be blank."
+msgstr ""
+"Dieser wird in der URL nach dem ? erscheinen, um den Filter zu "
+"identifizieren. Darf nicht unausgefüllt bleiben."
+
+#: handlers/views_handler_filter.inc:334,242,248,249
+msgid ""
+"This exposed filter is optional and will have added options to allow "
+"it not to be set."
+msgstr ""
+"Dieser hervorgehobene Filter ist optional und wird Optionen enthalten, "
+"damit dieser nicht eingestellt werden muss."
+
+#: handlers/views_handler_filter.inc:341,249,255,256
+msgid "Force this exposed filter to accept only one option."
+msgstr "Diesen hervorgehobenen Filter zwingen, nur eine Option zu akzeptieren."
+
+#: handlers/views_handler_filter.inc:347,255,261,262
+msgid "Remember"
+msgstr "Merken"
+
+#: handlers/views_handler_filter.inc:348,256,262,263
+msgid "Remember the last setting the user gave this filter."
+msgstr "Die letzte Filtereinstellung des Benutzers merken."
+
+#: handlers/views_handler_filter.inc:359,267,273
+msgid "The identifier is required if the filter is exposed."
+msgstr "Der Bezeichner ist erforderlich, wenn der Filter hervorgehoben ist."
+
+#: handlers/views_handler_filter.inc:364,272,278,277
+msgid "This identifier is not allowed."
+msgstr "Dieser Bezeichner ist unzulässig."
+
+#: handlers/views_handler_filter_boolean_operator.inc:99,108,114
+msgid "You must select a value unless this is an optional exposed filter."
+msgstr ""
+"Wählen Sie einen Wert, außer dies ist ein Filter, der durch Benutzer "
+"bedient wird."
+
+#: handlers/views_handler_filter_date.inc:24
+msgid "Value type"
+msgstr "Werttyp"
+
+#: handlers/views_handler_filter_date.inc:26
+msgid ""
+"A date in any machine readable format. CCYY-MM-DD HH:MM:SS is "
+"preferred."
+msgstr ""
+"Ein Datum in einem maschinenlesbaren Format. JJJJ-MM-TT HH:MM:SS ist "
+"bevorzugt."
+
+#: handlers/views_handler_filter_date.inc:27
+msgid ""
+"An offset from the current time such as \"+1 day\" or \"-2 hours and "
+"30 minutes\""
+msgstr ""
+"Ein Abstand zur aktuellen Zeit, wie z.B. „+1 day” oder „-2 hours "
+"and 30 minutes” (Muss in Englisch sein)"
+
+#: handlers/views_handler_filter_date.inc:77,83,87
+msgid "Invalid date format."
+msgstr "Ungültiges Datumsformat."
+
+#: handlers/views_handler_filter_in_operator.inc:49,56
+msgid "Limit list to selected items"
+msgstr "Liste auf ausgewählte Einträge begrenzen"
+
+#: handlers/views_handler_filter_in_operator.inc:50,57
+msgid ""
+"If checked, the only items presented to the user will be the ones "
+"selected here."
+msgstr ""
+"Wenn aktiviert, werden nur die hier ausgewählten Einträge dem "
+"Benutzer angezeigt."
+
+#: handlers/views_handler_filter_in_operator.inc:80,81,88
+msgid "not in"
+msgstr "﻿nicht in"
+
+#: handlers/views_handler_filter_many_to_one.inc:38,40
+msgid "Is all of"
+msgstr "Ist alles von"
+
+#: handlers/views_handler_filter_many_to_one.inc:46,48
+msgid "Is none of"
+msgstr "Ist keines von"
+
+#: handlers/views_handler_filter_many_to_one.inc:47,49
+msgid "not"
+msgstr "nicht"
+
+#: handlers/views_handler_filter_numeric.inc:28
+msgid "<"
+msgstr "<"
+
+#: handlers/views_handler_filter_numeric.inc:34
+msgid "<="
+msgstr "<="
+
+#: handlers/views_handler_filter_numeric.inc:52
+msgid ">="
+msgstr ">="
+
+#: handlers/views_handler_filter_numeric.inc:58
+msgid ">"
+msgstr ">"
+
+#: handlers/views_handler_filter_numeric.inc:62
+msgid "Is between"
+msgstr "Ist zwischen"
+
+#: handlers/views_handler_filter_numeric.inc:64
+msgid "between"
+msgstr "zwischen"
+
+#: handlers/views_handler_filter_numeric.inc:68
+msgid "Is not between"
+msgstr "Ist nicht zwischen"
+
+#: handlers/views_handler_filter_numeric.inc:70
+msgid "not between"
+msgstr "nicht zwischen"
+
+#: handlers/views_handler_filter_numeric.inc:175
+msgid "Min"
+msgstr "Min"
+
+#: handlers/views_handler_filter_numeric.inc:181
+msgid "And max"
+msgstr "Und höchstens"
+
+#: handlers/views_handler_filter_string.inc:46,38
+msgid "Contains any word"
+msgstr "Enthält ein beliebiges Wort"
+
+#: handlers/views_handler_filter_string.inc:47,39
+msgid "has word"
+msgstr "enthält das Wort"
+
+#: handlers/views_handler_filter_string.inc:52,44
+msgid "Contains all words"
+msgstr "Enthält alle Wörter"
+
+#: handlers/views_handler_filter_string.inc:53,45
+msgid "has all"
+msgstr "enthält alle"
+
+#: handlers/views_handler_filter_string.inc:59,51
+msgid "begins"
+msgstr "beginnt"
+
+#: handlers/views_handler_filter_string.inc:65,71,63
+msgid "ends"
+msgstr "endet"
+
+#: handlers/views_handler_filter_string.inc:71,83,75
+msgid "!has"
+msgstr "!has"
+
+#: handlers/views_handler_filter_string.inc:128,140,152
+msgid ""
+"Case sensitive filters may be faster. MySQL might ignore case "
+"sensitivity."
+msgstr ""
+"Filter die Groß-/Kleinschreibung beachten, können schneller sein. "
+"MySQL könnte die Groß-/Kleinschreibung ignorieren."
+
+#: handlers/views_handler_relationship.inc:80,81
+msgid ""
+"The label for this relationship that will be displayed only "
+"administratively."
+msgstr ""
+"Die Bezeichnung für diese Beziehung wird nur innerhalb der Verwaltung "
+"angezeigt."
+
+#: handlers/views_handler_relationship.inc:85,86
+msgid "Require this relationship"
+msgstr "Beziehung ist erforderlich"
+
+#: handlers/views_handler_relationship.inc:86,87
+msgid ""
+"If required, items that do not contain this relationship will not "
+"appear."
+msgstr ""
+"Wenn erforderlich, werden Einträge, die nicht diese Beziehung "
+"beinhalten nicht angezeigt."
+
+#: handlers/views_handler_sort.inc:38,52
+msgid "asc"
+msgstr "aufsteigend"
+
+#: handlers/views_handler_sort.inc:42,56
+msgid "desc"
+msgstr "absteigend"
+
+#: handlers/views_handler_sort_date.inc:35
+msgid ""
+"The granularity is the smallest unit to use when determining whether "
+"two dates are the same; for example, if the granularity is \"Year\" "
+"then all dates in 1999, regardless of when they fall in 1999, will be "
+"considered the same date."
+msgstr ""
+"Die Granularität ist die Kleinste zu verwendende Einheit, wenn die "
+"Gleichheit zweier Datumsangaben ermittelt werden soll. "
+"Anwendungsbeispiel - die Granularität wird auf das „Jahr“ "
+"gesetzt, somit wird jedes Datum aus einem Jahr (z.b. 1999) als das "
+"gleiche Datum betrachtet, ungeachtet wann dieses Datum in dem Jahr "
+"(1999) liegt."
+
+#: handlers/views_handler_sort_formula.inc:24
+msgid "views_handler_sort_formula missing default: @formula"
+msgstr "Standard für views_handler_sort_formula ist nicht vorhanden: @formula"
+
+#: handlers/views_handler_field_date.inc:25
+msgid "Short date format"
+msgstr "Kurzes Datumsformat"
+
+#: handlers/views_handler_field_date.inc:26
+msgid "Medium date format"
+msgstr "Mittleres Datumsformat"
+
+#: handlers/views_handler_field_date.inc:27
+msgid "Long date format"
+msgstr "Langes Datumsformat"
+
+#: handlers/views_handler_sort.inc:123,124
+msgid "Sort descending"
+msgstr "absteigend sortiert"
+
+#: handlers/views_handler_sort.inc:122,123
+msgid "Sort ascending"
+msgstr "aufsteigend sortiert"
+
+#: handlers/views_handler_argument_string.inc:75
+msgid ""
+"When printing url paths, how to transform the case of the argument. Do "
+"not use this unless with Postgres as it uses case sensitive "
+"comparisons."
+msgstr ""
+"Beim Drucken von Url-Pfaden, die Behandlung des Arguments. Verwenden "
+"Sie dies für Postgres, weil hier Groß-/Kleinschreibung unterschieden "
+"wird."
+
+#: handlers/views_handler_field.inc:269,277,270,278,275,526
+msgid ""
+"Target of the link, such as _blank, _parent or an iframe's name. This "
+"field is rarely used."
+msgstr ""
+"Ziel des Links, wie _blank, _parent oder ein iframe Namen. Dieses Feld "
+"wird nur selten genutzt."
+
+#: handlers/views_handler_field.inc:288,296,289,297,294,545
+msgid "@argument title"
+msgstr "@argument Titel"
+
+#: handlers/views_handler_field.inc:289,297,290,298,295,546
+msgid "@argument input"
+msgstr "@argument Eingabe"
+
+#: handlers/views_handler_field.inc:335,343,336,344,341,597
+msgid "The maximum number of characters this field can be."
+msgstr "﻿Die maximale Anzahl der Zeichen für dieses Feld."
+
+#: handlers/views_handler_field.inc:390,398,389,397,394,665
+msgid "If the field is empty, display this text instead."
+msgstr "Wenn das Feld leer ist, diesen Text anzeigen."
+
+#: handlers/views_handler_field.inc:395,403,394,402,399,670
+msgid "Count the number 0 as empty"
+msgstr "Die Nummer 0 als leer werten."
+
+#: handlers/views_handler_field.inc:397,405,396,404,401,672
+msgid "If the field contains the number zero, display the empty text instead"
+msgstr "Wenn das Feld die Nummer 0 enthält, diesen Text anzeigen"
+
+#: handlers/views_handler_field.inc:402,410,401,409,406,677
+msgid "Hide if empty"
+msgstr "Verstecken, falls leer"
+
+#: handlers/views_handler_field.inc:404,412,403,411,408,679
+msgid ""
+"Do not display anything for this field if it is empty. Note that the "
+"field label may still be displayed. Check style or row style settings "
+"to hide labels for empty fields."
+msgstr ""
+"Dieses Feld nicht anzeigen, wenn es leer ist. Aber: der Bezeichner "
+"für das Feld wird dennoch ausgegeben. Einstellungen für Stil oder "
+"Zeilen Stil anpassen, um die Bezeichner für leere Felder zu "
+"verbergen."
+
+#: handlers/views_handler_field_counter.inc:16
+msgid "Starting value"
+msgstr "Startwerte"
+
+#: handlers/views_handler_field_counter.inc:18
+msgid "Specify the number the counter should start at."
+msgstr "Geben Sie den Startwert für den Zähler an."
+
+#: handlers/views_handler_filter_string.inc:64,56
+msgid "Does not start with"
+msgstr "﻿Beginnt nicht mit"
+
+#: handlers/views_handler_filter_string.inc:65,57
+msgid "not_begins"
+msgstr "beginnt nicht mit"
+
+#: handlers/views_handler_filter_string.inc:76,68
+msgid "Does not end with"
+msgstr "﻿Endet nicht mit"
+
+#: handlers/views_handler_filter_string.inc:77,69
+msgid "not_ends"
+msgstr "not_ends"
+
+#: handlers/views_handler_filter.inc:276,368,282,281
+msgid "This identifier is used by another handler."
+msgstr "Dieser Bezeichner ist unzulässig, er wird bereits benutzt."
+
+#: handlers/views_handler_filter_string.inc:88,80
+msgid "Length is shorter than"
+msgstr "Länge ist kürzer als"
+
+#: handlers/views_handler_filter_string.inc:89,81
+msgid "shorter than"
+msgstr "Ist kürzer als"
+
+#: handlers/views_handler_filter_string.inc:94,86
+msgid "Length is longer than"
+msgstr "Länge ist länger als"
+
+#: handlers/views_handler_filter_string.inc:95,87
+msgid "longer than"
+msgstr "länger als"
+
+#: handlers/views_handler_argument.inc:131,132,133
+msgid ""
+"The Breadcrumb title to use when this argument is present. If no "
+"breadcrumb is set here, default Title values will be used, see "
+"\"Title\" for percent substitutions."
+msgstr ""
+"Der Breadcrumb-Titel, wenn dieses Argument vorhanden ist, anderenfalls "
+"wird der Standard-Titel verwendet."
+
+#: handlers/views_handler_area.inc:52,54
+msgid "The label for this area that will be displayed only administratively."
+msgstr ""
+"Die Bezeichnung für diese Beziehung wird nur innerhalb der Verwaltung "
+"angezeigt."
+
+#: handlers/views_handler_area.inc:60,62
+msgid "If checked this area will be rended, even if the views has no results."
+msgstr ""
+"Ausgeben dieses Bereichs, auch wenn keine Ergebnisse in der Ansicht "
+"ausgegeben werden."
+
+#: handlers/views_handler_argument.inc:340,344
+msgid "Summary, sorted by number of records ascending"
+msgstr "Zusammenfassung, aufsteigend sortiert"
+
+#: handlers/views_handler_argument.inc:347,351
+msgid "Summary, sorted by number of records descending"
+msgstr "Zusammenfassung, absteigend sortiert"
+
+#: handlers/views_handler_sort.inc:46
+msgid "Exposed"
+msgstr "Hervorheben"
+
+#: handlers/views_handler_filter_date.inc:27
+msgid ""
+"An offset from the current time such as \"+1 day\" or \"-2 hours -30 "
+"minutes\""
+msgstr ""
+"Ein Zeitversatz bezogen auf die aktuelle Uhrzeit, wie etwa „+1 "
+"Tag“ oder „-2 Stunden und 30 Minuten“"
+
+#: handlers/views_handler_field.inc:98,99
+msgid ""
+"Handler @handler tried to add additional_field @identifier but @table "
+"could not be added!"
+msgstr ""
+"Händle @handler hatte die Aufgabe: additional_field @identifier "
+"hinzu, aber @tabelle konnte nicht hinzugefügt werden!"
+
+#: handlers/views_handler_field.inc:219
+msgid "- Use default -"
+msgstr "- Standard verwenden -"
+
+#: handlers/views_handler_argument.inc:202
+msgid "- Basic validation -"
+msgstr ""
+
+#: handlers/views_handler_field.inc:221
+msgid "DIV"
+msgstr ""
+
+#: handlers/views_handler_field.inc:222
+msgid "SPAN"
+msgstr ""
+
+#: handlers/views_handler_field.inc:223
+msgid "H1"
+msgstr ""
+
+#: handlers/views_handler_field.inc:224
+msgid "H2"
+msgstr ""
+
+#: handlers/views_handler_field.inc:225
+msgid "H3"
+msgstr ""
+
+#: handlers/views_handler_field.inc:226
+msgid "H4"
+msgstr ""
+
+#: handlers/views_handler_field.inc:227
+msgid "H5"
+msgstr ""
+
+#: handlers/views_handler_field.inc:228
+msgid "H6"
+msgstr ""
+
+#: handlers/views_handler_field.inc:230
+msgid "STRONG"
+msgstr ""
+
+#: handlers/views_handler_field.inc:231
+msgid "EM"
+msgstr ""
+
+#: handlers/views_handler_field.inc:347
+msgid ""
+"Check this box to not display this field, but still load it in the "
+"view. Use this option to not show a grouping field in each record, or "
+"when doing advanced theming, or when you want to use this field as a "
+"token in other fields."
+msgstr ""
+
+#: handlers/views_handler_field.inc:351
+msgid "HTML element"
+msgstr ""
+
+#: handlers/views_handler_field.inc:355
+msgid ""
+"Most styles provide wrappers for fields. If the chosen style supports "
+"wrappers, wrap the field in this HTML element. The default will "
+"usually be either DIV or SPAN."
+msgstr ""
+
+#: handlers/views_handler_field.inc:359
+msgid "Element class"
+msgstr ""
+
+#: handlers/views_handler_field.inc:360
+msgid ""
+"The class to provide on the wrapper element. You may enter data from "
+"this view as per the \"Replacement patterns\" used in \"Rewrite the "
+"output of this field\"."
+msgstr ""
+
+#: handlers/views_handler_field.inc:373
+msgid "Label HTML element"
+msgstr ""
+
+#: handlers/views_handler_field.inc:377
+msgid "What HTML Element type to use to wrap the label."
+msgstr ""
+
+#: handlers/views_handler_field.inc:381
+msgid "Label class"
+msgstr ""
+
+#: handlers/views_handler_field.inc:382
+msgid "The class to provide on the label wrapper element."
+msgstr ""
+
+#: handlers/views_handler_field.inc:389
+msgid "Place a colon after the label"
+msgstr ""
+
+#: handlers/views_handler_field.inc:391
+msgid ""
+"If the label is to be inline with the value, place a colon between "
+"them. Not valid for styles such as table where the label is not placed "
+"with the value."
+msgstr ""
+
+#: handlers/views_handler_field.inc:395
+msgid "Wrapper HTML element"
+msgstr ""
+
+#: handlers/views_handler_field.inc:399
+msgid ""
+"What HTML Element type to use to wrap the field (and the label). This "
+"is not supported by some styles such as tables."
+msgstr ""
+
+#: handlers/views_handler_field.inc:404
+msgid "The class to provide on the wrapper element."
+msgstr ""
+
+#: handlers/views_handler_field.inc:411
+msgid "Add default classes"
+msgstr ""
+
+#: handlers/views_handler_field.inc:413
+msgid ""
+"Use default Views classes to identify the field, field label and field "
+"content."
+msgstr ""
+
+#: handlers/views_handler_field.inc:421
+msgid "Rewriting"
+msgstr ""
+
+#: handlers/views_handler_field.inc:464
+msgid "Use absolute path"
+msgstr ""
+
+#: handlers/views_handler_field.inc:493
+msgid "Rel Text"
+msgstr ""
+
+#: handlers/views_handler_field.inc:496
+msgid ""
+"Include Rel attribute for use in lightbox2 or other javascript "
+"utility."
+msgstr ""
+
+#: handlers/views_handler_field.inc:555
+msgid ""
+"<p>The following tokens are available for this field. Note that due to "
+"rendering order, you cannot use fields that come after this field; if "
+"you need a field not listed here, rearrange your fields.\n"
+"If you would like to have the characters %5B and %5D please use the "
+"html entity codes '%5B' or  '%5D' or they will get replaced with empty "
+"space.</p>"
+msgstr ""
+
+#: handlers/views_handler_field.inc:646
+msgid "Preserve certain tags"
+msgstr ""
+
+#: handlers/views_handler_field.inc:647
+msgid ""
+"List the tags that need to be preserved during the stripping process. "
+"example &quot;&lt;p&gt; &lt;br&gt;&quot; which will preserve all p and "
+"br elements"
+msgstr ""
+
+#: handlers/views_handler_field.inc:658
+msgid "Empty field behavior"
+msgstr ""
+
+#: handlers/views_handler_field_math.inc:24
+msgid ""
+"Enter mathematical expressions such as 2 + 2 or sqrt(5). You my assign "
+"variables and create mathematical functions and evaluate them. Use the "
+"; to separate these. For example: f(x) = x + 2; f(2)."
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:65
+msgid "Format plural"
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:66
+msgid "If checked, special handling will be used for plurality."
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:71
+msgid "Singular form"
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:73
+msgid "Text to use for the singular form."
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:79
+msgid "Plural form"
+msgstr ""
+
+#: handlers/views_handler_field_numeric.inc:81
+msgid ""
+"Text to use for the plural form, @count will be replaced with the "
+"value."
+msgstr ""
+
+#: handlers/views_handler_filter_date.inc:27
+msgid "An offset from the current time such as \"!example1\" or \"!example2\""
+msgstr ""
+

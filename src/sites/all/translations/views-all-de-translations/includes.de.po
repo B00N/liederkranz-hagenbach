@@ -1,0 +1,1277 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  view.inc,v 1.159 2009/06/04 18:40:45 merlinofchaos
+#  view.inc,v 1.167 2009/09/15 17:57:11 merlinofchaos
+#  view.inc,v 1.151.2.16 2009/11/02 23:34:26 merlinofchaos
+#  view.inc,v 1.167.2.2 2009/11/18 02:26:16 merlinofchaos
+#  view.inc,v 1.151.2.27 2010/01/22 01:41:24 merlinofchaos
+#  view.inc,v 1.167.2.7 2010/03/22 20:55:11 merlinofchaos
+#  view.inc,v 1.167.4.40 2011/01/05 21:20:09 dereine
+#  admin.inc,v 1.160 2009/06/10 22:01:31 merlinofchaos
+#  admin.inc,v 1.161.2.1 2009/11/02 20:09:51 merlinofchaos
+#  admin.inc,v 1.154.2.8 2009/11/02 20:09:17 merlinofchaos
+#  admin.inc,v 1.161.2.3 2009/11/20 22:04:22 merlinofchaos
+#  admin.inc,v 1.154.2.25 2010/01/25 21:19:17 merlinofchaos
+#  admin.inc,v 1.161.2.11 2010/04/07 21:04:15 merlinofchaos
+#  admin.inc,v 1.161.2.12 2010/06/17 02:45:36 merlinofchaos
+#  admin.inc,v 1.161.4.86 2011/01/04 23:54:35 dereine
+#  convert.inc,v 1.15 2009/06/02 20:31:00 merlinofchaos
+#  convert.inc,v 1.17 2009/09/25 17:06:14 merlinofchaos
+#  convert.inc,v 1.14.2.3 2009/09/25 17:05:56 merlinofchaos
+#  convert.inc,v 1.17.4.1 2009/11/02 22:01:26 merlinofchaos
+#  plugins.inc,v 1.156.4.14 2010/12/04 07:39:35 dereine
+#  plugins.inc,v 1.154 2009/06/02 20:22:19 merlinofchaos
+#  plugins.inc,v 1.156.2.1 2009/10/28 02:11:16 merlinofchaos
+#  plugins.inc,v 1.152.2.5 2009/09/24 23:28:23 merlinofchaos
+#  plugins.inc,v 1.156.2.2 2009/11/30 23:55:33 merlinofchaos
+#  plugins.inc,v 1.152.2.10 2010/01/19 21:59:04 merlinofchaos
+#  ajax.inc,v 1.20 2009/06/01 23:12:22 merlinofchaos
+#  ajax.inc,v 1.19.2.1 2009/06/01 23:12:52 merlinofchaos
+#  ajax.inc,v 1.19.2.2 2009/12/03 23:28:53 merlinofchaos
+#  ajax.inc,v 1.20.2.1 2010/04/07 23:40:35 merlinofchaos
+#  ajax.inc,v 1.20.4.17 2011/01/03 22:56:39 merlinofchaos
+#  form.inc,v 1.10 2008/06/25 21:10:10 merlinofchaos
+#  form.inc,v 1.11 2009/09/25 00:29:43 merlinofchaos
+#  form.inc,v 1.10.2.1 2009/09/25 00:29:38 merlinofchaos
+#  form.inc,v 1.10.2.2 2010/01/05 01:33:43 merlinofchaos
+#  form.inc,v 1.11.2.1 2010/01/05 01:33:46 merlinofchaos
+#  handlers.inc,v 1.114 2009/06/04 20:20:45 merlinofchaos
+#  handlers.inc,v 1.119.2.1 2009/11/02 20:01:34 merlinofchaos
+#  handlers.inc,v 1.109.2.10 2009/11/02 20:01:57 merlinofchaos
+#  handlers.inc,v 1.119.2.3 2009/12/02 21:51:40 merlinofchaos
+#  handlers.inc,v 1.109.2.16 2010/01/19 22:11:28 merlinofchaos
+#  handlers.inc,v 1.119.2.4 2009/12/24 01:08:31 merlinofchaos
+#  handlers.inc,v 1.119.4.22 2011/01/05 22:40:08 dereine
+#  analyze.inc,v 1.1 2008/10/28 22:50:00 merlinofchaos
+#  analyze.inc,v 1.1.6.1 2009/11/02 22:01:26 merlinofchaos
+#  cache.inc,v 1.24.2.3 2010/01/05 01:44:46 merlinofchaos
+#  cache.inc,v 1.25.2.4 2010/03/12 01:51:47 merlinofchaos
+#  cache.inc,v 1.25.4.8 2010/10/26 19:06:26 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2011-01-02 20:06+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: includes/view.inc:1150,1184,1118,1191,1127,1201,1137,1189
+msgid "Home"
+msgstr "Startseite"
+
+#: includes/admin.inc:592,610,599,633,602,673
+msgid "Next"
+msgstr "Nächste"
+
+#: includes/convert.inc:22
+msgid "Operations"
+msgstr "Operationen"
+
+#: includes/admin.inc:2164,2858,2176,2887,2179,3149
+msgid "Groups"
+msgstr "Gruppen"
+
+#: includes/admin.inc:2088,2097,2341,2122,2408,2417,2694,2721,2726,3043,2100,2109,2353,2126,2151,2437,2446,2723,2750,2755,3072,2103,2112,2356,2336,2361,2696,2704,2982,3009,3014,3343
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/view.inc:1978,1991,2133
+msgid "footer"
+msgstr "Fußbereich"
+
+#: includes/view.inc:1970,1983,2125
+msgid "header"
+msgstr "Kopfbereich"
+
+#: includes/admin.inc:499,517,533,502,556
+msgid "Preview"
+msgstr "Vorschau"
+
+#: includes/admin.inc:1341,1431,1353,1460,1356,1551
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/plugins.inc:319
+msgid "Core"
+msgstr "Kern – Optional"
+
+#: includes/convert.inc:88
+msgid "Clean up"
+msgstr "Aufräumen"
+
+#: includes/admin.inc:483,501,2122,517,2151,486,540,2361
+msgid "Display"
+msgstr "Anzeigen"
+
+#: includes/plugins.inc:64,65,63,58
+msgid "Attachment"
+msgstr "Anhang"
+
+#: includes/ajax.inc:90,100,183
+msgid "Error"
+msgstr "Fehler"
+
+#: includes/admin.inc:580,598,587,621,590,661
+msgid "View type"
+msgstr "Ansichtstyp"
+
+#: includes/view.inc:1981,2015,1960,2022,1956,2035,1969,2111
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/admin.inc:2745,3521,2764,3557,2777,3821
+msgid "Watchdog"
+msgstr "Wächter"
+
+#: includes/admin.inc:1348,1362,1377,1391,1480,1494
+msgid "OR"
+msgstr "ODER"
+
+#: includes/plugins.inc:124,125,123,116
+msgid "Table"
+msgstr "Tabelle"
+
+#: includes/admin.inc:3812,3848,4117
+msgid "Align"
+msgstr "Ausgerichtet"
+
+#: includes/view.inc:1967,1968,2001,2002,1946,1947,2008,2009,1942,1943,2021,2022,1955,1956,2097,2098
+msgid "Argument"
+msgstr "Aufrufparameter"
+
+#: includes/view.inc:1980,2014,1959,2021,1955,2034,1968,2110
+msgid "filters"
+msgstr "Filter"
+
+#: includes/view.inc:1959,1993,1938,2000,1934,2013,1947,2089
+msgid "fields"
+msgstr "Felder"
+
+#: includes/admin.inc:285,302,318,288,333
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+#: includes/admin.inc:404,422,438,407,460
+msgid "Other queries"
+msgstr "Andere Abfragen"
+
+#: includes/admin.inc:2655,2684,2942
+msgid "Add new group"
+msgstr "Neue Gruppe hinzufügen"
+
+#: includes/admin.inc:394,425,412,443,428,459,397,450,481
+msgid "Query"
+msgstr "Abfrage"
+
+#: includes/admin.inc:2437
+msgid "Human readable name"
+msgstr ""
+
+#: includes/admin.inc:1348,1362,1377,1391,1480,1494
+msgid "AND"
+msgstr "UND"
+
+#: includes/admin.inc:114,649,667,656,889,119,690,923,117,659,892,129,732,965
+msgid "Revert"
+msgstr "Zurücksetzen"
+
+#: includes/plugins.inc:93,144,94,145,92,143,82,137
+msgid "Unformatted"
+msgstr "Unformatiert"
+
+#: includes/plugins.inc:154,155,153,146
+msgid "RSS Feed"
+msgstr "RSS-Feed"
+
+#: includes/view.inc:1987,2021,1966,2028,1962,2041,1975,2117
+msgid "Relationships"
+msgstr "Beziehungen"
+
+#: includes/view.inc:1988,2022,1967,2029,1963,2042,1976,2118
+msgid "relationships"
+msgstr "Beziehungen"
+
+#: includes/view.inc:1972,2006,1951,2013,1947,2026,1960,2102
+msgid "Sort criteria"
+msgstr "Sortierkriterium"
+
+#: includes/admin.inc:1359,1449,1371,1478,1374,1584
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/admin.inc:227,244,249,230,262
+msgid "Storage"
+msgstr "Speicher"
+
+#: includes/admin.inc:1308,1337,1439
+msgid "Group settings"
+msgstr "Gruppen-Einstellungen"
+
+#: includes/plugins.inc:191,203,192,204,194,205,193,179,185
+msgid "PHP Code"
+msgstr "PHP-Code"
+
+#: includes/plugins.inc:114,115,113,105
+msgid "Grid"
+msgstr "Raster"
+
+#: includes/view.inc:1966,2000,1945,2007,1941,2020,1954,2096
+msgid "arguments"
+msgstr "Argumente"
+
+#: includes/admin.inc:1206,1245,1217,1273,1220,1367
+msgid "Rearrange"
+msgstr "Umsortieren"
+
+#: includes/admin.inc:2088,2408,2694,2100,2437,2723,2103,2696,2982
+msgid "Remove this item"
+msgstr "Dieses Element entfernen"
+
+#: includes/form.inc:249
+msgid ""
+"Validation error, please try again. If this error persists, please "
+"contact the site administrator."
+msgstr ""
+"Bei der Gültigkeitsüberprüfung ist ein Fehler aufgetreten, bitte "
+"erneut versuchen. Falls der Fehler fortbesteht, wenden Sie sich bitte "
+"an den Administrator der Website."
+
+#: includes/admin.inc:4124
+msgid "Default order"
+msgstr "Standard-Reihenfolge"
+
+#: includes/admin.inc:2515,2534,2544,2563,2802,2821
+msgid "Or"
+msgstr "Oder"
+
+#: includes/admin.inc:3032,3811,3051,3847,3064,4116
+msgid "Column"
+msgstr "Spalte"
+
+#: includes/admin.inc:3039,3819,3058,3855,3071,4128
+msgid "Default sort"
+msgstr "Standardsortierung"
+
+#: includes/admin.inc:2153,2847,2165,2876,2168,3138
+msgid "Add @type"
+msgstr "@type hinzufügen"
+
+#: includes/view.inc:1961,1995,1940,2002,1936,2015,1949,2091
+msgid "field"
+msgstr "Feld"
+
+#: includes/admin.inc:2190,2884,2202,2913,2205,3175
+msgid "!group: !field"
+msgstr "!group: !field"
+
+#: includes/admin.inc:1892,1946,2001,2147,2249,2425,2493,2578,2221,2275,2330,2468,2836,2952,3105,3202,3269,3354,1904,1958,2013,2159,2261,2437,2505,2590,2250,2304,2359,2497,2865,2981,3134,3231,3298,3383,1907,1961,2016,2162,2264,2440,2508,2593,2485,2561,2616,2755,3126,3244,3408,3494,3560,3645
+msgid "Invalid display id @display"
+msgstr "Ungültige Anzeige-ID @display"
+
+#: includes/admin.inc:1246,2256,2432,2500,2585,1290,2959,3113,3209,3276,3361,2268,2444,2512,2597,2988,3142,3238,3305,3390,2271,2447,2515,2600,3251,3418,3501,3567,3652
+msgid "Error: handler for @table > @field doesn't exist!"
+msgstr ""
+"Fehler: Die Behandlungsroutine für @table > @field ist nicht "
+"vorhanden!"
+
+#: includes/admin.inc:2769,3545,2788,3581,2801,3845
+msgid "The cache has been cleared."
+msgstr "Der Cache wurde geleert."
+
+#: includes/admin.inc:1785,1897,1797,1926,1800,2130
+msgid "Analyze"
+msgstr "Analysieren"
+
+#: includes/plugins.inc:232,233,234,209
+msgid "Access will be granted to users with the specified permission string."
+msgstr ""
+"Der Zugriff wird dem Benutzer mit einer der angegebenen Berechtigung "
+"gewährt."
+
+#: includes/handlers.inc:270,295,182
+msgid "!group: !title"
+msgstr "!group: !title"
+
+#: includes/admin.inc:2094,2414,2707,2106,2443,2736,2109,2701,2995
+msgid "No fields available."
+msgstr "Keine Felder verfügbar."
+
+#: includes/plugins.inc:207,208,209,189
+msgid "Numeric"
+msgstr "Numerisch"
+
+#: includes/admin.inc:36,37
+msgid ""
+"If you <a href=\"@modules\">enable the advanced help module</a>, Views "
+"will provide more and better help. <a href=\"@hide\">Hide this "
+"message.</a>"
+msgstr ""
+"Views stellt nach dem <a href=\"@modules\">Aktivieren des "
+"Advanced_Help-Moduls</a> eine bessere und ausführlichere Hilfe zur "
+"Verfügung. <a href=\"@hide\">Diese Meldung ausblenden.</a>"
+
+#: includes/admin.inc:39,40
+msgid ""
+"If you install the advanced help module from !href, Views will provide "
+"more and better help. <a href=\"@hide\">Hide this message.</a>"
+msgstr ""
+"Views stellt durch die Installation des Advanced_Help-Moduls (!href) "
+"eine bessere und ausführlichere Hilfe zur Verfügung. <a "
+"href=\"@hide\">Diese Meldung ausblenden.</a>"
+
+#: includes/admin.inc:128,133,131,143
+msgid "Warning! Broken view!"
+msgstr "Warnung! Beschädigte Ansicht!"
+
+#: includes/admin.inc:205,222,227,208,240
+msgid "Install the advanced help module for the getting started"
+msgstr "Das Advanced Help Modul installieren für die ersten Schritte"
+
+#: includes/admin.inc:208,225,230,211,243
+msgid "Not sure what to do? Try the \"!getting-started\" page."
+msgstr "Eine Einführung gefällig? Rufen Sie die „!getting-started“ auf."
+
+#: includes/admin.inc:278,295,311,281,326
+msgid "Displays"
+msgstr "Anzeigen"
+
+#: includes/admin.inc:396,414,430,399,452
+msgid "These queries were run during view rendering:"
+msgstr "Diese Abfragen werden während dem Rendering der Ansicht ausgeführt:"
+
+#: includes/admin.inc:401,419,435,404,457
+msgid "[@time ms]"
+msgstr "[@time ms]"
+
+#: includes/admin.inc:412,430,446,415,468
+msgid "This display has no path."
+msgstr "Diese Anzeige hat keinen Pfad."
+
+#: includes/admin.inc:417,435,451,420,473
+msgid "Query build time"
+msgstr "Aufbauzeit der Abfrage"
+
+#: includes/admin.inc:417,418,419,435,436,437,451,452,453,420,421,422,473,474,475
+msgid "@time ms"
+msgstr "@time ms"
+
+#: includes/admin.inc:418,436,452,421,474
+msgid "Query execute time"
+msgstr "Ausführungszeit der Abfrage"
+
+#: includes/admin.inc:419,437,453,422,475
+msgid "View render time"
+msgstr "Renderingzeit der Ansicht"
+
+#: includes/admin.inc:425,443,459,428,481
+msgid "No query was run"
+msgstr "Es wurde keine Abfrage ausgeführt"
+
+#: includes/admin.inc:432,450,466,435,488
+msgid "Unable to preview due to validation errors."
+msgstr "Die Vorschau kann wegen Validierungsfehlern nicht angezeigt werden."
+
+#: includes/admin.inc:493,511,527,496,550
+msgid "Separate arguments with a / as though they were a URL path."
+msgstr ""
+"Argumente mit einem „/“ voneinander abtrennen, als ob diese ein "
+"URL-Pfad wären."
+
+#: includes/admin.inc:537,555,544,578,547,607
+msgid "Clone view %view"
+msgstr "Ansicht %view duplizieren"
+
+#: includes/admin.inc:551,569,558,592,561
+msgid ""
+"This is the unique name of the view. It must contain only alphanumeric "
+"characters and underscores; it is used to identify the view internally "
+"and to generate unique theming template names for this view. If "
+"overriding a module provided view, the name must not be changed or "
+"instead a new view will be created."
+msgstr ""
+"Dies ist der eindeutige Name der Ansicht. Dieser darf nur aus "
+"alphanumerische Zeichen und Unterstrichen bestehen und wird dazu "
+"verwendet intern die Ansicht zu identifizieren und damit ein "
+"eindeutiger Name für die Templatedatei der Ansicht generiert werden "
+"kann. Wenn ein Modul eine bereitgestellte Ansicht überschreibt, darf "
+"der Name nicht geändert werden, sonst wird eine neue Ansicht "
+"erstellt."
+
+#: includes/admin.inc:560,1856,578,2185,567,1868,601,2214,570,1871,640,2456
+msgid "View description"
+msgstr "Beschreibung anzeigen"
+
+#: includes/admin.inc:561,1857,579,2186,568,1869,602,2215,571,1872,641,2457
+msgid ""
+"This description will appear on the Views administrative UI to tell "
+"you what the view is about."
+msgstr ""
+"Diese Beschreibung erscheint auf der Verwaltungsoberfläche der "
+"Ansichten, um darüber Aufzuklären, worum es sich bei der Ansicht "
+"handelt."
+
+#: includes/admin.inc:567,1863,585,2192,574,1875,608,2221,577,1878,648,2446
+msgid "View tag"
+msgstr "Ansichten-Kennzeichnung"
+
+#: includes/admin.inc:568,1864,586,2193,575,1876,609,2222,578,1879,649,2447
+msgid ""
+"Enter an optional tag for this view; it is used only to help sort "
+"views on the administrative page."
+msgstr ""
+"Eine optionale Kennzeichnung für diese Ansicht eingeben. Diese wird "
+"auf der Verwaltungsseite nur als Sortierhilfe für Ansichten "
+"verwendet."
+
+#: includes/admin.inc:581,599,588,622,591,662
+msgid ""
+"The view type is the primary table for which information is being "
+"retrieved. The view type controls what arguments, fields, sort "
+"criteria and filters are available, so once this is set it "
+"<strong>cannot be changed</strong>."
+msgstr ""
+"Der Ansichtentyp ist die primäre Tabelle für die Information "
+"abgefragt werden. Da der Ansichtentyp die zu Verfügung stehenden "
+"Argumente, Felder, Sortierkriterien und Filter kontrolliert, können "
+"diese <strong>nicht mehr geändert werden</strong>, nachdem diese "
+"einmal eingestellt wurden."
+
+#: includes/admin.inc:614,632,621,655,624,695
+msgid "You must use a unique name for this view."
+msgstr "Für die Ansicht muss ein eindeutiger Name verwendet werden."
+
+#: includes/admin.inc:647,665,654,688,657,730
+msgid "Are you sure you want to revert the view %name?"
+msgstr "Soll die Ansicht %name wirklich zurückgesetzt werden?"
+
+#: includes/admin.inc:648,666,655,689,658,731
+msgid ""
+"Reverting the view will delete the view that is in the database, "
+"reverting it to the original default view. Any changes you have made "
+"will be lost and cannot be recovered."
+msgstr ""
+"Das Zurücksetzen der Ansicht löscht die Ansicht, die in der "
+"Datenbank gespeichert ist und setzt sie dabei auf ihre ursprüngliche "
+"Standardansicht zurück. Alle Änderungen gehen verloren und können "
+"nicht wiederhergestellt werden."
+
+#: includes/admin.inc:653,671,660,694,663,736
+msgid "Deleting a view cannot be undone."
+msgstr "Das Löschen einer Ansicht kann nicht rückgängig gemacht werden."
+
+#: includes/admin.inc:671,689,678,712,681,754
+msgid "The view has been deleted."
+msgstr "Die Ansicht wurde gelöscht."
+
+#: includes/admin.inc:683,701,690,724,693,766
+msgid "There is no lock on view %view to break."
+msgstr "Für die Ansicht %view gibt es keine aufzuhebende Sperre."
+
+#: includes/admin.inc:693,711,700,734,703,776
+msgid "Are you sure you want to break the lock on view %name?"
+msgstr "Soll die Sperre bei der Ansicht %name wirklich aufgehoben werden?"
+
+#: includes/admin.inc:696,714,703,737,706,779
+msgid "By breaking this lock, any unsaved changes made by !user will be lost!"
+msgstr ""
+"Durch Aufheben der Sperre, gehen alle ungespeicherten Änderungen von "
+"!user verloren!"
+
+#: includes/admin.inc:697,715,704,738,707,780
+msgid "Break lock"
+msgstr "Sperre aufheben"
+
+#: includes/admin.inc:707,725,714,748,717,790
+msgid "The lock has been broken and you may now edit this view."
+msgstr ""
+"Die Sperre wurde aufgehoben und die Ansicht kann jetzt bearbeitet "
+"werden."
+
+#: includes/admin.inc:714,732,721,755,724,797
+msgid "Edit view %view"
+msgstr "Ansicht %view bearbeiten"
+
+#: includes/admin.inc:742,760,749,783,752,825
+msgid ""
+"Enter the name to use for this view if it is different from the source "
+"view. Leave blank to use the name of the view."
+msgstr ""
+"Einen Namen für die Ansicht eingeben, wenn dieser anders als die "
+"ursprüngliche Ansicht ist. Freilassen, um den Namen der Ansicht zu "
+"verwenden."
+
+#: includes/admin.inc:747,765,754,788,757,830
+msgid "Paste view code here"
+msgstr "Code für die Ansicht hier einfügen"
+
+#: includes/admin.inc:771,789,778,812,781,854
+msgid "Unable to interpret view code."
+msgstr "Code der Ansicht konnte nicht Interpretiert werden."
+
+#: includes/admin.inc:779,797,786,820,789,862
+msgid ""
+"You are importing a view created in Views version 1. You may need to "
+"adjust some parameters to work correctly in version 2."
+msgstr ""
+"Es wird eine Ansicht aus Views-Version 1 importiert. Hier müssen "
+"möglicherweise einige Parameter angepasst werden, damit diese mit "
+"Version 2 richtig zusammenarbeitet."
+
+#: includes/admin.inc:782,800,789,823,792,865
+msgid "That view is not compatible with this version of Views."
+msgstr "Diese Ansicht ist nicht kompatibel mit dieser Views Version."
+
+#: includes/admin.inc:797,815,809,843,812,885
+msgid "A view by that name already exists; please choose a different name"
+msgstr ""
+"Eine Ansicht mit diesem Namen ist schon vorhanden. Bitte einen anderen "
+"Namen wählen."
+
+#: includes/admin.inc:806,824,818,852,821,894
+msgid "Display plugin @plugin is not available."
+msgstr "Das Anzeige-Plugin @plugin ist nicht verfügbar."
+
+#: includes/admin.inc:813,831,825,859,828,901
+msgid "Style plugin @plugin is not available."
+msgstr "Das Design-Plugin @plugin ist nicht verfügbar."
+
+#: includes/admin.inc:819,837,831,865,834,907
+msgid "Row plugin @plugin is not available."
+msgstr "Das Zeilen-Plugin @plugin ist nicht verfügbar."
+
+#: includes/admin.inc:829,847,841,875,844,917
+msgid "@type handler @table.@field is not available."
+msgstr "Die @type-Behandlungsroutine @table.@field ist nicht verfügbar."
+
+#: includes/admin.inc:842,860,854,888,857,930
+msgid "Unable to import view."
+msgstr "Die Ansicht konnte nicht importiert werden."
+
+#: includes/admin.inc:915
+msgid "The view has been saved."
+msgstr "Die Ansicht wurde gespeichert."
+
+#: includes/admin.inc:959,983,971,1011,974,1056
+msgid "Unknown or missing table name"
+msgstr "Unbekannter oder fehlender Tabellenname"
+
+#: includes/admin.inc:964,988,976,1016,979,1061
+msgid "Click on an item to edit that item's details."
+msgstr "Einen Eintrag anklicken, um die Details zu bearbeiten."
+
+#: includes/admin.inc:967,991,979,1019,982,1064
+msgid "This view has a broken default display and cannot be used."
+msgstr ""
+"Diese Ansicht enthält eine beschädigte Standardanzeige und kann "
+"nicht verwendet werden."
+
+#: includes/admin.inc:1025,1050,1037,1078,1040,1136
+msgid "View \"@display\""
+msgstr "Anzeige „@display“"
+
+#: includes/admin.inc:1026,1051,1038,1079,1041,1137
+msgid "Go to the real page for this display"
+msgstr "Auf die reale Seite dieser Anzeige wechseln"
+
+#: includes/admin.inc:1170,1199,1181,1227,1184,1321
+msgid "Invalid"
+msgstr "Ungültig"
+
+#: includes/admin.inc:1171,1200,1182,1228,1185,1322
+msgid ""
+"Error: Display @display refers to a plugin named '@plugin', but that "
+"plugin doesn't exist!"
+msgstr ""
+"Fehler: Die Anzeige @display bezieht sich auf das nicht vorhandene "
+"Plugin ‚@plugin‘!"
+
+#: includes/admin.inc:1277,1323,1289,1352,1292,1455
+msgid "&nbsp; Style: !style"
+msgstr "&nbsp; Design: !style"
+
+#: includes/admin.inc:1308,1398,1320,1427,1323
+msgid "Invalid display id found while regenerating tabs"
+msgstr ""
+"Eine ungültige Anzeige-ID wurde bei der Neuerstellung von Reitern "
+"gefunden"
+
+#: includes/admin.inc:1630,1742,1642,1771,1645,1890,1970
+msgid "Unable to initialize default display"
+msgstr "Die Standardanzeige konnte nicht initialisiert werden."
+
+#: includes/admin.inc:1662,1774,1674,1803,1677,1921
+msgid "Add display"
+msgstr "Anzeige hinzufügen"
+
+#: includes/admin.inc:1702,1814,1714,1843,1717,2044
+msgid "Remove display"
+msgstr "Anzeige entfernen"
+
+#: includes/admin.inc:1713,1825,1725,1854,1728,2055
+msgid "Restore display"
+msgstr "Anzeige wiederherstellen"
+
+#: includes/admin.inc:1797,1909,1809,1938,1812,2145
+msgid "View analysis"
+msgstr "Analyse anzeigen"
+
+#: includes/admin.inc:1851,2180,1863,2209,1866,2430
+msgid "View details"
+msgstr "Details anzeigen"
+
+#: includes/admin.inc:1950,2279,1962,2308,1965,2565
+msgid "Configure @type"
+msgstr "@type konfigurieren"
+
+#: includes/admin.inc:2005,2334,2472,2017,2363,2501,2020,2620,2759
+msgid "Rearrange @type"
+msgstr "@type neu anordnen"
+
+#: includes/admin.inc:2048,2368,2605,2060,2397,2634,2063,2654,2892
+msgid "Broken field @id"
+msgstr "Beschädigtes Feld @id"
+
+#: includes/admin.inc:2202,2896,2214,2925,2217,3187
+msgid "There are no @types available to add."
+msgstr "Es stehen keine @types zum Hinzufügen zur Verfügung."
+
+#: includes/admin.inc:2327,3029,2339,3058,2342,3321
+msgid "Configure @type %item"
+msgstr "@type %item konfigurieren"
+
+#: includes/admin.inc:2440,3217,2452,3246,2455,3508
+msgid "Configure extra settings for @type %item"
+msgstr "Besondere Einstellungen für @type %item konfigurieren"
+
+#: includes/admin.inc:2505,3281,2517,3310,2520,3572
+msgid "Change summary style for @type %item"
+msgstr "Zusammenfassungsdesign für @type %item ändern"
+
+#: includes/admin.inc:2528,2542,3304,3318,2540,2554,3333,3347,2543,2557,3595,3609
+msgid "Internal error: broken plugin."
+msgstr "Interner Fehler: beschädigtes Plugin."
+
+#: includes/admin.inc:2592,3368,2604,3397,2607,3659
+msgid "Configure summary style for @type %item"
+msgstr "Zusammenfassungsdesign für @type %item konfigurieren"
+
+#: includes/admin.inc:2684,3460,2696,3489,2709,3745
+msgid "Clear Views' cache"
+msgstr "Ansichten-Cache leeren"
+
+#: includes/admin.inc:2690,3466,2702,3495,2715,3751
+msgid "Add Views signature to all SQL queries"
+msgstr "Eine View-Signatur zu allen SQL-Abfragen hinzufügen"
+
+#: includes/admin.inc:2691,3467,2703,3496,2716,3752
+msgid ""
+"All Views-generated queries will include a special 'VIEWS' = 'VIEWS' "
+"string in the WHERE clause. This makes identifying Views queries in "
+"database server logs simpler, but should only be used when "
+"troubleshooting."
+msgstr ""
+"Alle von Ansichten generierten Abfragen werden eine spezielle "
+"Zeichenkette 'VIEWS' = 'VIEWS' in der WHERE Bedingung enthalten. Dies "
+"erlaubt die einfachere Identifikation der Abfragen von Ansichten in "
+"den Datenbankprotokollen, sollte aber nur zur Fehlersuche genutzt "
+"werden."
+
+#: includes/admin.inc:2697,3473,2709,3502,2722,3758
+msgid "Disable views data caching"
+msgstr "Datencaching von Views deaktivieren"
+
+#: includes/admin.inc:2698,3474,2710,3503,2723,3759
+msgid ""
+"Views caches data about tables, modules and views available, to "
+"increase performance. By checking this box, Views will skip this cache "
+"and always rebuild this data when needed. This can have a serious "
+"performance impact on your site."
+msgstr ""
+"Ausschalten des Zwischenspeichers des Modul Views: Dieses speichert "
+"Daten zu Tabellen, Module und verfügbaren Ansichten, um die Leistung "
+"zu steigern. Ausschalten bedeutet diesen Zwischenspeicher nicht zu "
+"nutzen und stattdessen die Daten jeweils neu  zu ermitteln, dies kann "
+"die Leistung der Website deutlich verschlechtern."
+
+#: includes/admin.inc:2704,3480,2716,3509,2729,3765
+msgid "Ignore missing advanced help module"
+msgstr "Das fehlende Advanced_Help-Modul ignorieren"
+
+#: includes/admin.inc:2705,3481,2717,3510,2730,3766
+msgid ""
+"Views uses the advanced help module to provide help text; if this "
+"module is not present Views will complain, unless this setting is "
+"checked."
+msgstr ""
+"Views verwendet das Advanced-Help-Modul für zusätzliche Hilfetexte. "
+"Wenn dieses Modul nicht vorhanden ist, wird Views solange ein Hinweis "
+"anzeigen bis diese Einstellung aktiviert wurde."
+
+#: includes/admin.inc:2711,3487,2723,3516,2736,3772
+msgid "Show query above live preview"
+msgstr "SQL-Abfrage oberhalb der Live-Vorschau anzeigen"
+
+#: includes/admin.inc:2712,3488,2724,3517,2737,3773
+msgid ""
+"The live preview feature will show you the output of the view you're "
+"creating, as well as the view. Check here to show the query and other "
+"information above the view; leave this unchecked to show that "
+"information below the view."
+msgstr ""
+"Die Live-Vorschau-Funktion wird die Ausgabe der erstellten Ansicht und "
+"auch die Ansicht anzeigen. Aktivieren, um die Abfrage und andere "
+"Information oberhalb der Ansicht anzuzeigen. Deaktivieren, um diese "
+"Information unterhalb der Ansicht anzuzeigen."
+
+#: includes/admin.inc:2718,3494,2737,3530,2750,3786
+msgid "Show other queries run during render during live preview"
+msgstr ""
+"Andere ausgeführte SQL-Abfragen während des Rendern bei der "
+"Live-Vorschau anzeigen"
+
+#: includes/admin.inc:2719,3495,2738,3531,2751,3787
+msgid ""
+"Drupal has the potential to run many queries while a view is being "
+"rendered. Checking this box will display every query run during view "
+"render as part of the live preview."
+msgstr ""
+"Drupal hat das Potenzial viele SQL-Abfragen auszuführen, während "
+"eine Ansicht dargestellt werden wird. Mit dem Aktivieren dieser Box "
+"werden alle ausgeführten SQL-Abfragen während des Rendern der "
+"Ansicht als Teil der Live-Vorschau angezeigt."
+
+#: includes/admin.inc:2725,3501,2744,3537,2757,3793
+msgid "Do not show hover links over views"
+msgstr "Administrationslinks in den Ansichten nicht anzeigen"
+
+#: includes/admin.inc:2726,3502,2745,3538,2758,3794
+msgid ""
+"To make it easier to administrate your views, Views provides 'hover' "
+"links to take you to the edit and export screen of a view whenever the "
+"view is used. This can be distracting on some themes, though; if it is "
+"problematic, you can turn it off here."
+msgstr ""
+"Um die Verwaltung der Ansichten zu erleichtern, werden "
+"Administrationslinks in den Ansichten angezeigt, mit denen man zur "
+"Bearbeiten- und Exportieren-Seite einer Ansicht gelangt. Diese können "
+"in einigen Themes stören und bei Problemen hiermit abgeschaltet "
+"werden."
+
+#: includes/admin.inc:2732,3508,2751,3544,2764,3800
+msgid "Enable views performance statistics via the Devel module"
+msgstr "Performancestatistiken für Ansichten mittels Devel-Modul aktivieren"
+
+#: includes/admin.inc:2733,3509,2752,3545,2765,3801
+msgid ""
+"Check this to enable some Views query and performance statistics "
+"<em>if Devel is installed</em>."
+msgstr ""
+"Aktivieren, damit SQL-Abfragen und Leistungsstatistiken der Ansicht "
+"bei <em>installiertem Devel-Modul</em> angezeigt werden."
+
+#: includes/admin.inc:2739,3515,2758,3551,2771,3807
+msgid "Disable javascript with Views"
+msgstr "JavaScript mit Ansichten deaktivieren"
+
+#: includes/admin.inc:2740,3516,2759,3552,2772,3808
+msgid ""
+"If you are having problems with the javascript, you can disable it "
+"here; the Views UI should degrade and still be usable without "
+"javascript, it just not as good."
+msgstr ""
+"Wenn es Probleme mit JavaScript gibt, kann dies hier deaktiviert "
+"werden; die Benutzeroberfläche von Ansichten sollte dann etwas "
+"vermindert weiterhin ohne JavaSript nutzbar sein, es verliert nur "
+"dadurch seine einfache Handhabung."
+
+#: includes/admin.inc:2749,3525,2768,3561,2781,3825
+msgid "Page region to output performance statistics"
+msgstr "Performancestatistiken in folgender Seitenregion ausgegeben"
+
+#: includes/admin.inc:2756,3532,2775,3568,2788,3832
+msgid "Label for \"Any\" value on optional single-select exposed filters"
+msgstr ""
+"Bezeichner für den „Alles“ Wert bei den Einfach-Auswahllisten der "
+"hervorgehobenen Filter"
+
+#: includes/admin.inc:2945,3724,2964,3760,2977,4027
+msgid "Error: missing @component"
+msgstr "Fehler: @component fehlt"
+
+#: includes/ajax.inc:89,99
+msgid "Server reports invalid input error."
+msgstr "Der Server hat eine ungültige Eingabe festgestellt."
+
+#: includes/analyze.inc:38
+msgid "View analysis can find nothing to report."
+msgstr "Die Analyse der Ansicht ergab keine Einstellungsfehler."
+
+#: includes/analyze.inc:104
+msgid ""
+"This view has only a default display and therefore will not be placed "
+"anywhere on your site; perhaps you want to add a page or a block "
+"display."
+msgstr ""
+"Die Ansicht hat nur eine Standardanzeige und deswegen wird sie auch "
+"nirgends auf der Website angezeigt werden; daher sollte die Anzeige "
+"als Seite oder Block hinzufügt werden."
+
+#: includes/convert.inc:14
+msgid "There are no Views 1 views stored in the database to convert."
+msgstr ""
+"In der Datenbank sind keine Views-1-Ansichten zum Konvertieren "
+"vorhanden."
+
+#: includes/convert.inc:33
+msgid "Converted"
+msgstr "Konvertiert"
+
+#: includes/convert.inc:68
+msgid ""
+"The table below lists Views version 1 views that are stored in the "
+"database. You can either convert them to work in Views version 2, or "
+"delete them. The views are convertible only if there is no Views 2 "
+"view with the same name."
+msgstr ""
+"Die untere Tabelle listet Views Version 1 Ansichten, die in der "
+"Datenbank gespeichert sind. Diese können entweder konvertiert werden, "
+"um damit in Views Version 2 zu arbeiten oder gelöscht werden. Die "
+"Ansichten werden nur konvertiert, wenn keine Views 2 Ansicht mit "
+"demselben Namen vorhanden ist."
+
+#: includes/convert.inc:79,129
+msgid "Unable to find view."
+msgstr "Ansicht konnte nicht gefunden werden."
+
+#: includes/convert.inc:89,139
+msgid "Unable to convert view."
+msgstr "Ansicht konnte nicht konvertiert werden."
+
+#: includes/convert.inc:117,167
+msgid "The view has been deleted"
+msgstr "Die Ansicht wurde gelöscht."
+
+#: includes/handlers.inc:43,56
+msgid "Handler @handler include tried to loop infinitely!"
+msgstr "Die Behandlungsroutine @handler ist eine Endlosschleife!"
+
+#: includes/handlers.inc:521,628,525,677,606
+msgid "Reduce duplicates"
+msgstr "Duplikate reduzieren"
+
+#: includes/handlers.inc:522
+msgid ""
+"This filter can cause items that have more than one of the selected "
+"options to appear as duplicate results. If this filter causes "
+"duplicate results to occur, this checkbox can reduce those duplicates; "
+"however, the more terms it has to search for, the less performant the "
+"query will be, so use this with caution."
+msgstr ""
+"Dieser Filter kann es sich um Elemente führen, die mehr als eine der "
+"ausgewählten Optionen als doppelte Ergebnisse angezeigt haben. Wenn "
+"dieser Filter bewirkt, doppelte Ergebnisse dass auftreten, kann diese "
+"Checkbox diese Duplikate reduzieren; allerdings die weitere "
+"Bedingungen, die es hat, zu suchen, die weniger Performant, die die "
+"Abfrage sein wird, so verwenden dies mit Vorsicht. Es sollte nicht auf "
+"einwertigen Feldern, festgelegt werden, wie Sie Werte aus der Anzeige, "
+"verschwinden verursachen kann, wenn auf eine inkompatible Feld "
+"verwendet."
+
+#: includes/plugins.inc:26,27,25,20
+msgid "Default settings for this view."
+msgstr "Standardeinstellungen für diese Ansicht."
+
+#: includes/plugins.inc:40,41,39,34
+msgid "Display the view as a page, with a URL and menu links."
+msgstr "Die Ansicht als Seite mit einer URL und Menüeinträgen anzeigen."
+
+#: includes/plugins.inc:52,53,51,46
+msgid "Display the view as a block."
+msgstr "Diese Ansicht als Block anzeigen."
+
+#: includes/plugins.inc:65,66,64,59
+msgid ""
+"Attachments added to other displays to achieve multiple views in the "
+"same view."
+msgstr ""
+"Anhänge werden zu anderen Ansichten hinzugefügt, um mehrere "
+"Ansichten in der gleichen Ansicht darzustellen."
+
+#: includes/plugins.inc:73,74,72,69
+msgid "Display the view as a feed, such as an RSS feed."
+msgstr "Die Ansicht als Newsfeed anzeigen, wie einen RSS-Newsfeed."
+
+#: includes/plugins.inc:94,95,93,83
+msgid "Displays rows one after another."
+msgstr "Zeigt die Zeilen nacheinander an."
+
+#: includes/plugins.inc:104,105,103,94
+msgid "HTML List"
+msgstr "HTML-Liste"
+
+#: includes/plugins.inc:105,106,104,95
+msgid "Displays rows as an HTML list."
+msgstr "Zeigt die Zeilen als HTML-Liste an."
+
+#: includes/plugins.inc:115,116,114,106
+msgid "Displays rows in a grid."
+msgstr "Zeilen in einem Gitter anzeigen."
+
+#: includes/plugins.inc:125,126,124,117
+msgid "Displays rows in a table."
+msgstr "Zeilen in einer Tabelle anzeigen."
+
+#: includes/plugins.inc:136,137,135,129
+msgid "Displays the default summary as a list."
+msgstr "Zeigt die standardmäßige Zusammenfassung als Liste an."
+
+#: includes/plugins.inc:145,146,144,138
+msgid ""
+"Displays the summary unformatted, with option for one after another or "
+"inline."
+msgstr ""
+"Zeigt die Zusammenfassung unformatiert an, mit der Option eine nach "
+"der anderen oder inline."
+
+#: includes/plugins.inc:155,156,154,147
+msgid "Generates an RSS feed from a view."
+msgstr "Generiert einen RSS-Newsfeed aus einer Ansicht."
+
+#: includes/plugins.inc:174,175,173,159
+msgid "Displays the fields with an optional template."
+msgstr "Die Felder mit einer optionalen Vorlage anzeigen."
+
+#: includes/plugins.inc:187,188,190,189,175
+msgid "Fixed entry"
+msgstr "Fester Eintrag"
+
+#: includes/plugins.inc:219,220,221,196
+msgid "Will be available to all users."
+msgstr "Wird allen Benutzern zu Verfügung stehen."
+
+#: includes/plugins.inc:225,226,227,202
+msgid "Access will be granted to users with any of the specified roles."
+msgstr ""
+"Der Zugriff wird dem Benutzer mit einer der angegebenen Rollen "
+"gewährt."
+
+#: includes/plugins.inc:246,247,258,260,259,235
+msgid "No caching of Views data."
+msgstr "Daten von Ansichten nicht zwischenspeichern."
+
+#: includes/plugins.inc:251,252,263,265,264,240
+msgid "Time-based"
+msgstr "Zeit basiert"
+
+#: includes/plugins.inc:252,253,264,266,265,241
+msgid "Simple time-based caching of data."
+msgstr "Einfaches zeitbasiertes Caching von Daten."
+
+#: includes/view.inc:266,273,290
+msgid "set_display() called with invalid display id @display."
+msgstr "set_display() wurde mit ungültiger Anzeige-ID @display aufgerufen."
+
+#: includes/view.inc:1973,2007,1952,2014,1948,2027,1961,2103
+msgid "sort criteria"
+msgstr "Sortierkriterium"
+
+#: includes/view.inc:1974,2008,1953,2015,1949,2028,1962,2104
+msgid "Sort criterion"
+msgstr "Sortierkriterien"
+
+#: includes/view.inc:1975,2009,1954,2016,1950,2029,1963,2105
+msgid "sort criterion"
+msgstr "Sortierkriterien"
+
+#: includes/view.inc:1982,2016,1961,2023,1957,2036,1970,2112
+msgid "filter"
+msgstr "Filter"
+
+#: includes/admin.inc:257,264,3146
+msgid "- All -"
+msgstr "- Alle -"
+
+#: includes/admin.inc:2145,2174,2388
+msgid "Reorder"
+msgstr "Neu anordnen"
+
+#: includes/admin.inc:1227
+msgid "Human name"
+msgstr ""
+
+#: includes/admin.inc:915,939,927,967,930,1009
+msgid "The view %name has been saved."
+msgstr "Die Ansicht %name wurde gespeichert."
+
+#: includes/convert.inc:81
+msgid "Remove all Views 1 tables"
+msgstr "Alle Tabellen der Version 1 von Views entfernen"
+
+#: includes/convert.inc:82
+msgid ""
+"Check this box and then click clean up to drop all Views 1 tables. "
+"Warning: this operation will not be reversible! Do this only if you "
+"are sure you no longer need this data."
+msgstr ""
+"Aktivieren Sie dieses Kontrollkästchen und klicken Sie dann auf "
+"bereinigen, um alle Tabellen der Version 1  von Views zu löschen. "
+"Warnung: Dieser Vorgang ist nicht umkehrbar! Führen Sie diesen "
+"Vorgang nur durch, wenn Sie über ein Backup verfügen."
+
+#: includes/convert.inc:120
+msgid "All Views 1 tables have been removed."
+msgstr "Alle Views 1 Tabellen wurden entfernt."
+
+#: includes/handlers.inc:522,629,526,678,607
+msgid ""
+"This filter can cause items that have more than one of the selected "
+"options to appear as duplicate results. If this filter causes "
+"duplicate results to occur, this checkbox can reduce those duplicates; "
+"however, the more terms it has to search for, the less performant the "
+"query will be, so use this with caution. Shouldn't be set on "
+"single-value fields, as it may cause values to disappear from display, "
+"if used on an incompatible field."
+msgstr ""
+"Dieser Filter kann es sich um Elemente führen, die mehr als eine der "
+"ausgewählten Optionen als doppelte Ergebnisse angezeigt haben. Wenn "
+"dieser Filter bewirkt, doppelte Ergebnisse dass auftreten, kann diese "
+"Checkbox diese Duplikate reduzieren; allerdings die weitere "
+"Bedingungen, die es hat, zu suchen, die weniger Performant, die die "
+"Abfrage sein wird, so verwenden dies mit Vorsicht. Es sollte nicht auf "
+"einwertigen Feldern, festgelegt werden, wie Sie Werte aus der Anzeige, "
+"verschwinden verursachen kann, wenn auf eine inkompatible Feld "
+"verwendet."
+
+#: includes/plugins.inc:263,272,332,341,333,342
+msgid "Jump menu"
+msgstr "﻿Sprungmenü"
+
+#: includes/plugins.inc:264,273,333,342,334,343
+msgid ""
+"Puts all of the results into a select box and allows the user to go to "
+"a different page based upon the results."
+msgstr ""
+"Setzt alle Ergebnisse in ein Auswahlfeld und ermöglicht dem Benutzer "
+"auf  anderen Seiten zu gelangen, auf der Grundlage der dargestellten "
+"Ergebnisse."
+
+#: includes/plugins.inc:245,247,246,222
+msgid "SQL Query"
+msgstr "SQL Abfrage"
+
+#: includes/plugins.inc:246,248,247,223
+msgid "Query will be generated and run using the Drupal database API."
+msgstr "Abfrage generiert und mithilfe der Drupal-Datenbank-API ausgeführt."
+
+#: includes/admin.inc:2004,2033,2244
+msgid "Displays Reorder"
+msgstr "Zeigt ‚neu anordnen‘ an"
+
+#: includes/admin.inc:2103,2104,2132,2133,2342,2343
+msgid "Remove this display"
+msgstr "Anzeige entfernen"
+
+#: includes/admin.inc:2521,2550,2808
+msgid "Operator to use on all groups"
+msgstr "Operator auf alle Gruppen anwenden"
+
+#: includes/admin.inc:2522,2551,2809
+msgid ""
+"Either \"group 0 AND group 1 AND group 2\" or \"group 0 OR group 1 OR "
+"group 2\", etc"
+msgstr ""
+"Entweder „group 0 AND group 1 AND group 2“ oder „group 0 OR "
+"group 1 OR group 2“, etc."
+
+#: includes/admin.inc:2530,2559,2817
+msgid "Group operator"
+msgstr "Operator für Gruppen"
+
+#: includes/admin.inc:2546,2575,2833
+msgid "Remove group @group"
+msgstr "Entferne Gruppe @group"
+
+#: includes/admin.inc:2550,2579,2837
+msgid "Default group"
+msgstr "Standardgruppe"
+
+#: includes/admin.inc:2550,2579,2837
+msgid "Group @group"
+msgstr "Gruppe @group"
+
+#: includes/admin.inc:2681,2710,2969
+msgid "This group is empty"
+msgstr "Diese Gruppe ist leer"
+
+#: includes/admin.inc:2721,2750,3009
+msgid "Ungroupable filters"
+msgstr "Nicht gruppierbare Filter"
+
+#: includes/admin.inc:3133,3162
+msgid ""
+"Grouping is enabled for this display. You must select what function to "
+"use on this field."
+msgstr ""
+"Gruppierung ist für diese Anzeige aktiviert. Wählen Sie müssen aus, "
+"welche Funktion auf diesem Feld verwenden werden."
+
+#: includes/cache.inc:133,132,130
+msgid "View name '@name' is already taken"
+msgstr "Name der Ansicht ‚@name‘ ist bereits vergeben"
+
+#: includes/plugins.inc:280,279,255
+msgid "Basic exposed form"
+msgstr "Exponierten Grundform"
+
+#: includes/plugins.inc:287,286,262
+msgid ""
+"An exposed form that only renders a view if the form contains user "
+"input."
+msgstr ""
+"Eine verfügbar gemachtes Formular, das nur dann eine Ansicht erzeugt, "
+"wenn das Formular Benutzereingaben enthält."
+
+#: includes/plugins.inc:300,299,275
+msgid "Display all items"
+msgstr "Alle Elemente anzeigen"
+
+#: includes/plugins.inc:301,300,276
+msgid "Display all items that this view might find"
+msgstr "Anzeigen aller Elemente, die diese Ansicht filtert"
+
+#: includes/plugins.inc:307,306,283
+msgid "Display a specified number of items"
+msgstr "Die angegebene Anzahl von Elementen anzeigen"
+
+#: includes/plugins.inc:308,307,284
+msgid "Display a limited number items that this view might find."
+msgstr "Zeigt eine begrenzte Anzahl Elemente dieser Ansicht."
+
+#: includes/plugins.inc:314,313,291
+msgid "Paged output, full pager"
+msgstr "Seitenweise Ausgabe, volle Seitennavigation"
+
+#: includes/plugins.inc:315,314,292
+msgid "Paged output, full Drupal style"
+msgstr "Seitenweise Ausgabe, kompletter Drupal Stil"
+
+#: includes/plugins.inc:321,320,298
+msgid "Paged output, mini pager"
+msgstr "Seitenweise Ausgabe, mini Seitennavigation"
+
+#: includes/plugins.inc:322,321,299
+msgid "Use the mini pager output."
+msgstr "Die Mini-Seitennavigation verwenden."
+
+#: includes/view.inc:1986,1999,2141
+msgid "empty text"
+msgstr "Leerer Text"
+
+#: includes/admin.inc:506,540,509,562
+msgid "Automatic live preview"
+msgstr "Automatische Live-Vorschau"
+
+#: includes/admin.inc:793,827,796,869
+msgid ""
+"That view is created for the version @import_version of views, but you "
+"only have @api_version"
+msgstr ""
+"Diese Ansicht wurde für die Version @import_version von Views "
+"erstellt, aktuell ist aber die @api_version installiert."
+
+#: includes/admin.inc:1257,1318,1260,1420
+msgid "Broken/missing handler: @table > @field"
+msgstr "Beschädigte o. fehlende Behandlungsroutine @table > @field"
+
+#: includes/admin.inc:2730,3523,2743,3779
+msgid "Disable automatic live preview"
+msgstr "Automatische live Vorschau deaktivieren"
+
+#: includes/admin.inc:2731,3524,2744,3780
+msgid ""
+"Don't automatically update the preview. This can speed up the editing "
+"of views a bit.'"
+msgstr ""
+"Die Vorschau nicht automatisch aktualisieren. Dies kann die "
+"Bearbeitung von Ansichten ein bisschen beschleunigen.'"
+
+#: includes/admin.inc:621
+msgid "A descriptive name for this view. Spaces are allowed."
+msgstr ""
+
+#: includes/admin.inc:635
+msgid ""
+"A unique machine-readable name for this View. It must only contain "
+"lowercase letters, numbers, and underscores."
+msgstr ""
+
+#: includes/admin.inc:689
+msgid ""
+"View name must be alphanumeric or underscores only, but cannot be "
+"numeric."
+msgstr ""
+
+#: includes/admin.inc:1558
+msgid "Update and override"
+msgstr ""
+
+#: includes/admin.inc:1997
+msgid "Clone display"
+msgstr ""
+
+#: includes/admin.inc:2221
+msgid "Weight for @display"
+msgstr ""
+
+#: includes/admin.inc:2438
+msgid ""
+"You can use a more descriptive name for this view here. Spaces are "
+"allowed"
+msgstr ""
+
+#: includes/admin.inc:3814
+msgid "Translation method"
+msgstr ""
+
+#: includes/admin.inc:3817
+msgid ""
+"Select a translation method to use for Views data like header, footer, "
+"and empty text."
+msgstr ""
+
+#: includes/handlers.inc:221
+msgid "Administrative Title"
+msgstr ""
+
+#: includes/handlers.inc:222
+msgid ""
+"This title will be displayed on the views edit page instead of the "
+"default one. This might be useful if you have the same item twice."
+msgstr ""
+
+#: includes/handlers.inc:257
+msgid "Select the grouping function to use on this field."
+msgstr ""
+
+#: includes/plugins.inc:314
+msgid "Do not pass admin strings for translation."
+msgstr ""
+
+#: includes/plugins.inc:320
+msgid ""
+"Use Drupal core t() function. Not recommended, as it doesn't support "
+"updates to existing strings."
+msgstr ""
+
+#: includes/plugins.inc:328
+msgid ""
+"If you need to translate Views labels into other languages, consider "
+"installing the <a href=\"!path\">Internationalization</a> package's "
+"Views translation module."
+msgstr ""
+

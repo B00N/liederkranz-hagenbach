@@ -1,0 +1,48 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  tabs.js,v 1.4 2009/06/02 17:12:13 merlinofchaos
+#  tabs.js,v 1.3.2.1 2009/06/02 17:12:03 merlinofchaos
+#  tabs.js,v 1.4.2.1 2010/03/10 20:08:58 merlinofchaos
+#  tabs.js,v 1.4.4.4 2010/03/20 23:16:37 dereine
+#  ajax.js,v 1.25.2.7 2010/01/22 06:15:40 merlinofchaos
+#  ajax.js,v 1.26.2.7 2010/03/12 01:51:47 merlinofchaos
+#  ajax.js,v 1.26.2.8 2010/04/08 21:29:59 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-07-25 19:11+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: js/tabs.js:0
+msgid "jQuery UI Tabs: Mismatching fragment identifier."
+msgstr "jQuery UI Reiter: Nichtübereinstimmung bei der Fragmentbezeichnung."
+
+#: js/tabs.js:0
+msgid "jQuery UI Tabs: Not enough arguments to add tab."
+msgstr ""
+"jQuery UI-Reiter: Nicht genug Argumente, um einen Reiter "
+"hinzuzufügen."
+
+#: js/ajax.js:0
+msgid ""
+"Internal server error. Please see server or PHP logs for error "
+"information."
+msgstr "Interner Serverfehler. Prüfen Sie die Server- bzw. PHP-Protokolle."
+
+#: js/ajax.js:0
+msgid ""
+"An error occurred at @path.\n"
+"\n"
+"Error Description: @error"
+msgstr ""
+"﻿Unter @path ist ein Fehler aufgetreten.\n"
+"\n"
+"Fehlerbeschreibung: @error"
+

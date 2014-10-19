@@ -1,0 +1,79 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_handler_filter_search.inc,v 1.5 2009/04/10 19:32:19 merlinofchaos
+#  views_handler_filter_search.inc,v 1.5.2.1 2009/12/24 00:37:04 merlinofchaos
+#  views_handler_filter_search.inc,v 1.5.4.1 2009/12/24 00:37:08 merlinofchaos
+#  views_handler_filter_search.inc,v 1.5.6.2 2009/12/24 00:37:00 merlinofchaos
+#  views_handler_field_search_score.inc,v 1.2 2009/02/23 23:30:38 merlinofchaos
+#  views_handler_field_search_score.inc,v 1.2.6.1 2010/12/09 21:31:10 merlinofchaos
+#  views_plugin_row_search_view.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_row_search_view.inc,v 1.1.6.1 2009/11/02 22:01:26 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-08-23 19:04+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/search/views_handler_filter_search.inc:42
+msgid "Enter the terms you wish to search for."
+msgstr "Geben Sie die Begriffe ein, nach denen Sie suchen."
+
+#: modules/search/views_handler_filter_search.inc:60
+msgid ""
+"You must include at least one positive keyword with @count characters "
+"or more."
+msgstr ""
+"Es muss mindestens ein gültiges Stichwort in der Suchanfrage "
+"verwendet werden, das mindestens @count oder mehr Zeichen enthält."
+
+#: modules/search/views_handler_filter_search.inc:26
+msgid "Show All"
+msgstr "Alle anzeigen"
+
+#: modules/search/views_handler_field_search_score.inc:21
+msgid "No alternate"
+msgstr "Keine Alternative"
+
+#: modules/search/views_handler_field_search_score.inc:28
+msgid "Alternative sort"
+msgstr "Alternative Sortierung"
+
+#: modules/search/views_handler_field_search_score.inc:29
+msgid ""
+"If no search is performed and this field does not appear, pick an "
+"alternative default table sort field."
+msgstr ""
+"Falls keine Suche durchgeführt wird und dieses Feld nicht angezeigt "
+"wird, wählen Sie eine alternative Feld aus der Tabelle zum Sortieren."
+
+#: modules/search/views_handler_field_search_score.inc:36
+msgid "Alternate sort order"
+msgstr "Alternative Sortierreihenfolge"
+
+#: modules/search/views_handler_filter_search.inc:23
+msgid "On empty input"
+msgstr "Bei leerer Eingabe"
+
+#: modules/search/views_handler_filter_search.inc:27
+msgid "Show None"
+msgstr "Keine anzeigen"
+
+#: modules/search/views_handler_filter_search.inc:64
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. "
+"For example, <strong>cats OR dogs</strong>."
+msgstr ""
+"Mit großgeschriebenem <strong>OR</strong> nach einem von beiden "
+"Begriffen suchen. Beispielsweise <strong>Katzen OR Hunde</strong>."
+
+#: modules/search/views_plugin_row_search_view.inc:23
+msgid "Display score"
+msgstr "Trefferanzahl anzeigen"
+

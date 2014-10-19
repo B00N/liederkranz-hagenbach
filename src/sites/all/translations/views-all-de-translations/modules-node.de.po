@@ -1,0 +1,137 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_plugin_argument_validate_node.inc,v 1.2 2009/06/10 22:04:57 merlinofchaos
+#  views_plugin_argument_validate_node.inc,v 1.1.2.1 2009/06/10 22:05:24 merlinofchaos
+#  views_plugin_argument_validate_node.inc,v 1.1.2.3 2010/01/05 01:30:20 merlinofchaos
+#  views_plugin_argument_validate_node.inc,v 1.2.4.3 2010/05/15 08:11:14 dereine
+#  views_handler_filter_node_type.inc,v 1.2 2009/06/02 17:57:48 merlinofchaos
+#  views_handler_filter_node_type.inc,v 1.1.2.1 2009/09/15 22:00:18 merlinofchaos
+#  views_handler_filter_node_type.inc,v 1.2.4.1 2009/11/02 22:01:26 merlinofchaos
+#  views_handler_field_node_revision_link_revert.inc,v 1.1 2008/09/03 19:21:29 merlinofchaos
+#  views_handler_field_node_revision_link_revert.inc,v 1.1.6.2 2010/11/18 07:29:03 dereine
+#  views_plugin_row_node_view.inc,v 1.3 2009/04/08 20:54:58 merlinofchaos
+#  views_plugin_row_node_view.inc,v 1.3.6.3 2010/12/03 11:26:09 dereine
+#  views_handler_argument_dates_various.inc,v 1.4 2009/01/08 00:25:19 merlinofchaos
+#  views_handler_argument_dates_various.inc,v 1.4.6.3 2010/09/19 08:18:11 dereine
+#  views_handler_field_node.inc,v 1.4 2009/06/02 20:54:38 merlinofchaos
+#  views_handler_field_node.inc,v 1.7 2009/09/21 22:12:21 merlinofchaos
+#  views_handler_field_node.inc,v 1.3.2.4 2009/09/21 22:12:13 merlinofchaos
+#  views_handler_field_node.inc,v 1.3.2.5 2009/11/10 23:20:06 merlinofchaos
+#  views_handler_field_node.inc,v 1.7.2.2 2010/03/16 23:09:05 merlinofchaos
+#  views_handler_field_node.inc,v 1.7.4.8 2010/11/18 23:32:04 merlinofchaos
+#  views_handler_argument_node_type.inc,v 1.2 2009/06/02 17:57:48 merlinofchaos
+#  views_handler_argument_node_type.inc,v 1.1 2008/09/03 19:21:29 merlinofchaos
+#  views_handler_argument_node_type.inc,v 1.2.4.1 2009/11/02 22:01:26 merlinofchaos
+#  views_handler_field_history_user_timestamp.inc,v 1.1 2008/09/03 19:21:29 merlinofchaos
+#  views_handler_field_history_user_timestamp.inc,v 1.1.6.3 2010/08/26 09:41:55 dereine
+#  views/modules/node/views_handler_field_node_path.inc: n/a
+#  views_handler_field_node_revision.inc,v 1.1.4.2 2010/03/08 20:02:42 merlinofchaos
+#  views_handler_field_node_revision.inc,v 1.1.6.3 2010/08/26 09:41:55 dereine
+#  views_handler_field_node_type.inc,v 1.2.2.1 2010/03/25 18:22:45 merlinofchaos
+#  views_handler_field_node_type.inc,v 1.2.2.2 2010/04/08 17:24:42 merlinofchaos
+#  views_handler_field_node_type.inc,v 1.2.2.3 2010/04/29 18:33:39 merlinofchaos
+#  views_handler_field_node_type.inc,v 1.2.4.4 2010/04/29 18:33:29 merlinofchaos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-10-17 09:37+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/node/views_plugin_argument_validate_node.inc:29
+msgid "Types"
+msgstr "Typen"
+
+#: modules/node/views_plugin_argument_validate_node.inc:49,45
+msgid "Node ID"
+msgstr "Beitrags-ID"
+
+#: modules/node/views_handler_filter_node_type.inc:9
+msgid "Node type"
+msgstr "Inhaltstyp"
+
+#: modules/node/views_handler_field_node_revision_link_revert.inc:36,34
+msgid "revert"
+msgstr "Zurücksetzen"
+
+#: modules/node/views_plugin_row_node_view.inc:53,52
+msgid "Full node"
+msgstr "Vollständiger Beitrag"
+
+#: modules/node/views_handler_argument_dates_various.inc:167,168
+msgid "Week @week"
+msgstr "@week Woche"
+
+#: modules/node/views_handler_field_node.inc:32,35
+msgid "Link this field to its node"
+msgstr "Dieses Feld auf seinen Beitrag verlinken"
+
+#: modules/node/views_handler_argument_node_type.inc:30
+msgid "Unknown node type"
+msgstr "Unbekannter Beitragstyp"
+
+#: modules/node/views_handler_field_history_user_timestamp.inc:32,34
+msgid "Check for new comments as well"
+msgstr "Auch auf neue Kommentare überprüfen."
+
+#: modules/node/views_plugin_argument_validate_node.inc:32
+msgid ""
+"If you wish to validate for specific node types, check them; if none "
+"are checked, all nodes will pass."
+msgstr ""
+"Kontrollkästchen aktivieren, wenn nach bestimmten Inhaltstypen "
+"überprüft werden soll. Keine aktivieren, um alle Beiträge "
+"anzuzeigen."
+
+#: modules/node/views_plugin_argument_validate_node.inc:39,37
+msgid "Validate user has access to the node"
+msgstr "Überprüfen, ob der Benutzer Zugriff auf den Beitrag hat"
+
+#: modules/node/views_plugin_argument_validate_node.inc:50,46
+msgid "Node IDs separated by , or +"
+msgstr "Beitrag-IDs getrennt nach , oder +"
+
+#: modules/node/views_plugin_row_node_view.inc:59
+msgid "Build mode"
+msgstr "Aufbau-Modus"
+
+#: modules/node/views_plugin_row_node_view.inc:69
+msgid "Display node comments"
+msgstr "Beitragskommentare anzeigen"
+
+#: modules/node/views_handler_field_node_path.inc:24
+msgid "Use absolute link (begins with \"http://\")"
+msgstr "Verwenden Sie einen absoluten Link (beginnt mit \"http://\")"
+
+#: modules/node/views_handler_field_node_path.inc:26
+msgid ""
+"If you want to use this as in \"output this field as link\" in \"link "
+"path\", you must enable this option."
+msgstr ""
+"Aktivieren Sie diese Option, wenn das Feld als „Link“ oder "
+"„Link-Pfad“ ausgegeben wird."
+
+#: modules/node/views_handler_field_node_revision.inc:31
+msgid "Link this field to its node revision"
+msgstr "Dieses Feld auf seinen Beitrag verlinken"
+
+#: modules/node/views_handler_field_node_type.inc:22,21
+msgid "Output machine name"
+msgstr "Maschinenname der Ausgabe"
+
+#: modules/node/views_handler_field_node_type.inc:23,22
+msgid "Display field as the node type machine name."
+msgstr "Die Felder mit einer optionalen Vorlage anzeigen."
+
+#: modules/node/views_handler_field_node_path.inc:26
+msgid ""
+"If you want to use this as in \"output this field as link\" in \"link "
+"path\", you have to enabled this option."
+msgstr ""
+

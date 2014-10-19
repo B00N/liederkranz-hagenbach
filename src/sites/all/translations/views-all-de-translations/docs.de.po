@@ -1,0 +1,105 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  docs.php,v 1.15 2009/06/01 23:33:37 merlinofchaos
+#  docs.php,v 1.16 2009/06/17 18:25:02 merlinofchaos
+#  docs.php,v 1.13.2.3 2009/06/25 18:48:24 merlinofchaos
+#  docs.php,v 1.16.2.1 2009/11/30 23:55:33 merlinofchaos
+#  docs.php,v 1.13.2.4 2009/11/30 23:55:30 merlinofchaos
+#  docs.php,v 1.16.2.2 2010/03/08 20:04:40 merlinofchaos
+#  docs.php,v 1.16.4.10 2010/12/18 08:02:37 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-03-20 09:33+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: docs/docs.php:273,281,306
+msgid "default"
+msgstr "Standard"
+
+#: docs/docs.php:494,502,524
+msgid "Front page feed"
+msgstr "Newsfeed der Startseite"
+
+#: docs/docs.php:90,97
+msgid "Example table"
+msgstr "Beispiel-Tabelle"
+
+#: docs/docs.php:98
+msgid "Example table contains example content and can be related to nodes."
+msgstr ""
+"Die Beispieltabelle enthält Beispiel-Inhalte und kann mit Beiträgen "
+"verknüpft werden."
+
+#: docs/docs.php:122
+msgid "Example content"
+msgstr "Beispiel-Inhalte"
+
+#: docs/docs.php:123
+msgid "Some example content that references a node."
+msgstr "Einige Beispiel-Inhalte, die auf einen Beitrag verweisen."
+
+#: docs/docs.php:131
+msgid "Example node"
+msgstr "Beispiel-Beitrag"
+
+#: docs/docs.php:137
+msgid "Plain text field"
+msgstr "Textfeld"
+
+#: docs/docs.php:138
+msgid "Just a plain text field."
+msgstr "Definiert ein einfaches Textfeld."
+
+#: docs/docs.php:156
+msgid "Numeric field"
+msgstr "Numerisches Feld"
+
+#: docs/docs.php:157
+msgid "Just a numeric field."
+msgstr "Ein einfaches numerisches Feld."
+
+#: docs/docs.php:172
+msgid "Boolean field"
+msgstr "Boolesches Feld"
+
+#: docs/docs.php:173
+msgid "Just an on/off field."
+msgstr "Nur ein an/aus Feld."
+
+#: docs/docs.php:190,192
+msgid "Timestamp field"
+msgstr "Zeitstempel Feld"
+
+#: docs/docs.php:191,193
+msgid "Just a timestamp field."
+msgstr "Nur ein Zeitstempel Feld."
+
+#: docs/docs.php:272,280,305
+msgid ""
+"Emulates the default Drupal front page; you may set the default home "
+"page path to this view to make it your front page."
+msgstr ""
+"Emuliert die standardmäßige Drupal-Startseite. Der standardmäßige "
+"Pfad der Startseite kann auf diese Ansicht eingestellt werden, um "
+"diese zur Startseite zu machen."
+
+#: docs/docs.php:223
+msgid "Node-Nid"
+msgstr ""
+
+#: docs/docs.php:227
+msgid "Example field"
+msgstr ""
+
+#: docs/docs.php:228
+msgid "Some examüple content that references a user"
+msgstr ""
+

@@ -1,0 +1,77 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_handler_field_comment_link_reply.inc,v 1.1 2008/09/03 19:21:29 merlinofchaos
+#  views_handler_field_comment_link_reply.inc,v 1.1.6.1 2010/11/18 07:29:03 dereine
+#  views_handler_field_comment_username.inc,v 1.2 2009/01/30 00:01:42 merlinofchaos
+#  views_handler_field_comment_username.inc,v 1.2.6.1 2009/11/02 22:01:26 merlinofchaos
+#  views_handler_argument_comment_user_uid.inc,v 1.2 2009/06/02 18:50:56 merlinofchaos
+#  views_handler_argument_comment_user_uid.inc,v 1.1.2.1 2009/06/02 18:50:50 merlinofchaos
+#  views_handler_argument_comment_user_uid.inc,v 1.2.4.4 2010/12/09 23:36:00 dereine
+#  views_handler_field_comment.inc,v 1.5 2009/02/10 20:37:49 merlinofchaos
+#  views_handler_field_comment.inc,v 1.5.2.1 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_field_comment_node_link.inc,v 1.1 2009/04/08 06:38:41 merlinofchaos
+#  views_handler_field_comment_node_link.inc,v 1.1.4.1 2009/11/30 19:34:06 merlinofchaos
+#  views_handler_field_comment_node_link.inc,v 1.1.2.1 2009/11/30 19:34:04 merlinofchaos
+#  views_handler_field_comment_node_link.inc,v 1.1.6.4 2010/11/16 17:01:44 dereine
+#  views_handler_field_node_new_comments.inc,v 1.6 2009/04/07 23:02:07 merlinofchaos
+#  views_handler_field_node_new_comments.inc,v 1.7 2009/07/02 00:13:12 merlinofchaos
+#  views_handler_field_node_new_comments.inc,v 1.6.2.1 2009/07/02 00:13:06 merlinofchaos
+#  views_handler_field_node_new_comments.inc,v 1.7.4.4 2010/11/18 07:50:23 dereine
+#  views_handler_field_comment_link_edit.inc,v 1.1.6.2 2010/11/18 07:29:03 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-04-09 23:33+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/comment/views_handler_field_comment_link_reply.inc:13,14
+msgid "reply"
+msgstr "Antworten"
+
+#: modules/comment/views_handler_field_comment_username.inc:25
+msgid "Link this field to its user or an author's homepage"
+msgstr ""
+"Dieses Feld auf die Homepage des Benutzers oder die des Autors "
+"verlinken"
+
+#: modules/comment/views_handler_argument_comment_user_uid.inc:17
+msgid "No user"
+msgstr "Keine Benutzer"
+
+#: modules/comment/views_handler_field_comment.inc:30
+msgid "Link this field to its comment"
+msgstr "Dieses Feld auf seinen Kommentar verlinken"
+
+#: modules/comment/views_handler_field_comment_node_link.inc:36,33
+msgid "Show teaser-style link"
+msgstr "Anrisstext-Design eines Link anzeigen"
+
+#: modules/comment/views_handler_field_node_new_comments.inc:25,34,36
+msgid "Link this field to new comments"
+msgstr "Dieses Feld mit neuen Kommentaren verknüpfen"
+
+#: modules/comment/views_handler_field_node_new_comments.inc:31
+msgid "Display nothing if no new comments"
+msgstr "Nichts anzeigen, wenn keine neuen Kommentare vorhanden sind"
+
+#: modules/comment/views_handler_field_comment_link_edit.inc:24
+msgid "Use destination"
+msgstr ""
+
+#: modules/comment/views_handler_field_comment_link_edit.inc:25
+msgid "Add destination to the link"
+msgstr ""
+
+#: modules/comment/views_handler_field_comment_node_link.inc:35
+msgid ""
+"Show the comment link in the form used on standard node teasers, "
+"rather than the full node form."
+msgstr ""
+

@@ -1,0 +1,237 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.6.4.8 2010/12/14 22:32:11 dereine
+#  views_handler_filter_term_node_tid.inc,v 1.8 2009/04/07 23:21:01 merlinofchaos
+#  views_handler_filter_term_node_tid.inc,v 1.8.2.3 2010/01/25 21:19:18 merlinofchaos
+#  views_handler_filter_term_node_tid.inc,v 1.8.6.14 2010/12/24 13:42:01 dereine
+#  views_handler_argument_term_node_tid_depth.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_handler_argument_term_node_tid_depth.inc,v 1.3 2009/09/24 23:36:09 merlinofchaos
+#  views_handler_argument_term_node_tid_depth.inc,v 1.1.2.2 2009/09/24 23:36:19 merlinofchaos
+#  views_handler_argument_term_node_tid_depth.inc,v 1.3.2.1 2010/03/16 23:38:23 merlinofchaos
+#  views_handler_argument_term_node_tid_depth.inc,v 1.3.4.7 2010/11/27 20:53:28 dereine
+#  views_handler_argument_vocabulary_vid.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_handler_argument_vocabulary_vid.inc,v 1.1.6.1 2009/11/02 22:01:26 merlinofchaos
+#  views_handler_field_taxonomy.inc,v 1.3 2009/01/30 00:01:42 merlinofchaos
+#  views_handler_field_taxonomy.inc,v 1.3.6.3 2010/09/19 09:40:34 dereine
+#  views_handler_field_term_node_tid.inc,v 1.3 2009/04/07 22:02:40 merlinofchaos
+#  views_handler_field_term_node_tid.inc,v 1.4 2009/07/01 23:07:14 merlinofchaos
+#  views_handler_field_term_node_tid.inc,v 1.3.2.1 2009/07/01 23:06:44 merlinofchaos
+#  views_handler_field_term_node_tid.inc,v 1.4.4.10 2011/01/04 00:11:54 dereine
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.5 2009/06/02 18:36:36 merlinofchaos
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.6 2009/09/15 16:52:03 merlinofchaos
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.4.2.2 2009/09/15 16:51:59 merlinofchaos
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.6.2.1 2009/11/30 19:01:09 merlinofchaos
+#  views_plugin_argument_validate_taxonomy_term.inc,v 1.4.2.5 2010/01/19 21:59:04 merlinofchaos
+#  views_handler_relationship_node_term_data.inc,v 1.3 2009/10/05 22:31:09 merlinofchaos
+#  views_handler_relationship_node_term_data.inc,v 1.1.2.1 2009/07/01 06:13:42 merlinofchaos
+#  views_handler_relationship_node_term_data.inc,v 1.3.4.3 2010/10/07 19:40:02 dereine
+#  views_handler_argument_term_node_tid.inc,v 1.1.2.1 2009/12/24 00:24:02 merlinofchaos
+#  views_handler_argument_term_node_tid.inc,v 1.1 2008/09/03 19:21:30 merlinofchaos
+#  views_plugin_argument_default_taxonomy_tid.inc,v 1.1.6.2 2010/03/22 22:34:18 merlinofchaos
+#  views_plugin_argument_default_taxonomy_tid.inc,v 1.1.2.9 2010/12/03 20:17:14 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-12-19 19:12+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:58
+msgid "Term name"
+msgstr "Begriff"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:52,55,67
+msgid "Selection type"
+msgstr "Auswahltyp"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:53,56,68
+msgid "Autocomplete"
+msgstr "Autovervollständigung"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:31,32
+msgid "Allow multiple terms per argument"
+msgstr "Ermöglicht mehrere Begriffe pro Argument."
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:32,33
+msgid ""
+"If selected, users can enter multiple arguments in the form of 1+2+3. "
+"Due to the number of JOINs it would require, AND will be treated as OR "
+"with this argument."
+msgstr ""
+"Sobald aktiviert, können Benutzer mehrere Argumente in der Form von "
+"1+2+3 eingeben. Aufgrund der Anzahl der erforderlichen JOINs wird AND "
+"mit diesem Argument als OR betrachtet."
+
+#: modules/taxonomy/views_handler_argument_vocabulary_vid.inc:15
+msgid "No vocabulary"
+msgstr "Kein Vokabular"
+
+#: modules/taxonomy/views_handler_field_taxonomy.inc:33,37
+msgid "Link this field to its taxonomy term page"
+msgstr "Dieses Feld mit seiner Taxonomie-Begriffseite verlinken"
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:34,44
+msgid "Link this field to its term page"
+msgstr "Dieses Feld mit seiner Begriffseite verlinken"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:41,44,56
+msgid "Select which vocabulary to show terms for in the regular options."
+msgstr ""
+"Wählen Sie, welches Vokabular, Begriffe in den regulären Optionen "
+"anzeigen soll."
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:53,56,68
+msgid "Dropdown"
+msgstr "Auswahlliste"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:59,62,74
+msgid "Show hierarchy in dropdown"
+msgstr "Hierarchie in Auswahlliste anzeigen"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:76,79,89
+msgid "An invalid vocabulary is selected. Please change it in the options."
+msgstr ""
+"Ein ungültiges Vokabular wurde ausgewählt. Bitte in den Optionen "
+"ändern."
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:94,158,97,161,110,180
+msgid "Select terms from vocabulary @voc"
+msgstr "Begriffe aus dem Vokabular @voc wählen"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:94,158,97,161,110,180
+msgid "Select terms"
+msgstr "Wähle die Begriffe"
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:273,276,297
+msgid "Unable to find term: @terms"
+msgid_plural "Unable to find terms: @terms"
+msgstr[0] "Begriff konnte nicht gefunden werden: @terms"
+msgstr[1] "Begriffe konnten nicht gefunden werden: @terms"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:26,33,49
+msgid ""
+"If you wish to validate for specific vocabularies, check them; if none "
+"are checked, all terms will pass."
+msgstr ""
+"Wenn nach bestimmte Vokabalure validiert werden soll, dann dies "
+"aktivieren. Ansonsten nichts ändern, damit alle Begriffe angezeigt "
+"werden."
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:36,41,57
+msgid "Term IDs separated by , or +"
+msgstr "Begriff-IDs getrennt nach , oder +"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:37,42
+msgid "Term name or synonym"
+msgstr "Begriffsname oder Synonym"
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:38,43
+msgid "Term name/synonym converted to Term ID"
+msgstr "Begriffname/Synonym wurde zur Begriff-ID konvertiert."
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:41,46,62
+msgid ""
+"Select the form of this argument; if using term name, it is generally "
+"more efficient to convert it to a term ID and use Taxonomy: Term ID "
+"rather than Taxonomy: Term Name\" as an argument."
+msgstr ""
+"Die Form für diesen Argument auswählen. Wenn Sie Begriffsname "
+"verwenden, ist es in der Regel effizienter diesen in eine Begriff-ID "
+"zu konvertieren und daher benutzen Sie lieber „Taxonomie: "
+"Begriff-ID” als „Taxonomie: Begriffsname” für Argumente."
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:48,51,67
+msgid "Transform dashes in URL to spaces in term name arguments"
+msgstr ""
+"Wandelt in der URL die Unterstriche im Argument „Begriffsname“ in "
+"Leerzeichen um."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:106,126
+msgid "The taxonomy term ID for the term."
+msgstr "﻿Die Taxonomie-Begriff-ID für den Begriff."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:107,127
+msgid "The taxonomy term name for the term."
+msgstr "Name des Taxonomie-Begriffes."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:108
+msgid "The vocabulary ID for the vocabulary the term belongs to."
+msgstr "Die ID des Übersetzungssatzes, zu dem der Inhalt gehört."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:109,129
+msgid "The name for the vocabulary the term belongs to."
+msgstr "Der Name des Vokabulars zu dem der Begriff gehört."
+
+#: modules/taxonomy/views_handler_relationship_node_term_data.inc:32,46
+msgid ""
+"Choose which vocabularies you wish to relate. Remember that every term "
+"found will create a new record, so this relationship is best used on "
+"just one vocabulary that has only one term per node."
+msgstr ""
+"Wählen Sie die Vokabularien aus, aus denen Begriffe entnommen werden. "
+"Für jeden Begriff werden alle Beiträge in die Ergebnissmenge "
+"übernommen (u.U. der gleiche Beitrag mehrfach, wenn dieser mit "
+"mehreren Begriffen verknüpft ist)."
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:24
+msgid "Use term synonyms for summary links"
+msgstr "Synonyme für Begriffe von Zusammenfassungslinks verwenden"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid.inc:25
+msgid ""
+"If selected, summary views will use a synonym defined for each term "
+"when creating the URL to link to that term. Note that this only works "
+"reliably if terms have at most one synonym."
+msgstr ""
+"Zusammenfassung von Ansichten verwenden ein Synonym für jeden "
+"definierten Begriff, wenn dessen URL erstellt wird. Beachten Sie, dass "
+"dies nur zuverlässig funktioniert, wenn jeder Begriffe wenigstens ein "
+"Synonym hat."
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:46
+msgid "Use Drupal's taxonomy term path to create breadcrumb links"
+msgstr "Drupals Taxonomie Begriffe verwenden, um Breadcrumb-Links zu erstellen"
+
+#: modules/taxonomy/views_handler_argument_term_node_tid_depth.inc:47
+msgid ""
+"If selected, the links in the breadcrumb trail will be created using "
+"the standard drupal method instead of the custom views method. This is "
+"useful if you are using modules like taxonomy redirect to modify your "
+"taxonomy term links."
+msgstr ""
+"Wenn ausgewählt, werden die Links im Breadcrumb-Pfad unter Verwendung "
+"der standard-drupal-Methode anstelle der benutzerdefinierte "
+"Views-Methode erstellt. Dies ist nützlich, wenn Sie Module wie "
+"Taxonomie-Umleitung verwenden, um Links für Taxonomie-Begriff zu "
+"ändern."
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:23,37
+msgid "Load default argument from term page"
+msgstr "﻿Standard-Argument laden aus der Begriffsseite"
+
+#: modules/taxonomy/views_plugin_argument_default_taxonomy_tid.inc:28,42
+msgid ""
+"Load default argument from node page, thats good for related taxonomy "
+"blocks."
+msgstr ""
+"Das Standardargument aus Beitragsseiten, das ist gut für "
+"themenverwandte Taxonomie-Blöcke."
+
+#: modules/taxonomy/views_handler_field_term_node_tid.inc:128
+msgid "The machine name for the vocabulary the term belongs to."
+msgstr ""
+
+#: modules/taxonomy/views_handler_filter_term_node_tid.inc:317
+msgid "Display error message"
+msgstr ""
+
+#: modules/taxonomy/views_plugin_argument_validate_taxonomy_term.inc:59
+msgid "Term name converted to Term ID"
+msgstr ""
+

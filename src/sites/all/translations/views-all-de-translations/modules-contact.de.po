@@ -1,0 +1,39 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_handler_field_contact_link.inc,v 1.1 2009/06/01 21:55:36 merlinofchaos
+#  views_handler_field_contact_link.inc,v 1.2 2009/09/21 21:18:10 merlinofchaos
+#  views_handler_field_contact_link.inc,v 1.1.2.3 2009/09/21 21:18:06 merlinofchaos
+#  views_handler_field_contact_link.inc,v 1.2.4.5 2010/12/23 05:44:54 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2010-12-18 15:00+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/contact/views_handler_field_contact_link.inc:22
+msgid "Icon"
+msgstr "Symbol"
+
+#: modules/contact/views_handler_field_contact_link.inc:25
+msgid "Link label"
+msgstr "Link Text"
+
+#: modules/contact/views_handler_field_contact_link.inc:17
+msgid "Type of link"
+msgstr "‚Anzeigen‘-Link"
+
+#: modules/contact/views_handler_field_contact_link.inc:27
+msgid "contact"
+msgstr "Kontakt"
+
+#: modules/contact/views_handler_field_contact_link.inc:42,45,51,54,64
+msgid "Contact %user"
+msgstr "%user kontaktieren"
+

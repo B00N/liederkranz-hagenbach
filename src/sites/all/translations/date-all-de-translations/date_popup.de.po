@@ -1,0 +1,254 @@
+# German translation of Date (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  date_popup.module,v 1.42 2008/04/21 19:24:02 karens
+#  date_popup.module,v 1.27.2.44 2009/03/27 10:36:22 karens
+#  date_popup.module,v 1.27.2.45 2009/05/10 11:41:47 karens
+#  date_popup.module,v 1.42.2.1.2.51 2009/07/28 19:43:52 karens
+#  date_popup.module,v 1.42.2.1.2.52 2009/08/13 16:17:29 karens
+#  date_popup.module,v 1.42.2.1.2.60 2010/08/13 18:48:34 karens
+#  date_popup.module,v 1.42.2.1.2.65 2010/11/20 11:33:30 karens
+#  date_popup.install,v 1.5 2007/09/29 16:30:16 karens
+#  date_popup.install,v 1.5.6.6 2009/07/29 10:53:38 karens
+#  date_popup.install,v 1.5.6.7 2010/02/28 14:23:04 karens
+#  date_popup.install,v 1.5.6.10 2010/12/21 12:21:16 karens
+#  date/date_popup/date_popup.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Date (all releases)\n"
+"POT-Creation-Date: 2011-01-06 13:01+0000\n"
+"PO-Revision-Date: 2010-12-18 14:15+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: date_popup/date_popup.module:201,222
+msgid "Next"
+msgstr "Nächste"
+
+#: date_popup/date_popup.module:221
+msgid "Prev"
+msgstr "Vor"
+
+#: date_popup/date_popup.module:204,225,250,278
+msgid "Close"
+msgstr "Schließen"
+
+#: date_popup/date_popup.module:203,224,249,277
+msgid "Clear"
+msgstr "Leeren"
+
+#: date_popup/date_popup.module:202,223
+msgid "Today"
+msgstr "Heute"
+
+#: date_popup/date_popup.module:242,258
+msgid " Format: @date"
+msgstr " Format: @date"
+
+#: date_popup/date_popup.module:255,271,272,297,325
+msgid "Previous field"
+msgstr "Vorheriges Feld"
+
+#: date_popup/date_popup.module:255,271,272,297,325
+msgid "Next field"
+msgstr "Nächstes Feld"
+
+#: date_popup/date_popup.module:255,271,272,297,325
+msgid "Increment"
+msgstr "Hochzählen"
+
+#: date_popup/date_popup.module:255,271,272,297,325
+msgid "Decrement"
+msgstr "Herunterzählen"
+
+#: date_popup/date_popup.module:282,293
+msgid "  @date"
+msgstr "  @date"
+
+#: date_popup/date_popup.module:301
+msgid "The %label %date %time is not valid."
+msgstr "%label %date %time ist nicht gültig."
+
+#: date_popup/date_popup.module:304
+msgid "The %label date cannot be empty."
+msgstr "Das Datum %label darf nicht leer sein."
+
+#: date_popup/date_popup.module:315
+msgid "Please check the %label values."
+msgstr "Überprüfen Sie die Werte von %label."
+
+#: date_popup/date_popup.module:318
+msgid "The %label time cannot be empty."
+msgstr "Die Zeit %label darf nicht leer sein."
+
+#: date_popup/date_popup.install:14
+msgid ""
+"<p>Download jquery.timeentry.pack.js and jquery.timeentry.css from the "
+"jquery-timeentry home page at !link and install them in the /lib/ "
+"folder of the Date Popup module.</p>"
+msgstr ""
+"Laden Sie jquery.timeentry.pack.js und jquery.timeentry.css von der "
+"jquery-timeentry Website !link und installisieren Sie diese in das "
+"/lib/ Archive des Date Popup module."
+
+#: date_popup/date_popup.install:18,15,16
+msgid "Date Popup requirements"
+msgstr "Date Popup Voraussetzungen"
+
+#: date_popup/date_popup.info:0
+msgid ""
+"Enables jquery popup calendars and time entry widgets for selecting "
+"dates and times."
+msgstr ""
+"Aktiviert jQuery-Popup-Kalender und Zeit-Steuerelemente für die "
+"Auswahl von Terminen und Zeiten."
+
+#: date_popup/date_popup.module:311
+msgid "%field is required."
+msgstr "%field ist erforderlich."
+
+#: date_popup/date_popup.module:335
+msgid "%field is invalid."
+msgstr "%field ist ungültig."
+
+#: date_popup/date_popup.module:324,349,377
+msgid "Field %field is required."
+msgstr "Das Feld %field muss ausgefüllt werden."
+
+#: date_popup/date_popup.module:348,373,401
+msgid "Field %field is invalid."
+msgstr "Das Feld %field enthält einen ungültigen Wert."
+
+#: date_popup/date_popup.module:560
+msgid ""
+"<p>The Date Popup calendar datepicker uses the jQuery UI datepicker. A "
+"version of that is included with the Date Popup module, but you are "
+"strongly encouraged to use the <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI module</a> "
+"instead. If the jQuery UI module is installed, the Date Popup will use "
+"the datepicker from that module, which is likely to be more current. "
+"If you are having any problems with Popups and you are not already "
+"using jQuery UI, please do that as a first step before reporting "
+"problems.</p>"
+msgstr ""
+"<p> Das Datum der Popup-Kalender DatePicker verwendet jQuery UI "
+"DatePicker. Eine Version dieses Moduls ist im Modul Datum Popup "
+"enthalten. Eine möglicherweise aktuellere Version ist <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI-Modul</a>. Wenn "
+"das jQuery UI-Modul installiert ist, wird der Datum Popup DatePicker "
+"aus diesem Modul verwendet, da dies wahrscheinlich aktueller ist. "
+"Falls Probleme auftreten, setzen zuerst die aktuelle Version des "
+"Moduls ‚jQuery UI‘ ein bevor Sie ein Problem melden.</p>"
+
+#: date_popup/date_popup.module:561,603,631
+msgid ""
+"<p>The Date Popup module uses a jQuery timepicker module. There is no "
+"\"official\" jQuery UI timepicker, and not everyone likes the one that "
+"is included here. If you do not want to use the timepicker, you can "
+"turn it off below and users will get a regular textfield instead.</p>"
+msgstr ""
+"<p> Das Datum der Popup-Modul verwendet ein jQuery timepicker Modul. "
+"Es gibt keine „offizielle“ jQuery UI timepicker. Sie können das "
+"vorhandene timepicker Modul ausschalten und ein anderes benutzen oder "
+"Ihren Benutzern ein Textfeld stattdessen anbieten.</p>"
+
+#: date_popup/date_popup.module:565,597,625
+msgid "Use default jQuery timepicker"
+msgstr "﻿Verwenden Sie den Standard jQuery timepicker (zur Zeitwahl)"
+
+#: date_popup/date_popup.module:565,597,625
+msgid "Manual time entry, no jQuery timepicker"
+msgstr "Manuelle Zeiterfassung, ohne jQuery timepicker"
+
+#: date_popup/date_popup.module:566,598,626
+msgid "Timepicker"
+msgstr "Timepicker (Zeitwahl)"
+
+#: date_popup/date_popup.module:568,600,628
+msgid "Choose the jQuery timepicker to user."
+msgstr "Wählen Sie den jQuery timepicker für Anwender."
+
+#: date_popup/date_popup.module:586,620,648
+msgid ""
+"<p>The Date Popup calendar includes some css for IE6 that breaks css "
+"validation. Since IE 6 is now superceded by IE 7 and IE 8, the special "
+"css for IE 6 has been removed from the regular css used by the Date "
+"Popup. If you find you need that css after all, you can add it back in "
+"your theme. Look at the way the Garland theme adds special IE-only css "
+"in in its page.tpl.php file. The css you need is:</p>"
+msgstr ""
+"<p> Das Datum der Popup-Kalender enthält CSS für IE6 (jedoch nicht "
+"valide). Seit IE 6 zunehmend durch den IE 7 und IE 8 abgelöst wird, "
+"wurden die spezielle CSS-Eigenschaften für IE 6 aus dem regulären "
+"CSS für dieses Modul herausgelöst. Sollten Sie dieses herausgelöste "
+"CSS benötigen, so finden Sie es im Theme Garland. In der Datei "
+"page.tpl.php sind spezielles CSS-Eigenschaften für den IE. Diese "
+"können Sie Ihrem CSS wieder hinzufügen genau, wie im Garland Theme. "
+"Sie verwenden: </p>"
+
+#: date_popup/date_popup.module:545,572,600
+msgid "Date Popup Configuration"
+msgstr "Konfiguration für Datumsauswahl (Popup)"
+
+#: date_popup/date_popup.module:546,573,601
+msgid "Allows the user to configure the Date Popup settings."
+msgstr ""
+"﻿Ermöglicht dem Benutzer die Datum-Popup-Einstellungen "
+"konfigurieren."
+
+#: date_popup/date_popup.install:16,17
+msgid ""
+"The Date Popup module needs code added by the <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI module.</a> "
+"This is not yet a requirement, but soon will be, so you are encouraged "
+"to install that module as soon as possible. In the meantime, a version "
+"of the needed code is included here."
+msgstr ""
+"﻿Das Datum Popup-Modul verwendet Code des <a "
+"href=\"http://drupal.org/project/jquery_ui\">jQuery UI-Modul.</a> "
+"Aktuell ist dies noch keine Anforderung, jedoch ist geplant dieses "
+"Modul zukünftig zu nutzen, Sie können es daher auch sofort "
+"installieren. In der Zwischenzeit ist hier der erforderliche Codes "
+"enthalten."
+
+#: date_popup/date_popup.module:51,55,64,68
+msgid "Date Popup default"
+msgstr "Standard Popup für Datum"
+
+#: date_popup/date_popup.module:52,56,65,69
+msgid "jQuery UI default"
+msgstr "jQuery UI Standard"
+
+#: date_popup/date_popup.module:68,81
+msgid ""
+"The Date Popup module now requires the <a href=\"@link\">jQuery UI "
+"module</a> as a source for the datepicker. Please install it "
+"immediately."
+msgstr ""
+"Das Date-Popup-Modul erfordert das <a href=\"@link\">jQuery UI "
+"Modul</a> als Quelle für die Datumsauswahl. Installieren Sie es."
+
+#: date_popup/date_popup.module:588,616
+msgid "Datepicker css"
+msgstr "CSS für Datumsauswahl"
+
+#: date_popup/date_popup.module:589,617
+msgid "Choose the css to use for the jQuery UI datepicker."
+msgstr "Wählen Sie CSS für jQuery UI Datumsauswahl."
+
+#: date_popup/date_popup.module:593,621
+msgid ""
+"<p>The Date Popup calendar datepicker uses the jQuery UI datepicker. "
+"You must install the jQuery UI module for this to work. It has its own "
+"css file, or there is a Drupal adaptation included in Date Popup that "
+"you can use.</p>"
+msgstr ""
+"<p>Zur Datumsauswahl des Popup-Kalenders wird die jQuery UI "
+"Datumsauswahl verwendet. Installieren Sie das jQuery UI-Modul dazu. Es "
+"hat seine eigene CSS-Datei, bzw. im Drupal Date Popup gibt es eine "
+"Anpassung, die Sie verwenden können. </p>"
+

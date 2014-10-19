@@ -1,0 +1,48 @@
+/* $Id: colors.css,v 1.10 2011/01/04 05:24:13 webchick Exp $ */
+
+/* ---------- Color Module Styles ----------- */
+
+body,
+body.overlay {
+  color: #3b3b3b;
+}
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+a {
+    color: #86110E;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #430807;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #F7F5E4;
+  border-color: #f9f9f9;
+}
+#page-wrapper {
+  background: #FEFDF1;
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a {
+  color: #fffeff;
+}
+

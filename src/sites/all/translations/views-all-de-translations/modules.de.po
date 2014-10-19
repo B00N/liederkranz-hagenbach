@@ -1,0 +1,2913 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  node.views.inc,v 1.96 2009/06/03 02:16:48 merlinofchaos
+#  node.views.inc,v 1.97 2009/09/15 21:54:58 merlinofchaos
+#  node.views.inc,v 1.93.2.6 2009/11/02 23:25:10 merlinofchaos
+#  node.views.inc,v 1.97.2.1 2009/11/02 23:25:14 merlinofchaos
+#  node.views.inc,v 1.93.2.8 2009/12/28 21:11:50 merlinofchaos
+#  node.views.inc,v 1.97.2.7 2010/03/25 01:14:22 merlinofchaos
+#  node.views.inc,v 1.97.4.25 2010/12/27 08:02:28 dereine
+#  user.views.inc,v 1.57 2009/06/02 20:18:26 merlinofchaos
+#  user.views.inc,v 1.59 2009/09/15 17:28:45 merlinofchaos
+#  user.views.inc,v 1.56.2.4 2009/09/15 17:28:42 merlinofchaos
+#  user.views.inc,v 1.56.2.7 2009/12/24 01:05:39 merlinofchaos
+#  user.views.inc,v 1.59.2.3 2010/03/22 20:32:48 merlinofchaos
+#  user.views.inc,v 1.59.4.13 2010/09/22 21:31:29 dereine
+#  views_user.inc,v 1.14.2.7 2007/03/03 22:31:27 merlinofchaos
+#  views_user.inc,v 1.14.2.8 2009/02/21 03:45:07 sun
+#  system.views.inc,v 1.7 2008/09/03 19:21:29 merlinofchaos
+#  system.views.inc,v 1.7.6.7 2010/10/16 09:06:51 dereine
+#  search.views.inc,v 1.17 2009/02/23 23:30:38 merlinofchaos
+#  search.views.inc,v 1.18 2009/09/24 23:54:43 merlinofchaos
+#  search.views.inc,v 1.17.2.1 2009/09/24 23:54:37 merlinofchaos
+#  search.views.inc,v 1.17.2.2 2009/12/24 00:55:16 merlinofchaos
+#  search.views.inc,v 1.18.4.3 2010/07/19 09:18:42 dereine
+#  book.views.inc,v 1.5 2008/12/02 19:37:08 merlinofchaos
+#  book.views.inc,v 1.5.2.1 2009/11/02 23:25:10 merlinofchaos
+#  book.views.inc,v 1.5.4.2 2009/11/30 19:44:09 merlinofchaos
+#  book.views.inc,v 1.5.2.3 2009/12/03 20:56:47 merlinofchaos
+#  book.views.inc,v 1.5.4.3 2009/12/03 20:56:44 merlinofchaos
+#  book.views.inc,v 1.5.6.4 2009/12/03 20:57:04 merlinofchaos
+#  taxonomy.views.inc,v 1.57 2009/07/01 06:13:49 merlinofchaos
+#  taxonomy.views.inc,v 1.50.2.6 2009/07/01 06:13:42 merlinofchaos
+#  taxonomy.views.inc,v 1.50.2.8 2009/12/23 23:56:16 merlinofchaos
+#  taxonomy.views.inc,v 1.57.2.5 2010/04/06 19:59:29 merlinofchaos
+#  taxonomy.views.inc,v 1.57.2.6 2010/04/29 18:17:37 merlinofchaos
+#  taxonomy.views.inc,v 1.57.4.18 2010/12/04 07:46:13 dereine
+#  aggregator.views.inc,v 1.3 2009/06/02 19:46:06 merlinofchaos
+#  aggregator.views.inc,v 1.2.2.1 2009/06/02 19:46:10 merlinofchaos
+#  aggregator.views.inc,v 1.2.2.2 2010/01/05 01:16:58 merlinofchaos
+#  aggregator.views.inc,v 1.3.2.1 2010/01/05 01:17:02 merlinofchaos
+#  aggregator.views.inc,v 1.3.4.7 2010/11/16 00:01:25 merlinofchaos
+#  taxonomy.views.inc,v 1.54 2009/06/05 01:26:35 merlinofchaos
+#  views_book.inc,v 1.6.4.4 2007/03/04 06:30:22 merlinofchaos
+#  comment.views.inc,v 1.32 2009/04/08 06:38:41 merlinofchaos
+#  comment.views.inc,v 1.33 2009/09/15 16:48:51 merlinofchaos
+#  comment.views.inc,v 1.32.2.2 2009/11/02 23:25:10 merlinofchaos
+#  comment.views.inc,v 1.33.2.3 2009/12/02 21:51:40 merlinofchaos
+#  comment.views.inc,v 1.32.2.7 2009/12/28 21:11:50 merlinofchaos
+#  comment.views.inc,v 1.33.4.17 2010/11/25 20:56:40 dereine
+#  upload.views.inc,v 1.15 2008/11/24 19:58:31 merlinofchaos
+#  upload.views.inc,v 1.16 2009/07/01 23:07:14 merlinofchaos
+#  upload.views.inc,v 1.15.2.2 2009/11/02 23:25:10 merlinofchaos
+#  upload.views.inc,v 1.16.2.1 2009/11/02 23:25:14 merlinofchaos
+#  upload.views.inc,v 1.15.2.3 2009/11/10 23:20:06 merlinofchaos
+#  upload.views.inc,v 1.16.4.5 2010/07/19 09:18:42 dereine
+#  views_statistics.inc,v 1.9.2.6 2007/03/06 21:23:27 merlinofchaos
+#  statistics.views.inc,v 1.9 2008/10/28 20:21:37 merlinofchaos
+#  statistics.views.inc,v 1.9.2.1 2009/11/02 23:25:10 merlinofchaos
+#  statistics.views.inc,v 1.9.4.1 2009/11/02 23:25:14 merlinofchaos
+#  statistics.views.inc,v 1.9.6.3 2010/07/19 09:18:42 dereine
+#  locale.views.inc,v 1.1 2009/02/23 22:20:04 merlinofchaos
+#  locale.views.inc,v 1.1.6.2 2010/07/19 09:18:42 dereine
+#  views_upload.inc,v 1.4.4.5 2007/03/03 22:40:31 merlinofchaos
+#  views_comment.inc,v 1.4.4.8 2007/05/05 01:00:41 merlinofchaos
+#  views_node.inc,v 1.30.2.19 2007/07/14 19:30:51 merlinofchaos
+#  views_node.inc,v 1.30.2.21 2008/05/10 20:17:00 merlinofchaos
+#  views/modules/views_profile.inc: n/a
+#  views_search.inc,v 1.2.2.6 2007/03/03 22:59:33 merlinofchaos
+#  views_search.inc,v 1.2.2.7 2008/08/08 18:13:29 merlinofchaos
+#  views_taxonomy.inc,v 1.27.2.12 2007/07/14 19:30:51 merlinofchaos
+#  views_taxonomy.inc,v 1.27.2.13 2008/12/04 01:47:51 sun
+#  profile.views.inc,v 1.9 2008/09/24 21:21:21 merlinofchaos
+#  profile.views.inc,v 1.10 2009/09/15 17:22:42 merlinofchaos
+#  profile.views.inc,v 1.9.2.1 2009/09/15 17:22:38 merlinofchaos
+#  profile.views.inc,v 1.9.2.2 2009/11/10 23:20:05 merlinofchaos
+#  profile.views.inc,v 1.10.2.1 2010/03/10 19:52:42 merlinofchaos
+#  profile.views.inc,v 1.10.4.8 2010/12/16 06:50:28 merlinofchaos
+#  translation.views.inc,v 1.8 2009/01/07 23:13:46 merlinofchaos
+#  translation.views.inc,v 1.8.4.1 2010/03/19 23:09:54 merlinofchaos
+#  translation.views.inc,v 1.8.6.5 2010/12/09 01:10:24 merlinofchaos
+#  views.views.inc,v 1.6.2.2 2010/01/19 22:11:28 merlinofchaos
+#  views.views.inc,v 1.7 2009/06/02 17:29:26 merlinofchaos
+#  views.views.inc,v 1.7.4.4 2010/11/05 21:55:20 dereine
+#  views.views.inc,v 1.6.2.1 2009/06/02 17:29:21 merlinofchaos
+#  contact.views.inc,v 1.1 2009/06/01 21:55:36 merlinofchaos
+#  contact.views.inc,v 1.1.2.2 2009/06/01 21:55:38 merlinofchaos
+#  contact.views.inc,v 1.1.6.2 2010/07/19 09:18:42 dereine
+#  poll.views.inc,v 1.4 2008/12/03 19:10:21 merlinofchaos
+#  poll.views.inc,v 1.4.6.1 2009/11/02 22:01:26 merlinofchaos
+#  field.views.inc,v 1.1.2.17 2011/01/04 23:54:35 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2011-01-02 20:07+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/node.views.inc:409,386,387,422,399,384
+msgid "user"
+msgstr "Benutzer"
+
+#: modules/user.views.inc:97,105,110,112
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: modules/views_user.inc:168,173
+msgid "Replies"
+msgstr "Antworten"
+
+#: modules/views_user.inc:174,179
+msgid "Last Post"
+msgstr "Letzter Beitrag"
+
+#: modules/system.views.inc:25,30,251,257,258,282,288,289,313,319,320,344,350,351,375,381,382
+msgid "File"
+msgstr "Datei"
+
+#: modules/system.views.inc:126,137
+msgid "Size"
+msgstr "Größe"
+
+#: modules/search.views.inc:23,86,104,167,82,100,163,169,143
+msgid "Search"
+msgstr "Suche"
+
+#: modules/system.views.inc:426
+msgid "Use count"
+msgstr ""
+
+#: modules/book.views.inc:87,86
+msgid "Hierarchy"
+msgstr "Hierarchie"
+
+#: modules/taxonomy.views.inc:312,320,269,367,286,384,334
+msgid "Related terms"
+msgstr "Verwandte Begriffe"
+
+#: modules/aggregator.views.inc:310,376
+msgid "Category"
+msgstr "Kategorie"
+
+#: modules/book.views.inc:21,36,46,99,35,45,98
+msgid "Book"
+msgstr "Buch"
+
+#: modules/taxonomy.views.inc:387,400,408,455,475
+msgid "Taxonomy term"
+msgstr "Taxonomie-Begriff"
+
+#: modules/views_book.inc:53
+msgid "As Link"
+msgstr "Als Verweis"
+
+#: modules/views_book.inc:54
+msgid "Without Link"
+msgstr "Ohne Verweis"
+
+#: modules/aggregator.views.inc:142
+msgid "GUID"
+msgstr ""
+
+#: modules/comment.views.inc:76,63
+msgid "ID"
+msgstr "ID"
+
+#: modules/upload.views.inc:25,113
+msgid "Upload"
+msgstr "Upload"
+
+#: modules/user.views.inc:129,137,142,135,148,150
+msgid "Picture"
+msgstr "Bild"
+
+#: modules/comment.views.inc:152,139
+msgid "Mail"
+msgstr "Mail"
+
+#: modules/upload.views.inc:134,135
+msgid "Files"
+msgstr "Dateien"
+
+#: modules/views_statistics.inc:130,219
+msgid "Created"
+msgstr "Erstellt am"
+
+#: modules/taxonomy.views.inc:316,324,371,388,338
+msgid "term"
+msgstr "Begriff"
+
+#: modules/statistics.views.inc:89,94
+msgid "Access log"
+msgstr "Zugriffsprotokoll"
+
+#: modules/statistics.views.inc:129
+msgid "Page title"
+msgstr "Seitentitel"
+
+#: modules/system.views.inc:392
+msgid "Module"
+msgstr "Modul"
+
+#: modules/aggregator.views.inc:277,343
+msgid "Aggregator category"
+msgstr "Aggregator Kategorie"
+
+#: modules/aggregator.views.inc:135,201
+msgid "Aggregator feed"
+msgstr "Aggregator-Feed"
+
+#: modules/aggregator.views.inc:31,370,373,401
+msgid "Aggregator item"
+msgstr "Aggregator - Eintrag"
+
+#: modules/user.views.inc:263,266,274,280,272,286,288
+msgid "Roles"
+msgstr "Rollen"
+
+#: modules/search.views.inc:72,68
+msgid "Score"
+msgstr "Ergebnis"
+
+#: modules/node.views.inc:545,557,558,570
+msgid "Input format"
+msgstr "Eingabeformat"
+
+#: modules/user.views.inc:212,215,223,228,221,234,236
+msgid "Signature"
+msgstr "Signatur"
+
+#: modules/locale.views.inc:56
+msgid "Location"
+msgstr "Standort"
+
+#: modules/node.views.inc:188,196,192,200
+msgid "Promoted to front page"
+msgstr "Auf der Startseite"
+
+#: modules/node.views.inc:492,504,505,517,477
+msgid "Log message"
+msgstr "Protokollnachricht"
+
+#: modules/statistics.views.inc:109
+msgid "Session ID"
+msgstr "Session-ID"
+
+#: modules/system.views.inc:49
+msgid "File ID"
+msgstr "Datei-ID"
+
+#: modules/taxonomy.views.inc:56,60,66
+msgid "Vocabulary ID"
+msgstr "Vokabular-ID"
+
+#: modules/taxonomy.views.inc:48,42
+msgid "Vocabulary name"
+msgstr "Vokabularname"
+
+#: modules/taxonomy.views.inc:70,120,217,119,216,77,126,224,232,127,249,83,134,251
+msgid "Term"
+msgstr "Begriff"
+
+#: modules/user.views.inc:161,164,172,177,170,183,185
+msgid "Last access"
+msgstr "Letzter Zugriff"
+
+#: modules/user.views.inc:177,180,188,193,186,199,201
+msgid "Last login"
+msgstr "Letzte Anmeldung"
+
+#: modules/user.views.inc:70,78,80
+msgid "Current"
+msgstr "Aktuell"
+
+#: modules/taxonomy.views.inc:209,225,227
+msgid "node"
+msgstr "Beitrag"
+
+#: modules/views_user.inc:140,146,145,151
+msgid "Recent posts"
+msgstr "Neue Beiträge"
+
+#: modules/statistics.views.inc:169
+msgid "Referrer"
+msgstr "Referrer"
+
+#: modules/views_upload.inc:36
+msgid "Exists"
+msgstr "Vorhanden"
+
+#: modules/views_book.inc:23
+msgid "Book: Parent Node"
+msgstr "Buch: vorhergende Node"
+
+#: modules/views_book.inc:26
+msgid "This allows you to filter books based on parent node."
+msgstr "Dies ermöglicht Bücher nach übergeordneten Beträgen zu filtern."
+
+#: modules/views_book.inc:31
+msgid "Book: Weight"
+msgstr "Buch: Gewichtung"
+
+#: modules/views_book.inc:33
+msgid "This will sort the view by book weight, if that is applicable."
+msgstr ""
+"Dies wird die Ansicht nach der Buchgewichtung sortieren, soweit "
+"anwendbar."
+
+#: modules/views_book.inc:51,62
+msgid "Book: Parent Title"
+msgstr "Buch: vorhergehender Titel"
+
+#: modules/views_book.inc:57
+msgid "Display the title of the parent node"
+msgstr "Titel der übergeordneten Node anzeigen"
+
+#: modules/views_book.inc:63
+msgid "Sort by the title of the parent node"
+msgstr "Nach dem Titel der übergeordneten Node sortieren"
+
+#: modules/views_book.inc:74
+msgid "Book: Parent Node ID"
+msgstr "Buch: vorhergehende Node ID"
+
+#: modules/views_comment.inc:23
+msgid "Comment: Subject"
+msgstr "Kommentar: Betreff"
+
+#: modules/views_comment.inc:39
+msgid "Comment: Comment"
+msgstr "Kommentar: Kommentar"
+
+#: modules/views_comment.inc:42
+msgid "Display the content of a comment."
+msgstr "Den Inhalt eines Kommentars anzeigen."
+
+#: modules/views_comment.inc:45
+msgid "Comment: Comment ID"
+msgstr "Kommentar: Kommentar ID"
+
+#: modules/views_comment.inc:47
+msgid "Display the CID of a comment."
+msgstr "Die CID von einem Kommentar anzeigen."
+
+#: modules/views_comment.inc:50,82
+msgid "Comment: Created Time"
+msgstr "Kommentar: Erstellungszeitpunkt"
+
+#: modules/views_comment.inc:54
+msgid "Display the post time of the comment."
+msgstr "Bereitstellungszeitpunkt des Kommentars anzeigen."
+
+#: modules/views_comment.inc:57
+msgid "Comment: Author Name"
+msgstr "Node: Name des Autors"
+
+#: modules/views_comment.inc:65
+msgid "Comment: Add link"
+msgstr "Kommentar: Link hizufügen"
+
+#: modules/views_comment.inc:69
+msgid ""
+"Display a link to add a comment to the node. Enter the text of this "
+"link into the option field; if blank the default \"Comment\" will be "
+"used."
+msgstr ""
+"Anzeige eines Links zum Kommentieren des Beitrags, den Text für den "
+"Link in das Optionsfeld eingeben, als Standardwert wird "
+"„Kommentieren“ verwendet."
+
+#: modules/views_comment.inc:74
+msgid "Comment: Pending approval"
+msgstr "Kommentar: Wartet auf Überprüfung"
+
+#: modules/views_comment.inc:85
+msgid "Sort by the created time of comments."
+msgstr "Nach dem Erstellungszeitpunkt von Kommentaren sortieren."
+
+#: modules/views_comment.inc:104,146
+msgid "Comment: Last Comment Time"
+msgstr "Kommentar: letzter Kommentarzeitpunkt"
+
+#: modules/views_comment.inc:108
+msgid "This will display the last comment time."
+msgstr "Zeigt die Uhrzeit des letzten Kommentar an."
+
+#: modules/views_comment.inc:111
+msgid "Comment: Last Comment Author"
+msgstr "Kommentar: letzter Kommentarautor"
+
+#: modules/views_comment.inc:117
+msgid "This will display the name of the last user to comment on the post."
+msgstr ""
+"Anzeige des Namens desjenigen Benutzers, der den letzten Kommentar "
+"abgegeben hat."
+
+#: modules/views_comment.inc:120
+msgid "Comment: Count"
+msgstr "Kommentar: Anzahl"
+
+#: modules/views_comment.inc:124
+msgid "With New Count"
+msgstr "Mit neuer Anzahl"
+
+#: modules/views_comment.inc:126
+msgid "This will display the comment count."
+msgstr "Zeigt die Anzahl der Kommentare an."
+
+#: modules/views_comment.inc:129,155
+msgid "Comment: Last Changed Time"
+msgstr "Kommentar: letzter Änderungszeitpunkt"
+
+#: modules/views_comment.inc:135
+msgid "This will display the time of the last comment or node edit."
+msgstr ""
+"Zeigt den Zeitpunkt der letzten Bearbeitung eines Kommentars oder "
+"einer Node an."
+
+#: modules/views_comment.inc:140,173
+msgid "Comment: Comment Count"
+msgstr "Node: Anzahl der Kommentare"
+
+#: modules/views_comment.inc:143
+msgid "This filter allows you to filter by the amount of comments."
+msgstr ""
+"Dieser Filter ermöglicht eine Filterung nach der Anzahl der "
+"Kommentare."
+
+#: modules/views_comment.inc:151,160
+msgid ""
+"This filter allows nodes to be filtered by the timestamp for the last "
+"comment or node edit."
+msgstr ""
+"Dieser Filter erlaubt eine Filterung von Nodes nach dem Zeitstempel "
+"des letzten Kommentars oder Nodebearbeitung."
+
+#: modules/views_comment.inc:167
+msgid "Comment: Last Comment Date"
+msgstr "Kommentar: letztes Kommentardatum"
+
+#: modules/views_comment.inc:170
+msgid ""
+"This will allow you to sort by the date of the most recent comment on "
+"a node."
+msgstr ""
+"Dies ermöglicht in einer Node eine Sortierung des neusten Kommentar "
+"nach dem Datum."
+
+#: modules/views_comment.inc:174
+msgid "This filter allows you to sort by the number of comments."
+msgstr ""
+"Dieser Filter ermöglicht eine Filterung nach der Anzahl der "
+"Kommentare."
+
+#: modules/views_comment.inc:177
+msgid "Comment: Last Changed"
+msgstr "Kommentar: letzte Änderung"
+
+#: modules/views_comment.inc:180
+msgid "Sort based on the most recent comment or edit for the node."
+msgstr ""
+"Sortierung basiert auf dem neusten Kommentar oder der letzten "
+"Bearbeitung der Node."
+
+#: modules/views_comment.inc:250
+msgid "@num new"
+msgstr "%num neu"
+
+#: modules/views_comment.inc:287
+msgid "Display recent comments block"
+msgstr "Block mit neusten Kommentaren anzeigen"
+
+#: modules/views_comment.inc:292
+msgid "Recent comments"
+msgstr "Neueste Kommentare"
+
+#: modules/views_node.inc:14,131,215,286
+msgid "Node: Title"
+msgstr "Node: Titel"
+
+#: modules/views_node.inc:28
+msgid "Display the title of the node."
+msgstr "Titel der Node anzeigen."
+
+#: modules/views_node.inc:31,110,317
+msgid "Node: ID"
+msgstr "Node: ID"
+
+#: modules/views_node.inc:36
+msgid "Display the NID of a node."
+msgstr "Die NID einer Node anzeigen."
+
+#: modules/views_node.inc:39,115,221
+msgid "Node: Created Time"
+msgstr "Node: Erstellungszeitpunkt"
+
+#: modules/views_node.inc:43
+msgid "Display the post time of the node."
+msgstr "Bereitstellungszeitpunkt der Node anzeigen."
+
+#: modules/views_node.inc:44,52
+msgid ""
+"The option field may be used to specify the custom date format as it's "
+"required by the date() function or if \"as time ago\" has been chosen "
+"to customize the granularity of the time interval."
+msgstr ""
+"Das Options Feld kann vewendet werden, um das Datumsformat anzugeben. "
+"Es wird von der date()-Funktion sowie von \"as time ago\" verwendet."
+
+#: modules/views_node.inc:47,121,230
+msgid "Node: Updated Time"
+msgstr "Node: Aktualisierungszeitpunkt"
+
+#: modules/views_node.inc:51
+msgid "Display the last time the node was updated."
+msgstr "Letzten Aktualisierungszeitpunkt der Node anzeigen."
+
+#: modules/views_node.inc:55,135,174,281
+msgid "Node: Type"
+msgstr "Node: Typ"
+
+#: modules/views_node.inc:58
+msgid ""
+"The Node Type field will display the type of a node (for example, "
+"'blog entry', 'forum post', 'story', etc)"
+msgstr "Das Feld Nodetyp gibt den Inhalstyp eines Beitrags wieder."
+
+#: modules/views_node.inc:61
+msgid "Node: Link to node"
+msgstr "Node: Verweis auf eine Node"
+
+#: modules/views_node.inc:66
+msgid ""
+"This will create a link to the node; fill the option field with the "
+"text for the link. If you want titles that link to the node, use Node: "
+"Title instead."
+msgstr ""
+"Einen Link zu einem Beitrag erzeugen, im Feld wird die URI zum Beitrag "
+"angezeigt. Um einen Link mit dem Titel des Beitrags zu erzeugen, wird "
+"Beitragstitel verwendet."
+
+#: modules/views_node.inc:69,239
+msgid "Node: Body"
+msgstr "Beitrag: Textkörper"
+
+#: modules/views_node.inc:71
+msgid "Full Text"
+msgstr "Vollständiger Text"
+
+#: modules/views_node.inc:76
+msgid "Display the Main Content."
+msgstr "Hauptinhalt anzeigen."
+
+#: modules/views_node.inc:79
+msgid "Node: View link"
+msgstr "Node: Ansicht Verweis"
+
+#: modules/views_node.inc:83
+msgid ""
+"Display a link to view the node. Enter the text of this link into the "
+"option field; if blank the default \"View\" will be used."
+msgstr ""
+"Anzeige eines Link zu einem Beitrag, diesen als Text in das "
+"Optionsfeld für den Link eingeben, als Standardwert wird \"View\" "
+"verwendet."
+
+#: modules/views_node.inc:86
+msgid "Node: Edit link"
+msgstr "Node: Bearbeiten Verweis"
+
+#: modules/views_node.inc:88,99
+msgid "Return To View"
+msgstr "Zur Ansicht verlinken"
+
+#: modules/views_node.inc:89
+msgid "Return to Node"
+msgstr "Zurück zum Beitrag"
+
+#: modules/views_node.inc:94
+msgid ""
+"Display a link to edit the node. Enter the text of this link into the "
+"option field; if blank the default \"Edit\" will be used."
+msgstr ""
+"Anzeige eines Links zum Bearbeiten des Beitrags. der Text des Links "
+"wird in das Optionsfeld eingegeben, als Standardwert wird \"Edit\" "
+"verwendet."
+
+#: modules/views_node.inc:97
+msgid "Node: Delete link"
+msgstr "Node: Löschen Verweis"
+
+#: modules/views_node.inc:100
+msgid "Return To The Frontpage"
+msgstr "Zurück zur Startseite"
+
+#: modules/views_node.inc:105
+msgid ""
+"Display a link to delete the node. Enter the text of this link into "
+"the option field; if blank the default \"Delete\" will be used."
+msgstr ""
+"Anzeige eines Links zum Löschen des Beitrags, den Text für den Link "
+"in das Optionsfeld eingeben, als Standardwert wird \"Delete\" "
+"verwendet."
+
+#: modules/views_node.inc:111
+msgid "Sort by the database ID of the node."
+msgstr "Nach der Datenbank ID der Node sortieren."
+
+#: modules/views_node.inc:118
+msgid "Sort by the submission date of the node."
+msgstr "Nach der Beitragszeit der Node sortieren."
+
+#: modules/views_node.inc:124
+msgid "Sort by the last update date of the node."
+msgstr "Nach der letzten Aktualisierung der Node sortieren."
+
+#: modules/views_node.inc:127,160
+msgid "Node: Sticky"
+msgstr "Node: am Anfang von Listen"
+
+#: modules/views_node.inc:128
+msgid ""
+"Sort by whether or not the node is sticky. Choose descending to put "
+"sticky nodes at the top."
+msgstr ""
+"Sortieren unter Berücksichtigung der Eigenschaft sticky für "
+"Beiträge."
+
+#: modules/views_node.inc:132
+msgid "Sort by the node title, alphabetically"
+msgstr "Alphabetisch nach dem Node Titel sortieren"
+
+#: modules/views_node.inc:136
+msgid "Sort by the node type, alphabetically"
+msgstr "Alphabetisch nach dem Node Typ sortieren"
+
+#: modules/views_node.inc:141
+msgid ""
+"By choosing random, nodes will be ordered completely randomly. This is "
+"a good way to choose X random nodes from a group of nodes."
+msgstr "Einträge in der Liste zufällig anordnen."
+
+#: modules/views_node.inc:146
+msgid "Node: Published"
+msgstr "Node: Veröffentlicht"
+
+#: modules/views_node.inc:150
+msgid ""
+"Filter by whether or not the node is published. This is recommended "
+"for most Views!"
+msgstr ""
+"Filtern von veröffentlichten und unveröffentlichten Beiträgen. "
+"Empfohlen für die meisten Ansichten."
+
+#: modules/views_node.inc:153
+msgid "Node: Front Page"
+msgstr "Node: Startseite"
+
+#: modules/views_node.inc:157
+msgid "Filter by whether or not the node has been promoted to Front Page."
+msgstr ""
+"Filtern von Beiträgen, die auf der Startseite angezeigt werden bzw. "
+"nicht angezeigt werden."
+
+#: modules/views_node.inc:164
+msgid "Filter by whether or not the node is set sticky."
+msgstr ""
+"Filtern der Beiträge die in LIsten immer oben erscheinen und solchen "
+"Beiträgen, die dieses Merkmal nicht haben."
+
+#: modules/views_node.inc:167
+msgid "Node: Moderated"
+msgstr "Node: Moderiert"
+
+#: modules/views_node.inc:171
+msgid "Filter by whether or not the node is moderated."
+msgstr ""
+"Filtern von Beiträgen nach der Eigenschaft, ob diese Beiträge "
+"moderiert wurden."
+
+#: modules/views_node.inc:179
+msgid "Include or exclude nodes of the selected types."
+msgstr "Ausgewählte Nodetypen einschließen oder ausschließen."
+
+#: modules/views_node.inc:183
+msgid "Node: Author is Anonymous"
+msgstr "Node: Autor ist Gast"
+
+#: modules/views_node.inc:187
+msgid ""
+"This allows you to filter by whether or not the node author is "
+"anonymous."
+msgstr ""
+"Filter für die Autorenschaft eines Beitrags, es wird anonym oder "
+"benannter Autor unterschieden."
+
+#: modules/views_node.inc:191
+msgid "Node: Author is Current User"
+msgstr "Node: Autor ist der aktuelle Benutzer"
+
+#: modules/views_node.inc:195
+msgid ""
+"This allows you to filter by whether or not the node was authored by "
+"the logged in user of the view."
+msgstr ""
+"Ein Filter für die Anzeige aller Beiträge eines eingeloggten "
+"Benutzers, bzw. aller Beiträge, die nicht vom eingeloggten Benutzer "
+"sind."
+
+#: modules/views_node.inc:199
+msgid "Node: Current User Authored or Commented"
+msgstr "Beiträge oder Kommentare des aktuellen Benutzers"
+
+#: modules/views_node.inc:204
+msgid ""
+"This allows you to filter by whether or not the logged in user "
+"authored or commented on the node."
+msgstr ""
+"Ein Filter für Beiträge oder Kommentare des gerade eingeloggten "
+"Benutzers."
+
+#: modules/views_node.inc:207
+msgid "Node: Distinct"
+msgstr "Node: Eindeutig"
+
+#: modules/views_node.inc:212
+msgid ""
+"This filter ensures that each node may only be listed once, even if it "
+"matches multiple criteria. Use this if multiple taxonomy matches "
+"return duplicated nodes."
+msgstr ""
+"Dieser Filter stellt sicher, dass jeder Beitrag nur ein einziges Mal "
+"gelistet werden."
+
+#: modules/views_node.inc:218
+msgid "This filter allows nodes to be filtered by their title."
+msgstr "Dieser Filter ermöglicht eine Filterung von Nodes nach ihrem Titel."
+
+#: modules/views_node.inc:235
+msgid "This filter allows nodes to be filtered by the time they were updated."
+msgstr ""
+"Dieser Filter erlaubt eine Filterung von Nodes nach ihrem "
+"Aktualisierungszeitpunkt."
+
+#: modules/views_node.inc:242
+msgid "This filter allows nodes to be filtered by their body."
+msgstr "Dieser Filter erlaubt eine Filterung von Nodes nach ihrem Textkörper."
+
+#: modules/views_node.inc:265
+msgid "Node: Has New Content"
+msgstr "Node: neuer Inhalt vorhanden"
+
+#: modules/views_node.inc:270
+msgid ""
+"Including this filter will reduce the node set to nodes that have been "
+"updated or have new content since the user last read the node, as well "
+"as unread nodes."
+msgstr ""
+"Nach gelesenen und ungelesenen Beiträgen filtern, die neu erstellt "
+"oder verändert wurden, seit dem der Benutzer den Beitrag gelesen hat."
+
+#: modules/views_node.inc:283
+msgid ""
+"The node type argument allows users to filter a view by specifying the "
+"type of node."
+msgstr "Den Inhaltstyp als Argument übergeben, um danach zu filtern."
+
+#: modules/views_node.inc:289
+msgid ""
+"The argument will filter by the node title. For this argument, set the "
+"option to the number of characters, using 0 for full term; use 1 for "
+"an A/B/C style glossary."
+msgstr ""
+"Der Titel des Beitrags als Argument für den Filter, in den Optionen "
+"kann die Zahl der Zeichen bestimmt werden, die zur Bildung der "
+"Navigation verwendet werden."
+
+#: modules/views_node.inc:292
+msgid "Node: Posted Year"
+msgstr "Node: Beitragsjahr"
+
+#: modules/views_node.inc:294
+msgid ""
+"This argument allows users to filter by what year the node was posted, "
+"in the form of CCYY."
+msgstr ""
+"Eingabe des Jahres mit vier Ziffern (JJJJ) als Argument für den "
+"Filter nach dem Jahr des Beitrags."
+
+#: modules/views_node.inc:297
+msgid "Node: Posted Month"
+msgstr "Node: Beitragsmonat"
+
+#: modules/views_node.inc:299
+msgid ""
+"Months are specified by the numbers 1-12. Since this argument does not "
+"specify a year, it is recommended that it usually follow a 'Year' "
+"argument."
+msgstr ""
+"Eingabe des Monats als Zahl von 1-12. Häufig zusammen mit einem Jahr "
+"als Argument verwendet."
+
+#: modules/views_node.inc:302
+msgid "Node: Posted Week"
+msgstr "Node: Beitragswoche"
+
+#: modules/views_node.inc:304
+msgid ""
+"This allows the user to filter a view by the week number from 1-52. It "
+"is recommended this argument follow a 'Year' argument."
+msgstr ""
+"Die Wochennummer 1-53 als Argument für den Filter, oft zusammen mit "
+"einem weiteren Filter für das Jahr verwendet."
+
+#: modules/views_node.inc:307
+msgid "Node: Posted Month + Year"
+msgstr "Node: Beitragsmonat und Jahr"
+
+#: modules/views_node.inc:309
+msgid ""
+"This argument combines Month and Year into a single argument, "
+"specified in the form CCYYMM."
+msgstr ""
+"Jahr (vierstellig) und Monat (zweistellig) als Ziffern in der Form "
+"JJJJMM als·ein·einziges·Argument."
+
+#: modules/views_node.inc:312
+msgid "Node: Posted Full Date"
+msgstr "Inhalt: Zeitpunkt an dem der Beitrag gespeichert wurde"
+
+#: modules/views_node.inc:314
+msgid "This argument is a complete date in the form of CCYYMMDD."
+msgstr "Ein Datum als Argument in nummerischer Form: JJJJMMTT"
+
+#: modules/views_node.inc:323
+msgid "This argument is a single Node ID."
+msgstr "Die ID eines Beitrags als Argument"
+
+#: modules/views_node.inc:328
+msgid "Node: Feed Selector"
+msgstr "Node: Feedauswahl"
+
+#: modules/views_node.inc:331
+msgid ""
+"This argument allows pluggable \"feed\" selectors. If using views_rss "
+"module, \"feed\" will turn the view into an RSS feed. Other modules "
+"may provide their own feeds. You may enter the title the feed will "
+"advertise in the title field here. If the feed type offers a "
+"description, enter the description of the feed in the option field "
+"here."
+msgstr ""
+"Das Argument ermöglicht Erweiterungen für die Auswahl von "
+"„Newsfeeds“. Mit dem Modul Views_rss und der Einstellung Feed wird "
+"aus einer Ansicht ein „RSS-Feed“. Sie können den Titel des Feeds "
+"und eine optionale Beschreibung eingetragen."
+
+#: modules/views_node.inc:342
+msgid "The basic front page view."
+msgstr "Die Basisansicht der Startseite."
+
+#: modules/views_node.inc:685
+msgid "Untitled"
+msgstr "Ohne Titel"
+
+#: modules/views_profile.inc:66,122,156
+msgid "Profile: @field-name"
+msgstr "Profil: @field-name"
+
+#: modules/views_profile.inc:70,77
+msgid "This will display all options of the profile field %field-name. "
+msgstr "Zeigt alle Optionen des Profilfeldes %field-name an. "
+
+#: modules/views_profile.inc:84
+msgid "Display the date of the %field-name field."
+msgstr "Das Datum des Feldes %field-name anzeigen."
+
+#: modules/views_profile.inc:91,192
+msgid "Checkbox based profile field help"
+msgstr "Feld für ein Profil"
+
+#: modules/views_profile.inc:98,105,201
+msgid "Other types based profile field help"
+msgstr "Hilfe zu anderen Inhaltstypen für Profilfelder"
+
+#: modules/views_profile.inc:128
+msgid "This allows you to sort by vocabulary terms"
+msgstr "Dies ermöglicht eine Sortierung nach Vokabularbegriffen."
+
+#: modules/views_profile.inc:131
+msgid "This allows you to sort by selection options"
+msgstr "Dies ermöglicht eine Sortierung nach Auswahloptionen."
+
+#: modules/views_profile.inc:137
+msgid "This allows you to sort by date"
+msgstr "Dies ermöglicht eine Sortierung nach Datum."
+
+#: modules/views_profile.inc:140
+msgid "This allows you to sort yes/no"
+msgstr "Dies ermöglicht eine Sortierung nach ja/nein."
+
+#: modules/views_profile.inc:160
+msgid "Taxonomy based profile field help"
+msgstr "Feld für ein Profil"
+
+#: modules/views_profile.inc:171
+msgid "Selection based profile field help"
+msgstr "Feld für ein Profil"
+
+#: modules/views_search.inc:18
+msgid "Search: Index"
+msgstr "Suche: Index"
+
+#: modules/views_statistics.inc:23,42
+msgid "Node: Total Hits"
+msgstr "Node: gesamte Besuche"
+
+#: modules/views_statistics.inc:25
+msgid "This will display the number of times a node has been read."
+msgstr "Dies zeigt die Anzahl an, wie oft eine Node gelesen wurde."
+
+#: modules/views_statistics.inc:28,46
+msgid "Node: Recent Hits"
+msgstr "Node: neueste Besuche"
+
+#: modules/views_statistics.inc:30
+msgid "This will display the number of times a node has been read recently."
+msgstr "Anzahl der Abrufe eines Beitrags"
+
+#: modules/views_statistics.inc:33,50
+msgid "Node: Last Hit Time"
+msgstr "Node: letzter Zeitpunkt eines Besuches"
+
+#: modules/views_statistics.inc:37
+msgid "Display the time the node was last read."
+msgstr "Zeigt den Zeitpunkt an, wann die Node zuletzt gelesen wurde."
+
+#: modules/views_statistics.inc:43
+msgid "This allows you to sort by the number of times a node has been read."
+msgstr "Sortieren nach der Anzahl der Abrufe eines Beitrags."
+
+#: modules/views_statistics.inc:47
+msgid ""
+"This allows you to sort by the number of times a node has been read "
+"recently."
+msgstr "Sortieren nach der Anzahl der Abrufe eines Beitrags."
+
+#: modules/views_statistics.inc:53
+msgid "This allows you to sort by the time a node was last read."
+msgstr ""
+"Sortieren nach der Zeit, die seit dem letzten Abruf eines Beitrags "
+"vergangen ist."
+
+#: modules/views_statistics.inc:68
+msgid "Nodes sorted by recent page-views"
+msgstr "Nodes werden sortiert nach neusten Seitenansichten"
+
+#: modules/views_statistics.inc:73,90
+msgid "Recent popular content"
+msgstr "Der beliebteste und neueste Inhalt"
+
+#: modules/views_statistics.inc:137
+msgid "Recent hits"
+msgstr "Neuste Aufrufe"
+
+#: modules/views_statistics.inc:157
+msgid "Nodes sorted by total page-views"
+msgstr "Nodes werden sortiert nach gesamten Seitenansichten"
+
+#: modules/views_statistics.inc:162,179
+msgid "All-time popular content"
+msgstr "Allzeit beliebte Inhalte"
+
+#: modules/views_statistics.inc:226
+msgid "Reads"
+msgstr "Anzahl der Abrufe eines Beitrags"
+
+#: modules/views_taxonomy.inc:50,67
+msgid "Taxonomy: Terms for @voc-name"
+msgstr "Taxonomie: Begriffe für @voc-name"
+
+#: modules/views_taxonomy.inc:52
+msgid ""
+"This will display all taxonomy terms associated with the node that are "
+"members of %voc-name. Note that this causes one extra query per row "
+"displayed, and might have a minor performance impact."
+msgstr ""
+"Anzeige von Begriffen aus dem Vokabular %voc-name, die mit einem "
+"Beitrag verbunden sind. Je nach der Anzahl von Beiträgen kann dies "
+"einige Leistung von der Datenbank abfordern."
+
+#: modules/views_taxonomy.inc:76
+msgid ""
+"Only terms associated with %voc-name will appear in the select box for "
+"this filter. When filtering by taxonomy term you may specify the "
+"'depth' as an option. Please see the taxonomy help for more "
+"information."
+msgstr ""
+"Nur Begriffe aus %voc-name erscheinen in der Auswahlliste für diesen "
+"Filter. Die Zahl der Ebenen kann als Option gesetzt werden."
+
+#: modules/views_taxonomy.inc:111
+msgid "Taxonomy: Term"
+msgstr "Taxonomie: Begriff"
+
+#: modules/views_taxonomy.inc:115
+msgid ""
+"This will display one of the taxonomy terms associated with the node; "
+"if taxonomy terms were used to filter or sort, it will be the one that "
+"triggered the sort or filter."
+msgstr ""
+"Anzeige eines Begriffes der mit dem Beitrag verknüpft ist, dieser "
+"Begriff wird gegebenenfalls für Sortierung oder Filterung verwendet."
+
+#: modules/views_taxonomy.inc:118
+msgid "Taxonomy: Term Description"
+msgstr "Taxonomie: Begriffserklärung"
+
+#: modules/views_taxonomy.inc:120
+msgid "This will display the description associated with a taxonomy term."
+msgstr "Dies zeigt eine Beschreibung der zugeordneten Taxonomie Begriffe an."
+
+#: modules/views_taxonomy.inc:125,157
+msgid "Taxonomy: Term Name"
+msgstr "Taxonomie: Name des Begriffes"
+
+#: modules/views_taxonomy.inc:127
+msgid ""
+"This will sort nodes by taxonomy weight and name, as defined in the "
+"category administration."
+msgstr ""
+"Dies sortiert Nodes nach Taxonomiegewichtung und Name, wie in der "
+"Kategorisierungsverwaltung angegeben."
+
+#: modules/views_taxonomy.inc:132
+msgid "Taxonomy: Vocabulary Name"
+msgstr "Taxonomie: Name des Vokabular"
+
+#: modules/views_taxonomy.inc:137
+msgid ""
+"This will filter a view to only nodes that contain a term in the "
+"associated vocabulary."
+msgstr ""
+"Dies filtert eine Ansicht nach Nodes, welche den Begriff eines "
+"zugeordneten Vokabulars enthalten."
+
+#: modules/views_taxonomy.inc:151
+msgid "Taxonomy: Term ID"
+msgstr "Taxonomie: Begriff ID"
+
+#: modules/views_taxonomy.inc:154
+msgid ""
+"The argument will filter by a taxonomy term ID. For this argument, set "
+"the option to the depth to search. See taxonomy for more information."
+msgstr "Eine ID eines Begriffes aus einer Taxonomie als Argument verwenden."
+
+#: modules/views_taxonomy.inc:160
+msgid ""
+"The argument will filter by a taxonomy term name. For this argument, "
+"set the option to the number of characters, using 0 for full term; use "
+"1 for an A/B/C style glossary."
+msgstr ""
+"Der Titel des Beitrags als Argument für den Filter, in den Optionen "
+"kann die Zahl der Zeichen bestimmt werden, die zur Bildung der "
+"Navigation verwendet werden."
+
+#: modules/views_taxonomy.inc:163
+msgid "Taxonomy: Vocabulary ID"
+msgstr "Taxonomie: Vokabular ID"
+
+#: modules/views_taxonomy.inc:165
+msgid "The argument will filter to nodes with terms in a vocabulary."
+msgstr ""
+"Filtern nach Beiträgen, die mit einem Begriff aus einer Taxonomie "
+"verknüpft sind."
+
+#: modules/views_taxonomy.inc:175
+msgid "The taxonomy view with a depth of 0."
+msgstr "Die Taxonomieansicht in einer Tiefe von 0."
+
+#: modules/views_taxonomy.inc:375
+msgid "Uncatgorized"
+msgstr "Nicht kategorisiert"
+
+#: modules/views_upload.inc:23
+msgid "File: Id"
+msgstr "Datei: ID"
+
+#: modules/views_upload.inc:25
+msgid "File Id which represents the file."
+msgstr "Datei ID, welche eine Datei repräsentiert."
+
+#: modules/views_upload.inc:30
+msgid "Sort by File Id"
+msgstr "Nach Datei ID sortieren"
+
+#: modules/views_upload.inc:35
+msgid "File: Has file downloads"
+msgstr "Datei: Dateidownloads vorhanden"
+
+#: modules/views_upload.inc:40
+msgid "Filter whether the node has files for download"
+msgstr "Filtert, ob die Node Dateien zum Download anbietet"
+
+#: modules/views_upload.inc:43
+msgid "File: Listed in file downloads"
+msgstr "Datei: Aufgelistet in Dateidownloads"
+
+#: modules/views_upload.inc:47
+msgid "Filter whether the file is listed in downloads"
+msgstr "Filtert, ob die Datei in den Downloads aufgelistet wird"
+
+#: modules/views_upload.inc:64
+msgid "File: All files"
+msgstr "Datei: Alle Dateien"
+
+#: modules/views_upload.inc:68
+msgid "All files"
+msgstr "Alle Dateien"
+
+#: modules/views_upload.inc:69
+msgid "Listed files"
+msgstr "Aufgelistete Dateien"
+
+#: modules/views_upload.inc:74
+msgid "File names with links"
+msgstr "Dateinamen als Links"
+
+#: modules/views_upload.inc:75
+msgid "File names without links"
+msgstr "Dateinamen, unverlinkt"
+
+#: modules/views_upload.inc:76
+msgid "File descriptions with links"
+msgstr "Dateibeschreibungen mit Links"
+
+#: modules/views_upload.inc:77
+msgid "File descriptions without links"
+msgstr "Dateibeschreibung ohne Link"
+
+#: modules/views_upload.inc:80
+msgid "Display all attached files in one field."
+msgstr "Alle angehängten Dateien in einem Feld anzeigen."
+
+#: modules/views_upload.inc:83
+msgid "File: Name"
+msgstr "Datei: Name"
+
+#: modules/views_upload.inc:85
+msgid "Plain"
+msgstr "Einfach"
+
+#: modules/views_upload.inc:86
+msgid "With download link"
+msgstr "Mit Downloadverweis"
+
+#: modules/views_upload.inc:91
+msgid "Display file name"
+msgstr "Dateinamen anzeigen"
+
+#: modules/views_upload.inc:94
+msgid "File: Path"
+msgstr "Datei: Pfad"
+
+#: modules/views_upload.inc:96
+msgid "Display Path to File."
+msgstr "Pfad zur Datei anzeigen."
+
+#: modules/views_upload.inc:99,118
+msgid "File: Size"
+msgstr "Datei: Größe"
+
+#: modules/views_upload.inc:102
+msgid "Display the size of the associated file."
+msgstr "Die Größe der verknüpften Datei anzeigen."
+
+#: modules/views_upload.inc:105,123,139
+msgid "File: Mime type"
+msgstr "Datei: Datentyp"
+
+#: modules/views_upload.inc:107,126
+msgid "This filter allows nodes to be filtered by mime type."
+msgstr "Dieser Filter erlaubt eine Filterung von Nodes nach ihrem Datentyp."
+
+#: modules/views_upload.inc:112
+msgid "File: Filename"
+msgstr "Datei: Dateiname"
+
+#: modules/views_upload.inc:115
+msgid "This filter allows nodes to be filtered by the name of attached files."
+msgstr ""
+"Dieser Filter erlaubt eine Filterung von Nodes nach dem Namen der "
+"angehängten Dateien."
+
+#: modules/views_upload.inc:120
+msgid "This filter allows nodes to be filtered by file size."
+msgstr ""
+"Dieser Filter erlaubt eine Filterung von Nodes nach ihrer "
+"Dateigröße."
+
+#: modules/views_upload.inc:131
+msgid "File: Sort by Filename"
+msgstr "Datei: nach Dateiname sortieren"
+
+#: modules/views_upload.inc:132
+msgid "Sort by file name"
+msgstr "Nach Dateinamen sortieren"
+
+#: modules/views_upload.inc:135
+msgid "File: File size"
+msgstr "Datei: Dateigröße"
+
+#: modules/views_upload.inc:136
+msgid "Sort by file size."
+msgstr "Nach Dateigröße sortieren"
+
+#: modules/views_upload.inc:140
+msgid "Sort by mime type."
+msgstr "Nach Datentyp sortieren."
+
+#: modules/views_user.inc:24,40,46,45,51
+msgid "Node: Author Name"
+msgstr "Node: Name des Autors"
+
+#: modules/views_user.inc:32
+msgid "User: Author Picture"
+msgstr "Benutzer: Autorenbild"
+
+#: modules/views_user.inc:35
+msgid "Display the user picture of the author."
+msgstr "Benutzerbild des Autors anzeigen."
+
+#: modules/views_user.inc:41,46
+msgid "This allows you to sort alphabetically by author."
+msgstr "Dies ermöglicht eine alphabetische Sortierung nach Autor."
+
+#: modules/views_user.inc:50,55
+msgid ""
+"This allows you to filter by a particular user. You might not find "
+"this useful if you have a lot of users."
+msgstr ""
+"Dies ermöglicht eine Filterung nach einem bestimmten Benutzer. Bei "
+"vielen Benutzern kann dies unter Umständen nicht sinnvoll sein."
+
+#: modules/views_user.inc:74,79
+msgid "Node: Authors in role %role-name"
+msgstr "Beitrag: Autoren mit der Rolle %role-name"
+
+#: modules/views_user.inc:79,84
+msgid ""
+"Only users in role %role-name will appear in the select box for this "
+"filter."
+msgstr ""
+"Nur Benutzer mit der Rolle %role werden in der Auswahlbox zur "
+"Verfügung gestellt."
+
+#: modules/views_user.inc:99,104
+msgid "Role: Author Role"
+msgstr "Rolle: Autorenrolle"
+
+#: modules/views_user.inc:104,109
+msgid "Include the node only if the author is a member of the selected role."
+msgstr "Nur Beiträge von Autoren mit der ausgewählten Rollen."
+
+#: modules/views_user.inc:114,119
+msgid "User: UID is Author"
+msgstr "Benutzer: UID ist der Autor"
+
+#: modules/views_user.inc:116,121
+msgid ""
+"The User ID argument allows users to filter to nodes authored by the "
+"specified user ID."
+msgstr ""
+"Filtern mit der User ID (UID), nur Beiträge dieses Benutzers werden "
+"ausgewählt."
+
+#: modules/views_user.inc:119,124
+msgid "User: UID Authored or Commented"
+msgstr "Benutzer mit der UID ist Autor des Beitrags oder des Kommentars"
+
+#: modules/views_user.inc:121,126
+msgid ""
+"The User ID argument allows users to filter a to nodes authored or "
+"commented on the specified user ID."
+msgstr ""
+"Nutzen der UID für Filter, um Beiträge oder Kommentare dieses "
+"Benutzers auszuwählen."
+
+#: modules/views_user.inc:124,129
+msgid "User: Username is Author"
+msgstr "Benutzer: Benutzername ist der Autor"
+
+#: modules/views_user.inc:125,130
+msgid "views_handler_arg_username"
+msgstr "views_handler_arg_username"
+
+#: modules/views_user.inc:126,131
+msgid ""
+"The Username argument allows users to file to a nodes authored by the "
+"specified username."
+msgstr ""
+"Filtern mit der User ID (UID), nur Beiträge dieses Benutzers werden "
+"ausgewählt."
+
+#: modules/views_user.inc:137,142
+msgid "Shows all new activity on system."
+msgstr "Zeigen der neuesten Einträge auf dem System."
+
+#: modules/views_user.inc:189,194
+msgid "recent posts for %1"
+msgstr "Neueste Beiträge für %1"
+
+#: modules/views_user.inc:367,372
+msgid "Currently Logged In User"
+msgstr "Aktuell angemeldete Benutzer"
+
+#: modules/aggregator.views.inc:209,275
+msgid "Last checked"
+msgstr "Zuletzt geprüft"
+
+#: modules/profile.views.inc:20,40
+msgid "Profile"
+msgstr "Profil"
+
+#: modules/taxonomy.views.inc:152,151,158,156,163,170
+msgid "Term description"
+msgstr "Begriffsbeschreibung"
+
+#: modules/node.views.inc:124,325,326,338,323
+msgid "Updated date"
+msgstr "Aktualisierungszeitpunkt"
+
+#: modules/comment.views.inc:244
+msgid "Approved"
+msgstr "Genehmigt"
+
+#: modules/statistics.views.inc:215
+msgid "Timer"
+msgstr "Timer"
+
+#: modules/locale.views.inc:93
+msgid "Source"
+msgstr "Quelle"
+
+#: modules/taxonomy.views.inc:259,258,266,313,330,285
+msgid "Parent term"
+msgstr "Übergeordneter Begriff"
+
+#: modules/aggregator.views.inc:245,311
+msgid "Last modified"
+msgstr "Letzte Veränderungen"
+
+#: modules/node.views.inc:165
+msgid "Not published"
+msgstr "Nicht veröffentlicht"
+
+#: modules/comment.views.inc:350,388,380,434,451
+msgid "New comments"
+msgstr "Neue Kommentare"
+
+#: modules/locale.views.inc:186,194
+msgid "Plural"
+msgstr "Plural"
+
+#: modules/translation.views.inc:81,84,91,83,86,93
+msgid "Translations"
+msgstr "Übersetzungen"
+
+#: modules/node.views.inc:225,234,232,237,210,217,222
+msgid "Sticky"
+msgstr "am Anfang von Listen"
+
+#: modules/locale.views.inc:147
+msgid "Translation"
+msgstr "Übersetzung"
+
+#: modules/translation.views.inc:118,120
+msgid "Translation status"
+msgstr "Übersetzungsstatus"
+
+#: modules/views.views.inc:56
+msgid "Text area"
+msgstr "Textbereich"
+
+#: modules/views.views.inc:18
+msgid "Global"
+msgstr "Global"
+
+#: modules/comment.views.inc:216,254,246,300,303
+msgid "Thread"
+msgstr "Thread"
+
+#: modules/system.views.inc:126
+msgid "Extension"
+msgstr "Erweiterung"
+
+#: modules/node.views.inc:574,586,587,599,526
+msgid "Node access"
+msgstr "Zustand der Inhaltsberechtigungen"
+
+#: modules/aggregator.views.inc:26
+msgid "Aggregator"
+msgstr "Aggregator"
+
+#: modules/upload.views.inc:114,127,128
+msgid "Attached files"
+msgstr "Angehängte Dateien"
+
+#: modules/book.views.inc:116,115
+msgid "Book parent"
+msgstr "Übergeordnetes Buch"
+
+#: modules/book.views.inc:30
+msgid "Top level book"
+msgstr "Oberste Ebene des Buchs"
+
+#: modules/comment.views.inc:149,187,241
+msgid "In moderation"
+msgstr "In Moderation"
+
+#: modules/node.views.inc:57,58
+msgid "Nid"
+msgstr "Beitrags-ID"
+
+#: modules/comment.views.inc:251,256,289,294,281,286,335,340,338,343
+msgid "Parent comment"
+msgstr "Übergeordneter Kommentar"
+
+#: modules/comment.views.inc:252,290,282,336,339
+msgid "The parent comment."
+msgstr "Der übergeordnete Kommentar."
+
+#: modules/comment.views.inc:114,101
+msgid "Author's website"
+msgstr "Website des Autors"
+
+#: modules/comment.views.inc:212,250,242,296,299
+msgid "Display the depth of the comment if it is threaded."
+msgstr ""
+"Bei gruppierter Ansicht die Verschachtelungstiefe des Kommentars "
+"anzeigen."
+
+#: modules/comment.views.inc:217,255,247,301,304
+msgid ""
+"Sort by the threaded order. This will keep child comments together "
+"with their parents."
+msgstr ""
+"Nach der gruppierten Reihenfolge sortieren. Dies wird die "
+"Unterkommentare mit ihren Eltern zusammenlassen."
+
+#: modules/comment.views.inc:195,233,287,290
+msgid "Reply-to link"
+msgstr "‚Antworten‘-Link"
+
+#: modules/comment.views.inc:196,234,288,291
+msgid "Provide a simple link to reply to the comment."
+msgstr "Stellt einen einfachen Link zum Antworten auf den Kommentars bereit."
+
+#: modules/user.views.inc:71,73
+msgid "nodes"
+msgstr "Inhalte"
+
+#: modules/upload.views.inc:44
+msgid "The node the uploaded file is attached to"
+msgstr "Der Beitrag an dem die hochgeladene Datei angehängt ist."
+
+#: modules/taxonomy.views.inc:57,61,67
+msgid "The taxonomy vocabulary ID"
+msgstr "Die Vokabular-ID der Taxonomie"
+
+#: modules/taxonomy.views.inc:97,201,200,104,207,216,232,110,234
+msgid "The taxonomy term ID"
+msgstr "Die ID des Taxonomiebegriffs"
+
+#: modules/translation.views.inc:33
+msgid "The language the content is in."
+msgstr "Die Sprache des Inhalts."
+
+#: modules/system.views.inc:409
+msgid "Entity type"
+msgstr "Inhaltstyp"
+
+#: modules/system.views.inc:107
+msgid "Mime type"
+msgstr "MIME-Typ"
+
+#: modules/upload.views.inc:92
+msgid "The weight, used for sorting."
+msgstr "Die für die Sortierung verwendete Reihenfolge."
+
+#: modules/node.views.inc:125
+msgid "The date the node was last updated."
+msgstr "Der Zeitpunkt zu dem der Beitrag das letzte mal aktualisiert wurde."
+
+#: modules/aggregator.views.inc:289,355
+msgid "Category ID"
+msgstr "Kategorie ID"
+
+#: modules/system.views.inc:205,446
+msgid "Permanent"
+msgstr "Dauerhaft"
+
+#: modules/system.views.inc:204,445
+msgid "Temporary"
+msgstr "Temporär"
+
+#: modules/node.views.inc:30
+msgid "Nodes are a Drupal site's primary content."
+msgstr "Beiträge sind der primäre Inhalt einer Drupal-Website."
+
+#: modules/comment.views.inc:27
+msgid "Comments are responses to node content."
+msgstr "Kommentare sind Antworten auf den Inhalt von Beiträgen."
+
+#: modules/user.views.inc:28
+msgid "Users who have created accounts on your site."
+msgstr "Benutzer, die Konten auf der Website erstellt haben."
+
+#: modules/system.views.inc:158,169
+msgid "Upload date"
+msgstr "Upload Datum"
+
+#: modules/node.views.inc:58,59
+msgid "The node ID of the node."
+msgstr "Die ID des Beitrags."
+
+#: modules/user.views.inc:276,279,287,294,285,300,302
+msgid "No role"
+msgstr "Keine Rolle"
+
+#: modules/comment.views.inc:168,206,260,263
+msgid "View link"
+msgstr "‚Anzeigen‘-Link"
+
+#: modules/system.views.inc:127,138
+msgid "The size of the file."
+msgstr "Die Größe der Datei."
+
+#: modules/user.views.inc:71,79,81
+msgid "Filter the view to the currently logged in user."
+msgstr "Die Ansicht für den aktuell angemeldeten Benutzer filtern."
+
+#: modules/user.views.inc:138,141,149,154,147,160,162
+msgid "Has Avatar"
+msgstr "Hat ein Avatar"
+
+#: modules/node.views.inc:735,746,747,758,748,759,753,764,765,776,590,601
+msgid "Display the node with standard node view."
+msgstr "Den Beitrag mit der Standardbeitragsansicht anzeigen."
+
+#: modules/user.views.inc:48,49
+msgid "Uid"
+msgstr "Uid"
+
+#: modules/views.views.inc:40
+msgid "Custom text"
+msgstr "Benutzerdefinierter Text"
+
+#: modules/comment.views.inc:389,444,461
+msgid "Add comment link"
+msgstr "﻿Kommentar-Link hinzufügen"
+
+#: modules/aggregator.views.inc:32
+msgid "Aggregator items are imported from external RSS and Atom news feeds."
+msgstr "Feedeinträge werden aus externe RSS und Atom-News Feeds importiert."
+
+#: modules/aggregator.views.inc:41,86
+msgid "The title of the aggregator item."
+msgstr "Der Titel des Feedseintrags."
+
+#: modules/aggregator.views.inc:60,105
+msgid "The link to the original source URL of the item."
+msgstr "Der Link zu der originalen Quell-URL des Feedeintrags."
+
+#: modules/aggregator.views.inc:77,122
+msgid "The author of the original imported item."
+msgstr "Der Autor des originalen importierten Feedeintrags."
+
+#: modules/aggregator.views.inc:98,164
+msgid "The actual content of the imported item."
+msgstr "Der tatsächliche Inhalt des importierten Feedeintrags."
+
+#: modules/aggregator.views.inc:113,179
+msgid ""
+"The date the original feed item was posted. (With some feeds, this "
+"will be the date it was imported.)"
+msgstr ""
+"Das Datum an dem der originale Feedeintrag erstellt wurde. (Bei "
+"einigen Feeds, wird dies das Import-Datum sein.)"
+
+#: modules/aggregator.views.inc:147,213
+msgid "Feed ID"
+msgstr "Feed-ID"
+
+#: modules/aggregator.views.inc:148,214
+msgid "The unique ID of the aggregator feed."
+msgstr "Die eindeutige ID des Aggregator-Feeds."
+
+#: modules/aggregator.views.inc:173,239
+msgid "The title of the aggregator feed."
+msgstr "Der Titel des Aggregator-Feeds."
+
+#: modules/aggregator.views.inc:192,258
+msgid "The link to the source URL of the feed."
+msgstr "Der Link zu der Quell-URL des Feeds."
+
+#: modules/aggregator.views.inc:210,276
+msgid "The date the feed was last checked for new content."
+msgstr ""
+"Das Datum an dem der Feed das letzte Mal auf neuen Inhalt überprüft "
+"wurde."
+
+#: modules/aggregator.views.inc:231,297
+msgid "The description of the aggregator feed."
+msgstr "Die Beschreibung des Feed-Aggregators."
+
+#: modules/aggregator.views.inc:246,312
+msgid "The date of the most recent new content onf the feed."
+msgstr "Das Datum vom neuesten Inhalt des Feeds."
+
+#: modules/aggregator.views.inc:290,356
+msgid "The unique ID of the aggregator category."
+msgstr "Die ID-Nummer des übergeordneten Vokabulars der Kategorie."
+
+#: modules/aggregator.views.inc:311,377
+msgid "The title of the aggregator category."
+msgstr "Der Titel der Aggregator Kategorie."
+
+#: modules/aggregator.views.inc:371,374,402
+msgid "Display the aggregator item using the data from the original source."
+msgstr ""
+"Den Feedeintrag unter Verwendung der Daten aus der originalen Quelle "
+"anzeigen."
+
+#: modules/book.views.inc:31
+msgid "The book the node is in."
+msgstr "Das Buch, indem der Beitrag enthalten ist."
+
+#: modules/book.views.inc:58,57
+msgid "The weight of the book page."
+msgstr "Die Reihenfolge der Buchseite."
+
+#: modules/book.views.inc:70,69
+msgid ""
+"The depth of the book page in the hierarchy; top level books have a "
+"depth of 1."
+msgstr ""
+"Die Tiefe der Buchseite in der Hierarchie. Bücher der obersten Ebene "
+"haben eine Tiefe von 1."
+
+#: modules/book.views.inc:88
+msgid ""
+"The order of pages in the book hierarchy. If you want the exactly "
+"right order, remember to sort by weight, too."
+msgstr ""
+"Die Reihenfolge der Seiten in der Buch-Hierarchie. Wenn genau diese "
+"Reihenfolge erwünscht ist, muss auch nach der Reihenfolge sortiert "
+"werden."
+
+#: modules/book.views.inc:111,110
+msgid "The parent book node."
+msgstr "Der übergeordnete Buchbeitrag."
+
+#: modules/comment.views.inc:45
+msgid "The title of the comment."
+msgstr "Der Titel des Kommentars."
+
+#: modules/comment.views.inc:64
+msgid "The text of the comment."
+msgstr "Der Text des Kommentars."
+
+#: modules/comment.views.inc:77,64
+msgid "The comment ID of the field"
+msgstr "Die Kommentar-ID des Feldes"
+
+#: modules/comment.views.inc:96,83
+msgid ""
+"The name of the comment's author. Can be rendered as a link to the "
+"author's homepage."
+msgstr ""
+"Der Name des Kommentar-Autors. Kann als Link zur Website vom "
+"Kommentar-Autor ausgegeben werden."
+
+#: modules/comment.views.inc:115,102
+msgid ""
+"The website address of the comment's author. Can be rendered as a "
+"link. Will be empty if the author is a registered user."
+msgstr ""
+"Die Website-Adresse des Kommentar-Autors. Kann als Link ausgegeben "
+"werden. Wird jedoch leer bleiben, wenn der Autor ein registrierter "
+"Benutzer ist."
+
+#: modules/comment.views.inc:134,172
+msgid "Date and time of when the comment was posted."
+msgstr "Zeitpunkt zu dem der Kommentar gespeichert wurde."
+
+#: modules/comment.views.inc:150,188,242
+msgid "Whether or not the comment is currently in moderation."
+msgstr "Ob sich der Kommentar derzeit in Moderation befindet oder nicht."
+
+#: modules/comment.views.inc:169,207,261,264
+msgid "Provide a simple link to view the comment."
+msgstr "Stellt einen einfachen Link zur Ansicht des Kommentars bereit."
+
+#: modules/comment.views.inc:178,216,270,273
+msgid "Provide a simple link to edit the comment."
+msgstr "Stellt einen einfachen Link zum Bearbeiten des Kommentars bereit."
+
+#: modules/comment.views.inc:187,225,279,282
+msgid "Provide a simple link to delete the comment."
+msgstr "Stellt einen einfachen Link zum Löschen des Kommentars bereit."
+
+#: modules/comment.views.inc:203,241
+msgid "Node link"
+msgstr "Link zum Beitrag"
+
+#: modules/comment.views.inc:204,242
+msgid "Display the standard comment link used on regular nodes."
+msgstr "Den Standard Kommentarlink bei den regulären Beiträgen anzeigen."
+
+#: modules/comment.views.inc:224,262,254,308,311
+msgid "The node the comment is a reply to."
+msgstr "Der Beitrag auf den sich diese Antwort bezieht."
+
+#: modules/comment.views.inc:235,273,265,319,322
+msgid "The User ID of the comment's author."
+msgstr "Die Benutzer-ID des Kommentar-Autors."
+
+#: modules/comment.views.inc:245,283,275,329,332
+msgid "Parent CID"
+msgstr "Übergeordnete Kommentar-ID"
+
+#: modules/comment.views.inc:246,284,276,330,333
+msgid "The Comment ID of the parent comment."
+msgstr "Die Kommentar-ID des übergeordneten Kommentars."
+
+#: modules/comment.views.inc:278,316,308,362,365
+msgid "Last comment time"
+msgstr "Letzter Kommentarzeitpunkt"
+
+#: modules/comment.views.inc:279,317,309,363,366
+msgid "Date and time of when the last comment was posted."
+msgstr "Zeitpunkt zu dem der letzte Kommentar gespeichert wurde."
+
+#: modules/comment.views.inc:294,332,324,378,381
+msgid "Last comment author"
+msgstr "Letzter Kommentarautor"
+
+#: modules/comment.views.inc:295,333,325,379,382
+msgid "The name of the author of the last posted comment."
+msgstr "Der Name des Autors von dem letzten Kommentar."
+
+#: modules/comment.views.inc:307,345,337,391,394
+msgid "Comment count"
+msgstr "Anzahl an Kommentaren"
+
+#: modules/comment.views.inc:308,346,338,392,395
+msgid "The number of comments a node has."
+msgstr "Die Anzahl der Kommentare zu einem Beitrag."
+
+#: modules/comment.views.inc:326,364,356,410,413
+msgid "Updated/commented date"
+msgstr "Aktualisierungs-/Kommentarzeitpunkt"
+
+#: modules/comment.views.inc:327,365,357,411,414
+msgid "The most recent of last comment posted or node updated time."
+msgstr ""
+"Der Zeitpunkt des letzten Kommentars oder einer "
+"Beitragsaktualisierung."
+
+#: modules/comment.views.inc:351,389,381,435,452
+msgid "The number of new comments on the node."
+msgstr "Die Anzahl der neuen Kommentare zu dem Beitrag."
+
+#: modules/comment.views.inc:359,397,452,469
+msgid "Comment status"
+msgstr "Kommentarstatus"
+
+#: modules/comment.views.inc:360,398,453,470
+msgid "Whether comments are enabled or disabled on the node."
+msgstr "Ob Kommentare zu dem Beitrag aktiviert oder deaktiviert sind."
+
+#: modules/comment.views.inc:374,412,467,484
+msgid "User posted or commented"
+msgstr "Benutzer ist Autor oder Kommentierender"
+
+#: modules/comment.views.inc:375,413,468,485
+msgid "Display nodes only if a user posted the node or commented on the node."
+msgstr ""
+"Nur Beiträge anzeigen, die ein Benutzer  erstellt oder kommentiert "
+"hat."
+
+#: modules/comment.views.inc:401,439,494,511
+msgid "Display the comment with standard comment view."
+msgstr "Den Kommentar mit der Standardkommentaransicht anzeigen."
+
+#: modules/comment.views.inc:412,450,505,522
+msgid "Display the comment as RSS."
+msgstr "Zeigt den Kommentar als RSS-Newsfeed an."
+
+#: modules/contact.views.inc:11
+msgid "Link to contact page"
+msgstr "Link zur Kontaktseite"
+
+#: modules/contact.views.inc:12
+msgid "Provide a simple link to the user contact page."
+msgstr ""
+"Stellt einen einfachen Link zum Senden einer Nachricht an den Benutzer "
+"bereit."
+
+#: modules/locale.views.inc:23,28,55,75,92,105,121
+msgid "Locale source"
+msgstr "Übersetzungquelle"
+
+#: modules/locale.views.inc:29
+msgid ""
+"A source string for translation, in English or the default site "
+"language."
+msgstr ""
+"Die Quell-Zeichenkette der Übersetzung, in Englisch oder in der "
+"Standardsprache der Website."
+
+#: modules/locale.views.inc:34
+msgid "LID"
+msgstr "LID"
+
+#: modules/locale.views.inc:35
+msgid "The ID of the source string."
+msgstr "Die ID der Quell-Zeichenkette."
+
+#: modules/locale.views.inc:57
+msgid "A description of the location or context of the string."
+msgstr "Eine Beschreibung des Vorkommens oder Kontext der Zeichenkette."
+
+#: modules/locale.views.inc:77
+msgid "The group the translation is in."
+msgstr "Die Gruppe in der die Übersetzung ist."
+
+#: modules/locale.views.inc:94
+msgid "The full original string."
+msgstr "Die vollständige originale Zeichenkette."
+
+#: modules/locale.views.inc:107
+msgid "The version of Drupal core that this string is for."
+msgstr "Die Version des Drupal-Kern zu der diese Zeichenkette gehört."
+
+#: modules/locale.views.inc:124
+msgid "Provide a simple link to edit the translations."
+msgstr "Ein einfachen Link bereitstellen, um die Übersetzungen zu bearbeiten."
+
+#: modules/locale.views.inc:134,146,159,175,185
+msgid "Locale target"
+msgstr "Zielsprache"
+
+#: modules/locale.views.inc:148
+msgid "The full translation string."
+msgstr "Die vollständige Zeichenkette der Übersetzung."
+
+#: modules/locale.views.inc:161
+msgid "The language this translation is in."
+msgstr "Die Sprache der Übersetzung."
+
+#: modules/locale.views.inc:176
+msgid "Singular LID"
+msgstr "Singular LID"
+
+#: modules/locale.views.inc:177
+msgid "The ID of the parent translation."
+msgstr "Die ID der übergeordneten Übersetzung."
+
+#: modules/locale.views.inc:187
+msgid "Whether or not the translation is plural."
+msgstr "Gibt an, ob die Übersetzung Plural ist oder nicht."
+
+#: modules/node.views.inc:86,472,484,485,497,457
+msgid "The title of the node."
+msgstr "Der Titel des Beitrags."
+
+#: modules/node.views.inc:109
+msgid "The date the node was posted."
+msgstr "Der Zeitpunkt zu dem der Beitrag gespeichert wurde."
+
+#: modules/node.views.inc:141
+msgid ""
+"The type of a node (for example, \"blog entry\", \"forum post\", "
+"\"story\", etc)."
+msgstr ""
+"Der Beitragstyp (zum Beispiel: „Blogbeitrag“, „Forumsbeitrag“, "
+"„Artikel“, usw)."
+
+#: modules/node.views.inc:160
+msgid "Whether or not the node is published."
+msgstr "Ob der Beiträg veröffentlicht ist."
+
+#: modules/node.views.inc:177,182,181,186
+msgid "Published or admin"
+msgstr "Veröffentlicht oder Verwalter"
+
+#: modules/node.views.inc:178,182
+msgid "Filters out unpublished nodes if the current user cannot view them."
+msgstr ""
+"Filtert unveröffentlichte Beiträge aus, wenn der aktuelle Benutzer "
+"diese nicht sehen kann."
+
+#: modules/node.views.inc:189,193
+msgid "Whether or not the node is promoted to the front page."
+msgstr "Ob der Beitrag auf der Startseite veröffentlicht ist."
+
+#: modules/node.views.inc:207
+msgid "Whether or not the node is moderated."
+msgstr "Ob ein Beitrag moderiert ist."
+
+#: modules/node.views.inc:226,211
+msgid "Whether or not the node is sticky."
+msgstr "Ob ein Beitrag am Anfang von Listen angezeigt wird oder nicht."
+
+#: modules/node.views.inc:247,248,251,236
+msgid "Provide a simple link to the node."
+msgstr "Stellt einen einfachen Link zu dem Beitrag bereit."
+
+#: modules/node.views.inc:255,256,259,244
+msgid "Provide a simple link to edit the node."
+msgstr "Stellt einen einfachen Link zum Bearbeiten des Beitrags bereit."
+
+#: modules/node.views.inc:263,264,267,252
+msgid "Provide a simple link to delete the node."
+msgstr "Stellt einen einfachen Link zum Löschen des Beitrags bereit."
+
+#: modules/node.views.inc:334,335,347,332
+msgid "Updated year + month"
+msgstr "Aktualisiert Jahr + Monat"
+
+#: modules/node.views.inc:343,344,356,341
+msgid "Updated year"
+msgstr "Aktualisiert Jahr"
+
+#: modules/node.views.inc:352,353,365,350
+msgid "Updated month"
+msgstr "Aktualisiert Monat"
+
+#: modules/node.views.inc:361,362,374,359
+msgid "Updated day"
+msgstr "Aktualisiert Tag"
+
+#: modules/node.views.inc:370,371,383,368
+msgid "Updated week"
+msgstr "Aktualisiert Woche"
+
+#: modules/node.views.inc:383,388,395,400,396,401,408,413,393,398
+msgid "Node revision"
+msgstr "Beitragsversion"
+
+#: modules/node.views.inc:389,401,402,414
+msgid "Node revisions are a history of changes to nodes."
+msgstr "Beitragsversionen sind eine Historie von Änderungen an Beiträgen."
+
+#: modules/node.views.inc:404,416,417,429,414
+msgid "Relate a node revision to the user who created the revision."
+msgstr ""
+"Eine Beitragsversion bezogen auf dem Benutzer, der diese Version "
+"erstellt hat."
+
+#: modules/node.views.inc:417,429,430,442
+msgid ""
+"The actual, full data in the body field; this may not be valid data on "
+"all node types."
+msgstr ""
+"Die gegenwärtige, vollständigen Daten im Textkörper-Feld. Diese "
+"könnten möglicherweiser nicht für alle Inhaltstypen gültig sein."
+
+#: modules/node.views.inc:432,444,445,457
+msgid ""
+"The stored teaser field. This may not be valid or useful data on all "
+"node types."
+msgstr ""
+"Der gespeicherte Anrisstext-Feld. Dieser ist möglicherweise nicht "
+"für alle Inhaltstypen gültig oder nützlich."
+
+#: modules/node.views.inc:445,457,458,470,425
+msgid "Vid"
+msgstr "Vid"
+
+#: modules/node.views.inc:446,458,459,471,426
+msgid "The revision ID of the node revision."
+msgstr "Die Versions-ID der Beitragsversion."
+
+#: modules/node.views.inc:493,505,506,518,478
+msgid "The log message entered when the revision was created."
+msgstr "Die eingegebene Protokollnachricht, als die Version erstellt wurde."
+
+#: modules/node.views.inc:507,519,520,532,492
+msgid "The date the node revision was created."
+msgstr "Der Zeitpunkt zu dem die Beitragsversion erstellt wurde."
+
+#: modules/node.views.inc:522,534,535,547
+msgid "Input format id"
+msgstr "Eingabeformat hinzufügen"
+
+#: modules/node.views.inc:523,535,536,548
+msgid ""
+"The numeric input format of the node revision. !default means the "
+"default input format."
+msgstr ""
+"Das numerische Eingabeformat Versionen von Beiträgen. !default als "
+"Standard für das Eingabeformat."
+
+#: modules/node.views.inc:546,558,559,571
+msgid "The name of the input format of the node revision."
+msgstr ""
+"Benutzername des Beitragerstellers. WARNUNG - original "
+"Benutzereingabe."
+
+#: modules/node.views.inc:555,567,568,580,507
+msgid "Revert link"
+msgstr "‚Zurück‘-Link"
+
+#: modules/node.views.inc:556,568,569,581,508
+msgid "Provide a simple link to revert to the revision."
+msgstr "Stellt einen einfachen Link bereit, um zu der Version zurückzukehren."
+
+#: modules/node.views.inc:564,576,577,589,516
+msgid "Provide a simple link to delete the node revision."
+msgstr "Stellt einen einfachen Link zum Löschen der Beitragsversion bereit."
+
+#: modules/node.views.inc:587,599,600,612,539
+msgid "Filter by access."
+msgstr "Filtern nach Berechtigungen."
+
+#: modules/node.views.inc:590,602,603,615,542
+msgid ""
+"Filter for nodes by view access. <strong>Not necessary if you are "
+"using node as your base table.</strong>"
+msgstr ""
+"Filter für Beiträge nach Berechtigung für die Ansicht. "
+"<strong>Nicht erforderlich, wenn Sie Beiträge als Basistabelle "
+"verwenden.</strong>"
+
+#: modules/node.views.inc:619,631,632,644,571
+msgid "Show a marker if the node has new or updated content."
+msgstr ""
+"Eine Markierung anzeigen, wenn der Beitrag neuen oder aktualisierten "
+"Inhalt enthält."
+
+#: modules/node.views.inc:622,634,635,647,574
+msgid "Show only nodes that have new content."
+msgstr "Nur Beiträge mit neuem Inhalt anzeigen."
+
+#: modules/node.views.inc:765,777,778,783,795,619
+msgid "Node ID from URL"
+msgstr "Beitrags-ID aus der URL"
+
+#: modules/node.views.inc:832,831,843,844,849,861,710
+msgid ""
+"Display %display has no access control but does not contain a filter "
+"for published nodes."
+msgstr ""
+"Die Anzeige %display hat keine Zugriffskontrolle und enthält keinen "
+"Filter für veröffentlichte Beiträge."
+
+#: modules/poll.views.inc:20
+msgid "Poll"
+msgstr "Umfrage"
+
+#: modules/poll.views.inc:36
+msgid "Whether the poll is open for voting."
+msgstr "Ob die Umfrage offen für die Stimmabgabe ist."
+
+#: modules/profile.views.inc:100
+msgid "@field-name"
+msgstr "@field-name"
+
+#: modules/profile.views.inc:107
+msgid "Profile textfield"
+msgstr "Profiltextfeld"
+
+#: modules/profile.views.inc:126
+msgid "Profile textarea"
+msgstr "Profil-Textbereich"
+
+#: modules/profile.views.inc:142
+msgid "Profile checkbox"
+msgstr "Profil-Kontrollkästchen"
+
+#: modules/profile.views.inc:159,160
+msgid "Profile URL"
+msgstr "Profil-URL"
+
+#: modules/profile.views.inc:175,176
+msgid "Profile selection"
+msgstr "Profileauswahl"
+
+#: modules/profile.views.inc:195,196
+msgid "Profile freeform list %field-name."
+msgstr "Feies Formular für Profillisten %field-name."
+
+#: modules/profile.views.inc:207,208,209
+msgid "Profile date %field-name."
+msgstr "Profildatum %field-name."
+
+#: modules/search.views.inc:73,69
+msgid ""
+"The score of the search item. This will not be used if the search "
+"filter is not also present."
+msgstr ""
+"Die Treffer des Suchbegriffs. Dies wird nicht verwendet, wenn der "
+"Suchfilter nicht auch angezeigt wird."
+
+#: modules/search.views.inc:93,89
+msgid "Links from"
+msgstr "Links von"
+
+#: modules/search.views.inc:94,90
+msgid "Other nodes that are linked from the node."
+msgstr "Andere Beiträge, die von diesem Beitrag verlinkt sind."
+
+#: modules/search.views.inc:111,107
+msgid "Links to"
+msgstr "Links zu"
+
+#: modules/search.views.inc:112,108
+msgid "Other nodes that link to the node."
+msgstr "Andere Beiträge, die zu diesem Beitrag verlinken."
+
+#: modules/search.views.inc:123,119
+msgid "Search Terms"
+msgstr "Suchbegriffe"
+
+#: modules/search.views.inc:124,120
+msgid "The terms to search for."
+msgstr "Die Begriffe nach denen gesucht werden soll."
+
+#: modules/search.views.inc:168,164,170,144
+msgid "Display the results with standard search view."
+msgstr "Die Ergebnisse mit der Standard-Suchansicht anzeigen."
+
+#: modules/statistics.views.inc:24
+msgid "Node statistics"
+msgstr "Beitragsstatistiken"
+
+#: modules/statistics.views.inc:36
+msgid "Total views"
+msgstr "Seitenansichten gesamt"
+
+#: modules/statistics.views.inc:37
+msgid "The total number of times the node has been viewed."
+msgstr "Dies zeigt die Anzahl an, wie oft ein Beitrag insgesamt gelesen wurde."
+
+#: modules/statistics.views.inc:53
+msgid "Views today"
+msgstr "Heutige Seitenansichten"
+
+#: modules/statistics.views.inc:54
+msgid "The total number of times the node has been viewed today."
+msgstr "Dies zeigt die Anzahl an, wie oft ein Beitrag heute gelesen wurde."
+
+#: modules/statistics.views.inc:70
+msgid "Most recent view"
+msgstr "Der letzte Seitenaufruf"
+
+#: modules/statistics.views.inc:71
+msgid "The most recent time the node has been viewed."
+msgstr "Der letzte Zeitpunkt zu dem der Beitrag gelesen wurde."
+
+#: modules/statistics.views.inc:95
+msgid "Stores site access information."
+msgstr "Speichert die Zugriffsinformation auf die Website."
+
+#: modules/statistics.views.inc:110
+msgid "Browser session ID of user that visited page."
+msgstr "Session-ID des Benutzers, der die Seite aufgerufen hat."
+
+#: modules/statistics.views.inc:130
+msgid "Title of page visited."
+msgstr "Titel der besuchten Seite."
+
+#: modules/statistics.views.inc:150
+msgid "Internal path to page visited (relative to Drupal root.)"
+msgstr ""
+"Interner Pfad zur besuchten Seite (relativ zum "
+"Drupal-Hauptverzeichnis)."
+
+#: modules/statistics.views.inc:170
+msgid "Referrer URI."
+msgstr "Referrer-URI."
+
+#: modules/statistics.views.inc:186
+msgid "Hostname of user that visited the page."
+msgstr "Hostname des Besuchers der Seite."
+
+#: modules/statistics.views.inc:205
+msgid "The user who visited the site."
+msgstr "Der Benutzer, der die Website besucht hat."
+
+#: modules/statistics.views.inc:216
+msgid "Time in milliseconds that the page took to load."
+msgstr "Ladezeit der Seite in Millisekunden."
+
+#: modules/statistics.views.inc:232
+msgid "Timestamp of when the page was visited."
+msgstr "Zeitpunkt des Seitenaufrufs."
+
+#: modules/system.views.inc:31
+msgid "Files maintained by Drupal and various modules."
+msgstr "Dateien werden von Drupal und unterschiedlichen Modulen verwaltet."
+
+#: modules/system.views.inc:50
+msgid "The ID of the file."
+msgstr "Die ID der Datei."
+
+#: modules/system.views.inc:70
+msgid "The name of the file."
+msgstr "Der Name der Datei."
+
+#: modules/system.views.inc:89
+msgid "The path of the file."
+msgstr "Der Pfad der Datei."
+
+#: modules/system.views.inc:108
+msgid "The mime type of the file."
+msgstr "Der MIME-Typ der Datei."
+
+#: modules/system.views.inc:143,154
+msgid "The status of the file."
+msgstr "Der Status der Datei."
+
+#: modules/system.views.inc:159,170
+msgid "The date the file was uploaded."
+msgstr "Der Zeitpunkt zu dem die Datei hochgeladen wurde."
+
+#: modules/taxonomy.views.inc:50,44
+msgid ""
+"Name of the vocabulary a term is a member of. This will be the "
+"vocabulary that whichever term the \"Taxonomy: Term\" field is; and "
+"can similarly cause duplicates."
+msgstr ""
+"Name des Vokabulars, zu dem ein Begriff gehört. Dies wird das "
+"Vokabular sein, zu dem der Begriff im \"Taxonomie:Begriff\"-Feld "
+"gehört und kann zu Duplikate führen."
+
+#: modules/taxonomy.views.inc:71,78,84
+msgid "Taxonomy terms are attached to nodes."
+msgstr "Taxonomiebegriffe werden Beiträge zugewiesen."
+
+#: modules/taxonomy.views.inc:121,120,127,128,135
+msgid ""
+"Taxonomy terms. Note that using this can cause duplicate nodes to "
+"appear in views; you must add filters to reduce the result set."
+msgstr ""
+"Taxonomiebegriffe. Beachten Sie, dass die Verwendung zu doppelten "
+"Beiträge in Ansichten führen kann, daher fügen Sie Filter hinzu, um "
+"das Ergebnis zu reduzieren."
+
+#: modules/taxonomy.views.inc:131,130,137,135,138,142,145,149
+msgid "Taxonomy term name."
+msgstr "Name des Taxonomie-Begriffes."
+
+#: modules/taxonomy.views.inc:140,139,146,144,151,158
+msgid "The term weight field"
+msgstr "Das Feld für die Begriffsreihenfolge"
+
+#: modules/taxonomy.views.inc:153,152,159,157,164,171
+msgid "The description associated with a taxonomy term."
+msgstr "Die einem Taxonomiebegriff zugeordnete Beschreibung."
+
+#: modules/taxonomy.views.inc:165,164,171,169,176,61,183
+msgid "Filter the results of \"Taxonomy: Term\" to a particular vocabulary."
+msgstr ""
+"Die Ergebnisse von \"Taxonomie: Begriff\" auf ein bestimmtes Vokabular "
+"filtern."
+
+#: modules/taxonomy.views.inc:203,202,209,218,234,236
+msgid "All terms"
+msgstr "Alle Begriffe"
+
+#: modules/taxonomy.views.inc:204,203,210,219,235,237
+msgid ""
+"Display all taxonomy terms associated with a node from specified "
+"vocabularies."
+msgstr ""
+"Alle Taxonomiebegriffe aus angegebenen Vokabularen anzeigen, die mit "
+"einem Beitrag verknüpft sind."
+
+#: modules/taxonomy.views.inc:260,259,267,314,331,286
+msgid ""
+"The parent term of the term. This can produce duplicate entries if you "
+"are using a vocabulary that allows multiple parents."
+msgstr ""
+"Der übergeordnete Begriff des aktuellen Begriffes. Dies kann zu "
+"Duplikaten führen, wenn der verwendete Vokabular mehrere "
+"übergeordnete Begriffe zulässt."
+
+#: modules/taxonomy.views.inc:267,266,274,321,338,293
+msgid "The parent term of the term."
+msgstr "Übergeordneter Begriff"
+
+#: modules/taxonomy.views.inc:296,295,303,350,367,317
+msgid "Term synonym"
+msgstr "Begriffssynonym"
+
+#: modules/taxonomy.views.inc:297,296,304,351,368,318
+msgid "Term synonyms may be used to find terms by alternate names."
+msgstr ""
+"Begriffssynonyme können verwendet werden, um Begriffe durch "
+"alternative Namen zu finden."
+
+#: modules/taxonomy.views.inc:313,323,331,378,395,345
+msgid "Term ID (with depth)"
+msgstr "Begriffs-ID (mit Verschachtelungstiefe)"
+
+#: modules/taxonomy.views.inc:314,324,332,379,396,346
+msgid "The depth filter is more complex, so provides fewer options."
+msgstr ""
+"Der Verschachtelungstiefenfilter ist wesentlich komplexer und stellt "
+"deshalb weniger Optionen zu Verfügung."
+
+#: modules/taxonomy.views.inc:327,337,345,392,409,359
+msgid "Term ID depth modifier"
+msgstr "Begriffs-ID (mit Verschachtelungstiefe)"
+
+#: modules/taxonomy.views.inc:328,338,346,393,410,360
+msgid ""
+"Allows the \"depth\" for Taxonomy: Term ID (with depth) to be modified "
+"via an additional argument."
+msgstr ""
+"Ermöglicht über ein zusätzliches Argument die Anpassung der "
+"„Verschachtelungstiefe“ einer Taxonomie-Begriffs-ID."
+
+#: modules/translation.views.inc:31,48,80,97,107,117,136,51,82,99,109,119,138
+msgid "Node translation"
+msgstr "Beitragsübersetzung"
+
+#: modules/translation.views.inc:49,52
+msgid "Translation set node ID"
+msgstr "Beitrags-ID des Übersetzungssatzes"
+
+#: modules/translation.views.inc:50,53
+msgid "The ID of the translation set the content belongs to."
+msgstr "Die ID des Übersetzungssatzes, zu dem der Inhalt gehört."
+
+#: modules/translation.views.inc:69,74,98,71,76,100
+msgid "Source translation"
+msgstr "Quellübersetzung"
+
+#: modules/translation.views.inc:70,72
+msgid "The source that this content was translated from."
+msgstr "Die Quelle aus der dieser Inhalt übersetzt wird."
+
+#: modules/translation.views.inc:82,85,84,87
+msgid "Versions of content in different languages."
+msgstr "Versionen von Inhalt in unterschiedlichen Sprachen."
+
+#: modules/translation.views.inc:99,101
+msgid ""
+"Nodes that are either untranslated or are the original versions of a "
+"translation set."
+msgstr ""
+"Beiträge, die entweder nicht übersetzt sind oder sind die original "
+"Versionen eines ganzen Übersetzungssets."
+
+#: modules/translation.views.inc:108,110
+msgid "Child translation"
+msgstr "Untergeordnete Übersetzung."
+
+#: modules/translation.views.inc:109,111
+msgid "Nodes that are translations of a source translation."
+msgstr "Die Beiträge sind Übersetzung einer Quellübersetzung."
+
+#: modules/translation.views.inc:119,121
+msgid ""
+"The translation status of the node--whether or not the translation "
+"needs to be updated."
+msgstr ""
+"Der Übersetzungsstatus des Beitrags - ob die Übersetzung "
+"aktualisiert werden muss oder nicht."
+
+#: modules/translation.views.inc:126,128
+msgid "Outdated"
+msgstr "Veraltet"
+
+#: modules/upload.views.inc:46
+msgid "upload"
+msgstr "Uploads"
+
+#: modules/upload.views.inc:57
+msgid "The description of the uploaded file."
+msgstr "Die Beschreibung der hochgeladen Datei."
+
+#: modules/upload.views.inc:74
+msgid "Listed"
+msgstr "Aufgelistet"
+
+#: modules/upload.views.inc:75
+msgid "Whether or not the file is marked to be listed."
+msgstr "Ob die Datei zur Auflistung markiert ist oder nicht."
+
+#: modules/upload.views.inc:115
+msgid "All files attached to a node with upload.module."
+msgstr "Alle mit dem Upload-Modul an einen Beitrag angehängten Dateien."
+
+#: modules/upload.views.inc:124,125
+msgid ""
+"Only display items with attached files. This can cause duplicates if "
+"there are multiple attached files."
+msgstr ""
+"Nur Einträge mit angehängten Dateien anzeigen. Sollten mehrere "
+"angehängte Dateien vorhanden sein, kann dies zu Duplikaten führen."
+
+#: modules/upload.views.inc:128,129
+msgid ""
+"Add a relationship to gain access to more file data for files uploaded "
+"by upload.module. Note that this relationship will cause duplicate "
+"nodes if there are multiple files attached to the node."
+msgstr ""
+"Fügt eine Beziehung hinzu, um Zugriff auf weitere Dateidaten für "
+"Dateien zu erhalten, die durch das Upload-Modul hochgeladen wurden. "
+"Beachten Sie, dass diese Beziehung zu doppelten Beiträge führt, wenn "
+"mehrere Dateien an ein Beitrag angehangen sind."
+
+#: modules/user.views.inc:49,50
+msgid "The user ID"
+msgstr "Benutzer-ID"
+
+#: modules/user.views.inc:81,89,91
+msgid "The user or author name."
+msgstr "Der Benutzer oder Name des Autors."
+
+#: modules/user.views.inc:98,106,111,113
+msgid ""
+"Email address for a given user. This field is normally not shown to "
+"users, so be cautious when using it."
+msgstr ""
+"Die E-Mail-Adresse für einen bestimmten Benutzer. Dieses Feld wird "
+"Benutzern normalerweise nicht angezeigt und sollte nur unter Vorsicht "
+"verwendet werden."
+
+#: modules/user.views.inc:114,122,127,117,130,132
+msgid "Language of the user"
+msgstr "Aktuelle Sprache des Benutzers"
+
+#: modules/user.views.inc:130,138,143,136,149,151
+msgid "The user's picture, if allowed."
+msgstr "Das Bild des Benutzers, soweit zulässig."
+
+#: modules/user.views.inc:146,149,157,162,155,168,170
+msgid "The date the user was created."
+msgstr "Der Zeitpunkt zu dem der Benutzer erstellt wurde."
+
+#: modules/user.views.inc:162,165,173,178,171,184,186
+msgid "The user's last access date."
+msgstr "Letztes Zugriffsdatum des Benutzers."
+
+#: modules/user.views.inc:178,181,189,194,187,200,202
+msgid "The user's last login date."
+msgstr "Letztes Anmeldedatum des Benutzers."
+
+#: modules/user.views.inc:194,197,205,210,203,216,218
+msgid "Whether a user is active or blocked."
+msgstr "Ob ein Benutzer aktiv oder blockiert ist."
+
+#: modules/user.views.inc:213,216,224,229,222,235,237
+msgid "The user's signature."
+msgstr "Die Signatur des Benutzers."
+
+#: modules/user.views.inc:226,229,237,243,235,249,251
+msgid "Provide a simple link to edit the user."
+msgstr "Stellt einen einfachen Link zum Bearbeiten des Benutzers bereit."
+
+#: modules/user.views.inc:234,237,245,251,243,257,259
+msgid "Provide a simple link to delete the user."
+msgstr "Stellt einen einfachen Link zum Löschen des Benutzers bereit."
+
+#: modules/user.views.inc:264,267,275,281,273,287,289
+msgid "Roles that a user belongs to."
+msgstr "Die Rollen denen ein Benutzer angehört."
+
+#: modules/user.views.inc:319,322,330,337,386,401,404
+msgid "User ID from URL"
+msgstr "Benutzer-ID aus der URL"
+
+#: modules/user.views.inc:325,328,336,343,392,407,409
+msgid "User ID from logged in user"
+msgstr "Benutzer-ID des angemeldeten Benutzers"
+
+#: modules/views.views.inc:25
+msgid "Randomize the display order."
+msgstr "Die Anzeigereihenfolge zufällig anordnen."
+
+#: modules/views.views.inc:32
+msgid "Null"
+msgstr "Null"
+
+#: modules/views.views.inc:33
+msgid ""
+"Allow an argument to be ignored. The query will not be altered by this "
+"argument."
+msgstr ""
+"Ermöglicht es, dass ein Argument ignoriert wird. Die Abfrage wird "
+"durch dieses Argument nicht verändert."
+
+#: modules/views.views.inc:41
+msgid "Provide custom text or link."
+msgstr "Benutzerdefinierten Text oder Link bereitstellen."
+
+#: modules/views.views.inc:48
+msgid "View result counter"
+msgstr "Ergebniszähler einer Ansicht"
+
+#: modules/views.views.inc:49
+msgid "Displays the actual position of the view result"
+msgstr "Anzeige der aktuellen Position des Ergebnis dieser Ansicht"
+
+#: modules/aggregator.views.inc:60
+msgid "Item ID"
+msgstr ""
+
+#: modules/system.views.inc:329,335,336
+msgid "Taxonomy Term"
+msgstr ""
+
+#: modules/field.views.inc:165
+msgid "@label (!name)"
+msgstr "@label (!name)"
+
+#: modules/field.views.inc:169
+msgid "@label (!name) - !column"
+msgstr "@label (!name) - !column"
+
+#: modules/field.views.inc:170
+msgid "@label-truncated - !column"
+msgstr "@label-truncated - !column"
+
+#: modules/field.views.inc:193,229
+msgid "<No value>"
+msgstr "<kein Wert>"
+
+#: modules/comment.views.inc:134,121
+msgid "Hostname of user that posted the comment."
+msgstr "﻿Der Hostname des Benutzers, der den Kommentar geschrieben hat."
+
+#: modules/comment.views.inc:153,140
+msgid ""
+"Email of user that posted the comment. Will be empty if the author is "
+"a registered user."
+msgstr ""
+"E-Mail-Adresse des Nutzers, der den Kommentar hinterlegt hat. Bleibt "
+"leer wenn der Benutzer registriert ist."
+
+#: modules/taxonomy.views.inc:313,321,368,385,335
+msgid ""
+"Relate nodes to taxonomy terms, specifiying which vocabulary or "
+"vocabularies to use. This relationship will cause duplicated records "
+"if there are multiple terms."
+msgstr ""
+"Wenn Beiträge mit Taxonomie-Begriffen verknüft sind, geben Sie das "
+"bzw. die zugehörigen Vokabulare an. Dieser Beziehungstyp kann zur "
+"mehrfachen Ausgabe von Treffern in der Ergebnismenge führen."
+
+#: modules/field.views.inc:215
+msgid "@label (!name) - delta"
+msgstr "@label (!name) - delta"
+
+#: modules/node.views.inc:381,382,394,379
+msgid "Relate a node to the user who created it."
+msgstr ""
+"Einen Beitrag in Beziehung zu dem Benutzer setzen, der ihn erstellt "
+"hat."
+
+#: modules/node.views.inc:421,422,434,419
+msgid "revision user"
+msgstr "Revision Benutzer"
+
+#: modules/user.views.inc:66,67
+msgid "Nodes authored"
+msgstr "Autor der Beiträge"
+
+#: modules/user.views.inc:67,68
+msgid ""
+"Relate nodes to the user who created it. This relationship will create "
+"one record for every node created by the user."
+msgstr ""
+"Beziehung zwischen Beiträgen und Benutzern, die diese erstellten. "
+"Diese Beziehung erstellt einen Datensatz für jeden Beitrag, der vom "
+"Benutzer erstellt wurde."
+
+#: modules/book.views.inc:88,87
+msgid "The order of pages in the book hierarchy."
+msgstr "﻿Die Reihenfolge der Seiten in der Buch-Hierarchie."
+
+#: modules/comment.views.inc:390,445,462
+msgid ""
+"Display the standard add comment link used on regular nodes, which "
+"will only display if the viewing user has access to add a comment."
+msgstr ""
+"Den Link zum Hinzufügen von Kommentaren auf regulären Beiträgen "
+"anzeigen, wenn der Benutzer das Recht zu kommentieren hat."
+
+#: modules/node.views.inc:239,242,227
+msgid ""
+"Whether or not the node is sticky. To list sticky nodes first, set "
+"this to descending."
+msgstr ""
+"Diesen Beitrag in Listen immer ganz am Anfang einreihen, dazu auf "
+"absteigend festlegen."
+
+#: modules/taxonomy.views.inc:56,50
+msgid "The taxonomy vocabulary name"
+msgstr "Der Name des Vokabulars für die Taxonomie"
+
+#: modules/user.views.inc:102,104
+msgid "Name (raw)"
+msgstr "Name (unformatiert)"
+
+#: modules/user.views.inc:103,105
+msgid ""
+"The user or author name. This filter does not check if the user exists "
+"and allows partial matching. Does not utilize autocomplete."
+msgstr ""
+"Den Namen des Benutzers oder Autor. Dieser Filter wird nicht "
+"überprüfen, ob der Benutzer vorhanden ist und partiellen Vergleich "
+"ermöglichen. Keine Verwendung von Autovervollständigung."
+
+#: modules/views.views.inc:57
+msgid "Provide markup text for the area."
+msgstr "Bereitstellen von Textauszeichung für diesen Bereich."
+
+#: modules/user.views.inc:362,377,380
+msgid "Authentication module"
+msgstr "Authentifizierungsmodul"
+
+#: modules/field.views.inc:90
+msgid "@entity:@bundle"
+msgstr ""
+
+#: modules/field.views.inc:113,174
+msgid "Fields (historical data)"
+msgstr ""
+
+#: modules/field.views.inc:121,184
+msgid "Appears in: @bundles"
+msgstr ""
+
+#: modules/field.views.inc:216
+msgid "!name - delta"
+msgstr ""
+
+#: modules/field.views.inc:222
+msgid "Delta - Appears in: @bundles"
+msgstr ""
+
+#: modules/views_user.inc:38
+msgid "User: E-mail"
+msgstr "Benutzer: E-Mail"
+
+#: modules/views_user.inc:40
+msgid ""
+"Display the user's email address. Beware that this should only be "
+"shown to administrators in a normal Drupal installation. Further, no "
+"attempt is made to obfuscate the email address."
+msgstr ""
+"E-Mail-Adresse des Benutzers anzuzeigen. Beachten Sie, dass die "
+"e-Mail-Adresse hier nicht verschleiert wird, setzen Sie entsprechende "
+"Module oder Vorkehrungen im Theme ein."
+
+#: modules/node.views.inc:275,260
+msgid "The aliased path to this node."
+msgstr "Die Alias-Pfad zu diesem Beitrag."
+
+#: modules/node.views.inc:857,869,718
+msgid ""
+"Display %display has set node/% as path. This will not produce what "
+"you want. If you want to have multiple versions of the node view, use "
+"panels."
+msgstr ""
+"Anzeige %display hat node/% als Pfad. Wenn Sie mehrere Versionen einer "
+"Ansicht haben möchten, so verwenden Sie das Modul Panels."
+
+#: modules/profile.views.inc:100
+msgid "@category: @field-name"
+msgstr "@category: @field-name"
+
+#: modules/taxonomy.views.inc:204,220,222
+msgid "Get all nodes tagged with a term."
+msgstr "Alle Beiträge, die mit einem Begriff verknüpft sind."
+
+#: modules/taxonomy.views.inc:270,287
+msgid ""
+"The related terms of the term. This can produce duplicate entries if "
+"there is more than one related term."
+msgstr ""
+"Die themenverwandter Begriffe des Begriffs. Dies kann doppelte "
+"Einträge führen."
+
+#: modules/taxonomy.views.inc:274,291
+msgid "Related term"
+msgstr "Verwandter Begriff"
+
+#: modules/taxonomy.views.inc:277,294
+msgid "A related term of the term."
+msgstr "﻿Ein verwandter Begriff des Begriffs."
+
+#: modules/taxonomy.views.inc:462,482,407
+msgid "Taxonomy Term ID from URL"
+msgstr "﻿Taxonomie-Term-ID von URL"
+
+#: modules/translation.views.inc:137,139
+msgid "Translate link"
+msgstr "﻿Link zum Übersetzen"
+
+#: modules/translation.views.inc:138,140
+msgid "Provide a simple link to translate the node."
+msgstr "Stellt einen einfachen Link zum Übersetzen des Beitrags bereit."
+
+#: modules/user.views.inc:334,349,352
+msgid "Authmap ID"
+msgstr "Authmap ID"
+
+#: modules/user.views.inc:335,350,353
+msgid "The Authmap ID."
+msgstr "Die Authmap ID."
+
+#: modules/user.views.inc:349,364,367
+msgid "Authentication name"
+msgstr "Authentifizierungsname"
+
+#: modules/user.views.inc:350,365,368
+msgid "The unique authentication name."
+msgstr "﻿Der eindeutige Authentifizierung-Name."
+
+#: modules/user.views.inc:363,378,381
+msgid "The name of the module managing the authentication entry."
+msgstr "Der Name des Moduls, zur Verwaltung des Authentifizierungs-Eintrags."
+
+#: modules/taxonomy.views.inc:185,192
+msgid "Term edit link"
+msgstr "‚Bearbeiten‘-Link für Begriffe"
+
+#: modules/taxonomy.views.inc:186,193
+msgid "Provide a simple link to edit the term."
+msgstr "Stellt einen einfachen Link zum Bearbeiten eines Begriffes bereit."
+
+#: modules/taxonomy.views.inc:54
+msgid "Vocabulary machine name"
+msgstr ""
+
+#: modules/aggregator.views.inc:40
+msgid "Feed Item ID"
+msgstr ""
+
+#: modules/aggregator.views.inc:41,61
+msgid "The unique ID of the aggregator item."
+msgstr ""
+
+#: modules/aggregator.views.inc:143
+msgid "The guid of the original imported item."
+msgstr ""
+
+#: modules/comment.views.inc:159
+msgid "Date and time of when the comment was created."
+msgstr ""
+
+#: modules/comment.views.inc:175
+msgid "Date and time of when the comment was last updated."
+msgstr ""
+
+#: modules/comment.views.inc:245
+msgid "Whether the comment is approved (or still in the moderation queue)."
+msgstr ""
+
+#: modules/comment.views.inc:252
+msgid "Approved comment"
+msgstr ""
+
+#: modules/comment.views.inc:428
+msgid "Last comment CID"
+msgstr ""
+
+#: modules/comment.views.inc:429
+msgid "Display the last comment of a node"
+msgstr ""
+
+#: modules/comment.views.inc:431,437
+msgid "Last Comment"
+msgstr ""
+
+#: modules/comment.views.inc:432
+msgid "The last comment of a node."
+msgstr ""
+
+#: modules/node.views.inc:399
+msgid "Node revision are a history of changes to nodes."
+msgstr ""
+
+#: modules/node.views.inc:450
+msgid "Get the actual node from a node revision."
+msgstr ""
+
+#: modules/node.views.inc:702
+msgid ""
+"Some roles lack permission to access content, but display %display has "
+"no access control."
+msgstr ""
+
+#: modules/system.views.inc:127
+msgid "The extension of the file."
+msgstr ""
+
+#: modules/system.views.inc:186
+msgid "File Usage"
+msgstr ""
+
+#: modules/system.views.inc:237
+msgid ""
+"A node that is associated with this file, usually because this file is "
+"in a field on the node."
+msgstr ""
+
+#: modules/system.views.inc:252
+msgid ""
+"A file that is associated with this node, usually because it is in a "
+"field on the node."
+msgstr ""
+
+#: modules/system.views.inc:268
+msgid ""
+"A user that is associated with this file, usually because this file is "
+"in a field on the user."
+msgstr ""
+
+#: modules/system.views.inc:283
+msgid ""
+"A file that is associated with this user, usually because it is in a "
+"field on the user."
+msgstr ""
+
+#: modules/system.views.inc:299
+msgid ""
+"A comment that is associated with this file, usually because this file "
+"is in a field on the comment."
+msgstr ""
+
+#: modules/system.views.inc:314
+msgid ""
+"A file that is associated with this comment, usually because it is in "
+"a field on the comment."
+msgstr ""
+
+#: modules/system.views.inc:330
+msgid ""
+"A taxonomy term that is associated with this file, usually because "
+"this file is in a field on the taxonomy term."
+msgstr ""
+
+#: modules/system.views.inc:345
+msgid ""
+"A file that is associated with this taxonomy term, usually because it "
+"is in a field on the taxonomy term."
+msgstr ""
+
+#: modules/system.views.inc:360,366,367
+msgid "Taxonomy Vocabulary"
+msgstr ""
+
+#: modules/system.views.inc:361
+msgid ""
+"A taxonomy vocabulary that is associated with this file, usually "
+"because this file is in a field on the taxonomy vocabulary."
+msgstr ""
+
+#: modules/system.views.inc:376
+msgid ""
+"A file that is associated with this taxonomy vocabulary, usually "
+"because it is in a field on the taxonomy vocabulary."
+msgstr ""
+
+#: modules/system.views.inc:393
+msgid "The module managing this file relationship."
+msgstr ""
+
+#: modules/system.views.inc:410
+msgid "The type of entity that is related to the file."
+msgstr ""
+
+#: modules/system.views.inc:427
+msgid "The number of times the file is used by this entity."
+msgstr ""
+
+#: modules/system.views.inc:459
+msgid "The user, who uploaded the file."
+msgstr ""
+
+#: modules/taxonomy.views.inc:56
+msgid ""
+"Machine-Name of the vocabulary a term is a member of. This will be the "
+"vocabulary that whichever term the \"Taxonomy: Term\" field is; and "
+"can similarly cause duplicates."
+msgstr ""
+
+#: modules/taxonomy.views.inc:384
+msgid "term from !field_name"
+msgstr ""
+
+#: modules/views.views.inc:65
+msgid "Math expression"
+msgstr ""
+
+#: modules/views.views.inc:66
+msgid "Evaluates a mathematical expression and displays it."
+msgstr ""
+

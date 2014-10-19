@@ -1,0 +1,810 @@
+# German translation of Date (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  date.module,v 1.61.2.4.2.61 2009/06/09 17:20:31 karens
+#  date.module,v 1.39.2.60 2009/09/16 09:49:53 karens
+#  date.module,v 1.61.2.4.2.62 2009/09/16 09:50:31 karens
+#  date.module,v 1.61.2.4.2.70 2010/08/12 20:19:50 karens
+#  date.module,v 1.61.2.4.2.74 2010/11/29 18:22:00 karens
+#  date_admin.inc,v 1.21.2.29 2008/11/29 14:12:55 karens
+#  date_admin.inc,v 1.40 2008/04/24 00:26:26 karens
+#  date_admin.inc,v 1.40.2.3.2.39 2009/06/08 16:49:36 karens
+#  date_admin.inc,v 1.40.2.3.2.40 2010/04/13 13:50:40 karens
+#  date_admin.inc,v 1.40.2.3.2.43 2010/12/28 16:37:37 karens
+#  date.install,v 1.37.2.5.2.31 2009/06/08 22:42:27 karens
+#  date.install,v 1.21.2.36 2008/12/04 10:56:21 karens
+#  date.install,v 1.37.2.5.2.32 2009/08/21 20:31:37 karens
+#  date.install,v 1.37.2.5.2.34 2010/04/13 19:46:52 karens
+#  date_views.inc,v 1.39 2008/04/24 00:26:26 karens
+#  date_views.inc,v 1.26.2.56 2009/03/27 10:26:27 karens
+#  date_elements.inc,v 1.46 2008/04/22 19:08:14 karens
+#  date_elements.inc,v 1.22.2.55 2009/05/03 14:41:10 karens
+#  date_elements.inc,v 1.46.2.2.2.64 2009/07/24 18:48:14 karens
+#  date_elements.inc,v 1.46.2.2.2.66 2009/09/16 11:07:18 karens
+#  date_elements.inc,v 1.46.2.2.2.68 2010/08/12 21:31:07 karens
+#  date_elements.inc,v 1.46.2.2.2.70 2010/12/29 14:11:50 karens
+#  date_repeat.inc,v 1.22 2008/04/22 19:59:19 karens
+#  date_repeat.inc,v 1.9.2.23 2009/02/10 15:53:13 karens
+#  date_repeat.inc,v 1.22.2.1.2.23 2009/06/09 10:33:48 karens
+#  date_repeat.inc,v 1.22.2.1.2.24 2010/10/26 10:21:36 karens
+#  date_token.inc,v 1.2 2008/04/03 10:37:54 karens
+#  date_token.inc,v 1.1.2.9 2009/03/20 12:07:33 karens
+#  date_token.inc,v 1.2.2.1.2.7 2009/03/20 12:07:51 karens
+#  date_token.inc,v 1.2.2.1.2.8 2010/09/08 02:38:09 arlinsandbulte
+#  date.module,v 1.61 2008/04/19 09:58:16 karens
+#  date.module,v 1.39.2.58 2009/04/29 11:21:27 karens
+#  date.info,v 1.3 2008/02/18 19:32:28 karens
+#  date.info,v 1.2 2007/12/03 16:27:17 karens
+#  date.theme,v 1.2.2.37 2009/05/04 23:13:55 karens
+#  date.theme,v 1.2.2.39 2009/05/10 21:51:56 karens
+#  date_handler_field_multiple.inc,v 1.1.2.12 2009/02/27 14:48:34 karens
+#  date_handler_field_multiple.inc,v 1.1.2.14 2010/03/05 12:02:31 karens
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Date (all releases)\n"
+"POT-Creation-Date: 2011-01-06 13:01+0000\n"
+"PO-Revision-Date: 2010-12-18 14:15+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: date/date.module:736,753,754
+msgid "Type"
+msgstr "Typ"
+
+#: date/date_admin.inc:342
+msgid "Multiple"
+msgstr "Mehrfach"
+
+#: date/date.module:728,745,746
+msgid "Name"
+msgstr "Name"
+
+#: date/date_admin.inc:72,90,68,86,78
+msgid "Blank"
+msgstr "Leer"
+
+#: date/date.install:555,222
+msgid "Time"
+msgstr "Zeit"
+
+#: date/date_admin.inc:402,394,396
+msgid "Expanded"
+msgstr "Geöffnet"
+
+#: date/date_views.inc:1181
+msgid "To"
+msgstr "An"
+
+#: date/date_views.inc:1181
+msgid "From"
+msgstr "Von"
+
+#: date/date_views.inc:506
+msgid "N/A"
+msgstr "k.A."
+
+#: date/date_admin.inc:327,340,328
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: date/date_admin.inc:402,394,396
+msgid "Collapsed"
+msgstr "Zusammengeklappt"
+
+#: date/date_views.inc:159
+msgid "date"
+msgstr "Datum"
+
+#: date/date_admin.inc:70,66
+msgid "Default value"
+msgstr "Standardwert"
+
+#: date/date_admin.inc:25
+msgid "The Strtotime default value is invalid."
+msgstr "Der standardmäßige Wert für „Strtotime“ ist ungültig."
+
+#: date/date_admin.inc:31
+msgid "The Strtotime default value for the To Date is invalid."
+msgstr "Der standardmäßige Wert für das „Bis“-Datum ist ungültig."
+
+#: date/date_admin.inc:72,90,68,86,78
+msgid "Relative"
+msgstr "Relativ"
+
+#: date/date_admin.inc:73,91,69,87,79
+msgid ""
+"A default value to use for this field. If you select 'Relative', add "
+"details below."
+msgstr ""
+"Der standardmäßig zu verwendende Wert für dieses Feld. If you "
+"select 'Relative', add details below."
+
+#: date/date_admin.inc:77,73,83
+msgid "Customize Default Value"
+msgstr "Standardmäßigen Wert anpassen"
+
+#: date/date_admin.inc:78,74
+msgid ""
+"<p>The custom value for a Relative default should be something that "
+"describes a time by reference to the current day using strtotime, like "
+"'+90 days' (90 days from the day the field is created) or '+1 "
+"Saturday' (the next Saturday). See !strtotime for more details.</p>"
+msgstr ""
+"<p>Der eigene Vorgabewert für relative Zeitangaben dabei wird die "
+"Funktion strtotime verwendet wird,  wie '+90 days' (90 Tage nachdem "
+"das Feld angelegt wurde) oder '+1 Saturday' (nächster Samstag). "
+"Details !strtotime.</p>"
+
+#: date/date_admin.inc:78,74,84
+msgid "strtotime"
+msgstr "strtotime"
+
+#: date/date_admin.inc:83,79,89
+msgid "Custom value for From date"
+msgstr "Benutzerdefinierter Wert für „Von“-Datum"
+
+#: date/date_admin.inc:88,84,76
+msgid "Default value for To date"
+msgstr "Standardwert für „Bis“-Datum"
+
+#: date/date_admin.inc:90,86,78
+msgid "Same as From date"
+msgstr "Dasselbe wie „Von“-Datum"
+
+#: date/date_admin.inc:94,90
+msgid "Custom value for To date"
+msgstr "Benutzerdefinierter Wert für das „Bis“-Datum"
+
+#: date/date_admin.inc:138,134,141
+msgid ""
+"Number of years to go back and forward in the year selection list, "
+"default is -3:+3."
+msgstr ""
+"Anzahl der Jahre, die zurück oder vorgeblättert werden kann, "
+"Vorgabewert ist -3:+3."
+
+#: date/date_admin.inc:169,157,172
+msgid "Customize Date Parts"
+msgstr "Datumsbestandteile anpassen"
+
+#: date/date_admin.inc:175,163,178
+msgid "Above"
+msgstr "Oberhalb"
+
+#: date/date_admin.inc:175,163,178
+msgid "Within"
+msgstr "Innerhalb"
+
+#: date/date_admin.inc:177,165,180
+msgid "Position of date part labels"
+msgstr "Position der Beschriftungen von Datumsbestandteilen"
+
+#: date/date_admin.inc:178,166,181
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day'. "
+"'Above' will display them as titles above each date part. 'Within' "
+"will insert the label as the first option in the select list and in "
+"blank textfields. 'None' will not label any of the date parts. The "
+"exact text in the label is controlled by themes like "
+"'date_part_label_year' and 'date_part_label_month'."
+msgstr ""
+"Position des Bezeichners für Teile des Datums, wie Jahr, Monat oder "
+"Tag. Innerhalb bedutet, dass der Bezeichner als erster Eintrag in die "
+"Liste gestellt. Der exakte Wortlaut wird über das Theme festgelegt "
+"mit 'date_part_label_year' und 'date_part_label_month'."
+
+#: date/date_admin.inc:328,329
+msgid ""
+"Choose an option for handling multiple values. Unlimited will allow "
+"the user to manually create unlimited multiple dates one date at a "
+"time."
+msgstr ""
+"Umgang mit mehrfach vorhandenen Werten: Für eine Termin Serie "
+"unbegrenzt viele Termine eintragen."
+
+#: date/date_admin.inc:339
+msgid "Number of values"
+msgstr "Anzahl von Werten"
+
+#: date/date_admin.inc:340,332
+msgid "Repeating"
+msgstr "Wiederholung"
+
+#: date/date_admin.inc:342
+msgid ""
+"Select a specific number of values for this field, or 'Unlimited' to "
+"provide an 'Add more' button so the users can add as many values as "
+"they like.  Repeating dates display options to allow the user to "
+"select when and how often the date will repeat."
+msgstr ""
+"Wählen Sie eine bestimmte Anzahl von Werten für dieses Feld, oder "
+"‚unbegrenzt‘ (unlimited), um eine Schaltfläche ‚Weitere‘ zu "
+"erhalten, so dass die Nutzer beliebig viele Werte hinzufügen können. "
+"Die Anzeigeoptionen für wiederkehrende Termine ermöglichen dem "
+"Benutzer die Frequenz des Termins festzulegen."
+
+#: date/date_admin.inc:342
+msgid ""
+"Warning! Changing this setting after data has been created could "
+"result in the loss of data!"
+msgstr ""
+"Warnung! Die Änderung dieser Einstellung kann nach Erstellung von "
+"Daten zu Datenverlust führen!"
+
+#: date/date_admin.inc:486,472,434,436
+msgid "User's time zone"
+msgstr "Zeitzone des Benutzers"
+
+#: date/date_elements.inc:311,348,333,332,328
+msgid "Empty 'To date' values will use the 'From date' values."
+msgstr ""
+"Für ein fehlendes 'Ende' wird der Beginnzeitpunkt ersatzweise "
+"verwendet."
+
+#: date/date_elements.inc:383
+msgid "The From date must be greater than the To date."
+msgstr ""
+
+#: date/date_repeat.inc:70,77,78
+msgid "The UNTIL value is required for repeating dates."
+msgstr "Der BIS-Wert ist für Terminserien erforderlich."
+
+#: date/date_token.inc:12
+msgid "The raw date value."
+msgstr "Unformatiertes Datum"
+
+#: date/date_token.inc:13
+msgid "The formatted date."
+msgstr "Formatiertes Datum."
+
+#: date/date_token.inc:14
+msgid "The raw date timestamp."
+msgstr "Unformatierter Zeitstempel"
+
+#: date/date_token.inc:15
+msgid "Date year (four digit)"
+msgstr "Datum: Jahr (4-stellig)"
+
+#: date/date_token.inc:16
+msgid "Date year (two digit)"
+msgstr "Datum: Jahr (2-stellig)"
+
+#: date/date_token.inc:17
+msgid "Date month (full word)"
+msgstr "Datum: Monat (ausgeschriebener Monatsname)"
+
+#: date/date_token.inc:18
+msgid "Date month (abbreviated)"
+msgstr "Datum: Monat (gekürzter Monatsname)"
+
+#: date/date_token.inc:19
+msgid "Date month (two digit, zero padded)"
+msgstr "Datum: Monat (2-stellige Nummer, einstellige mit 0 füllen)"
+
+#: date/date_token.inc:20
+msgid "Date month (one or two digit)"
+msgstr "Datum: Monat (1- oder 2-stellig)"
+
+#: date/date_token.inc:21
+msgid "Date week (two digit)"
+msgstr "Datum: Woche (2-stellig)"
+
+#: date/date_token.inc:22
+msgid "Date date (day of month)"
+msgstr "Datum: Tag des Monats"
+
+#: date/date_token.inc:23,24
+msgid "Date day (full word)"
+msgstr "Datum: Tag (ausgeschrieben)"
+
+#: date/date_token.inc:24,25
+msgid "Date day (abbreviation)"
+msgstr "Datum: Tag (gekürzte Schreibweise)"
+
+#: date/date_token.inc:25,26
+msgid "Date day (two digit, zero-padded)"
+msgstr "Datum: Tag (2-stellig, einstellige mit Null erweitert)"
+
+#: date/date_token.inc:26,27
+msgid "Date day (one or two digit)"
+msgstr "Datum: Tag (1- oder 2-stellig)"
+
+#: date/date_token.inc:28,31,30
+msgid ""
+"If the field has a to-date defined, the same tokens exist in the form: "
+"[to-????], where ???? is the normal token."
+msgstr ""
+"Wenn das Feld mit [to-date] formatiert wurde, existiert das gleiche "
+"Token in der Form: [to-????], wobei ???? das reguläre Token "
+"darstellt."
+
+#: date/date_views.inc:26
+msgid "!label (!field value)"
+msgstr "!label (!field Wert)"
+
+#: date/date_views.inc:27
+msgid "!label (!field value2)"
+msgstr "!label (!field Wert2)"
+
+#: date/date_views.inc:32
+msgid "Date Browser (!field value)"
+msgstr "Datumsbrowser (!field Wert)"
+
+#: date/date_views.inc:39
+msgid "Date Browser (!field value2)"
+msgstr "Datumsbrowser (!field Wert2)"
+
+#: date/date_views.inc:187
+msgid ""
+"Time range for each page, i.e. if you use a 'Month' date range, the "
+"page will show the selected month and the back/next links will take "
+"you to the next and previous month."
+msgstr ""
+"Zeitbereich für jede Seite, d.h. wenn Sie einen Datumsbereich "
+"„Monat“ verwenden: die Seite zeigt den ausgewählten Monat und "
+"zurück-/weiter-Links an, so dass  Sie zu der nächsten und vorherigen "
+"Monat gelangen."
+
+#: date/date_views.inc:207
+msgid "<br />Grouped by: @granularity"
+msgstr "<br />Gruppiert nach: @granularity"
+
+#: date/date_views.inc:481,568
+msgid "A date argument must be added to a Date Browser view."
+msgstr "Ein Datum wird als Argument benötigt."
+
+#: date/date_views.inc:707
+msgid "Adjustment"
+msgstr "Justage"
+
+#: date/date_views.inc:1093
+msgid "Limit the filter to use only the selected date parts."
+msgstr "Begrenzen des Filters auf die ausgewählten Datumsteile."
+
+#: date/date_views.inc:1137
+msgid "Blank values do no filtering, 'now' filters for the current value."
+msgstr ""
+"Leere Werte bewirken keine Filterung, ‚jetzt‘(now) Filter für den "
+"aktuellen Wert."
+
+#: date/date_views.inc:1140
+msgid " 'Adjustment' adds a value like '+1 day' to the other values."
+msgstr ""
+" „Anpassung“ fügt einen Wert wie „+1 Tag“  anderen Werten "
+"hinzu."
+
+#: date/date_views.inc:1193
+msgid "@value"
+msgstr "@value"
+
+#: date/date_views.inc:1254
+msgid "@value is invalid."
+msgstr "@value ist ungültig."
+
+#: date/date_views.inc:1267
+msgid "<strong>Exposed</strong> @format"
+msgstr "<strong>Hervorgehoben</strong> @format"
+
+#: date/date_views.inc:1391
+msgid "Limit the argument to use only the selected date parts."
+msgstr "Begrenzen der Argumente auf die ausgewählten Datumsteile."
+
+#: date/date_views.inc:1408
+msgid "<br />Argument format: @format"
+msgstr "<br />Argument Format: @format"
+
+#: date/date.module:42,121,122
+msgid ""
+"Store a date in the database as an ISO date, recommended for "
+"historical or partial dates."
+msgstr ""
+"﻿Speichern Sie ein Datum in der Datenbank als ein ISO-Datum für "
+"Datumsangaben, die historisch oder oder als Teil gespeichert werden."
+
+#: date/date.module:50,125,126
+msgid ""
+"Store a date in the database as a timestamp, deprecated format to "
+"suppport legacy data."
+msgstr ""
+"﻿Ein Datum in der Datenbank als einen Unixzeitstempel speichern, "
+"wenn bestehende Daten in diesem veraltet Format verarbeitet werden "
+"müssen."
+
+#: date/date.module:58,129,130
+msgid ""
+"Store a date in the database as a datetime field, recommended for "
+"complete dates and times that may need timezone conversion."
+msgstr ""
+"Speichern eines Datums in der Datenbank als Datumsfeld, empfohlen für "
+"vollständige Daten mit Uhrzeit, dies kann Konvertierung für "
+"verschiedene Zeitzonen erfordern."
+
+#: date/date.module:91,102
+msgid "Text Field with jquery pop-up calendar"
+msgstr "Textfeld mit einem jquery pop-up Kalender"
+
+#: date/date.info:0
+msgid "Defines CCK date/time fields and widgets."
+msgstr "Festlegen eines CCK Feldes und Widgets für Datum / Zeit."
+
+#: date/date_views.inc:35
+msgid "Do not group multiple values"
+msgstr "Werte nicht gruppieren"
+
+#: date/date_views.inc:36
+msgid "Show first value only"
+msgstr "Nur den ersten Wert anzeigen"
+
+#: date/date_views.inc:37
+msgid "Show last value only"
+msgstr "Nur den letzten Wert anzeigen"
+
+#: date/date_admin.inc:623,625
+msgid "Show @count value(s)"
+msgstr "@count Werte anzeigen"
+
+#: date/date_admin.inc:645,647
+msgid "starting from @count"
+msgstr "Beginnt bei @count"
+
+#: date/date_admin.inc:47
+msgid ""
+"The Date Popup widget will not work unless granularity includes year, "
+"month, and day."
+msgstr ""
+"Damit das Popup widget für das Datum funktioniert, müssen das Jahr, "
+"Monat und Tag angegeben werden."
+
+#: date/date_admin.inc:223,239
+msgid "Granularity must include a year."
+msgstr "Die Granularität muss ein Jahr enthalten."
+
+#: date/date_admin.inc:333
+msgid ""
+" Repeating dates will allow the user to select when and how often the "
+"date will repeat."
+msgstr ""
+" Der Benutzer legt für die Wiederholung die Gesamtzahl fest und die "
+"Frequenz fest."
+
+#: date/date_admin.inc:403,395,397
+msgid "Repeat display"
+msgstr "Terminserienanzeige"
+
+#: date/date_admin.inc:404
+msgid ""
+"If set to use repeating dates, should the repeat options form start "
+"out expanded or collapsed? Set to 'Collapsed' to make those options "
+"less obtrusive."
+msgstr ""
+"Soll für Wiederholengen von Terminen der Startzeitpunkt eingefaltet "
+"dargestellt werden, damit diese Option nicht so aufdringlich "
+"erscheint?"
+
+#: date/date_admin.inc:413
+msgid ""
+"<p class=\"error\">Changing the %name setting after data has been "
+"created could result in the loss of data!</p>"
+msgstr ""
+"<p class=\"error\">Ändern von %name, nachdem schon Kalenderdaten "
+"(Termine / Ereignisse) erstellt wurden, kann zum Verlust von Daten "
+"führen.</p>"
+
+#: date/date_elements.inc:444,457,456,452
+msgid "Some value must be entered in the To date."
+msgstr "Einen Wert eintragen."
+
+#: date/date_elements.inc:469,482,481,477
+msgid "The dates are invalid."
+msgstr "Ungültige Daten."
+
+#: date/date_elements.inc:476,486,485,481
+msgid "The To date must be greater than the From date."
+msgstr "Das 'Ende' muss nach dem Beginn liegen."
+
+#: date/date_token.inc:22
+msgid "Date date (YYYY-MM-DD)"
+msgstr "Datum (YYYY-MM-DD)"
+
+#: date/date_token.inc:23
+msgid "Date datetime (YYYY-MM-DDTHH:MM:SS)"
+msgstr "﻿Datum Datetime (YYYY - MM - DDTHH:MM:SS)"
+
+#: date/date_token.inc:28,29
+msgid "Time H:i"
+msgstr "Zeit H:i"
+
+#: date/date_views.inc:334
+msgid "That is not a valid date."
+msgstr "Kein gültiges Datum."
+
+#: date/date.module:30,28,29
+msgid "Repeats"
+msgstr "Wiederholungen"
+
+#: date/date.module:97,156,157
+msgid "Text Field with custom input format"
+msgstr "Textfeld mit benutzerdefiniertem Eingabeformat"
+
+#: date/date.theme:374,375
+msgid "(All day)"
+msgstr "(täglich)"
+
+#: date/date.install:484,438,105
+msgid ""
+"All date fields using the jscalendar widget have been changed to use "
+"the text widget instead, since the jscalendar widget is no longer "
+"supported. Enable the Date Popup module to make a jQuery popup "
+"calendar available and edit the field settings to select it."
+msgstr ""
+"Alle Felder mit Kalenderdaten wurden auf das Textwidget umgestellt. "
+"Mit dem Date Popup Modul kann die Eingabe vereinfacht werden."
+
+#: date/date.install:553,520,187
+msgid ""
+"The database has been updated to correct the stored timezone for "
+"fields using timezone 'none'."
+msgstr ""
+"Die Datenbank wurde aktualisiert: für die Zeitzone wurde 'Keine' "
+"eingetragen."
+
+#: date/date_admin.inc:84
+msgid ""
+"The custom value for a Relative default should be something that "
+"describes a time by reference to the current day using strtotime, like "
+"'+90 days' (90 days from the day the field is created) or '+1 "
+"Saturday' (the next Saturday). See !strtotime for more details."
+msgstr ""
+"﻿Der benutzerdefinierte Wert für einen relativen Vorgabewert sollte "
+"in Bezug auf den aktuellen Tag mit Strtotime definiert werden: wie \"+ "
+"90 Tage\" oder ' + 1 Samstag ' (der nächsten Samstag).  Weitere "
+"Details unter !strtotime."
+
+#: date/date_admin.inc:123
+msgid "Custom input format"
+msgstr "Benutzerdefiniertes Eingabeformat"
+
+#: date/date_admin.inc:125
+msgid ""
+"The custom format, if provided, will override the input format "
+"selected above. The custom format, if provided, will override the "
+"selected display or input options. Define a php date format string "
+"like 'm-d-Y H:i' (see <a href=\"@link\">http://php.net/date</a> for "
+"more details)."
+msgstr ""
+"﻿Das benutzerdefinierte Format überschreibt ein bereitgestelltes "
+"Eingabeformat. Das benutzerdefinierte Format wird das ausgewählte "
+"Display oder Eingabeoptionen überschreiben. Definieren Sie eine "
+"Php-Datum-Formatzeichenfolge wie „m-d-Y H:i“ (siehe <a "
+"href=\"@link\">http://php.net/date</a> für weitere Details)."
+
+#: date/date_admin.inc:371,373
+msgid ""
+"Select a default format type to be used for the date display. Visit "
+"the <a href=\"@date-time-page\">Date and time date format page</a> to "
+"add and edit format types."
+msgstr ""
+"﻿Wählen Sie einen Standard-Format-Typ der für die Datumsanzeige "
+"verwendet wird. Details zu <a href=\"@date-time-page\">Datums- und "
+"Zeit-Format </a> um  Formattypen zu bearbeiten."
+
+#: date/date_admin.inc:396,398
+msgid ""
+"Should the repeat options form start out expanded or collapsed? Set to "
+"'Collapsed' to make those options less obtrusive."
+msgstr ""
+"Soll das Formular für die Wiederholungsregeln ein- oder ausgeklappt "
+"beim Start dargestellt werden? Mit der Option ‚zusammengeklappt‘ "
+"ist das Formular übersichtlicher."
+
+#: date/date_admin.inc:419,421
+msgid ""
+"Changing the %name setting after data has been created could result in "
+"the loss of data!"
+msgstr ""
+"Ändern der Einstellung für %name nachdem Daten erstellt wurde kann "
+"zum Verlust von Daten führen."
+
+#: date/date_admin.inc:602,604
+msgid "Display From and To dates"
+msgstr "Das „Von“ und „Bis“-Datum anzeigen"
+
+#: date/date_admin.inc:603,605
+msgid "Display From date only"
+msgstr "Nur das „Von“-Datum anzeigen"
+
+#: date/date_admin.inc:604,606
+msgid "Display To date only"
+msgstr "Nur das „Bis“-Datum anzeigen"
+
+#: date/date_admin.inc:667,669
+msgid "ending on @count"
+msgstr "endet nach @count Mal"
+
+#: date/date_admin.inc:696,698
+msgid "Display repeat rule"
+msgstr "Wiederholungsregel anzeigen"
+
+#: date/date_admin.inc:697,699
+msgid "Hide repeat rule"
+msgstr "Wiederholungsregel verstecken"
+
+#: date/date_elements.inc:28
+msgid "A 'From date' date is required for field %field %delta."
+msgstr "Ein „Von“-Datum ist für %field %delta erforderlich."
+
+#: date/date_elements.inc:34
+msgid "A 'To date' is required for field %field %delta."
+msgstr "Ein „Bis“-Datum ist für %field %delta erforderlich."
+
+#: date/date_elements.inc:344,343,339
+msgid "@field_name From date value #@delta"
+msgstr "@field_name  für den Beginn #@delta"
+
+#: date/date_elements.inc:346,345,341
+msgid "@field_name To date value #@delta"
+msgstr "@field_name  für das Ende #@delta"
+
+#: date/date_elements.inc:350,349,345
+msgid "@field_name From date"
+msgstr "@field_name Beginn"
+
+#: date/date_elements.inc:351,350,346
+msgid "@field_name To date"
+msgstr "@field_name Ende"
+
+#: date/date_elements.inc:517,516,512
+msgid "The From date is invalid."
+msgstr "Das „Von“-Datum ist ungültig."
+
+#: date/date_elements.inc:520,519,515
+msgid "The To date is invalid."
+msgstr "Das „Bis“-Datum ist ungültig."
+
+#: date/date_elements.inc:529,528,524
+msgid "There are errors in @field_name value #@delta:"
+msgstr "Es sind Fehler in @field_name Wert #@delta:"
+
+#: date/date_elements.inc:532,531,527
+msgid "There are errors in @field_name:"
+msgstr "Es sind Fehler in @field_name:"
+
+#: date/date_handler_field_multiple.inc:39,51
+msgid ""
+"If unchecked, each item in the field will create a new row, which may "
+"appear to cause duplicates. This setting is not compatible with "
+"click-sorting in table displays."
+msgstr ""
+"Wenn nicht aktiviert, wird jeder Eintrag in diesem Feld eine neue "
+"Zeile erstellen, welche zu Duplikaten führen kann. Diese Einstellung "
+"ist inkompatibel mit der Klick-Sortierung in Tabellen-Anzeigen."
+
+#: date/date.module:148,149
+msgid "Select List with Repeat options"
+msgstr "Auswahlliste mit Terminserienoptionen"
+
+#: date/date.module:164,165
+msgid "Text Field with Repeat options"
+msgstr "Textfeld mit Terminserien"
+
+#: date/date.module:174,175
+msgid "Text Field with Date Pop-up calendar"
+msgstr "Textfeld mit Kalender"
+
+#: date/date.module:182,183
+msgid "Text Field with Date Pop-up and Repeat options"
+msgstr "Textfeld mit Kalender & Terminserienoptionen"
+
+#: date/date.module:437,449,450
+msgid ""
+"Complete documentation for the Date and Date API modules is available "
+"at <a href=\"@link\">http://drupal.org/node/92460</a>."
+msgstr ""
+"﻿Die Vollständige Dokumentation für das Date und Date API Modul "
+"ist unter <a href=\"@link\">http://drupal.org/node/92460</a> "
+"verfügbar."
+
+#: date/date.module:724,741,742
+msgid "Add format type"
+msgstr "Formattyp hinzufügen"
+
+#: date/date.module:729,746,747
+msgid "The human-readable name for this format type."
+msgstr "Die Beschriftung für diesen Formattyp."
+
+#: date/date.module:737,754,755
+msgid ""
+"The machine-readable name of this format type. <br>This name must "
+"contain only lowercase letters, numbers, and underscores and must be "
+"unique."
+msgstr ""
+"﻿Der maschinenlesbaren Name der dieser Formattyp.<br />Dieser Name "
+"darf nur Kleinbuchstaben, Zahlen und Unterstriche enthalten und muss "
+"zudem eindeutig sein."
+
+#: date/date.module:755,772,773
+msgid ""
+"The format type must contain only alphanumeric characters and "
+"underscores."
+msgstr ""
+"﻿Der Formattyp darf nur alphanumerische Zeichen und Unterstriche "
+"enthalten."
+
+#: date/date.module:759,776,777
+msgid "This format type already exists.  Please enter a unique type."
+msgstr ""
+"﻿Dieser Formattyp ist bereits vorhanden. Geben Sie einen eindeutigen "
+"Typ an."
+
+#: date/date.module:40,41
+msgid "view date repeats"
+msgstr "Ansicht für Terminserien"
+
+#: date/date.install:475,142
+msgid ""
+"All repeating date fields have been updated to use the new repeating "
+"widgets."
+msgstr ""
+"﻿Alle sich wiederholenden Datumsfelder wurden aktualisiert, um die "
+"neuen wiederholenden Widgets verwenden."
+
+#: date/date.install:535,202
+msgid ""
+"Some updates are still pending. Please return to <a "
+"href=\"@update-php\">update.php</a> and run the remaining updates."
+msgstr ""
+"Einige Aktualisierungen stehen noch aus. Bitte zur <a "
+"href=\"@update-php\">update.php</a> zurückkehren und die ausstehenden "
+"Aktualisierungen ausführen."
+
+#: date/date.install:536,203
+msgid "Some updates are still pending.<br/>Please re-run the update script."
+msgstr ""
+"Einige Aktualisierungen stehen noch aus.<br />Führen Sie das "
+"Aktualisierungsskript noch einmal aus."
+
+#: date/date.install:556,223
+msgid "Time with timezone"
+msgstr "Zeit mit Zeitzone"
+
+#: date/date.install:641,308
+msgid "Field %field formats were converted to custom formats."
+msgstr ""
+"Die Formate des ﻿Feldes %field wurden in benutzerdefinierte Formate "
+"konvertiert."
+
+#: date/date.install:644,311
+msgid ""
+"The old format type %from_format for field %field was converted to the "
+"new format type %to_format."
+msgstr ""
+"﻿Das alte Format Typ %from_format für das Feld %field wurde in das "
+"neue Format Typ %to_format konvertiert."
+
+#: date/date.install:670,337
+msgid ""
+"The display settings for field %field in content type %type_name were "
+"updated."
+msgstr ""
+"Die Anzeige-Einstellungen für %field des Inhaltstyps %type_name "
+"wurden aktualisiert."
+
+#: date/date.install:699,366
+msgid ""
+"Date display formats are now included with the system date and time "
+"settings. Please visit <a href=\"@date-time-page\">the Date and time "
+"format page</a> to see the new format types."
+msgstr ""
+"Datumsanzeige für Formate sind nun mit den Einstellungen für "
+"Systemdatum und -uhrzeit verwoben. Besuchen Sie dazu die Seite für<a "
+"href=\"@date-time-page\">das Datum und die Uhrzeit-Format</a> für "
+"dies neuen Formate."
+
+#: date/date_token.inc:28
+msgid "Date day (one or two digit) with ordinal suffix (st, nd, rd or th)"
+msgstr ""
+

@@ -1,0 +1,1276 @@
+# German translation of Views (all releases)
+# Copyright (c) 2011 by the German translation team
+# Generated from files:
+#  views_ui.module,v 1.44.2.25 2007/07/14 19:54:20 merlinofchaos
+#  views_ui.module,v 1.44.2.30 2010/04/07 23:40:21 merlinofchaos
+#  views.module,v 1.166.2.43 2007/07/14 18:54:16 merlinofchaos
+#  views.module,v 1.166.2.47 2008/10/31 23:48:58 sun
+#  views_ui.module,v 1.109.6.18 2010/12/24 13:42:00 dereine
+#  views.module,v 1.338 2009/06/03 00:01:00 merlinofchaos
+#  views.module,v 1.341 2009/09/24 23:33:44 merlinofchaos
+#  views.module,v 1.332.2.10 2009/09/24 23:33:40 merlinofchaos
+#  views.module,v 1.341.2.1 2009/11/30 19:11:35 merlinofchaos
+#  views.module,v 1.332.2.20 2010/01/19 21:50:01 merlinofchaos
+#  views.module,v 1.341.2.11 2010/04/07 23:40:35 merlinofchaos
+#  views.module,v 1.341.2.12 2010/04/29 18:26:04 merlinofchaos
+#  views_rss.module,v 1.12.2.5 2007/03/06 21:44:32 merlinofchaos
+#  views_rss.module,v 1.12.2.6 2008/01/21 18:45:11 merlinofchaos
+#  views_theme_wizard.module,v 1.11.2.3 2007/01/19 00:22:46 merlinofchaos
+#  views_ui.module,v 1.109 2009/01/30 00:56:01 merlinofchaos
+#  views_ui.module,v 1.109.2.3 2010/01/22 01:41:24 merlinofchaos
+#  views_ui.module,v 1.109.4.1 2010/04/07 23:40:35 merlinofchaos
+#  views.install,v 1.21.4.16 2007/07/14 22:16:50 merlinofchaos
+#  views.info,v 1.2.2.4 2007/06/18 23:07:13 dww
+#  views_rss.info,v 1.3.2.4 2007/06/18 23:07:13 dww
+#  views_theme_wizard.info,v 1.3.2.4 2007/06/18 23:07:13 dww
+#  views_ui.info,v 1.4.2.4 2007/06/18 23:07:13 dww
+#  views_ui.info,v 1.10 2008/01/09 00:05:08 merlinofchaos
+#  views_ui.info,v 1.10.6.2 2010/12/24 08:29:52 dereine
+#  views.module,v 1.341.4.53 2011/01/06 00:37:05 dereine
+#  views.info,v 1.7 2007/08/12 06:52:14 merlinofchaos
+#  views.info,v 1.7.6.60 2011/01/05 21:34:52 dereine
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Views (all releases)\n"
+"POT-Creation-Date: 2011-01-06 09:41+0000\n"
+"PO-Revision-Date: 2011-01-02 20:11+0000\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: views_ui.module:248,319
+msgid "Actions"
+msgstr "Aktionen"
+
+#: views.module:1573,1577
+msgid "more"
+msgstr "mehr"
+
+#: views_ui.module:1584
+msgid "Top"
+msgstr "Oben"
+
+#: views_ui.module:248,319,840
+msgid "URL"
+msgstr "URL"
+
+#: views.module:1650,1654
+msgid "never"
+msgstr "niemals"
+
+#: views_ui.module:367
+msgid "You are not authorized to access this page."
+msgstr "Sie haben keine Zugriffsberechtigung für diese Seite."
+
+#: views_ui.module:529
+msgid "Are you sure you want to delete %title?"
+msgstr "Wollen Sie %title löschen?"
+
+#: views_ui.module:1585
+msgid "Bottom"
+msgstr "Unten"
+
+#: views_ui.module:791
+msgid "Basic Information"
+msgstr "Basisinformation"
+
+#: views_ui.module:372
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank "
+"you for your patience."
+msgstr ""
+"Wir führen auf @site momentan Wartungsarbeiten durch und sollten bald "
+"wieder erreichbar sein. Vielen Dank für Ihre Geduld."
+
+#: views.module:13
+msgid ""
+"The views module creates customized views of node lists. You may need "
+"to activate the Views UI module to get to the user administration "
+"pages."
+msgstr ""
+"Das Views-Modul erzeugt angepasste Ansichten als Listen. Zum Erstellen "
+"und Bearbeiten von Ansichten ist das Views-UI-Modul erforderlich."
+
+#: views.module:1658,1662
+msgid "As Short Date"
+msgstr "als kurzes Datumsformat"
+
+#: views.module:1659,1663
+msgid "As Medium Date"
+msgstr "als mittleres Datumsformat"
+
+#: views.module:1660,1664
+msgid "As Long Date"
+msgstr "als langes Datumsformat"
+
+#: views.module:1661,1665
+msgid "As Custom Date"
+msgstr "als individuelles Datumsformat"
+
+#: views.module:1662,1666
+msgid "As Time Ago"
+msgstr "vor"
+
+#: views.module:1671,1675
+msgid "Granularity: minute"
+msgstr "Genauigkeit: Minute"
+
+#: views.module:1672,1676
+msgid "Granularity: hour"
+msgstr "Genauigkeit: Stunde"
+
+#: views.module:1673,1677
+msgid "Granularity: day"
+msgstr "Genauigkeit: Tag"
+
+#: views.module:1674,1678
+msgid "Granularity: month"
+msgstr "Genauigkeit: Monat"
+
+#: views.module:1675,1679
+msgid "Granularity: year"
+msgstr "Genauigkeit: Jahr"
+
+#: views.module:1780,1785
+msgid "Is All Of"
+msgstr "Ist Alles Von"
+
+#: views.module:1780,1787,1785,1792
+msgid "Is One Of"
+msgstr "Ist eines von"
+
+#: views.module:1780,1787,1785,1792
+msgid "Is None Of"
+msgstr "Ist keines von"
+
+#: views.module:1794,1801,1915,1799,1806,1920
+msgid "Is Equal To"
+msgstr "Ist gleich mit"
+
+#: views.module:1794,1801,1799,1806
+msgid "Is Not Equal To"
+msgstr "Ist ungleich zu"
+
+#: views.module:1801,1806
+msgid "Is Greater Than"
+msgstr "Ist Größer Als"
+
+#: views.module:1801,1806
+msgid "Is Greater Than Or Equals"
+msgstr "ist größer als oder gleich"
+
+#: views.module:1801,1806
+msgid "Is Less Than Or Equals"
+msgstr "ist weniger als oder gleich"
+
+#: views.module:1801,1806
+msgid "Is Less Than"
+msgstr "Ist weniger als"
+
+#: views.module:1833,1838
+msgid "List View"
+msgstr "Listenansicht"
+
+#: views.module:1840,1845
+msgid "Table View"
+msgstr "Tabellenansicht"
+
+#: views.module:1848,1853
+msgid "Teaser List"
+msgstr "Liste der Anrisstexte"
+
+#: views.module:1853,1858
+msgid "Full Nodes"
+msgstr "Vollständige Beiträge"
+
+#: views.module:1915,1920
+msgid "Contains Any Word"
+msgstr "Enthält ein beliebiges Wort"
+
+#: views.module:1915,1920
+msgid "Contains All Words"
+msgstr "Enthält alle Wörter"
+
+#: views.module:1915,1920
+msgid "Starts With"
+msgstr "Beginnt mit"
+
+#: views.module:1915,1920
+msgid "Ends With"
+msgstr "Endet mit"
+
+#: views.module:1915,1920
+msgid "Does Not Contain"
+msgstr "enthält nicht"
+
+#: views.module:2043,2048
+msgid "@filter must have a value!"
+msgstr "Bitte einen Wert eingeben für @filter!"
+
+#: views.module:2106,2111
+msgid ""
+"The \"Value\" can either be a date in the format: CCYY-MM-DD HH:MM:SS "
+"or the word \"now\" to use the current time. You may enter a positive "
+"or negative number in the \"Option\" field that will represent the "
+"amount of seconds that will be added or substracted to the time; this "
+"is most useful when combined with \"now\". If you have the jscalendar "
+"module from jstools installed, you can use a popup date picker here."
+msgstr ""
+"Der „Wert“ kann entweder ein Datum (Format: JJJJ-MM-TT HH:MM:SS) "
+"sein oder das Wort „now“ um die aktuelle Zeit zu wählen. Sie "
+"können außerdem eine positive oder negative Zahl in das Feld "
+"„Option“ eintragen, um die Anzahl der Sekunden zu definieren, die "
+"zum gewählten Datumswert addiert oder subtrahiert werden soll. Diese "
+"Option ist vor allem in Verbindung mit dem Wert „now“ sinnvoll. "
+"Wenn Sie das jscalendar-Modul von Jstools installiert haben, steht "
+"Ihnen an dieser Stelle ein Auswahlkalender als Popup zur Verfügung."
+
+#: views.module:287,146,160,153
+msgid "access all views"
+msgstr "Zugriff auf alle Ansichten"
+
+#: views_rss.module:10
+msgid "Views RSS: RSS feed"
+msgstr "RSS Ansichten: RSS Feed"
+
+#: views_rss.module:26
+msgid "RSS: RSS Feed Selector"
+msgstr "RSS: RSS Feedauswahl"
+
+#: views_rss.module:29
+msgid ""
+"This argument specifies a specific RSS feed selector; it will only "
+"select RSS feeds, unlike the built-in selector which can select "
+"pluggable feeds. You may enter the title the feed will advertise in "
+"the title field here, and the description of the feed in the option "
+"field here."
+msgstr ""
+"Dieses Argument legt einen RSS-Newsfeed fest. Der Titel des "
+"RSS-Newsfeed und die Beschreibung werden hier festgelegt."
+
+#: views_theme_wizard.module:9
+msgid "Theme wizard"
+msgstr "Theme Wizard"
+
+#: views_theme_wizard.module:48
+msgid ""
+"<p>The views theming wizard generates code that you can use in your "
+"phptemplate theme to help you customize the output of a view. Simply "
+"select a theme and it will generate code for your template.php as well "
+"as template files for the individual views.</p><p>At this time this "
+"code assumes your view is a <b>list type view</b>! It may not generate "
+"effective code for other types of views. Future versions of this "
+"program will be smarter, and give more options, but this wizard is "
+"still a huge start.</p>"
+msgstr ""
+"<p>Der Theming Assistent für Views erzeugt direkt verwendbaren Code. "
+"Wählen Sie ein Theme aus, für das der Code generiert werden "
+"soll.</p><p>Aktuell wird der Code für <em>Listen</em> erzeugt!  Bei "
+"Bedarf passen Sie den generierten Code an.</p>"
+
+#: views_theme_wizard.module:63
+msgid "Select a view"
+msgstr "Ansicht auswählen"
+
+#: views_theme_wizard.module:68,74,103
+msgid "Select Theme Type"
+msgstr "Theme Typ auswählen"
+
+#: views_theme_wizard.module:79,89
+msgid "List Theme Fields"
+msgstr "Theme Felder auflisten"
+
+#: views_theme_wizard.module:93
+msgid ""
+"This is a list of all the theme functions you can use to override "
+"individual field displays"
+msgstr ""
+"Alle Theme Funktionen, die für die Anzeige von Feldern angepasst "
+"werden können."
+
+#: views_theme_wizard.module:98
+msgid "This is a basic theme function"
+msgstr "Dies ist eine basis Themefunktion"
+
+#: views_theme_wizard.module:124
+msgid "Generate Theme"
+msgstr "Theme erstellen"
+
+#: views_theme_wizard.module:139
+msgid "This code goes in your template.php file"
+msgstr "Dieser Code kommt in die Datei template.php"
+
+#: views_theme_wizard.module:144
+msgid "This code goes in a file named views-list-@s.tpl.php"
+msgstr "Dieser Code kommt in eine Datei mit dem Namen views-list-@s.tpl.php"
+
+#: views_theme_wizard.module:149
+msgid "This code goes in a file named views-list-@s.css"
+msgstr "Dieser Code kommt in eine Datei mit dem Namen views-list-@s.css"
+
+#: views_theme_wizard.module:176
+msgid "Simple List"
+msgstr "Einfache Liste"
+
+#: views_theme_wizard.module:177
+msgid "Grouped List"
+msgstr "Gruppierte Liste"
+
+#: views_theme_wizard.module:178
+msgid "Nested Tree"
+msgstr "Verschachtelter Baum"
+
+#: views_theme_wizard.module:192
+msgid "Select the field on which to group"
+msgstr "Das Feld auswählen, nachdem gruppiert wird"
+
+#: views_theme_wizard.module:205
+msgid "Select the field to use as the ID for each row (usually nid)"
+msgstr ""
+"Auswahl des Feldes, das als ID für die Zeilen dient (üblicherweise "
+"NID)."
+
+#: views_theme_wizard.module:210
+msgid "Select the field that refers to the parent node by the ID field"
+msgstr "Auswahl eines Feldes das die ID des übergeordneten Beitrags enthält"
+
+#: views_ui.module:15
+msgid ""
+"You may import a view by cut-and-pasting the results of an export "
+"view. If the import is successful you will be taken to the Add View "
+"page with all of the settings of the imported view.."
+msgstr "Eine Ansicht kann exportiert und importiert werden,"
+
+#: views_ui.module:17
+msgid ""
+"This screen shows all of the views that are currently defined in your "
+"system. The default views are provided by Views and other modules and "
+"are automatically available. If a customized view of the same name "
+"exists, it will be used in place of a default view."
+msgstr ""
+"Eine Liste aller Ansichten, die auf diesem System definiert sind. "
+"Einige Ansichten werden von Modulen automatisch erstellt, z.B. von "
+"Views. Wird der Name einer automatisch erzeugten Ansicht verwendet, so "
+"ersetzt die eigene Ansicht die automatisch erzeugte."
+
+#: views_ui.module:23
+msgid "Please see !s or the views documentation on drupal.org for help here."
+msgstr ""
+"Bitte unter !s oder der Ansichten Dokumentation auf drupal.org für "
+"weitere Hilfe nachsehen."
+
+#: views_ui.module:23
+msgid "the views help page"
+msgstr "Die Hilfeseite für Ansichten"
+
+#: views_ui.module:25
+msgid ""
+"You may cut & paste this view into an import function on another "
+"system. The view will only work if all modules required by the view "
+"are installed on the target location."
+msgstr ""
+"Eine Ansicht kann auf einem System exportiert und auf einem anderen "
+"System importiert werden. Alle erforderlichen Felder und Module "
+"müssen natürlich auf dem Zielsystem vorhanden sein."
+
+#: views_ui.module:34
+msgid ""
+"<p>A view retrieves some number of nodes from the database and "
+"displays them in a variety of formats.</p>"
+msgstr ""
+"<p>Eine Ansicht bereitet eine Anzahl von Beiträgen in "
+"unterschiedlichen Formaten auf, wie  Listen oder RSS-Newsfeed.</p>"
+
+#: views_ui.module:35
+msgid ""
+"<h3>View Types</h3>\n"
+"    <dl>\n"
+"      <dt><em>List View</em></dt><dd>A List View provides the data for "
+"each node retrieved in the form of an unordered list. Each item in the "
+"Fields section will be displayed; the Title will be displayed as a "
+"label. The order the items appear in the Fields list is the order the "
+"items will appear in the output. Leaving the title blank will cause "
+"the field to appear with no label (which is desirable in lists that "
+"just display titles, for example).</dd>\n"
+"      <dt><em>Table View</em></dt><dd>A Table View provides the data "
+"for each node as one row of a table. The Fields selected in the Fields "
+"list will be displayed in the order they are listed. The title column "
+"will be shown in the header. If you set the field to 'sortable' then "
+"the header will be click-sortable; be careful here as click-sorts will "
+"be processed after built-in sort criteria, and built-in sort criteria "
+"can easily make click-sorts invalid. If using click-sorts, choose a "
+"field to be the default sort; otherwise the first field presented will "
+"be the default sort.</dd>\n"
+"      <dt><em>Teaser List</em></dt><dd>A Teaser List will simply "
+"present the teaser of each node retrieved.</dd>\n"
+"      <dt><em>Full Nodes</em></dt><dd>This will show the full content "
+"of each node retrieved.</dd>\n"
+"      <dt><em>Random Teaser</em></dt><dd>This will show a single "
+"random teaser.</dd>\n"
+"      <dt><em>Random Node</em></dt><dd>This will show a single random "
+"node's full view.</dd>\n"
+"    </dl>"
+msgstr ""
+"<h3>Typen von Ansichten</h3>\n"
+"    <dl>\n"
+"      <dt><em>Liste</em></dt><dd>Eine Liste mit den Daten aus "
+"Beiträgen in ungeordneter Form. In der Regel wird der Titel als "
+"Bezeichner verwendet.</dd>\n"
+"      <dt><em>Tabelle</em></dt><dd>Eine Tabelle listet pro Beitrag "
+"auch mehrere Felder auf, die Tabelle kann nach jeder Spalte sortiert "
+"sein, die Feldnamen werden in den Tabellenkopf als "
+"Spaltenüberschriften übernommen.</dd>\n"
+"      <dt><em>Vorschau Liste</em></dt><dd>Eine Vorschau Liste reiht "
+"für alle ausgewählten Beiträge die Vorschau aneinander.</dd>\n"
+"      <dt><em>Volltext</em></dt><dd>Zeigt den Volltext eines jeden "
+"aufgelisten Beitrags.</dd>\n"
+"      <dt><em>Zufällige Vorschau</em></dt><dd>Zeigt den Vorschautext "
+"eines zufälligen Beitrags.</dd>\n"
+"      <dt><em>Zufälliger Beitrag</em></dt><dd>Zeigt einen zufälligen "
+"Beitrags.</dd>\n"
+"    </dl>"
+
+#: views_ui.module:46
+msgid "<h3>Fields</h3>\n"
+msgstr "<h3>Felder</h3>\n"
+
+#: views_ui.module:47
+msgid ""
+"<p>When using List or Table view, it is necessary to choose which "
+"fields will be displayed to the user.</p><dl>\n"
+msgstr ""
+"<p>Für Listen oder Tabellen wird festgelegt welche Felder angezeigt "
+"werden.</p><dl>\n"
+
+#: views_ui.module:54
+msgid "<h3>Arguments</h3>\n"
+msgstr "<h3>Argumente</h3>\n"
+
+#: views_ui.module:55
+msgid ""
+"<p>Arguments can be passed to the View through the URL, in order to "
+"create views that are configurable by the user. This is very useful to "
+"create views for taxonomy, or to sort by user. When using arguments, "
+"substitution is performed on the title. %1 will represent argument 1, "
+"%2 will represent argument 2. Each argument has a title field; this "
+"title is used if providing a summary view (which can matter because "
+"the argument is missing which could result in confusing phrases such "
+"as 'view for')</p><dl>\n"
+msgstr ""
+"<p>Über die URL können an Ansichten Argumente übergeben werden. Die "
+"einzelnen Argumente werden durch / (Schrägstrich) voneinander "
+"getrennt. Die einzelnen Argumente werden über %1 für das erste "
+"Argument, %2 für das zweite Argument usw. angesprochen.</p><dl>\n"
+
+#: views_ui.module:62
+msgid "<h3>Filters</h3>\n"
+msgstr "<h3>Filter</h3>\n"
+
+#: views_ui.module:63
+msgid ""
+"<p>Views may be filtered to restrict the view on a number of "
+"criteria.</p><dl>\n"
+msgstr ""
+"<p>Ansichten können über Argumente und Selektionskriterien angepasst "
+"werden.</p><dl>\n"
+
+#: views_ui.module:70
+msgid "<h3>Sorting Critera</h3>\n"
+msgstr "<h3>Sortierkriterium</h3>\n"
+
+#: views_ui.module:71
+msgid ""
+"<p>The result set may be sorted on any of the following "
+"criteria.</p><dl>\n"
+msgstr ""
+"<p>Das Ergebnis kann nach den folgenden Kriterien sortiert "
+"werden.</p><dl>\n"
+
+#: views_ui.module:99,28
+msgid ""
+"Views are customized lists of content on your system; they are highly "
+"configurable and give you control over how lists of content are "
+"presented."
+msgstr ""
+"Ansichten sind benutzerdefinierte Listen von Inhalt in dem System. "
+"Diese sind hochgradig Konfigurierbar und ermöglichen die Kontrolle, "
+"wie Listen von Inhalten präsentiert werden."
+
+#: views_ui.module:118,49,50
+msgid "Tools"
+msgstr "Werkzeuge"
+
+#: views_ui.module:220,267
+msgid "No Page View"
+msgstr "Keine Seitenansicht"
+
+#: views_ui.module:248,319
+msgid "Provides"
+msgstr "Bereitstellen"
+
+#: views_ui.module:248
+msgid "Existing Views"
+msgstr "Vorhandene Ansichten"
+
+#: views_ui.module:252,322
+msgid "<p>No views have currently been defined.</p>"
+msgstr "<p>Bis jetzt wurden keine Ansichten erstellt.</p>"
+
+#: views_ui.module:260
+msgid ""
+"<p>Below are system default views; if you edit one of these, a view "
+"will be created that will override any system use of the view.</p>"
+msgstr ""
+"<p>Automatisch erstellte Ansichten, diese können mit eigenen "
+"Ansichten überschrieben werden.</p>"
+
+#: views_ui.module:319
+msgid "Default view"
+msgstr "Standardansicht"
+
+#: views_ui.module:319
+msgid "Default Views"
+msgstr "Standardansichten"
+
+#: views_ui.module:330
+msgid ""
+"<p>Occasionally, something or other can cause the Views cache to "
+"contain stale data; this is particularly true after module updates and "
+"sometimes true after taxonomy and profile updates. If you are having "
+"problems with Views creating malformed queries, the first thing you "
+"should always do is clear the Views cache to see if that is the "
+"problem.</p>"
+msgstr ""
+"<p>Unter Umständen kann eine Ansicht falsche Daten enthalten, dies "
+"kann vermieden werden, wenn der Cache geleert werden.</p>"
+
+#: views_ui.module:335,342
+msgid "Clear views cache"
+msgstr "Cache des Moduls leeren"
+
+#: views_ui.module:395
+msgid "Import View Code"
+msgstr "Import Ansichtencode"
+
+#: views_ui.module:398
+msgid "Cut and paste the results of an Export View here."
+msgstr "Das Ergebnis einer Export Ansicht ausschneiden und hier einfügen."
+
+#: views_ui.module:423,466,488
+msgid "Add a View"
+msgstr "Ansicht hinzufügen"
+
+#: views_ui.module:429
+msgid "You don't seem to have the following requirements: "
+msgstr "Die folgenden Anforderungen scheinen nicht erfüllt zu sein: "
+
+#: views_ui.module:433
+msgid "Unable to get a view out of that."
+msgstr "Aus den Daten konnte keine Ansicht erzeugt werden."
+
+#: views_ui.module:512
+msgid "Edit view %n"
+msgstr "Ansicht %n bearbeiten"
+
+#: views_ui.module:581
+msgid "Return Page Not Found"
+msgstr "Die Seite wurde nicht gefunden zurückgeben."
+
+#: views_ui.module:582
+msgid "Display All Values"
+msgstr "Alle Werte anzeigen"
+
+#: views_ui.module:583
+msgid "Summary, unsorted"
+msgstr "Zusammenfassung, unsortiert"
+
+#: views_ui.module:586
+msgid "Summary, sorted as view"
+msgstr "Zusammenfassung, sortiert wie Ansicht"
+
+#: views_ui.module:587
+msgid "Use Empty Text"
+msgstr "Leeren Text verwenden"
+
+#: views_ui.module:689,759,1641
+msgid "Add Filter"
+msgstr "Filter hinzufügen"
+
+#: views_ui.module:693,760
+msgid "Add Criteria"
+msgstr "Kriterium hinzufügen"
+
+#: views_ui.module:697,758,1629
+msgid "Add Argument"
+msgstr "Argument hinzufügen"
+
+#: views_ui.module:701,757,1618
+msgid "Add Field"
+msgstr "Feld hinzufügen"
+
+#: views_ui.module:709
+msgid "Expose Filter"
+msgstr "Hervorhebungsfilter"
+
+#: views_ui.module:764
+msgid ""
+"You have modified this view; changes will not be recorded until you "
+"Save the form."
+msgstr "Diese Ansicht wurde geändert und wurde noch nicht gespeichert."
+
+#: views_ui.module:800
+msgid ""
+"The unique identifier of the view; it is only important for overridden "
+"views and views that modules or themes will need to use. Only "
+"alphanumeric and _ allowed here"
+msgstr ""
+"Eindeutige Bezeichnung einer Ansicht, nur alphanummerische Zeichen und "
+"_ können dafür verwendet werden."
+
+#: views_ui.module:809
+msgid ""
+"Only the checked roles will be able to see this view in any form; if "
+"no roles are checked, access will not be restricted."
+msgstr ""
+"Nur die aktivierten Rollen können diese Ansicht in jeglicher Form "
+"sehen; wenn keine Rollen aktiviert sind, wird der Zugriff nicht "
+"beschränkt."
+
+#: views_ui.module:818
+msgid "A description of the view for the admin list."
+msgstr "Eine Beschreibung der Ansicht für die Adminliste."
+
+#: views_ui.module:832
+msgid "Provide Page View"
+msgstr "Seitenansicht bereitstellen"
+
+#: views_ui.module:835
+msgid ""
+"If checked this view will be provided as a page. If not checked, the "
+"fields in this group will be ignored."
+msgstr ""
+"Die Ansicht als Seite darstellen, andernfalls werden die Felder dieser "
+"Gruppe ignoriert."
+
+#: views_ui.module:844
+msgid ""
+"Enter the URL to use for this view in the form of 'dir/dir'. Do not "
+"begin or end the URL with a /. Example: 'view/tracker'. This is "
+"required if providing a page view. You can also add $arg as a "
+"placeholder for arguments passed in the URL, for example "
+"'user/$arg/tracker' or 'node/$arg/related'. Note that any arguments "
+"listed here will be required, even if they are listed as optional "
+"below. You do not need to list arguments at the end of the path. Do "
+"not try to use URLs such as taxonomy/term/$arg."
+msgstr ""
+"Geben Sie die URL für diese Ansicht in Form von 'dir/dir' zu "
+"verwenden. Fügen Sie keine Schrägstriche / am Anfang und Ende der "
+"URL hinzu. Beispiel: 'ansicht/tracker'. Damit wird eine Seitenansicht "
+"erstellt. Sie können auch $arg als Platzhalter für Argumente "
+"verwenden, die in der URL übergeben werden, Beispiel "
+"'benutzer/$arg/tracker' oder 'beitraege/$arg/bezogenen' hinzufügen. "
+"Beachten Sie, dass alle Argumente hier aufgelistet werden, auch wenn "
+"Sie als optional unten aufgelistet sind. Platzieren Sie keine "
+"Argumente am Ende des Pfades."
+
+#: views_ui.module:849,1038
+msgid "View Type"
+msgstr "Ansichtstyp"
+
+#: views_ui.module:852,1041
+msgid "How the nodes should be displayed to the user."
+msgstr "Wie die Nodes dem Benutzer angezeigt werden."
+
+#: views_ui.module:861
+msgid ""
+"The title that be shown at the top of the view. May be blank. This "
+"title ignores arguments; if you want your title to take arguments into "
+"account, use the \"title\" field in the arguments section."
+msgstr "Der Titel wird als Überschrift für die Ansicht genutzt."
+
+#: views_ui.module:866
+msgid "Use Pager"
+msgstr "Seitennavigation verwenden"
+
+#: views_ui.module:869
+msgid ""
+"If checked this query may be multiple pages. If not checked this query "
+"will be one page."
+msgstr "Die Ansicht kann  mehrere Seiten umfassen."
+
+#: views_ui.module:873
+msgid "Breadcrumb trail should not include \"Home\""
+msgstr "Pfadnavigation soll die „Startseite“ nicht enthalten"
+
+#: views_ui.module:876
+msgid ""
+"If checked the breadcrumb trail for this page will discard \"Home\". "
+"Usually you will not set this, but this is used for the Front Page "
+"View, where it IS Home and should not leave a trail to itself."
+msgstr ""
+"Kein Eintrag für die Startseite im Pfad der Brotkrumennavigaiton, in "
+"der Regel sinnvoll, wenn diese Ansicht für die Startseite verwendet "
+"wird."
+
+#: views_ui.module:880
+msgid "Nodes per Page"
+msgstr "Beiträge pro Seite"
+
+#: views_ui.module:884
+msgid ""
+"The number of nodes to display per page. If 0, all nodes will be "
+"displayed. If not using a pager, this will be the maximum number of "
+"nodes in the list."
+msgstr ""
+"Anzahl der Beiträge, die auf einer Seite angezeigt werden. Bei 0 "
+"werden alle Beiträge angezeigt. Werden keine Navigationselemente "
+"verwendet, dann wird die Ansicht auf diese Anzahl Beiträge "
+"beschränkt."
+
+#: views_ui.module:914,1116
+msgid ""
+"Text to display at the bottom of the view. May contain an explanation "
+"or links or whatever you like. Optional."
+msgstr ""
+"Am Ende der Ansicht anzuzeigender Text. Dieser kann eine Erklärung, "
+"Verweise oder beliebige andere Inhalte enthalten. (Optional)"
+
+#: views_ui.module:923
+msgid "Empty Text"
+msgstr "Leerer Text"
+
+#: views_ui.module:930
+msgid "Text to display if a view returns no nodes. Optional."
+msgstr ""
+"Der anzuzeigende Text, wenn die Ansicht keine Ergebnisse "
+"zurückliefert. (Optional)"
+
+#: views_ui.module:944
+msgid "Provide Menu"
+msgstr "Menü bereitstellen"
+
+#: views_ui.module:947
+msgid ""
+"If checked this view be given a menu entry in the Drupal menu system. "
+"If not checked the data in this group will be ignored."
+msgstr ""
+"Falls aktiviert, wird ein Eintrag im Menüsystem für diese Ansicht "
+"erstellt. Falls nicht, werden die Angaben in dieser Gruppe ignoriert."
+
+#: views_ui.module:952
+msgid "Provide Menu as Tab"
+msgstr "Menü als Karteireiter bereitstellen"
+
+#: views_ui.module:955
+msgid ""
+"If checked this view's menu entry will be provided as a tab rather "
+"than in the main menu system."
+msgstr ""
+"Falls aktiviert, wird der Menüpunkt als Reiter anstatt als regulärer "
+"Menüpunkt bereitgestellt."
+
+#: views_ui.module:960,1004
+msgid "Tab Weight"
+msgstr "Karteireitergewichtung"
+
+#: views_ui.module:963
+msgid ""
+"If this is a menu tab, select the weight; lower numbers will be "
+"further to the left."
+msgstr ""
+"Falls dies ein Menüreiter ist, die Reihenfolge auswählen. Kleinere "
+"Zahlen erscheinen weiter links."
+
+#: views_ui.module:968
+msgid "Menu Title"
+msgstr "Menütitel"
+
+#: views_ui.module:972
+msgid ""
+"Enter the title to use for the menu entry or tab. If blank, the page "
+"title will be used."
+msgstr ""
+"Einen Titel für den Menüpunkt oder Reiter eingeben. Falls nicht "
+"gesetzt, wird der Seitentitel verwendet."
+
+#: views_ui.module:979
+msgid "Default Menu Tab"
+msgstr "Standardmäßiger Menüreiter"
+
+#: views_ui.module:984
+msgid "Make Default Menu Tab"
+msgstr "Standard Menü als Karteireiter bereitstellen"
+
+#: views_ui.module:987
+msgid ""
+"If checked this view's menu entry will be provided as a tab, and will "
+"be the default tab for that URL path. For example, if the URL is "
+"'tracker/all' and it is set as the default menu tab, it will be put "
+"into the menu as 'tracker' and 'tracker/all' will be the default tab. "
+"The following settings allow you to customize the parent item, for "
+"example 'tracker'. For tabs to work properly, one tab in the group "
+"must be set as the default."
+msgstr ""
+"Diese Menü-Eintrag einer Ansicht als Registerkarte bereitstellen, und "
+"wird die Standardregisterkarte für diese URL/Pfad. Beispielsweise "
+"wenn die URL / Pfad ‚tracker/all‘ lautet und als die "
+"Standard-Menü-Registerkarte festgelegt ist, wird diese im Menü "
+"‚tracker‘ eingehängt. Mit diesen Einstellungen können Sie das "
+"übergeordnete Element anpassen, im Beispiel „tracker“. Damit  die "
+"Registerkarten richtig funktionieren, muss eine Registerkarte aus der "
+"Gruppe als Standard festgelegt werden."
+
+#: views_ui.module:992,1016
+msgid "Parent Menu Item Type"
+msgstr "Typ des übergeordneten Menüpunkts"
+
+#: views_ui.module:995,1016
+msgid "Tab"
+msgstr "Tabulator"
+
+#: views_ui.module:997
+msgid "Already exists (don't create)"
+msgstr "Bereits vorhanden (nicht erstellen)"
+
+#: views_ui.module:999
+msgid ""
+"Select type of parent item to use for this default menu tab. You can "
+"either specify the parent should be a tab (the default), a normal menu "
+"item, or to use the menu item that already exists at the specified "
+"URL. For example, if the URL for the default tab is 'tracker/all', "
+"then 'tracker' would already have to be a valid menu item to use this "
+"final choice."
+msgstr ""
+"Definiert den Typ des übergeordneten Menüpunkts für diesen "
+"standardmäßigen Reiter. Dieser kann entweder ein Reiter (Standard), "
+"ein normaler Menüpunkt, oder ein bereits existierender Menüpunkt "
+"unter dieser URL sein. Beispiel: Wenn die URL des standardmäßigen "
+"Reiters ‚tracker/all‘ ist, dann müsste ‚tracker‘ bereits ein "
+"gültiger Menüpunkt sein, um die letzte Option zu verwenden."
+
+#: views_ui.module:1007
+msgid ""
+"If the parent menu item is a tab, select the weight; lower numbers "
+"will be further to the left."
+msgstr ""
+"Falls der übergeordnete Menüpunkt ein Reiter ist, die Reihenfolge "
+"auswählen. Kleinere Zahlen erscheinen weiter links."
+
+#: views_ui.module:1012
+msgid "Parent Menu Item Title"
+msgstr "Titel des übergeordneten Menüpunktes"
+
+#: views_ui.module:1016
+msgid ""
+"If the Parent Menu Item is being defined by this view (if you set the "
+"%type_field to either %tab or %menu), you can specify its title here.  "
+"If blank, the menu title will be used if that is defined, or the page "
+"title if not."
+msgstr ""
+"Wenn der übergeordnete Menüpunkt durch diese Ansicht definiert wird "
+"(wenn Sie %type_field entweder auf %tab oder %menu gesetzt haben), "
+"dann können Sie den Titel hier angeben. Falls das Feld leer ist, wird "
+"der Menü Titel verwendet, wenn dieser definiert ist, ansonsten der "
+"Titel der Seite."
+
+#: views_ui.module:1030
+msgid "Provide Block"
+msgstr "Block bereitstellen"
+
+#: views_ui.module:1033
+msgid ""
+"If checked this view will be provided as a block. If checked title may "
+"not be blank."
+msgstr ""
+"Diese Ansicht auch als Block bereitstellen, ein Titel ist dafür "
+"erforderlich."
+
+#: views_ui.module:1050
+msgid "The title that will be shown at the top of the block. May be blank."
+msgstr "Titel des Blocks, kann leer bleiben."
+
+#: views_ui.module:1055
+msgid "Nodes per Block"
+msgstr "Nodes pro Block"
+
+#: views_ui.module:1059
+msgid ""
+"If using a block, the maximum number of items to display in the block. "
+"Pagers are not used in blocks."
+msgstr "Die maximale Anzahl von Einträgen in der Anzeige eines Blocks."
+
+#: views_ui.module:1065
+msgid "[More] Link?"
+msgstr "[Mehr] Verweis?"
+
+#: views_ui.module:1068
+msgid ""
+"If using a view as both a page and a block, display a more link in the "
+"block that links to the view URL?"
+msgstr ""
+"Wenn eine Ansicht in einem Block genutzt wird und dieselbe Ansicht "
+"auch seitenfüllend vorhanden ist, soll dann ein Link eingefügt "
+"werden, der zur seitenfüllenden Ansicht verweist?"
+
+#: views_ui.module:1079
+msgid "Use Page Header"
+msgstr "Kopfbereich der Seite verwenden"
+
+#: views_ui.module:1082
+msgid ""
+"If checked, use the Page Header for block view instead. If so, you "
+"should leave the Block Header blank."
+msgstr ""
+"Den Kopf der seitenfüllenden Ansicht für den Block verwenden (der "
+"Blockkopf bleibt leer)"
+
+#: views_ui.module:1104
+msgid "Use Page Footer"
+msgstr "Fußbereich der Seite verwenden"
+
+#: views_ui.module:1107
+msgid ""
+"If checked, use the page footer for block view instead. If so, you "
+"should leave the block footer blank."
+msgstr ""
+"Den Fußbereich der seitenfüllenden Ansicht für den Block verwenden "
+"(der Fußbereich für den Block bleibt leer)?"
+
+#: views_ui.module:1129
+msgid "Use Page empty"
+msgstr "Leere Seite verwenden"
+
+#: views_ui.module:1132
+msgid ""
+"If checked, use the Page Empty Text for block view instead. If so, you "
+"should leave the block empty text blank."
+msgstr ""
+"Den entsprechenden Text der seitenfüllenden Ansicht verwenden für "
+"den Block verwenden, falls keine Elemente für diese Ansicht vorhanden "
+"sind (das entsprechende Feld für den Block bleibt leer)?"
+
+#: views_ui.module:1141
+msgid "Text to display if a view results in no nodes. Optional."
+msgstr "Optionaler Text falls keine Einträge vorhanden sind."
+
+#: views_ui.module:1152
+msgid "Argument Handling Code"
+msgstr "PHP-Argumentcode"
+
+#: views_ui.module:1157
+msgid "Argument Code"
+msgstr "Argumentcode"
+
+#: views_ui.module:1161
+msgid ""
+"Advanced Usage Only: PHP code that returns a custom array of arguments "
+"for the view. Should not include &lt;?php ?&gt; delimiters."
+msgstr ""
+"Verwendung mit PHP Code: Ein Array mit Argumenten für die Ansicht "
+"wird zurückgegeben, dazu keine öffnenden und schließenden PHP-Tags  "
+"(&lt;?php ?&gt;) eingeben."
+
+#: views_ui.module:1162
+msgid ""
+"For more information, please see the <a href=\"!arg\">Argument "
+"Handling Code documentation</a> in the Drupal handbook."
+msgstr ""
+"Weitere Dokumentation in Englisch finden Sie unter <a "
+"href=\"!arg\">Argument Handling Code documentation</a> im "
+"Drupalhandbuch."
+
+#: views_ui.module:1581
+msgid "Delete this item."
+msgstr "Dieses Element löschen."
+
+#: views_ui.module:1582
+msgid "Move this item up."
+msgstr "Dieses Element nach oben verschieben."
+
+#: views_ui.module:1583
+msgid "Move this item down."
+msgstr "Dieses Element nach unten verschieben."
+
+#: views_ui.module:1584
+msgid "Move this item to the top."
+msgstr "Dieses Element an den Anfang verschieben."
+
+#: views_ui.module:1585
+msgid "Move this item to the bottom."
+msgstr "Dieses Element ans Ende verschieben."
+
+#: views_ui.module:1617
+msgid "Handler"
+msgstr "Handler"
+
+#: views_ui.module:1617,1627,1639,1662
+msgid "Option"
+msgstr "Option"
+
+#: views_ui.module:1617
+msgid "Default Sort"
+msgstr "Standardsortierung"
+
+#: views_ui.module:1620
+msgid ""
+"Fields are only meaningful with List view and Table View; they allow "
+"you to choose which fields are presented and in what order."
+msgstr ""
+"Felder können nur im Kontext einer Liste oder einer Tabelle verwendet "
+"werden, dazu können die Felder ausgewählt und deren Reihenfolge "
+"festgelegt werden."
+
+#: views_ui.module:1627
+msgid "Argument Type"
+msgstr "Argumenttyp"
+
+#: views_ui.module:1627
+msgid "Wildcard Sub"
+msgstr "Unter-Platzhalter"
+
+#: views_ui.module:1633
+msgid ""
+"Arguments are parsed directly from the URL. They are not necessary to "
+"any given view, but allow flexibility."
+msgstr ""
+"Argumente werden direkt aus der URL geparsed. Diese sind nicht "
+"notwendig für eine bestimmte Ansicht, aber erlauben Flexibilität."
+
+#: views_ui.module:1643
+msgid ""
+"Filters allow you to select a subset of all the nodes to display. All "
+"Filters are ANDed together."
+msgstr ""
+"Filter selektieren aus allen vorhandenen Einträgen, diejenigen "
+"Einträge heraus, die bestimmten Kriterien genügen. Dabei werden nur "
+"Elemente berücksichtigt, die allen angegebenen Kriterien zugleich "
+"entsprechen."
+
+#: views_ui.module:1650
+msgid "Filter settings Default"
+msgstr "Filtereinstellungen (Standard)"
+
+#: views_ui.module:1650
+msgid "Force Single"
+msgstr "Eine Option erzwingen"
+
+#: views_ui.module:1650
+msgid "Lock Operator"
+msgstr "Operatorsperre"
+
+#: views_ui.module:1655
+msgid ""
+"Exposed filters will be presented to the viewer. If not set required, "
+"then filters will include a \"&lt;None&gt;\" Value if possible. If set "
+"default, filters will default as set here, otherwise filter settings "
+"will be ignored. If Lock Operator is set, no operator will be made "
+"available to the user."
+msgstr ""
+"Hervorgehobene Filter können vom Benutzer gesteuert werden, für "
+"optionale Filter existiert der Eintrag '&lt;Keiner&gt;', alternativ "
+"kann ein Vorgabewert festgelegt werden."
+
+#: views_ui.module:1656
+msgid "Exposed Filters"
+msgstr "Hervorgehobene Filter"
+
+#: views_ui.module:1664
+msgid "Add criteria"
+msgstr "Kriterium hinzufügen"
+
+#: views_ui.module:1665
+msgid "Sort Criteria"
+msgstr "Sortierkriterium"
+
+#: views_ui.module:1707
+msgid "This view currently has no %s defined."
+msgstr "In dieser Ansicht wurde %s nicht festgelegt."
+
+#: views_ui.module:1711
+msgid "Ops"
+msgstr "Ops"
+
+#: views_ui.module:1741,1742
+msgid ""
+"Another user has modified this view, unable to save. You can get this "
+"error by using the Back button to re-edit a view after saving one; if "
+"you do this, be sure to Reload before making any changes!"
+msgstr ""
+"Diese Ansicht kann nicht gespeichert werden, da sie von einem anderen "
+"Benutzer geändert wurde. Dieser Fehler kann auftreten, wenn der "
+"Zurückknopf gedrückt wurde, um eine Ansicht nochmal zu bearbeiten, "
+"nachdem diese gespeichert wurde. Die Seite muss neu geladen werden "
+"bevor Änderungen durchgeführt werden!"
+
+#: views_ui.module:1747,1748
+msgid "View name is required."
+msgstr "Ansichtenname ist erforderlich."
+
+#: views_ui.module:1758,1759
+msgid "View name already in use."
+msgstr "Ansichtenname ist schon in Verwendung."
+
+#: views_ui.module:1763,1764
+msgid "Nodes per page cannot be 0 if using the pager."
+msgstr ""
+"Bei Verwendung der Seitennavigation kann die Anzahl der Nodes pro "
+"Seite nicht 0 sein."
+
+#: views_ui.module:1768,1769
+msgid "If being used as a block, Nodes Per Block must be positive."
+msgstr "Sobald als Block verwendet, müssen Nodes pro Block positiv sein."
+
+#: views_ui.module:1840,1841
+msgid "View successfully saved."
+msgstr "Ansicht erfolgreich gespeichert."
+
+#: views_ui.module:1843,1844
+msgid "View successfully added."
+msgstr "Ansicht erfolgreich hinzugefügt."
+
+#: views_ui.module:1868,1869
+msgid "List and Table types require at least one field."
+msgstr "Listen- und Tabellentypen erfordern mindestens ein Feld."
+
+#: views_ui.module:1876,1877
+msgid "You can only set on Default Sort on one field."
+msgstr "Eine Standardsortierung kann nur für ein Feld festgelegt werden."
+
+#: views_ui.module:1908,1909
+msgid "View '%vid' not found."
+msgstr "Ansicht „%vid“ wurde nicht gefunden."
+
+#: views.install:258
+msgid "Views module installed tables successfully."
+msgstr "Ansichten Modul hat seine Tabellen erfolgreich installiert."
+
+#: views.install:261
+msgid "The installation of views module was unsuccessful."
+msgstr "Die Installation des Ansichten Modules ist fehlgeschlagen."
+
+#: views.info:0
+msgid "The views module creates customized views of node lists."
+msgstr "Das Ansichtenmodul erstellt angepasste Ansichten von Beitragslisten."
+
+#: views_rss.info:0
+msgid "Views RSS"
+msgstr "RSS Ansichten"
+
+#: views_rss.info:0
+msgid "RSS plugin for the views feed selector argument."
+msgstr "RSS-Newsfeed Plugin für die Auswahl der Argumente des Newsfeeds."
+
+#: views_theme_wizard.info:0
+msgid "Views Theme Wizard"
+msgstr "Ansichten Theme Wizard"
+
+#: views_theme_wizard.info:0
+msgid "The views theme wizard helps create stub theming for views."
+msgstr ""
+"Der Assistent unterstüzt bei der Erstellung eines Entwurfs für ein "
+"Theme einer Ansicht."
+
+#: views_ui.info:0
+msgid "Views UI"
+msgstr "Ansichten-Oberfläche"
+
+#: views_ui.info:0
+msgid "The Views UI module allows you to create and edit views."
+msgstr ""
+"MIt dem Views Benutzerinterface werden Ansichten erstellt und "
+"geändert."
+
+#: views_ui.module:70,83,88,71,84,89
+msgid "Delete view"
+msgstr "Ansicht löschen"
+
+#: views.module:644,643,672,694,843
+msgid "Broken handler @table.@field"
+msgstr "Beschädigte Behandlungsroutine @table.@field"
+
+#: views.module:762,761,798,822,972
+msgid "Skipping broken view @view"
+msgstr "Beschädigte Ansicht @view wurde übersprungen"
+
+#: views.module:162,161,175,168,261
+msgid "Ajax callback for view loading."
+msgstr "Ajax-Rückfrage für das Laden der Ansicht."
+
+#: views_ui.module:159,163,160,164,204
+msgid ""
+"The converter will make a best-effort attempt to convert a Views 1 "
+"view to Views 2. This conversion is not reliable; you will very likely "
+"have to make adjustments to your view to get it to match. You can "
+"import Views 1 views through the normal Import tab."
+msgstr ""
+"Der Konverter wird versuchen einen „View 1“ nach „View 2“ zu "
+"konvertieren. Diese Konvertierung ist nicht zuverlässig und es "
+"müssen sicherlich Anpassungen an der Ansicht vorgenommen werden, um "
+"den alten Stand wiederherzustellen. „View 1“-Ansichten können "
+"über den normalen Import-Reiter importiert werden."
+
+#: views_ui.module:258,271,259,272,309
+msgid "Changes cannot be made to a locked view."
+msgstr ""
+"An einer gesperrten Ansicht können keine Änderungen vorgenommen "
+"werden."
+
+#: views_ui.module:64,65
+msgid "Convert stored Views 1 views."
+msgstr "Konvertiere gespeicherte Views 1 Ansichten."
+
+#: views_ui.module:76,77
+msgid "Convert view"
+msgstr "Ansicht konvertieren"
+
+#: views.info:0
+msgid "Create customized lists and queries from your database."
+msgstr "Benutzerdefinierte Listen und Abfragen aus der Datenbank erstellen."
+
+#: views_ui.info:0
+msgid ""
+"Administrative interface to views. Without this module, you cannot "
+"create or edit your views."
+msgstr ""
+"Verwaltungsoberfläche für Ansichten. Ohne dieses Modul können "
+"Ansichten weder erstellt noch bearbeitet werden."
+
+#: views_ui.module:363
+msgid "The requested page could not be found."
+msgstr "Die angeforderte Seite konnte nicht gefunden werden."
+
+#: views_ui.module:384
+msgid ""
+"An error occurred while handling the request: The server received "
+"invalid input."
+msgstr ""
+"Ein Fehler wurde während der Verarbeitung der Anfrage festgestellt: "
+"Der Server empfing eine ungültige Eingabe."
+
+#: views_ui.module:387
+msgid "Import a View"
+msgstr "Ansicht importieren"
+
+#: views.module:239
+msgid "Access the views administration pages."
+msgstr ""
+
+#: views.module:242
+msgid "Access all views"
+msgstr ""
+
+#: views.module:243
+msgid "Bypass access control when accessing views."
+msgstr ""
+
+#: views_ui.module:38
+msgid "Add new view"
+msgstr ""
+
+#: views_ui.module:43
+msgid "Import view from code"
+msgstr ""
+
